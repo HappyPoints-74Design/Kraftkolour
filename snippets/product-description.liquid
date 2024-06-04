@@ -1,0 +1,24 @@
+{% comment %}
+  /**
+   * @param {object} product - product object
+   * @param {boolean} is_tab - whether to render as tab or not
+   * @param {string} id - tab id
+   */
+{% endcomment %}
+
+{%- liquid
+  if product.empty?
+    assign description = 'info.placeholder_product_description' | t
+  else
+    assign description = product.description
+  endif
+-%}
+
+{%- if is_tab -%}
+  {% assign title = 'labels.description' | t %}
+  {%- render 'tab', id: id, title: title, content: description -%}
+{%- else -%}
+  <div class="rte clearfix">
+    {{ description }}
+  </div>
+{%- endif -%}
