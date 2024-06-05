@@ -68,11 +68,13 @@
     --textFrameMargin: 10px;
 
     /*Shop Pay Installments*/
-    --color-body-text: {{ settings.color_body_text | default: "#1c1d1d" }};
+    --color-body-text: {{ settings.color_body_text | default: "#28282C" }};
     --color-body: {{ settings.color_body_bg | default: "#fff" }};
     --color-bg: {{ settings.color_body_bg | default: "#fff" }};
+    --color-primary-text: #28282C;
 
     --typeHeaderPrimary: 'Satoshi'; /*{{ settings.type_header_font_family.family }};*/
+    --typeHeaderMedium: 'Satoshi-Medium';
     --typeHeaderFallback: {{ settings.type_header_font_family.fallback_families }};
     --typeHeaderSize: {{ settings.type_header_base_size | default: '32' | append: 'px' }};
     --typeHeaderWeight: {{ settings.type_header_font_family.weight }};
@@ -80,6 +82,7 @@
     --typeHeaderSpacing: {{ settings.type_header_spacing | default: '25' | divided_by: 1000.00 | append: 'em' }};
 
     --typeBasePrimary: 'Satoshi'; /*{{ settings.type_base_font_family.family }};*/
+    --typeBaseMedium: 'Satoshi-Medium';
     --typeBaseFallback:{{ settings.type_base_font_family.fallback_families }};
     --typeBaseSize: {{ settings.type_base_size | default: 16 | append: 'px' }};
     --typeBaseWeight: {{ settings.type_base_font_family.weight }};
@@ -88,8 +91,8 @@
 
     --colorSmallImageBg: {{ settings.color_small_image_bg | default: '#eee' }};
     --colorSmallImageBgDark: {{ settings.color_small_image_bg | default: '#eee' | color_darken: 3 }};
-    --colorLargeImageBg: {{ settings.color_large_image_bg | default: '#1c1d1d' }};
-    --colorLargeImageBgLight: {{ settings.color_large_image_bg | default: '#1c1d1d' | color_lighten: 13 }};
+    --colorLargeImageBg: {{ settings.color_large_image_bg | default: '#28282C' }};
+    --colorLargeImageBgLight: {{ settings.color_large_image_bg | default: '#28282C' | color_lighten: 13 }};
 
     --iconWeight: {{ settings.icon_weight | default: '5px' }};
     --iconLinecaps: {{ settings.icon_linecaps | default: 'miter' }};
