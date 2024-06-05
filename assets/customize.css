@@ -92,7 +92,8 @@ body::after {
 }
 
 .header-item--icons .site-nav__icons .mobile-nav-trigger svg path, 
-.header-item--icons .site-nav__icons .mobile-nav-trigger svg rect{
+.header-item--icons .site-nav__icons .mobile-nav-trigger svg rect,
+.header-item--compress-nav  svg rect{
 	fill: inherit;
     stroke-width: 2px;
     stroke: unset;
