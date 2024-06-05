@@ -45,7 +45,10 @@
         >
         <input name="options[prefix]" type="hidden" value="last">
         <button class="btn--search" type="submit">
-          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
+          {% comment %} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg> {% endcomment %}
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.87513 1.59167C4.85266 1.59167 1.5918 4.85254 1.5918 8.87501C1.5918 12.8975 4.85266 16.1583 8.87513 16.1583C10.588 16.1583 12.1629 15.567 13.4065 14.5774L17.5739 18.7535L18.7536 17.5763L14.5842 13.398C15.5698 12.1556 16.1585 10.5841 16.1585 8.87501C16.1585 4.85254 12.8976 1.59167 8.87513 1.59167ZM3.25846 8.87501C3.25846 5.77302 5.77314 3.25834 8.87513 3.25834C11.9771 3.25834 14.4918 5.77302 14.4918 8.87501C14.4918 11.977 11.9771 14.4917 8.87513 14.4917C5.77313 14.4917 3.25846 11.977 3.25846 8.87501Z" fill="#28282C"/>
+          </svg>
           <span class="icon__fallback-text visually-hidden">{{ 'labels.search' | t }}</span>
         </button>
       </div>
