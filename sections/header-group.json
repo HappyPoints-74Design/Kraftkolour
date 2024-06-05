@@ -34,10 +34,23 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "logo_hpPNW8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/kraft-logo.png",
+            "desktop_logo_width": 200,
+            "mobile_logo_width": 140
+          }
+        }
+      },
+      "block_order": [
+        "logo_hpPNW8"
+      ],
       "settings": {
         "main_menu_link_list": "main-menu",
         "hover_menu": true,
-        "main_menu_alignment": "left",
+        "main_menu_alignment": "below",
         "mega_products": true,
         "header_sticky": true,
         "header_footer_menu": true,
