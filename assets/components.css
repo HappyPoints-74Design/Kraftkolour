@@ -7550,7 +7550,7 @@ html[dir="rtl"] .product-single__meta .rte {
 }
 @media only screen and (min-width: 769px) {
 .announcement-bar {
-    padding: 6px 0;
+    padding: 8px 0;
     font-size: 14px;
     text-align: left;
 }
@@ -8214,7 +8214,7 @@ html[dir="rtl"] .product-single__meta .rte {
   align-items: center;
 }
 .site-nav__icon-label {
-  margin-left: 15px;
+  margin-left: 8px;
 }
 .site-nav--has-dropdown.is-focused > a,
 .site-nav--has-dropdown:hover > a {
@@ -8240,6 +8240,7 @@ html[dir="rtl"] .product-single__meta .rte {
 .site-nav__link--icon .icon {
     width: 27px;
     height: 27px;
+    fill: inherit;
   }
 .site-nav__link--icon .icon.icon-user {
       position: relative;
@@ -8870,8 +8871,8 @@ predictive-search form {
   flex: 1;
   width: 100%;
   border-radius: calc(var(--roundness, 0) *2);
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .btn--search {
   position: absolute;
@@ -10891,7 +10892,7 @@ form + .footer__social {
 }
 .header-item--search {
   flex: 1 1 100%;
-  max-width: 475px;
+  max-width: 660px;
 }
 [data-layout="center"] .header-item--search {
     max-width: none;
@@ -11026,7 +11027,7 @@ form + .footer__social {
     box-shadow: none;
   }
 .site-header__element--top {
-  padding: 5px 0;
+  padding: 24px 0;
   transition: background-color 0.2s ease;
 }
 @media only screen and (max-width: 768px) {
