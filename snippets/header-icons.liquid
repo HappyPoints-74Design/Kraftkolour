@@ -14,13 +14,13 @@
 
 <div class="site-nav">
   <div class="site-nav__icons">
-    <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header{% if nav_position == 'below' %} medium-up--hide{% endif %} js-no-transition">
+    <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header small--hide{% if nav_position == 'below' %} medium-up--hide{% endif %} js-no-transition">
       {% render 'icon', name: 'search' %}
       <span class="icon__fallback-text visually-hidden">{{ 'labels.search' | t }}</span>
     </a>
 
     {%- if shop.customer_accounts_enabled -%}
-      <a class="site-nav__link site-nav__link--icon site-nav__link--icon-account small--hide" href="{{ routes.account_url }}">
+      <a class="site-nav__link site-nav__link--icon site-nav__link--icon-account" href="{{ routes.account_url }}">
         {% render 'icon', name: 'user' %}
         <span class="site-nav__icon-label small--hide{% if hide_icon_labels %} icon__fallback-text visually-hidden{% endif %}">
           {{ 'labels.account' | t }}

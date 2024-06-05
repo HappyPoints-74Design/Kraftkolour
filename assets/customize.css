@@ -40,11 +40,13 @@ body::after {
 	background-color: transparent;
 }
 
-.header-item--search .search__input::-ms-input-placeholder { 
+.header-item--search .search__input::-ms-input-placeholder,
+.site-header__element--sub .search__input::-ms-input-placeholder { 
 	color: #28282C !important;
 }
 
-.header-item--search .search__input::placeholder {
+.header-item--search .search__input::placeholder,
+.site-header__element--sub .search__input::placeholder {
 	color: #28282C !important;
 }
 
@@ -58,6 +60,8 @@ body::after {
 
 .site-nav__link--icon .icon path {
 	fill: #28282C;
+    stroke-width: 0px;
+    stroke: currentColor;
 }
 
 .site-nav__link--icon-account .icon {
@@ -74,4 +78,23 @@ body::after {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 20px;
+}
+
+.header-item--icons .site-nav__icons .mobile-nav-trigger svg path, 
+.header-item--icons .site-nav__icons .mobile-nav-trigger svg rect{
+	fill: inherit;
+    stroke-width: 2px;
+    stroke: unset;
+}
+
+.site-header__element--sub[data-type="search"] .btn--search path {
+	stroke: #28282C !important;
+	stroke-width: 0px;
+}
+
+@media screen and (max-width: 767px) {
+	.site-header__element--sub,
+	.search__input {
+		background-color: #FEFDF2;
+	}
 }
