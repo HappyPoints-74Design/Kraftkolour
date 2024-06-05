@@ -8135,6 +8135,7 @@ html[dir="rtl"] .product-single__meta .rte {
   position: relative;
   display: inline-block;
   margin: 0;
+  font-family: var(--typeBaseMedium);
 }
 .site-nav__item li {
     display: block;
@@ -8876,7 +8877,7 @@ predictive-search form {
 }
 .btn--search {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   right: 15px;
 }
@@ -8908,7 +8909,7 @@ predictive-search form {
     width: 25px;
   }
 .btn--close-search .icon path {
-    stroke: var(--colorNavText) !important;
+    stroke: var(--color-primary-text) !important;
   }
 .search__results {
   background: var(--color-body);
