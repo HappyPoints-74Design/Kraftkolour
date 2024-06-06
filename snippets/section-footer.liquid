@@ -62,7 +62,7 @@
       <div class="page-width">
         <div class="footer__blocks">
           {%- for block in section.blocks -%}
-            <div {{ block.shopify_attributes }} class="footer__block footer__block--{{ block.type }}" data-type="{{ block.type }}">
+           <div {{ block.shopify_attributes }} class="footer__block {% if block.type == 'menu' %}js-dropdown{% endif %} footer__block--{{ block.type }}" data-type="{{ block.type }}">
               {%- liquid
                 case block.type
                   when 'menu'
@@ -113,3 +113,5 @@
     </script>
   </template>
 </is-land>
+
+<script src="{{ 'footer-customize.js' | asset_url }}" defer="defer"></script>
