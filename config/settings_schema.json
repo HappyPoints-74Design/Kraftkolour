@@ -18,13 +18,13 @@
         "type": "color",
         "id": "color_body_bg",
         "label": "t:labels.background",
-        "default": "#ffffff"
+        "default": "#FDFDF6"
       },
       {
         "type": "color",
         "id": "color_body_text",
         "label": "t:labels.text",
-        "default": "#1c1d1d"
+        "default": "#28282C"
       },
       {
         "type": "color",
@@ -48,7 +48,7 @@
         "type": "color",
         "id": "color_button",
         "label": "t:labels.buttons",
-        "default": "#1c1d1d"
+        "default": "#E22128"
       },
       {
         "type": "color",
@@ -134,19 +134,19 @@
         "type": "color",
         "id": "color_footer",
         "label": "t:labels.background",
-        "default": "#111"
+        "default": "#272831"
       },
       {
         "type": "color",
         "id": "color_footer_border",
         "label": "t:labels.borders",
-        "default": "#1c1d1d"
+        "default": "#DCDBCF"
       },
       {
         "type": "color",
         "id": "color_footer_text",
         "label": "t:labels.text",
-        "default": "#ffffff"
+        "default": "#FDFDF6"
       },
       {
         "type": "header",
