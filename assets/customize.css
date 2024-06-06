@@ -30,6 +30,10 @@ body::after {
 	.header-item--search {
 		margin-left: 110px;
 	}
+	.site-navigation--below {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .header-item--search .search__input {
@@ -198,7 +202,7 @@ body::after {
 		overflow: hidden;
 		transition: all 0.5s ease-out;
 	}
-	
+
 	.active.js-dropdown .footer__menu {
 		height: auto;
 		opacity: 1;
