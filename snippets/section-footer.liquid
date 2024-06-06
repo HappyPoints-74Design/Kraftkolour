@@ -84,15 +84,15 @@
       </div>
     </div>
 
-    <div class="footer__section">
+    <div class="footer__section footer__section--bottom">
       <div class="page-width text-center small--text-left">
         <div class="footer__base-links">
           {%- if show_copyright -%}
             <span>
-              &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
               {%- if copyright_text != blank -%}
                 {{ copyright_text }}
               {%- endif -%}
+              &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
             </span>
           {%- endif -%}
           {%- if linklists[policies_menu].links.size > 0 -%}
@@ -101,7 +101,7 @@
             {%- endfor -%}
           {%- endif -%}
 
-          {{ powered_by_link }}
+          {% comment %} {{ powered_by_link }} {% endcomment %}
         </div>
       </div>
     </div>

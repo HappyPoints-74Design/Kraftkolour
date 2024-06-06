@@ -31,6 +31,22 @@
             </span>
           </a></li>
         {%- endif -%}
+        {%- if block.settings.phone_2 != blank -%}
+          <li><a href="tel:{{ block.settings.phone_2 }}">
+            <span class="icon-and-text">
+              {% render 'icon', name: 'phone' %}
+              <span>{{ block.settings.phone_2 }}</span>
+            </span>
+          </a></li>
+        {%- endif -%}
+        {%- if block.settings.email != blank -%}
+          <li><a href="mailto: {{ block.settings.email }}">
+            <span class="icon-and-text">
+              {% render 'icon', name: 'email' %}
+              <span>{{ 'actions.email_us' | t }}</span>
+            </span>
+          </a></li>
+        {%- endif -%}
         {%- if block.settings.contact != blank -%}
           <li><a href="{{ pages[block.settings.contact].url }}">
             <span class="icon-and-text">
