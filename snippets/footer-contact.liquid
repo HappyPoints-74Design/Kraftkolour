@@ -18,9 +18,12 @@
 
 <div class="footer__mobile-section">
   <div class="footer__blocks--mobile">
-    <div class="footer__block--mobile">
+    <div class="footer__block--mobile js-dropdown">
       <h2 class="footer__title {% if blocks_heading_size %}{{ blocks_heading_size }}{% endif %}">
         {{ 'actions.get_in_touch' | t }}
+        <span class="icon-and-text medium-up--hide">
+          {% render 'icon', name: 'arrow-down' %}
+        </span>
       </h2>
       <ul class="footer__menu footer__menu--underline">
         {%- if block.settings.phone != blank -%}
@@ -66,7 +69,7 @@
       </ul>
     </div>
     {%- if block.settings.enable_social -%}
-      <div class="footer__block--mobile">
+      <div class="footer__block--mobile footer__block--social">
         <div class="footer__title">
           {{ 'actions.follow_us' | t }}
         </div>
