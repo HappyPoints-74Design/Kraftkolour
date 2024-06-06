@@ -44,7 +44,7 @@
     "edges": "round",
     "button_style": "round",
     "cart_icon": "cart",
-    "icon_weight": "3px",
+    "icon_weight": "4px",
     "icon_linecaps": "round",
     "superscript_decimals": true,
     "vendor_enable": true,
