@@ -42,7 +42,7 @@
     "type_navigation_size": 16,
     "type_navigation_capitalize": false,
     "edges": "round",
-    "button_style": "round-slight",
+    "button_style": "round",
     "cart_icon": "cart",
     "icon_weight": "3px",
     "icon_linecaps": "round",
