@@ -30,9 +30,22 @@ body::after {
 	.header-item--search {
 		margin-left: 110px;
 	}
+}
+
+@media screen and (min-width: 1400px) {
 	.site-navigation--below {
 		display: flex;
 		justify-content: space-between;
+	}
+	.site-navigation--below > .site-nav__item > .site-nav__link {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.site-nav__link--icon .icon {
+		width: 20px;
+		height: 20px;
 	}
 }
 
