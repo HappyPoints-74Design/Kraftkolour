@@ -19,7 +19,7 @@
   assign hydration = hydration | default: 'on:idle'
 -%}
 <is-land {{ hydration }}>
-  <predictive-search data-context="{{ context }}" data-enabled="{{ predictive_search_enabled }}" data-dark="{{ dark_search_bg }}">
+  <predictive-search data-context="{{ context }}" data-enabled="{{ predictive_search_enabled }}" data-dark="false"><!-- data-dark="{{ dark_search_bg }}" -->
     <div class="predictive__screen" data-screen></div>
     <form action="{{ routes.search_url }}" method="get" role="search">
       <label for="Search" class="visually-hidden">Search</label>

@@ -101,6 +101,10 @@ body::after {
 	stroke: inherit;
 }
 
+.site-nav__close-cart .site-nav__link--icon .icon path {
+	stroke-width: 3px;
+}
+
 .header-item--icons .site-nav__link {
 	font-size: 14px;
 	font-style: normal;
