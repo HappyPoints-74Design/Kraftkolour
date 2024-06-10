@@ -2038,12 +2038,12 @@ th,
 }
 a {
   color: var(--colorTextBody);
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
   background: transparent;
 }
 a:hover {
-    color: var(--colorTextBody);
+    color: var(--colorLinkHover);
   }
 /*Force an input/button to look like a text link*/
 .text-link {
@@ -2467,7 +2467,7 @@ select {
   border: 1px solid;
   border-color: var(--colorBorder);
   max-width: 100%;
-  padding: 8px 10px;
+  padding: 12px 16px;
   border-radius: var(--input-radius);
 }
 input[disabled],
@@ -4353,13 +4353,19 @@ input[disabled],
     background-color: var(--disabledGrey);
     border-color: transparent;
   }
+input:hover,
+  textarea:hover,
+  select:hover{
+    border: 1px solid;
+    border-color: var(--colorTextBody);
+  }
 input:active,
   textarea:active,
   select:active,
   input:focus,
   textarea:focus,
   select:focus {
-    border: 1px solid;
+    border: 2px solid;
     border-color: var(--colorTextBody);
   }
 input[type="image"] {
