@@ -135,6 +135,34 @@ body::after {
 }
 
 /**
+ * SlideShow
+ */
+.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-previous {
+    left: 48px;
+}
+
+.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-prev-next-button {
+    top: 50%;
+    bottom: auto;
+}
+
+.hero .slideshow__slide .hero__link .btn {
+	font-size: 16px;
+	font-family: var(--typeBaseMedium);
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+	.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-prev-next-button {
+		display: none;
+	}
+	.hero .slideshow__slide .hero__animation-contents {
+		font-size: 16px;
+	}
+}
+
+/**
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {
