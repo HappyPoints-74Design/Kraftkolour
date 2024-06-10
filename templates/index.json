@@ -72,6 +72,47 @@
         "autoplay_speed": 7
       }
     },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "sub_title": ""
+          }
+        },
+        "featured-collections-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "sub_title": ""
+          }
+        },
+        "featured-collections-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "sub_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-3",
+        "featured-collections-4",
+        "featured-collections-5"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "divider": false,
+        "overtext": true
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -83,115 +124,6 @@
         "products_per_row": 5,
         "mobile_scrollable": true,
         "view_all": true,
-        "divider": false
-      }
-    },
-    "countdown": {
-      "type": "countdown",
-      "blocks": {
-        "block-1": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h3",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
-          }
-        },
-        "block-2": {
-          "type": "timer",
-          "settings": {
-            "year": "2024",
-            "month": "07",
-            "day": "1",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "block-3": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2",
-        "block-3"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "color_scheme": "1",
-        "blur_image": true,
-        "overlay_color": "#82350e",
-        "overlay_opacity": 42
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured-collections-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3",
-        "featured-collections-4",
-        "featured-collections-5"
-      ],
-      "settings": {
-        "title": "Popular categories",
-        "heading_size": "h2",
-        "heading_position": "left",
         "divider": false
       }
     },
@@ -704,9 +636,8 @@
   },
   "order": [
     "slideshow",
-    "featured-collection",
-    "countdown",
     "featured-collections",
+    "featured-collection",
     "hotspots",
     "testimonials",
     "featured-collection2",
