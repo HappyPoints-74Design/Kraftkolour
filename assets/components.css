@@ -5,10 +5,10 @@
  * the import from here and move them into the snippet or section folder
  */
 :root {
-  --gutter: 30px;
+  --gutter: 48px;
   --page-width: 1440px;
   --page-width-narrow: 1000px;
-  --input-radius: 0;
+  --input-radius: 8px;
   --page-width-gutter-small: 17px;
   --page-width-gutter-large: 40px;
   --grid-gutter: 22px;
@@ -1598,7 +1598,7 @@ body {
   max-width: var(--pageNarrow);
 }
 .page-width--tiny {
-  max-width: 450px;
+  max-width: 441px;
 }
 @media only screen and (max-width: 768px) {
   .page-width--flush-small {
@@ -1625,7 +1625,7 @@ body {
 }
 @media only screen and (min-width: 769px) {
 .main-content {
-    min-height: 700px;
+    min-height: 516px;
 }
   }
 .template-challange .main-content {
@@ -1732,6 +1732,10 @@ select,
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeSpeed;
+  border-radius: 8px;
+}
+input {
+  min-height: 48px;
 }
 body {
   font-weight: var(--typeBaseWeight);
@@ -1795,12 +1799,13 @@ pre {
 }
 label:not(.variant__button-label):not(.text-label),
 .label {
-  font-weight: var(--typeHeaderWeight);
-  font-size: calc(var(--typeBaseSize) + 1px);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4285;
 }
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .text-label a {
   -webkit-text-decoration: underline;
@@ -1809,7 +1814,9 @@ label {
 }
 .label-info {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  line-height: 1.3846;
 }
 .h0,
 .heading-font-stack,
@@ -2411,7 +2418,7 @@ form {
   margin: 0;
 }
 .form-vertical {
-  margin-bottom: calc(var(--gutter) / 2);
+  margin-bottom: 0;
 }
 .form-vertical label {
     text-align: left;
@@ -2549,7 +2556,7 @@ label[for] {
   .form-vertical select,
   .form-vertical textarea {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 .form-vertical input[type="checkbox"],
   .form-vertical input[type="radio"],
@@ -2557,7 +2564,7 @@ label[for] {
     display: inline-block;
   }
 .form-vertical .btn:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 small {
   display: block;

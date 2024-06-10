@@ -1,13 +1,12 @@
-<div class="page-width page-width--tiny page-content">
-  <header class="section-header">
-    <h1 class="section-header__title">{{ 'actions.login' | t }}</h1>
-  </header>
+<div class="page-width page-width--tiny page-content customer-page">
+  <div id="CustomerLoginForm" class="form-vertical text-center">
+    <header class="section-header">
+      <h1 class="section-header__title">{{ 'actions.login' | t }}</h1>
+    </header>
 
-  <div class="note note--success hide" id="ResetSuccess">
-    {{ 'info.recovery_email_sent' | t }}
-  </div>
-
-  <div id="CustomerLoginForm" class="form-vertical">
+    <div class="note note--success hide" id="ResetSuccess">
+      {{ 'info.recovery_email_sent' | t }}
+    </div>
     {%- form 'customer_login' -%}
 
       {{ form.errors | default_errors }}
@@ -36,15 +35,15 @@
           {{ 'actions.sign_in' | t }}
         </button>
       </p>
-      <p>{{ 'actions.create_account' | t | customer_register_link }}</p>
+      <p class="no-margin-bottom">{{ 'actions.create_account' | t | customer_register_link }}</p>
 
     {%- endform -%}
   </div>
 
   <div id="RecoverPasswordForm" class="hide">
-    <div class="form-vertical">
-      <h2>{{ 'actions.reset_your_password' | t }}</h2>
-      <p>{{ 'info.email_to_reset_password' | t }}</p>
+    <div class="form-vertical text-center">
+      <h1 class="section-header__title">{{ 'actions.reset_your_password' | t }}</h1>
+      <p class="info-reset-password">{{ 'info.email_to_reset_password' | t }}</p>
 
       {%- form 'recover_customer_password' -%}
 

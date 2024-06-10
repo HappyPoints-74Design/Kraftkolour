@@ -38,6 +38,8 @@
     --colorScheme2Bg: {{ settings.color_scheme_2_bg | default: "#fff" }};
     --colorScheme3Text: {{ settings.color_scheme_3_text | default: "#000" }};
     --colorScheme3Bg: {{ settings.color_scheme_3_bg | default: "#fff" }};
+    --colorScheme4Text: {{ settings.color_scheme_4_text | default: "#fff" }};
+    --colorScheme4Bg: {{ settings.color_scheme_4_bg | default: "#28282C" }};
 
     --colorTextBody: {{ settings.color_body_text | default: "#1c1d1d" }};
     --colorTextBodyAlpha005: {{ settings.color_body_text | default: "#1c1d1d" | color_modify: 'alpha', 0.05 }};
@@ -129,6 +131,9 @@
     --collectionTileMargin: {{ settings.collection_grid_image_margin | default: '10' }}%;
 
     --swatchSize: {{ settings.swatch_size | default: '40' }}px;
+
+    --backgroundInput: {{ settings.input_bg | default: '#ffffff' }};
+    --color-grey-dark: #555555;
   }
 
   @media screen and (max-width: 768px) {
