@@ -28,6 +28,12 @@
       },
       {
         "type": "color",
+        "id": "color_link_hover",
+        "label": "Text link hover",
+        "default": "#E22128"
+      },
+      {
+        "type": "color",
         "id": "color_price",
         "label": "t:labels.price",
         "default": "#1c1d1d"
