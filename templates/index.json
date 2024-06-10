@@ -78,32 +78,35 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
-            "sub_title": ""
+            "collection": "dyes",
+            "feature_image": "shopify:\/\/shop_images\/dyes-dyes-dyes.jpg",
+            "title": "Dyes Dyes Dyes",
+            "sub_title": "Dyes for different fibres."
           }
         },
-        "featured-collections-4": {
+        "collection_9KU3Bp": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
-            "sub_title": ""
+            "collection": "dyes",
+            "feature_image": "shopify:\/\/shop_images\/wool-tops-rovings.jpg",
+            "title": "Wool Tops\/Rovings",
+            "sub_title": "18.5 micron merino wool tops."
           }
         },
-        "featured-collections-5": {
+        "collection_tTQibQ": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
-            "sub_title": ""
+            "collection": "dyes",
+            "feature_image": "shopify:\/\/shop_images\/fabric-paint-ink.jpg",
+            "title": "Fabric Paint\/Ink",
+            "sub_title": "Wide variety of textile paints."
           }
         }
       },
       "block_order": [
         "featured-collections-3",
-        "featured-collections-4",
-        "featured-collections-5"
+        "collection_9KU3Bp",
+        "collection_tTQibQ"
       ],
       "settings": {
         "title": "",
