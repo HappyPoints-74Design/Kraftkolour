@@ -7,6 +7,12 @@
     padding-bottom: 72px;
 }
 
+.customer-page a,
+.button-link {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 @media only screen and (max-width: 768px) {
     .page-content.customer-page {
         padding-top: 24px;
