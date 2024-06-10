@@ -14,7 +14,7 @@
             "link_text": "Optional button",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-bottom horizontal-left",
             "overlay_opacity": 0
           }
@@ -30,7 +30,7 @@
             "link_text": "Optional button",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0
           }
@@ -43,8 +43,8 @@
       "settings": {
         "full_width": true,
         "desktop_size": 0,
-        "mobile_size": 80,
-        "style": "dots",
+        "mobile_size": 0,
+        "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 5
       }
