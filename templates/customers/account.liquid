@@ -1,6 +1,6 @@
 {%- paginate customer.orders by 20 -%}
 
-<div class="page-width page-content">
+<div class="page-width page-content customer-page">
   <header class="section-header section-header--with-link">
     <h1 class="section-header__title">{{ 'labels.my_account' | t }}</h1>
     <a href="{{ routes.account_logout_url }}" class="section-header__link">{{ 'actions.log_out'| t }}</a>
