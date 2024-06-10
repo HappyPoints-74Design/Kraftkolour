@@ -1,0 +1,55 @@
+/* Account page */
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+.page-content.customer-page {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-content.customer-page {
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+}
+
+.customer-page .btn {
+    color: var(--colorScheme4Text);
+    background: var(--colorScheme4Bg);
+    min-height: 56px;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.customer-page .section-header__title {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.customer-page .form-vertical p {
+    font-size: 14px;
+    line-height: 1.4285;
+}
+
+@media only screen and (max-width: 768px) {
+    .customer-page .section-header__title {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+}
+
+.customer-page input,
+.customer-page textarea,
+.customer-page select {
+    background-color: var(--backgroundInput);
+}
+
+.customer-page .section-header {
+    margin-bottom: 24px;
+}
+
+.info-reset-password {
+    margin-top: 16px;
+}

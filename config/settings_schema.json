@@ -363,6 +363,32 @@
             "label": "t:labels.plants"
           }
         ]
+      },
+      {
+        "type": "header",
+        "content": "Color scheme 4"
+      },
+      {
+        "type": "color",
+        "id": "color_scheme_4_bg",
+        "label": "t:labels.background",
+        "default": "#28282C"
+      },
+      {
+        "type": "color",
+        "id": "color_scheme_4_text",
+        "label": "t:labels.text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Color input customer page"
+      },
+      {
+        "type": "color",
+        "id": "input_bg",
+        "label": "Input background",
+        "default": "#ffffff"
       }
     ]
   },
