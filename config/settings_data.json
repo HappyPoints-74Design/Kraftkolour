@@ -932,7 +932,15 @@
       "1525115199973",
       "1617897211fa46356d",
       "16242877764ba69f0b"
-    ]
+    ],
+    "blocks": {
+      "5918707185744429496": {
+        "type": "shopify:\/\/apps\/bss-variant-options\/blocks\/bss-po-script\/2c446099-c349-4e73-80cd-49c9770b7807",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Modern": {
