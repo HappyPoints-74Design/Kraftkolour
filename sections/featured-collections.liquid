@@ -13,7 +13,7 @@
 {% schema %}
 {
   "name": "t:labels.collection_list",
-  "class": "index-section",
+  "class": "index-section collection-lists",
   "max_blocks": 18,
   "settings": [
     {
@@ -71,6 +71,12 @@
       "id": "divider",
       "label": "t:actions.show_section_divider",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "overtext",
+      "label": "Text over image",
+      "default": true
     }
   ],
   "blocks": [
@@ -85,10 +91,20 @@
           "info": "t:info.image_source_adjusted_theme_settings"
         },
         {
+          "type": "image_picker",
+          "id": "feature_image",
+          "label": "Image"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "t:labels.title",
           "info": "t:info.defaults_to_collection_title"
+        },
+        {
+          "type": "text",
+          "id": "sub_title",
+          "label": "Sub Title"
         }
       ]
     }
