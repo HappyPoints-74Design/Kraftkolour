@@ -135,6 +135,24 @@ body::after {
 }
 
 /**
+ * SlideShow
+ */
+.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-previous {
+    left: 48px;
+}
+
+.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-prev-next-button {
+    top: 50%;
+    bottom: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.hero-natural--minimal-arrow .hero[data-arrows=true] .flickity-prev-next-button {
+		display: none;
+	}
+}
+
+/**
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {

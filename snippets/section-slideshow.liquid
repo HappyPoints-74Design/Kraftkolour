@@ -65,7 +65,7 @@
             {%- style -%}
               .hero-natural--{{ section.id }} {
                 height: 0;
-                padding-bottom: {{ natural_height_ratio | plus: desktop_size }}%;
+                padding-bottom: {% if desktop_size == 0 -%}25%{%- else -%}{{ natural_height_ratio | plus: desktop_size }}%{%- endif -%};
               }
 
               @media screen and (max-width: 768px) {
@@ -75,7 +75,7 @@
               }
             {%- endstyle -%}
 
-            <div class="hero-natural--{{ section.id }}">
+            <div class="hero-natural--{{ section.id }} {% if style == 'minimal' %}hero-natural--minimal-arrow{% endif %}">
               <div id="Slideshow-{{ section.id }}"
                 class="hero hero--{{ section.id }}{% if section.index == 1 %} loaded{% else %} loading{% endif %} loading--delayed"
                 data-natural="true"
@@ -91,6 +91,10 @@
                   data-dots="true"
                   data-bars="true"
                 {% endif %}
+                {% if style == 'minimal' %}
+                  data-arrows="true"
+                  data-dots="true"
+                {% endif %}  
                 data-slide-count="{{ section.blocks.size }}">
                 {%- for block in section.blocks -%}
                   <div
@@ -119,7 +123,7 @@
                           {%- assign accent_brightness = block.settings.color_accent | color_extract: 'lightness' -%}
 
                           {% if accent_brightness > 40 %}
-                            color: #000 !important;
+                            color: #FFFFFF !important;
                           {% endif %}
                         }
                       {% endunless %}

@@ -4749,7 +4749,7 @@ input[type="image"] {
 .hero__top-subtitle,
 .hero__title,
 .hero__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
   }
 .hero__top-subtitle {
@@ -4771,7 +4771,7 @@ input[type="image"] {
 }
 @media only screen and (min-width: 769px) {
 .hero__subtitle {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
   }
 .hero__link {
@@ -12020,7 +12020,7 @@ header-section {
 .hero__top-subtitle,
 .hero__title,
 .hero__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
   }
 .hero__top-subtitle {
@@ -12042,7 +12042,7 @@ header-section {
 }
 @media only screen and (min-width: 769px) {
 .hero__subtitle {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
   }
 .hero__link {
@@ -13771,7 +13771,7 @@ extended height/widths and negative margins*/
 .hero__top-subtitle,
 .hero__title,
 .hero__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
   }
 .hero__top-subtitle {
@@ -13793,7 +13793,7 @@ extended height/widths and negative margins*/
 }
 @media only screen and (min-width: 769px) {
 .hero__subtitle {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
   }
 .hero__link {
@@ -14300,7 +14300,7 @@ extended height/widths and negative margins*/
 .hero__top-subtitle,
 .hero__title,
 .hero__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
   }
 .hero__top-subtitle {
@@ -14322,7 +14322,7 @@ extended height/widths and negative margins*/
 }
 @media only screen and (min-width: 769px) {
 .hero__subtitle {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
   }
 .hero__link {
@@ -14829,7 +14829,7 @@ extended height/widths and negative margins*/
 .hero__top-subtitle,
 .hero__title,
 .hero__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
   }
 .hero__top-subtitle {
@@ -14851,7 +14851,7 @@ extended height/widths and negative margins*/
 }
 @media only screen and (min-width: 769px) {
 .hero__subtitle {
-    font-size: 1.3em;
+    font-size: 1rem;
 }
   }
 .hero__link {
