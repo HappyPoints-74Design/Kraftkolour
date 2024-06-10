@@ -68,6 +68,12 @@
                 padding-bottom: {% if desktop_size == 0 -%}25%{%- else -%}{{ natural_height_ratio | plus: desktop_size }}%{%- endif -%};
               }
 
+              @media screen and (min-width: 768px) and (max-width: 1280px) {
+                .hero-natural--{{ section.id }} {
+                  padding-bottom: 40%;
+                }
+              }
+
               @media screen and (max-width: 768px) {
                 .hero-natural--{{ section.id }} {
                   padding-bottom: {{ natural_height_ratio_mobile | plus: mobile_size }}%;
@@ -105,7 +111,7 @@
                     {%- style -%}
                       .slideshow__slide--{{ block.id }} .hero__title,
                       .slideshow__slide--{{ block.id }} .hero__title p {
-                        font-size: {{ block.settings.title_size | times: 0.43 }}px;
+                        font-size: {{ block.settings.title_size | times: 0.5625 }}px;
                       }
                       @media only screen and (min-width: 769px) {
                         .slideshow__slide--{{ block.id }} .hero__title,
