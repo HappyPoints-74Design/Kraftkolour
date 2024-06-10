@@ -28,7 +28,7 @@
     </div>
   {%- endif -%}
 
-  <div class="new-grid" data-view="{% if section_blocks_size < 6 %}{{ gridView }}{% else %}6-3{% endif %}">
+  <div class="new-grid {% if section.settings.overtext %}collection--with-text-overlap{% endif %}" data-view="{% if section_blocks_size < 6 %}{{ gridView }}{% else %}6-3{% endif %}">
     {%- liquid
       assign isEmpty = true
       if section_blocks_size > 0
@@ -40,7 +40,7 @@
       {%- liquid
         assign collection = collections[block.settings.collection]
         assign sizeVariable = section_blocks_size | at_most: 6
-        render 'collection-grid-item', collection: collection, block: block, sizeVariable: sizeVariable, fallback: 'variable', collection_grid_image: collection_grid_image, collection_grid_shape: collection_grid_shape, collection_grid_image_fill: collection_grid_image_fill, collection_grid_color: collection_grid_color
+        render 'collection-grid-item', collection: collection, block: block, sizeVariable: sizeVariable, fallback: 'variable', collection_grid_image: collection_grid_image, collection_grid_shape: collection_grid_shape, collection_grid_image_fill: collection_grid_image_fill, collection_grid_color: collection_grid_color, overtext: section.settings.overtext
       -%}
     {%- endfor -%}
 

@@ -34,13 +34,17 @@
   <a href="{{ collection_link }}" class="collection-item">
 
     {%- liquid
-      if collection_grid_image == 'collection' and collection.image
-        assign collection_image = collection.image
-        assign using_collection_image = true
-      else
-        assign collection_image = collection.products.first.featured_media.preview_image
-        assign using_collection_image = false
-      endif
+      if block.settings.feature_image != blank
+        assign collection_image = block.settings.feature_image
+      else 
+        if collection_grid_image == 'collection' and collection.image
+          assign collection_image = collection.image
+          assign using_collection_image = true
+        else
+          assign collection_image = collection.products.first.featured_media.preview_image
+          assign using_collection_image = false
+        endif
+      endif  
     -%}
 
     <div class="collection-image-wrap collection-image--{{ collection_grid_shape }}
@@ -62,10 +66,24 @@
             fallback: fallback,
             widths: '720, 900, 1080',
           -%}
+          {%- if overtext -%}
+            <div class="collection--info">
+              <h3 class="collection-item__title">{{ title_output }}</h3>
+              {%- if block.settings.sub_title != blank -%}
+                <p>{{- block.settings.sub_title -}}</p>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
         </div>
       {%- endif -%}
     </div>
-
-    <span class="collection-item__title">{{ title_output }}</span>
+    {%- unless overtext -%}
+      <div class="collection--info">
+        <h3 class="collection-item__title">{{ title_output }}</h3>
+        {%- if block.settings.sub_title != blank -%}
+          <p>{{- block.settings.sub_title -}}</p>
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
   </a>
 </div>

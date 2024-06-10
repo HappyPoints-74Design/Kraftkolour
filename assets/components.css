@@ -21,7 +21,7 @@
 
   /*================ Product and collection grids ================*/
   /* Product grid margin is double this variable */
-  --productGridMargin: 10px;
+  --productGridMargin: 12px;
   --productGridPadding: 12px;
   --productRadius: 10px;
 
