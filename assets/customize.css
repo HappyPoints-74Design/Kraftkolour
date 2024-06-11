@@ -244,12 +244,18 @@ body::after {
 	font-weight: 400;
 	line-height: 24px;
 }
+.feature-collection .section-header__title {
+	font-size: 24px;
+}
 @media screen and (min-width: 769px) {
 	.grid-item__meta {
 		margin-bottom: 0;
 	}
 }
 @media screen and (max-width: 767px) {
+	.feature-collection .section-header__title {
+		font-size: 24px;
+	}
 	[dir="ltr"] [data-grid-style="simple"] .new-grid:not([data-view="list"]) .grid-item__meta {
 		gap: 16px;
 	}

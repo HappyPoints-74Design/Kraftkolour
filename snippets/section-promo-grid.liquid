@@ -99,16 +99,16 @@
                 }
               }
             {% endif %}
-            .flex-grid--{{ section.id }} .rte--em,
-            .flex-grid--{{ section.id }} .rte--strong,
-            .flex-grid--{{ section.id }} .enlarge-text {
+            .flex-grid__item--{{ block.id }} .rte--em,
+            .flex-grid__item--{{ block.id }} .rte--strong,
+            .flex-grid__item--{{ block.id }} .enlarge-text {
               color: {{ block.settings.color_text}};
             }
-            .flex-grid--{{ section.id }} .rte--strong {
+            .flex-grid__item--{{ block.id }} .rte--strong {
               font-size: {{ block.settings.heading_size }}px;
             }
             @media screen and (max-width: 767px) {
-              .flex-grid--{{ section.id }} .rte--strong {
+              .flex-grid__item--{{ block.id }} .rte--strong {
                 font-size: {{ block.settings.heading_size_mobile }}px;
               }
             }
