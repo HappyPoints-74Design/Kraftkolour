@@ -184,7 +184,7 @@
     "featured-collection2": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Collection",
+        "title": "Featured Products",
         "heading_size": "h2",
         "heading_position": "left",
         "home_featured_products": "pongee-5mm-silk-scarves",
