@@ -5802,8 +5802,8 @@ select .variant-input {
   }
 .grid-product__tags {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
   margin-left: calc(var(--productTileMargin) * 0);
   z-index: 1;
 }
