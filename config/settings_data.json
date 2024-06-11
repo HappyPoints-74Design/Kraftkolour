@@ -49,7 +49,7 @@
     "superscript_decimals": false,
     "product_save_amount": false,
     "vendor_enable": false,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_add_enable": true,
     "product_grid_image_size": "square",
     "product_grid_image_fill": true,
