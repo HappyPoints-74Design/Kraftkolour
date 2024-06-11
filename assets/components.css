@@ -2139,7 +2139,7 @@ html input[disabled] {
 }
 .btn:hover, .rte .btn:hover, .shopify-payment-button .shopify-payment-button__button--unbranded:hover {
     color: var(--colorBtnPrimaryText);
-    background-color: var(--colorBtnPrimary);
+    background-color: var(--colorBtnPrimaryDim);
   }
 .btn[disabled],
   .rte .btn[disabled],
@@ -2164,17 +2164,29 @@ html input[disabled] {
 .shopify-payment-button__more-options {
   color: inherit;
 }
-.btn--secondary,
-.rte .btn--secondary {
+.btn--outline,
+.rte .btn--outline {
   border: 1px solid;
   border-color: var(--colorTextBody);
   color: var(--colorTextBody);
   background-color: var(--colorBody);
 }
+.btn--outline:hover, .rte .btn--outline:hover {
+  background-color: var(--colorBody);
+  color: var(--colorTextBody);
+}
+.btn--secondary,
+.rte .btn--secondary {
+  border: 1px solid;
+  border-color: var(--colorBgButtonSecondary);
+  color: var(--colorTextButtonSecondary);
+  background-color: var(--colorBgButtonSecondary);
+}
 .btn--secondary:hover, .rte .btn--secondary:hover {
-    background-color: var(--colorBody);
-    color: var(--colorTextBody);
-  }
+  background-color: var(--color-grey-dark);
+  color: var(--color-white);
+  border-color: var(--color-grey-dark);
+}
 .btn--secondary[disabled],
   .rte .btn--secondary[disabled],
   .btn--secondary.disabled,

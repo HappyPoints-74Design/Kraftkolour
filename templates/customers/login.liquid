@@ -31,7 +31,7 @@
       {%- endif -%}
 
       <p>
-        <button type="submit" class="btn btn--full">
+        <button type="submit" class="btn btn--secondary btn--full">
           {{ 'actions.sign_in' | t }}
         </button>
       </p>
@@ -57,7 +57,7 @@
         <input type="email" value="" name="email" id="RecoverEmail" class="input-full" autocorrect="off" autocapitalize="off">
 
         <p>
-          <button type="submit" class="btn">
+          <button type="submit" class="btn btn--secondary">
             {{ 'actions.submit' | t }}
           </button>
         </p>
@@ -74,7 +74,7 @@
     <hr class="hr--small">
 
     {%- form 'guest_login' -%}
-      <button type="submit" class="btn">
+      <button type="submit" class="btn btn--secondary">
         {{ 'actions.continue' | t }}
       </button>
     {%- endform -%}
