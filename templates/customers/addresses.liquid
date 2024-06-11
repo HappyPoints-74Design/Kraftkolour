@@ -1,6 +1,6 @@
 {%- paginate customer.addresses by 5 -%}
 
-<div class="page-width page-content">
+<div class="page-width page-content customer-page main-account">
 
   {%- if settings.show_breadcrumbs -%}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
@@ -97,14 +97,14 @@
     {%- for address in customer.addresses -%}
       <div class="addresses-item">
         {%- if address == customer.default_address -%}
-          <p class="h4">{{ 'labels.default' | t }}</p>
+          <div class="default-badge">{{ 'labels.default' | t }}</div>
         {%- endif -%}
     
         {{ address | format_address }}
     
         <p>
-          <button type="button" class="btn btn--small address-edit-toggle" data-form-id="{{ address.id }}">{{ 'actions.edit' | t }}</button>
-          <button type="button" class="btn btn--secondary btn--small address-delete" data-form-id="{{ address.id }}" data-confirm-message="{{ 'actions.confirm_address_delete' | t }}">{{ 'actions.delete' | t }}</button>
+          <button type="button" class="text-underline-link address-edit-toggle" data-form-id="{{ address.id }}">{{ 'actions.edit' | t }}</button>
+          <button type="button" class="text-underline-link address-delete" data-form-id="{{ address.id }}" data-confirm-message="{{ 'actions.confirm_address_delete' | t }}">{{ 'actions.delete' | t }}</button>
         </p>
     
         <div id="EditAddress_{{ address.id }}" class="form-vertical js-address-form text-left hide">

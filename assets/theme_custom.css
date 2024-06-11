@@ -1,3 +1,11 @@
+.text-underline-link {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.text-underline-link:hover {
+    color: var(--colorLinkHover);
+}
 .customer-page h1,
 .customer-page .h1 {
     font-size: 64px;
@@ -104,6 +112,9 @@
     font-size: 16px;
     line-height: 1.5;
     font-weight: 700;
+}
+
+.customer-page .form-vertical .btn {
     width: 100%;
 }
 
@@ -281,4 +292,22 @@ input:-webkit-autofill:active{
     border: 1px solid var(--colorBorder);
     border-radius: 8px;
     padding: 24px;
+}
+
+.addresses-item {
+    position: relative;
+}
+
+.default-badge {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    background-color: var(--color-grey-dark);
+    color: var(--color-white);
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 8px;
+    font-weight: 700;
 }
