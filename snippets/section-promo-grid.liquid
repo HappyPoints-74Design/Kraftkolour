@@ -99,7 +99,19 @@
                 }
               }
             {% endif %}
-
+            .flex-grid--{{ section.id }} .rte--em,
+            .flex-grid--{{ section.id }} .rte--strong,
+            .flex-grid--{{ section.id }} .enlarge-text {
+              color: {{ block.settings.color_text}};
+            }
+            .flex-grid--{{ section.id }} .rte--strong {
+              font-size: {{ block.settings.heading_size }}px;
+            }
+            @media screen and (max-width: 767px) {
+              .flex-grid--{{ section.id }} .rte--strong {
+                font-size: {{ block.settings.heading_size_mobile }}px;
+              }
+            }
             {%- assign accent_exists = false -%}
             {%- assign button_alpha = block.settings.color_accent | color_extract: 'alpha' -%}
             {% unless button_alpha == 0.0 %}
