@@ -138,8 +138,8 @@
           "settings": {
             "subheading": "About Us",
             "heading": "40 Years of Experience",
-            "heading_size": 40,
-            "heading_size_mobile": 20,
+            "heading_size": 32,
+            "heading_size_mobile": 24,
             "textarea": "Kraftkolour supplies  textile artists, eco dyers, silk painters, fabric printers, spinners, weavers, knitters and dyers with everything they could possibly need to fulfill their textile journey.",
             "cta_text1": "Read More",
             "cta_link1": "shopify:\/\/pages\/about_us",
@@ -151,7 +151,7 @@
             "height": 500,
             "text_align": "vertical-center horizontal-left",
             "color_accent": "#b3bb33",
-            "color_text": "#fff"
+            "color_text": "#ffffff"
           }
         },
         "advanced_hD3tt6": {
