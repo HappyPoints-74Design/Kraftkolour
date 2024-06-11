@@ -320,7 +320,7 @@ body::after {
     width: 432px;
     border-radius: 50px;
     padding: 12px 24px;
-	border: 1px solid var(--borderColor);
+	border: 1px solid var(--colorBorder);
 }
 
 .input-group .input-group-btn:last-child .btn {

@@ -8,14 +8,14 @@
     </div>
   </header>
 
-  <div class="grid clearfix">
+  <div class="grid clearfix account-content">
 
     <div class="grid__item medium-up--three-quarters">
-      <h5>{{ 'labels.order_history' | t }}</h5>
+      <h5 class="order-history-title">{{ 'labels.order_history' | t }}</h5>
 
       {%- if customer.orders.size != 0 -%}
 
-        <table class="table--responsive table--small-text">
+        <table class="table--responsive">
           <thead>
             <tr>
               <th>{{ 'labels.order' | t }}</th>
@@ -32,13 +32,13 @@
                 <td data-label="{{ 'labels.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
                 <td data-label="{{ 'labels.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 <td data-label="{{ 'labels.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
-                <td data-label="{{ 'labels.total' | t }}">{{ order.total_price | money }}</td>
+                <td data-label="{{ 'labels.total' | t }}">{{ order.total_price | money_with_currency }}</td>
               </tr>
             {%- endfor -%}
           </tbody>
         </table>
 
-        <hr class="hr--clear">
+        <hr class="hr--clear-desktop">
 
       {%- else -%}
 
@@ -49,8 +49,6 @@
 
     <div class="grid__item medium-up--one-quarter">
       <h5>{{ 'labels.account_details' | t }}</h5>
-
-      <p class="h5">{{ customer.name }}</p>
 
       {{ customer.default_address | format_address }}
 
