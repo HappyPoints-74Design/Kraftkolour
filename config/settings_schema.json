@@ -372,19 +372,19 @@
       },
       {
         "type": "header",
-        "content": "Color scheme 4"
+        "content": "Button Secondary"
       },
       {
         "type": "color",
-        "id": "color_scheme_4_bg",
+        "id": "color_bg_button_secondary",
         "label": "t:labels.background",
-        "default": "#28282C"
+        "default": "#B3BB33"
       },
       {
         "type": "color",
-        "id": "color_scheme_4_text",
+        "id": "color_label_button_secondary",
         "label": "t:labels.text",
-        "default": "#ffffff"
+        "default": "#28282C"
       },
       {
         "type": "header",

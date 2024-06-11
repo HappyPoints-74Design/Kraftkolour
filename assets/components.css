@@ -1661,6 +1661,11 @@ hr,
 .hr--clear {
   border: 0;
 }
+@media screen and (min-width: 768px) {
+  .hr--clear-desktop {
+    border: 0;
+  }
+}
 /*============================================================================
   Responsive tables, defined with .table--responsive on table element.
 ==============================================================================*/
@@ -1684,13 +1689,16 @@ hr,
     .table--responsive td {
       display: block;
       text-align: right;
-      padding: 15px;
+      padding: 8px 0;
     }
 
     .table--responsive td:before {
       content: attr(data-label);
       float: left;
-      font-size: 12px;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
       padding-right: 10px;
     }
   }
@@ -1701,8 +1709,8 @@ hr,
 
   .table__section + .table__section {
     position: relative;
-    margin-top: 10px;
-    padding-top: 15px;
+    margin-top: 8px;
+    padding-top: 8px;
   }
 
     .table__section + .table__section:after {
@@ -1710,8 +1718,8 @@ hr,
       display: block;
       position: absolute;
       top: 0;
-      left: 15px;
-      right: 15px;
+      left: 0;
+      right: 0;
       border-bottom: 1px solid;
       border-bottom-color: var(--colorBorder);
     }
@@ -1741,7 +1749,7 @@ body {
   font-weight: var(--typeBaseWeight);
 }
 p {
-  margin: 0 0 calc(var(--gutter) / 2) 0;
+  margin: 0 0 calc(var(--gutter) / 3) 0;
 }
 p:last-child {
     margin-bottom: 0;
@@ -1842,7 +1850,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   display: block;
-  margin: 0 0 15px;
+  margin: 0 0 16px;
 }
 @media only screen and (min-width: 769px) {
 .h0,
@@ -1852,7 +1860,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    margin: 0 0 20px;
+    margin: 0 0 16px;
 }
   }
 .h0 a, h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
@@ -2030,10 +2038,14 @@ ol.alpha { list-style: lower-alpha outside; }
   }
 table {
   width: 100%;
-  border-spacing: 1px;
+  border-spacing: 0;
   position: relative;
-  border: 0 none;
-  background: var(--colorBorder);
+  border: 1px solid var(--colorBorder);
+}
+@media only screen and (max-width: 768px) {
+  table {
+    border: 0;
+  }
 }
 .table-wrapper {
   max-width: 100%;
@@ -2044,8 +2056,15 @@ td,
 th {
   border: 0 none;
   text-align: left;
-  padding: 24px;
+  padding: 24px 0 24px 24px;
   background: var(--colorBody);
+}
+@media only screen and (min-width: 769px) {
+  td:last-child,
+  th:last-child {
+    padding-right: 24px;
+    text-align: right;
+  }
 }
 html[dir="rtl"] td, html[dir="rtl"] th {
     text-align: right;

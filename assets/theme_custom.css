@@ -82,6 +82,12 @@
 .button-link {
     text-decoration: underline;
     text-underline-offset: 3px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.customer-page .text-link:hover {
+    color: var(--colorLinkHover);
 }
 
 @media only screen and (max-width: 768px) {
@@ -92,11 +98,12 @@
 }
 
 .customer-page .btn {
-    color: var(--colorScheme4Text);
-    background: var(--colorScheme4Bg);
+    color: var(--colorTextButtonSecondary);
+    background: var(--colorBgButtonSecondary);
     min-height: 56px;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 700;
     width: 100%;
 }
 
@@ -167,13 +174,19 @@ input:-webkit-autofill:active{
     border-radius: 8px;
 }
 
-.main-account table th,
-.main-account table td {
-    border-bottom: 1px solid #ddd;
+@media screen and (min-width: 769px) {
+    .main-account table th,
+    .main-account table td {
+        border-bottom: 1px solid var(--colorBorder);
+    }
 }
 
 .main-account table tr:last-child td {
     border-bottom: 0;
+}
+
+.main-account table tfoot tr:first-child td {
+    border-top: 1px solid var(--colorBorder);
 }
 
 .main-account table thead tr th:first-child {
@@ -197,4 +210,55 @@ input:-webkit-autofill:active{
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
+}
+
+.main-account table tbody tr td[data-label="Order"] a {
+    background-color: var(--color-white);
+    padding: 10px 25px;
+    border: 1px solid var(--colorBorder);
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.main-account table tbody tr td[data-label="Product"] a {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-account table tbody tr td[data-label="Order"] a:hover {
+    border-color: var(--color-grey-dark);
+    color: var(--color-grey-dark);
+}
+
+.order-history-title {
+    border-bottom: 1px solid var(--colorBorder);
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+}
+
+.main-account table tfoot td {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+    .main-account table td {
+        font-size: calc(var(--typeBaseSize) * 0.875);
+    }
+    .account-content .grid__item:first-child {
+        width: 100%;
+    }
+    .main-account table tbody tr td[data-label="Product"] a {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .account-content .grid__item:not(:first-child) {
+        margin-top: 16px;
+    }
 }

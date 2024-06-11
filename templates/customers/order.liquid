@@ -1,4 +1,4 @@
-<div class="page-width page-content">
+<div class="page-width page-content customer-page main-account">
 
   {% if settings.show_breadcrumbs %}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
@@ -9,26 +9,26 @@
   {% endif %}
 
   <header class="section-header">
-    <h1 class="section-header__title">{{ 'labels.order_name' | t: name: order.name }}</h1>
+    <h2 class="section-header__title">{{ 'labels.order_name' | t: name: order.name }}</h2>
   </header>
 
-  <div class="grid clearfix">
+  <div class="grid clearfix account-content">
 
-    <div class="grid__item medium-up--two-thirds">
+    <div class="grid__item medium-up--three-quarters">
       <p>
-        {%- assign order_date = order.created_at | time_tag: format: "date_at_time" -%}
+        {%- assign order_date = order.created_at | time_tag: format: "date_at_time" | strip_html -%}
         {{ 'info.order_placed_on' | t: date: order_date }}
       </p>
 
       {% if order.cancelled %}
         <div class="errors">
-          {%- assign cancelled_at = order.cancelled_at | time_tag: format: "date_at_time" -%}
-          <p class="h5">{{ 'info.order_cancelled_on' | t: date: cancelled_at }}</p>
+          {%- assign cancelled_at = order.cancelled_at | time_tag: format: "date_at_time" | strip_html -%}
+          <p>{{ 'info.order_cancelled_on' | t: date: cancelled_at }}</p>
           <p>{{ 'info.order_cancelled_reason' | t: reason: order.cancel_reason }}</p>
         </div>
       {% endif %}
 
-      <table class="table--responsive table--small-text">
+      <table class="table--responsive">
         <thead>
           <tr>
             <th>{{ 'labels.product' | t }}</th>
@@ -166,40 +166,48 @@
         </tfoot>
       </table>
 
-      <hr class="hr--small hr--clear">
+      <hr class="hr--small hr--clear-desktop">
 
     </div>
 
-    <div class="grid__item medium-up--one-third">
+    <div class="grid__item medium-up--one-quarter">
 
-      <h3>{{ 'labels.billing_address' | t }}</h3>
+      <h5>{{ 'labels.billing_address' | t }}</h5>
 
       <p><strong>{{ 'labels.payment_status' | t }}:</strong> {{ order.financial_status_label }}</p>
 
-      <p class="h5">{{ order.billing_address.name }}</p>
+      <h5>{{ order.billing_address.name }}</h5>
       <p>
         {% if order.billing_address.company != blank %}
           {{ order.billing_address.company }}<br>
         {% endif %}
-        {{ order.billing_address.street }}<br>
-        {{ order.billing_address.city }}<br>
+        {% if order.billing_address.street != blank %}
+          {{ order.billing_address.street }}<br>
+        {% endif %}
+        {% if order.billing_address.city != blank %}
+          {{ order.billing_address.city }}<br>
+        {% endif %}
+        
         {% if order.billing_address.province != blank %}
           {{ order.billing_address.province }}<br>
         {% endif %}
-        {{ order.billing_address.zip | upcase }}<br>
-        {{ order.billing_address.country }}<br>
-        {{ order.billing_address.phone }}
+        {% if order.billing_address.zip != blank %}
+          {{ order.billing_address.zip | upcase }}<br>
+        {% endif %}
+        {% if order.billing_address.country != blank %}
+          {{ order.billing_address.country }}<br>
+        {% endif %}
+        {% if order.billing_address.phone != blank %}
+          {{ order.billing_address.phone }}
+        {% endif %}
       </p>
 
       <hr class="hr--medium">
-      {%- if order.shipping_address != blank -%}
-        <h3>{{ 'labels.shipping_address' | t }}</h3>
-      {%- endif -%}
-
+      <h5>{{ 'labels.shipping_address' | t }}</h5>
       <p><strong>{{ 'labels.fulfillment_status' | t }}:</strong> {{ order.fulfillment_status_label }}</p>
 
       {%- if order.shipping_address != blank -%}
-        <p class="h5">{{ order.shipping_address.name }}</p>
+        <h5>{{ order.shipping_address.name }}</h5>
         <p>
           {% if order.shipping_address.company != blank %}
             {{ order.shipping_address.company }}<br>

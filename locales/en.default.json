@@ -207,7 +207,7 @@
     "from_price_html": "<span>from<\/span> {{ price }}",
     "tagged_with": "Tagged \"{{ tags }}\"",
     "page_title": "Page {{ page }}",
-    "my_account": "My account",
+    "my_account": "Account",
     "we_accept": "We accept",
     "account_details": "Account details",
     "address1": "Address1",
