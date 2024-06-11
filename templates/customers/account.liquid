@@ -1,15 +1,17 @@
 {%- paginate customer.orders by 20 -%}
 
-<div class="page-width page-content customer-page">
-  <header class="section-header section-header--with-link">
-    <h1 class="section-header__title">{{ 'labels.my_account' | t }}</h1>
-    <a href="{{ routes.account_logout_url }}" class="section-header__link">{{ 'actions.log_out'| t }}</a>
+<div class="page-width page-content customer-page main-account">
+  <header class="section-header">
+    <h2 class="section-header__title">{{ 'labels.my_account' | t }}</h2>
+    <div class="logout-link">
+      <a href="{{ routes.account_logout_url }}"><span>{% render 'icon-user' %}</span>{{ 'actions.log_out'| t }}</a>
+    </div>
   </header>
 
   <div class="grid clearfix">
 
-    <div class="grid__item medium-up--two-thirds">
-      <h2>{{ 'labels.order_history' | t }}</h2>
+    <div class="grid__item medium-up--three-quarters">
+      <h5>{{ 'labels.order_history' | t }}</h5>
 
       {%- if customer.orders.size != 0 -%}
 
@@ -45,8 +47,8 @@
       {%- endif -%}
     </div>
 
-    <div class="grid__item medium-up--one-third">
-      <h3>{{ 'labels.account_details' | t }}</h3>
+    <div class="grid__item medium-up--one-quarter">
+      <h5>{{ 'labels.account_details' | t }}</h5>
 
       <p class="h5">{{ customer.name }}</p>
 

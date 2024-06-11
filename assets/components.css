@@ -11,8 +11,8 @@
   --input-radius: 8px;
   --page-width-gutter-small: 17px;
   --page-width-gutter-large: 40px;
-  --grid-gutter: 22px;
-  --grid-gutter-small: 16px;
+  --grid-gutter: 48px;
+  --grid-gutter-small: 24px;
   --breakpoint-small: 768px;
   --breakpoint-medium-up: 769px;
   --breakpoint-medium-down: 959px;
@@ -2026,7 +2026,7 @@ td,
 th {
   border: 0 none;
   text-align: left;
-  padding: 10px 15px;
+  padding: 24px;
   background: var(--colorBody);
 }
 html[dir="rtl"] td, html[dir="rtl"] th {
@@ -2038,8 +2038,8 @@ th,
 }
 a {
   color: var(--colorTextBody);
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   background: transparent;
 }
 a:hover {
