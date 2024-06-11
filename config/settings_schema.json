@@ -477,7 +477,7 @@
         "label": "t:labels.base_size",
         "default": 32,
         "min": 22,
-        "max": 60,
+        "max": 80,
         "unit": "px"
       },
       {
@@ -569,8 +569,8 @@
         "id": "type_base_size",
         "label": "t:labels.base_size",
         "default": 16,
-        "min": 12,
-        "max": 20,
+        "min": 10,
+        "max": 32,
         "unit": "px"
       },
       {
