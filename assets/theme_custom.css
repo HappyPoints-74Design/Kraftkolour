@@ -97,7 +97,9 @@
     }
 }
 
-.customer-page .btn {
+.customer-page .btn,
+.customer-page .btn.btn--secondary {
+    color: var(--colorTextButtonSecondaryCustomer);
     min-height: 56px;
     font-size: 16px;
     line-height: 1.5;
@@ -264,4 +266,19 @@ input:-webkit-autofill:active{
     .order-history-title {
         border-bottom: 1px solid var(--colorBorder);
     }
+}
+
+/* Addresses page */
+.addresses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.addresses-list .addresses-item {
+    width: calc(50% - 12px);
+    border: 1px solid var(--colorBorder);
+    border-radius: 8px;
+    padding: 24px;
 }

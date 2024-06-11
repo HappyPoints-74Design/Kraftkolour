@@ -27,7 +27,7 @@
     <div class="input-group newsletter__input-group">
       <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'actions.enter_email' | t }}" name="contact[email]" id="Email-{{ section_id }}" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off" required>
       <div class="input-group-btn">
-        <button type="submit" id="newsletter-form-submit-{{ section_id }}" class="btn" name="commit" aria-label="{{ 'actions.subscribe' | t }}">
+        <button type="submit" id="newsletter-form-submit-{{ section_id }}" class="btn btn--secondary" name="commit" aria-label="{{ 'actions.subscribe' | t }}">
           <span class="form__submit--large">{{ 'actions.subscribe' | t }}</span>
           <span class="form__submit--small">
             {% render 'icon', name: 'arrow-right' %}
