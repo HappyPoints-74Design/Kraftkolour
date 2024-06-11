@@ -2094,8 +2094,8 @@ a:hover {
   background: transparent;
 }
 .text-link:hover {
-    color: currentColor;
-  }
+  color: currentColor;
+}
 /*Links in RTE*/
 .rte a,
 .shopify-policy__container a,
