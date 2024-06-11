@@ -43,7 +43,7 @@
     "pin_on_pinterest": "Pin on Pinterest",
     "pin_it": "Pin it",
     "get_in_touch": "Contact Us",
-    "email_us": "Email us",
+    "email_us": "info@kraftkolour.net.au",
     "live_chat": "Live chat",
     "follow_us": "Follow us",
     "activate": "Activate account",
@@ -251,5 +251,10 @@
   },
   "date_formats": {
     "month_day_year": "%b %d, %Y"
+  },
+  "sections": {
+    "countdown": {
+      "section_name": "countdown"
+    }
   }
 }
