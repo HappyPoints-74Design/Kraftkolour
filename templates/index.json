@@ -177,8 +177,8 @@
       "settings": {
         "full_width": false,
         "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
       }
     },
     "featured-collection2": {
