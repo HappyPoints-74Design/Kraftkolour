@@ -5864,8 +5864,8 @@ select .variant-input {
   }
 .grid-product__tags {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
   margin-left: calc(var(--productTileMargin) * 0);
   z-index: 1;
 }
@@ -8182,7 +8182,7 @@ html[dir="rtl"] .product-single__meta .rte {
     right: 0;
     content: '';
     display: block;
-    border-top: 1px solid;
+    border-top: 0px solid;
     border-top-color: var(--colorNavText);
     width: 100%;
     opacity: 0.1;
@@ -11099,6 +11099,7 @@ form + .footer__social {
 .site-header__element--top {
   padding: 24px 0;
   transition: background-color 0.2s ease;
+  padding-bottom: 8px;
 }
 @media only screen and (max-width: 768px) {
 .site-header__element--top {
