@@ -388,12 +388,18 @@
       },
       {
         "type": "header",
-        "content": "Color input customer page"
+        "content": "Color customer page"
       },
       {
         "type": "color",
         "id": "input_bg",
         "label": "Input background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_label_button_secondary_customer",
+        "label": "Color label button",
         "default": "#ffffff"
       }
     ]
