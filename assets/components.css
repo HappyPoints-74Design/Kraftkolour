@@ -1869,16 +1869,22 @@ h6, .h6 {
   line-height: var(--typeHeaderLineHeight);
 }
 h1, .h1 {
-  font-size: calc(var(--typeHeaderSize) * 0.85);
+  font-size: calc(var(--typeHeaderSize) * 0.5625);
 }
 h2, .h2 {
-  font-size: calc(var(--typeHeaderSize) * 0.63);
+  font-size: calc(var(--typeHeaderSize) * 0.5);
 }
 h3, .h3 {
-  font-size: calc(var(--typeHeaderSize) * 0.57);
+  font-size: calc(var(--typeHeaderSize) * 0.375);
 }
 h4, .h4 {
-  font-size: calc(var(--typeHeaderSize) * 0.55);
+  font-size: calc(var(--typeHeaderSize) * 0.3125);
+}
+h5, .h5 {
+  font-size: calc(var(--typeHeaderSize) * 0.28125);
+}
+h6, .h6 {
+  font-size: calc(var(--typeHeaderSize) * 0.21875);
 }
 /* Desktop sizes */
 @media only screen and (min-width: 769px) {
@@ -1891,15 +1897,27 @@ h4, .h4 {
   }
 
   h2, .h2 {
-    font-size: calc(var(--typeHeaderSize) * 0.85);
+    font-size: calc(var(--typeHeaderSize) * 0.625);
   }
 
   h3, .h3 {
-    font-size: calc(var(--typeHeaderSize) * 0.7);
+    font-size: calc(var(--typeHeaderSize) * 0.5);
+  }
+
+  h4, .h4 {
+    font-size: calc(var(--typeHeaderSize) * 0.375);
+  }
+
+  h5, .h5 {
+    font-size: calc(var(--typeHeaderSize) * 0.3125);
+  }
+
+  h6, .h6 {
+    font-size: calc(var(--typeHeaderSize) * 0.25);
   }
 
   .h3--mobile {
-    font-size: calc(var(--typeHeaderSize) * 0.57);
+    font-size: calc(var(--typeHeaderSize) * 0.375);
   }
 }
 .accent-subtitle {
