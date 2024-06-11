@@ -136,35 +136,37 @@
         "advanced_xCWN4k": {
           "type": "advanced",
           "settings": {
-            "subheading": "",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
+            "subheading": "About Us",
+            "heading": "40 Years of Experience",
+            "textarea": "Kraftkolour supplies  textile artists, eco dyers, silk painters, fabric printers, spinners, weavers, knitters and dyers with everything they could possibly need to fulfill their textile journey.",
+            "cta_text1": "Read More",
+            "cta_link1": "shopify:\/\/pages\/about_us",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Group_11-1.png",
             "video_url": "",
             "width": "50",
             "height": 500,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "#fff"
+            "text_align": "vertical-center horizontal-left",
+            "color_accent": "#b3bb33"
           }
         },
         "advanced_hD3tt6": {
           "type": "advanced",
           "settings": {
-            "subheading": "",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
+            "subheading": "Up to",
+            "heading": "-15%",
+            "textarea": "Yarns - Wool , Silk, Cotton,\u2028Linen & Ribbons",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Group_11.png",
             "video_url": "",
             "width": "50",
             "height": 500,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "#fff"
+            "text_align": "vertical-center horizontal-left",
+            "color_accent": "#e22128"
           }
         }
       },
