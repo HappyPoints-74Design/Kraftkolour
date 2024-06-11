@@ -2119,7 +2119,7 @@ html input[disabled] {
   white-space: normal;
 
   font-size: calc(var(--typeBaseSize) + 2px);
-  font-weight: var(--typeHeaderWeight);
+  font-weight: 700;
 
   display: inline-block;
   padding: var(--btnPadding);
@@ -2137,10 +2137,10 @@ html input[disabled] {
   color: var(--colorBtnPrimaryText);
   background: var(--colorBtnPrimary);
 }
-.btn:hover, .rte .btn:hover, .shopify-payment-button .shopify-payment-button__button--unbranded:hover {
+/* .btn:hover, .rte .btn:hover, .shopify-payment-button .shopify-payment-button__button--unbranded:hover {
     color: var(--colorBtnPrimaryText);
     background-color: var(--colorBtnPrimaryDim);
-  }
+  } */
 .btn[disabled],
   .rte .btn[disabled],
   .shopify-payment-button .shopify-payment-button__button--unbranded[disabled],
@@ -2182,11 +2182,11 @@ html input[disabled] {
   color: var(--colorTextButtonSecondary);
   background-color: var(--colorBgButtonSecondary);
 }
-.btn--secondary:hover, .rte .btn--secondary:hover {
+/* .btn--secondary:hover, .rte .btn--secondary:hover {
   background-color: var(--color-grey-dark);
   color: var(--color-white);
   border-color: var(--color-grey-dark);
-}
+} */
 .btn--secondary[disabled],
   .rte .btn--secondary[disabled],
   .btn--secondary.disabled,
