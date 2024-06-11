@@ -1,3 +1,74 @@
+.customer-page h1,
+.customer-page .h1 {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.customer-page h2,
+.customer-page .h2 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.customer-page h3,
+.customer-page .h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.customer-page h4,
+.customer-page .h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.customer-page h5,
+.customer-page .h5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.customer-page h6,
+.customer-page .h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .customer-page h1,
+    .customer-page .h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .customer-page h2,
+    .customer-page .h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .customer-page h3,
+    .customer-page .h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .customer-page h4,
+    .customer-page .h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .customer-page h5,
+    .customer-page .h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .customer-page h6,
+    .customer-page .h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
 /* Account page */
 .no-margin-bottom {
     margin-bottom: 0;
@@ -65,4 +136,65 @@ input:-webkit-autofill:active{
 
 .info-reset-password {
     margin-top: 16px;
+}
+
+.logout-link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.logout-link span {
+    line-height: 0;
+}
+
+.logout-link svg {
+    width: 16px;
+    height: 16px;
+}
+
+.logout-link a:hover svg {
+    color: var(--colorLinkHover);
+}
+
+.customer-page.main-account .section-header {
+    margin-bottom: 32px;
+}
+
+.main-account table {
+    border-radius: 8px;
+}
+
+.main-account table th,
+.main-account table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.main-account table tr:last-child td {
+    border-bottom: 0;
+}
+
+.main-account table thead tr th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.main-account table thead tr th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.main-account table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.main-account table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.main-account table thead tr th {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
 }
