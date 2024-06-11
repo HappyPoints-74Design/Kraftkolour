@@ -1159,7 +1159,7 @@ html[dir="rtl"] .grid-item__content {
 }
 @media only screen and (min-width: 769px) {
 .grid-item__meta {
-    margin: 20px;
+    margin: 24px;
 }
   }
 .one-whole {
@@ -2385,6 +2385,8 @@ iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
   }
 .grid__image-ratio img.grid__image-contain {
       object-fit: contain;
@@ -5663,13 +5665,15 @@ select .variant-input {
 /*Part 1 of product card is just image*/
 .grid-product__image-wrap {
   position: relative;
-  margin: var(--productTileMargin) var(--productTileMargin) 0;
+  margin: 0; /*var(--productTileMargin) var(--productTileMargin) 0;*/
+  border-radius: 8px;
+  overflow: hidden;
 }
 [data-view="list"] .grid-product__image-wrap {
     margin-bottom: var(--productTileMargin);
   }
 .grid-item__meta-secondary {
-  margin-top: 5px;
+  margin-top: 0;
   flex: 1 0 auto;
 }
 /*Remove margin when simple grid and not in list mode*/
@@ -5807,6 +5811,7 @@ select .variant-input {
   text-decoration: line-through;
   font-size: 0.9em;
   margin-right: 8px;
+  color: var(--colorLinks);
 }
 .grid-product__price--savings {
   display: inline-block;
@@ -5830,7 +5835,7 @@ select .variant-input {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-left: calc(var(--productTileMargin) * -1);
+  margin-left: calc(var(--productTileMargin) * 0);
   z-index: 1;
 }
 .grid-product__tag {

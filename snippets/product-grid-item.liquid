@@ -284,26 +284,6 @@
             </div>
             <div class="grid-item__meta-secondary">
               <div class="grid-product__price">
-                {%- if product.price_varies -%}
-                  <span class="grid-product__price--current">
-                    {%- render 'price-varies',
-                      price: product.price_min,
-                      shop: shop,
-                      superscript_decimals: superscript_decimals,
-                    -%}
-                  </span>
-                {%- else -%}
-                  {%- if on_sale -%}
-                    <span class="visually-hidden">{{ 'labels.sale_price' | t }}</span>
-                  {%- endif -%}
-                  <span class="grid-product__price--current">
-                    {%- render 'price',
-                      price: product.price,
-                      shop: shop,
-                      superscript_decimals: superscript_decimals,
-                    -%}
-                  </span>
-                {%- endif -%}
                 {%- if on_sale -%}
                   <span class="visually-hidden">{{ 'labels.regular_price' | t }}</span>
                   <span class="grid-product__price--original">
@@ -324,6 +304,27 @@
                       {{ 'info.save_amount' | t: saved_amount: saved_amount }}
                     </span>
                   {%- endif -%}
+                {%- endif -%}
+
+                {%- if product.price_varies -%}
+                  <span class="grid-product__price--current">
+                    {%- render 'price-varies',
+                      price: product.price_min,
+                      shop: shop,
+                      superscript_decimals: superscript_decimals,
+                    -%}
+                  </span>
+                {%- else -%}
+                  {%- if on_sale -%}
+                    <span class="visually-hidden">{{ 'labels.sale_price' | t }}</span>
+                  {%- endif -%}
+                  <span class="grid-product__price--current">
+                    {%- render 'price',
+                      price: product.price,
+                      shop: shop,
+                      superscript_decimals: superscript_decimals,
+                    -%}
+                  </span>
                 {%- endif -%}
 
                 {%- assign product_variant = product.selected_or_first_available_variant -%}
