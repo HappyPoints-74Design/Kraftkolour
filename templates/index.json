@@ -119,7 +119,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "New Arrivals",
         "heading_size": "h2",
         "heading_position": "left",
         "home_featured_products": "cotton-fabrics",
