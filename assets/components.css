@@ -5835,7 +5835,7 @@ select .variant-input {
   display: inline-block;
   font-weight: var(--typeHeaderWeight);
   margin-right: 5px;
-  font-size: calc(var(--typeBaseSize) + 2px);
+  font-size: calc(var(--typeBaseSize) - 2px);
 }
 .grid-product__price--original {
   display: inline-block;
@@ -5904,7 +5904,7 @@ select .variant-input {
 /*Large screen sizing*/
 @media only screen and (min-width: 769px) {
   .grid-product__price--current {
-    font-size: calc(var(--typeBaseSize) + 2px);
+    font-size: calc(var(--typeBaseSize) + 0px);
   }
 
   .grid-product__price--from span:not(.money) {

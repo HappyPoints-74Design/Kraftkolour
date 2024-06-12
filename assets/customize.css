@@ -385,6 +385,9 @@ body::after {
 .price-range__display-wrapper > span{
 	font-size: 14px;
 }
+div[data-collection-count] {
+	font-size: 14px;
+}
 @media screen and (min-width: 768px) {
 	.collection-grid__wrapper .grid-item {
 		margin-bottom: 48px;
@@ -394,6 +397,9 @@ body::after {
 	}
 	.collection-related {
 		margin-bottom: 32px;
+	}
+	.collection-filter__item--count {
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 767px) {
