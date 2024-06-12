@@ -392,3 +392,7 @@ p.addresses-cancel-link {
 .main-form-contact .btn {
     padding: 16px 48px;
 }
+
+.rich-text-section .rich-text-page-content img {
+    display: inline;
+}

@@ -9,6 +9,7 @@
 {% schema %}
 {
   "name": "t:labels.rich_text",
+  "class": "rich-text-section",
   "settings": [
     {
       "type": "select",
@@ -57,6 +58,10 @@
         {
           "value": "3",
           "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
         }
       ]
     },
@@ -119,6 +124,12 @@
           "type": "richtext",
           "label": "t:labels.text",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_icon_flag",
+          "label": "Show icon flag at end",
+          "default": false
         }
       ]
     },

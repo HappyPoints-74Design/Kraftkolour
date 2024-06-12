@@ -372,6 +372,22 @@
       },
       {
         "type": "header",
+        "content": "Color scheme 4"
+      },
+      {
+        "type": "color",
+        "id": "color_scheme_4_bg",
+        "label": "t:labels.background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_scheme_4_text",
+        "label": "t:labels.text",
+        "default": "#000000"
+      },
+      {
+        "type": "header",
         "content": "Button Secondary"
       },
       {
