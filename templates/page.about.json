@@ -12,7 +12,19 @@
         "slideshow-0": {
           "type": "hero",
           "settings": {
-            "link_text": ""
+            "top_subheading": "",
+            "title": "",
+            "title_size": 64,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#E22128",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Rectangle_20.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Group_9.jpg",
+            "overlay_opacity": 0
           }
         }
       },
@@ -20,6 +32,12 @@
         "slideshow-0"
       ],
       "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 7
       }
     },
     "rich-text": {
@@ -28,73 +46,32 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "About Us",
+            "heading_size": "h2"
           }
         },
-        "text": {
-          "type": "text",
+        "page_DtLQXD": {
+          "type": "page",
           "settings": {
+            "page_text": "about_us"
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "page_DtLQXD"
       ],
       "settings": {
-        "color_scheme": "none"
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {
-      }
-    },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "color_scheme": "none"
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
       }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "rich-text"
   ]
 }
