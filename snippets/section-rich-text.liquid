@@ -32,11 +32,12 @@
             <h2 class="{{ block.settings.heading_size }}">{{ block.settings.title | escape }}</h2>
           {% endif %}
         {%- when 'page' -%}
-          <div class="rte clearfix">
+          <div class="rte clearfix rich-text-page-content">
             {%- if block.settings.page_text != blank -%}
               {{ pages[block.settings.page_text].content }}
             {%- else -%}
               {{ 'info.section_no_content' | t }}
+              
             {%- endif -%}
           </div>
         {%- when 'text' -%}
@@ -44,9 +45,15 @@
             {%- if block.settings.text != blank -%}
               {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
               {{ block.settings.text }}
+              {% if block.settings.show_icon_flag == true %}
+                {% render 'icon-flag' %}
+              {% endif %}
               {%- if block.settings.enlarge_text %}</div>{% endif -%}
             {%- else -%}
               {{ 'info.section_no_content' | t }}
+              {% if block.settings.show_icon_flag == true %}
+                {% render 'icon-flag' %}
+              {% endif %}
             {%- endif -%}
           </div>
         {%- when 'button' -%}

@@ -7959,6 +7959,19 @@ html[dir="rtl"] .product-single__meta .rte {
       background-color: var(--colorScheme3Bg);
       border-color: var(--colorScheme3Text);
     }
+.color-scheme-4 {
+  color: var(--colorScheme4Text);
+  background-color: var(--colorScheme4Bg);
+}
+.color-scheme-4 .btn:not(.btn--secondary) {
+    color: var(--colorScheme4Bg);
+    background-color: var(--colorScheme4Text);
+  }
+.color-scheme-4 .btn.color-scheme-reversed:not(.btn--secondary) {
+      color: var(--colorScheme4Text);
+      background-color: var(--colorScheme4Bg);
+      border-color: var(--colorScheme4Text);
+    }
 .scheme-image,
 .scheme-darken,
 .scheme-squiggle,
