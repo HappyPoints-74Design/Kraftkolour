@@ -71,7 +71,9 @@
             -%}
           </div>
           <div class="grid__item medium-up--four-fifths grid__item--content">
-
+            {% comment %} Render Collection Related {% endcomment %}
+            {%- render 'collection-related', collection: collection, section: section -%}
+            {% comment %} Render Blocks {% endcomment %}
             {%- for block in section.blocks -%}
               {%- case block.type -%}
               {%- when 'collection_description' -%}

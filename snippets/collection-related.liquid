@@ -1,0 +1,100 @@
+{%- assign hydration = hydration | default: 'on:idle' -%}
+
+<is-land {{ hydration }}>
+  <div
+    data-section-id="{{ section.id }}"
+    data-section-type="promo-grid">
+    <div class="promo-grid collection-related" >
+      <div class="flex-grid flex-grid--gutters flex-grid--{{ section.id }}">
+		{%- liquid
+			assign collection_first = collection.metafields.custom.category_first.value
+			assign collection_second = collection.metafields.custom.category_second.value
+			assign collection_third = collection.metafields.custom.category_third.value
+		-%}
+
+		{%- if collection_first != blank -%}
+          <div class="flex-grid__item flex-grid__item--33 type-image">
+            <a class="promo-image-wrap" href="{{ collection_first.url }}" alt="{{- collection_first.handle -}}">
+				{%- if collection_first.featured_image != blank -%}
+					<div class="image-wrap" style="height: 0; padding-bottom: 100%">
+						{%- render 'image-element',
+						img: collection_first.featured_image,
+						loading: loading,
+						widths: '900, 1080, 1600',
+						sizeVariable: 33,
+						-%}
+					</div>
+				{%- else -%}
+					{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+				{%- endif -%}
+				
+				<h3 class="collection-related--title">{{- collection_first.title -}}</h3>
+			</a>
+          </div>
+		{%- endif -%}
+
+		{%- if collection_second != blank -%}
+			<div class="flex-grid__item flex-grid__item--33 type-image">
+				<a class="promo-image-wrap" href="{{ collection_second.url }}" alt="{{- collection_second.handle -}}">
+					{%- if collection_second.featured_image != blank -%}
+						<div class="image-wrap" style="height: 0; padding-bottom: 100%">
+							{%- render 'image-element',
+							img: collection_second.featured_image,
+							loading: loading,
+							widths: '900, 1080, 1600',
+							sizeVariable: 33,
+							-%}
+						</div>
+					{%- else -%}
+						{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+					{%- endif -%}
+				  
+					<h3 class="collection-related--title">{{- collection_second.title -}}</h3>
+				</a>
+			</div>
+		{%- endif -%}
+
+		{%- if collection_third != blank -%}
+			<div class="flex-grid__item flex-grid__item--33 type-image">
+				<a class="promo-image-wrap" href="{{ collection_third.url }}" alt="{{- collection_third.handle -}}">
+					{%- if collection_third.featured_image != blank -%}
+						<div class="image-wrap" style="height: 0; padding-bottom: 100%">
+							{%- render 'image-element',
+							img: collection_third.featured_image,
+							loading: loading,
+							widths: '900, 1080, 1600',
+							sizeVariable: 33,
+							-%}
+						</div>
+					{%- else -%}
+						{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+					{%- endif -%}
+				  
+					<h3 class="collection-related--title">{{- collection_third.title -}}</h3>
+				</a>
+			</div>
+		{%- endif -%}
+
+      </div>
+    </div>
+
+
+    {%- if collection.metafields.custom.category_first == blank and collection.metafields.custom.category_second == blank and collection.metafields.custom.category_third == blank -%}
+      <div class="page-width text-center">
+        <div class="rte clearfix">
+          <p>
+            {{ 'info.section_no_content' | t }}
+          </p>
+        </div>
+      </div>
+    {%- endif -%}
+
+    
+  </div>
+
+  <template data-island>
+    <script type="module">
+      import 'components/section-promo-grid';
+    </script>
+  </template>
+</is-land>
