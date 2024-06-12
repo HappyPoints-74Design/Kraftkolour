@@ -1,6 +1,6 @@
 {%- paginate customer.addresses by 5 -%}
 
-<div class="page-width page-content customer-page main-account">
+<div class="page-width page-content customer-page main-account main-addresses">
 
   {%- if settings.show_breadcrumbs -%}
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
@@ -11,11 +11,15 @@
   {%- endif -%}
 
   <header class="section-header section-header--with-link">
-    <h2 class="section-header__title">{{ 'labels.addresses' | t }}</h2>
+    <div>
+      <h2 class="section-header__title">{{ 'labels.addresses' | t }}</h2>
+      <a href="{{ routes.account_url }}" class="return-text-link">Return to {{ 'labels.account_details' | t }}</a>
+    </div>
+    
     <button type="button" class="btn btn--secondary address-new-toggle">{{ 'actions.add_address' | t }}</a>
   </header>
 
-  <div id="AddressNewForm" class="form-vertical js-address-form text-left hide">
+  <div id="AddressNewForm" class="form-vertical address-new-form js-address-form text-left hide">
     {%- form 'customer_address', customer.new_address -%}
 
       <h5>{{ 'actions.add_address' | t }}</h5>
@@ -74,20 +78,20 @@
         </div>
       </div>
 
-      <p>
+      <p class="input-checkbox">
         {{ form.set_as_default_checkbox }}
         <label for="address_default_address_new" class="inline">{{ 'actions.set_default_address' | t }}</label>
       </p>
 
-      <p>
+      <p class="text-center">
         <label for="addresses-add-submit" class="visually-hidden">{{ 'actions.add_address' | t }}</label>
         <button type="submit" id="addresses-add-submit" class="btn">
           {{ 'actions.add_address' | t }}
         </button>
       </p>
-      <p>
+      <p class="text-center addresses-cancel-link">
         <label for="addresses-cancel-submit" class="visually-hidden">{{ 'actions.cancel' | t }}</label>
-        <button type="button" id="addresses-cancel-submit" class="text-link address-new-toggle">{{ 'actions.cancel' | t }}</button>
+        <button type="button" id="addresses-cancel-submit" class="text-underline-link address-new-toggle">{{ 'actions.cancel' | t }}</button>
       </p>
 
     {%- endform -%}
@@ -102,14 +106,14 @@
     
         {{ address | format_address }}
     
-        <p>
+        <p class="address-action">
           <button type="button" class="text-underline-link address-edit-toggle" data-form-id="{{ address.id }}">{{ 'actions.edit' | t }}</button>
           <button type="button" class="text-underline-link address-delete" data-form-id="{{ address.id }}" data-confirm-message="{{ 'actions.confirm_address_delete' | t }}">{{ 'actions.delete' | t }}</button>
         </p>
     
-        <div id="EditAddress_{{ address.id }}" class="form-vertical js-address-form text-left hide">
+        <div id="EditAddress_{{ address.id }}" class="form-vertical address-new-form js-address-form text-left hide">
           {%- form 'customer_address', address -%}
-            <h2>{{ 'actions.edit_address' | t }}</h2>
+            <h4>{{ 'actions.edit_address' | t }}</h4>
     
             <div class="grid grid--small clearfix">
               <div class="grid__item one-half small--one-whole">
@@ -161,20 +165,20 @@
               </div>
             </div>
     
-            <p>
+            <p class="input-checkbox">
               {{ form.set_as_default_checkbox }}
               <label for="address_default_address_{{form.id}}" class="inline">{{ 'actions.set_default_address' | t }}</label>
             </p>
     
-            <p>
+            <p class="text-center">
               <label for="addresses-update-submit" class="visually-hidden">{{ 'actions.update_address' | t }}</label>
               <button type="submit" id="addresses-update-submit" class="btn">
                 {{ 'actions.update_address' | t }}
               </button>
             </p>
-            <p>
+            <p class="text-center action-cancel">
               <label for="address-edit-toggle" class="visually-hidden">{{ 'actions.cancel' | t }}</label>
-              <button type="button" id="address-edit-toggle" class="text-link address-edit-toggle" data-form-id="{{ form.id }}">{{ 'actions.cancel' | t }}</button>
+              <button type="button" id="address-edit-toggle" class="text-underline-link address-edit-toggle" data-form-id="{{ form.id }}">{{ 'actions.cancel' | t }}</button>
             </p>
           {%- endform -%}
         </div>

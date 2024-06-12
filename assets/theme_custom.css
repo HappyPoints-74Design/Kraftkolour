@@ -311,3 +311,68 @@ input:-webkit-autofill:active{
     border-radius: 8px;
     font-weight: 700;
 }
+
+.addresses-item p {
+    margin-bottom: 24px;
+}
+
+.addresses-item p:last-child,
+.addresses-item p.address-action,
+.addresses-item p.action-cancel {
+    margin-bottom: 0;
+}
+
+.addresses-item .address-edit-toggle {
+    padding-left: 0;
+}
+
+.return-text-link {
+    margin-top: 8px;
+    display: block;
+}
+
+.address-new-form .grid {
+    grid-auto-flow: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.address-new-form .grid .grid__item {
+    width: 100%;
+}
+
+.input-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.input-checkbox label {
+    margin-bottom: 0;
+}
+
+.customer-page .form-vertical.address-new-form .btn {
+    width: auto;
+}
+
+p.addresses-cancel-link {
+    margin-bottom: 24px;
+}
+
+.addresses-item .form-vertical h4 {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .addresses-list .addresses-item {
+        width: 100%;
+    }
+    .main-addresses .section-header--with-link {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .main-addresses .section-header--with-link .address-new-toggle {
+        width: 100%;
+    }
+}
