@@ -5226,6 +5226,7 @@ input[type="image"] {
 }
 :root {
   --collectionHeroLarge: 400px;
+  --collectionHeroMedium: 300px;
   --collectionHeroSmall: 200px;
 }
 .collection-hero {
@@ -5237,7 +5238,7 @@ input[type="image"] {
 }
 @media only screen and (min-width: 769px) {
 .collection-hero {
-    height: var(--collectionHeroLarge);
+    height: var(--collectionHeroMedium);
 }
   }
 .collection-hero__content {
