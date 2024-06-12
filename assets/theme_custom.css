@@ -376,3 +376,19 @@ p.addresses-cancel-link {
         width: 100%;
     }
 }
+
+.rich__text--content p {
+    margin-bottom: 16px;
+}
+
+.main-form-contact select {
+    width: 100%;
+}
+
+.main-form-contact textarea {
+    height: 92px;
+}
+
+.main-form-contact .btn {
+    padding: 16px 48px;
+}

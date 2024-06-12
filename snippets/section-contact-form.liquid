@@ -30,7 +30,7 @@
       </div>
     {% endif %}
 
-    <div class="form-vertical">
+    <div class="form-vertical main-form-contact">
       {%- assign form_id = 'contact-' | append: section.id -%}
       {%- form 'contact', id: form_id -%}
 
@@ -44,28 +44,55 @@
 
         <div class="grid grid--small clearfix">
           <div class="grid__item medium-up--one-half">
-            <label for="ContactFormName-{{ section.id }}">{{ 'labels.name' | t }}</label>
-            <input type="text" id="ContactFormName-{{ section.id }}" class="input-full" name="contact[name]" autocapitalize="words" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}">
+            <label for="ContactFormName-{{ section.id }}">{{ 'labels.first_name' | t }}</label>
+            <input type="text" id="ContactFormName-{{ section.id }}" class="input-full" name="contact[first_name]" autocapitalize="words" value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.first_name }}{% endif %}">
           </div>
 
           <div class="grid__item medium-up--one-half">
-            <label for="ContactFormEmail-{{ section.id }}">{{ 'labels.email' | t }}</label>
-            <input type="email" id="ContactFormEmail-{{ section.id }}" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+            <label for="ContactFormName-{{ section.id }}">{{ 'labels.last_name' | t }}</label>
+            <input type="text" id="ContactFormName-{{ section.id }}" class="input-full" name="contact[last_name]" autocapitalize="words" value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}">
           </div>
         </div>
 
-        {%- if show_phone -%}
-          <label for="ContactFormPhone-{{ section.id }}">{{ 'labels.phone_number' | t }}</label>
-          <input type="tel" id="ContactFormPhone-{{ section.id }}" class="input-full" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
-        {%- endif -%}
+        {% if show_phone %}
+          <div class="grid grid--small clearfix">
+            <div class="grid__item medium-up--one-half">
+              <label for="ContactFormPhone-{{ section.id }}">{{ 'labels.phone_number' | t }}</label>
+              <input type="tel" id="ContactFormPhone-{{ section.id }}" class="input-full" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+            </div>
+
+            <div class="grid__item medium-up--one-half">
+              <label for="ContactFormEmail-{{ section.id }}">{{ 'labels.email' | t }}</label>
+              <input type="email" id="ContactFormEmail-{{ section.id }}" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+            </div>
+          </div>
+        {% else %}
+          <label for="ContactFormEmail-{{ section.id }}">{{ 'labels.email' | t }}</label>
+          <input type="email" id="ContactFormEmail-{{ section.id }}" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+          <label for="ContactFormPreferredMethodField-{{ section.id }}">Preferred Method of Contact</label>
+          <select id="ContactFormPreferredMethodField-{{ section.id }}" name="contact[PreferredMethod]" required>
+              <option selected disabled>Please select</option>
+              {% for block in section.blocks %}
+                {% if block.settings.title != blank %}
+                  <option value="{{ block.settings.title }}">{{ block.settings.title }}</option>
+                {% endif %}
+              {% endfor %}
+          </select>
+        {% endif %}
+        
 
         <label for="ContactFormMessage-{{ section.id }}">{{ 'labels.message' | t }}</label>
         <textarea rows="5" id="ContactFormMessage-{{ section.id }}" class="input-full" name="contact[body]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
-        <label for="contact-form-submit-{{ section.id }}" class="visually-hidden">{{ 'actions.send' | t }}</label>
-        <button type="submit" id="contact-form-submit-{{ section.id }}" class="btn">
-          {{ 'actions.send' | t }}
-        </button>
+        <label for="contact-form-submit-{{ section.id }}" class="visually-hidden">{{ 'actions.submit' | t }}</label>
+        <div class="text-center">
+          <button type="submit" id="contact-form-submit-{{ section.id }}" class="btn btn--secondary">
+            {{ 'actions.submit' | t }}
+          </button>
+        </div>
 
         {% comment %}
           Remove the following three lines of code to remove the note
@@ -73,7 +100,7 @@
           By removing it, the small reCAPTCHA widget will appear in the
           bottom right corner of the page.
         {% endcomment %}
-        {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+        {% comment %} {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }} {% endcomment %}
 
       {%- endform -%}
     </div>
