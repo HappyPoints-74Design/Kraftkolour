@@ -7923,11 +7923,11 @@ html[dir="rtl"] .product-single__meta .rte {
   color: var(--colorScheme1Text);
   background-color: var(--colorScheme1Bg);
 }
-.color-scheme-1 .btn {
+.color-scheme-1 .btn:not(.btn--secondary) {
     color: var(--colorScheme1Bg);
     background-color: var(--colorScheme1Text);
   }
-.color-scheme-1 .btn.color-scheme-reversed {
+.color-scheme-1 .btn.color-scheme-reversed:not(.btn--secondary) {
       background-color: var(--colorScheme1Bg);
       color: var(--colorScheme1Text);
       border-color: var(--colorScheme1Text);
@@ -7936,11 +7936,11 @@ html[dir="rtl"] .product-single__meta .rte {
   color: var(--colorScheme2Text);
   background-color: var(--colorScheme2Bg);
 }
-.color-scheme-2 .btn {
+.color-scheme-2 .btn:not(.btn--secondary) {
     color: var(--colorScheme2Bg);
     background-color: var(--colorScheme2Text);
   }
-.color-scheme-2 .btn.color-scheme-reversed {
+.color-scheme-2 .btn.color-scheme-reversed:not(.btn--secondary) {
       color: var(--colorScheme2Text);
       background-color: var(--colorScheme2Bg);
       border-color: var(--colorScheme2Text);
@@ -7949,11 +7949,11 @@ html[dir="rtl"] .product-single__meta .rte {
   color: var(--colorScheme3Text);
   background-color: var(--colorScheme3Bg);
 }
-.color-scheme-3 .btn {
+.color-scheme-3 .btn:not(.btn--secondary) {
     color: var(--colorScheme3Bg);
     background-color: var(--colorScheme3Text);
   }
-.color-scheme-3 .btn.color-scheme-reversed {
+.color-scheme-3 .btn.color-scheme-reversed:not(.btn--secondary) {
       color: var(--colorScheme3Text);
       background-color: var(--colorScheme3Bg);
       border-color: var(--colorScheme3Text);
@@ -7999,8 +7999,8 @@ html[dir="rtl"] .product-single__meta .rte {
 /*Force some elements to be specific colors when over a color scheme*/
 [class*="color-scheme-"]:not(.color-scheme-none) input,
   [class*="color-scheme-"]:not(.color-scheme-none) textarea {
-    color: var(--colorTextBody);
-    background-color: var(--colorBody);
+    color: var(--color-grey-dark);
+    background-color: var(--color-white);
   }
 /*Darken is CSS, not image*/
 .scheme-darken {
