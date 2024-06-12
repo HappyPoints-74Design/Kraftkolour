@@ -372,6 +372,19 @@ body::after {
 .collection-related .flex-grid {
 	flex-wrap: nowrap;
 }
+.tag--remove .btn {
+	color: #FDFDF6;
+}
+.tag--remove svg path {
+	stroke: #FDFDF6;
+}
+.collapsible-trigger__layout--inline>span {
+	font-size: 20px;
+}
+.collapsible-content--all.is-open .tag__text,
+.price-range__display-wrapper > span{
+	font-size: 14px;
+}
 @media screen and (min-width: 768px) {
 	.collection-grid__wrapper .grid-item {
 		margin-bottom: 48px;
@@ -382,13 +395,16 @@ body::after {
 	.collection-related {
 		margin-bottom: 32px;
 	}
-	.collection-related .flex-grid {
-
-	}
 }
 @media screen and (max-width: 767px) {
 	.collection-content {
 		padding-top: 16px;
+	}
+	.collapsible-trigger__layout--inline>span {
+		font-size: 18px;
+	}
+	.collection-related--title {
+		font-size: 13px;
 	}
 }
 /**
