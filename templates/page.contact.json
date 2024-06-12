@@ -19,8 +19,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>Kraftkolour\u2028Unit 2, <\/p><p>99 Heyington Ave\u2028<\/p><p>THOMASTOWN,   Vic   3074<\/p><p>Kraftkolour is open for online sales only. <\/p><p>Our showroom is closed until further notice.<\/p><p>Ph:  03 9465 4865      Int:  +61 3 9465 4865<\/p>"
           }
         }
       },
