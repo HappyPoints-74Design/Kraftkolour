@@ -12,12 +12,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Contact Us"
+            "title": "Contact Us",
+            "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -26,12 +29,47 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "none"
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
       }
     },
     "form": {
       "type": "contact-form",
+      "blocks": {
+        "select_option_gBApP9": {
+          "type": "select_option",
+          "settings": {
+            "title": "Option 1"
+          }
+        },
+        "select_option_bxjjyb": {
+          "type": "select_option",
+          "settings": {
+            "title": "Option 2"
+          }
+        },
+        "select_option_fiYf6Y": {
+          "type": "select_option",
+          "settings": {
+            "title": "Option 3"
+          }
+        }
+      },
+      "block_order": [
+        "select_option_gBApP9",
+        "select_option_bxjjyb",
+        "select_option_fiYf6Y"
+      ],
       "settings": {
+        "title": "Contact us",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true,
+        "color_scheme": "1"
       }
     }
   },
