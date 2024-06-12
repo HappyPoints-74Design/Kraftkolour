@@ -1745,6 +1745,9 @@ select,
 input {
   min-height: 48px;
 }
+select {
+  min-height: 50px;
+}
 body {
   font-weight: var(--typeBaseWeight);
 }
@@ -2539,7 +2542,7 @@ textarea {
 }
 input[type="checkbox"],
 input[type="radio"] {
-  margin: 0 10px 0 0;
+  margin: 0;
   padding: 0;
   width: auto;
 }
@@ -2613,6 +2616,10 @@ label[for] {
   .form-vertical input[type="radio"],
   .form-vertical .btn {
     display: inline-block;
+  }
+  .form-vertical input[type="checkbox"] {
+    margin-bottom: 0;
+    min-height: auto;
   }
 .form-vertical .btn:not(:last-child) {
     margin-bottom: 24px;
@@ -9715,6 +9722,7 @@ a.accordion-link-block__link svg {
 .section-header--with-link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .section-header--with-link select {
     flex: 0 1 auto;
