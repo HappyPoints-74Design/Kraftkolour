@@ -49,11 +49,20 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
           }
+        },
+        "download_item_UPgQ86": {
+          "type": "download_item",
+          "settings": {
+            "title": "Printing & Painting Acid Dye",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
         }
       },
       "block_order": [
         "download_title_wjCTUy",
-        "download_item_pYwKt6"
+        "download_item_pYwKt6",
+        "download_item_UPgQ86"
       ],
       "settings": {
         "title": "",
