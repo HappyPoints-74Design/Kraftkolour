@@ -236,7 +236,7 @@
                         {%- render 'tab-contact', id: tab_id, block: block -%}
                       </div>
                     {%- when 'description' -%}
-                      <div class="product-block{% if block.settings.is_tab %} product-block--tab{% endif %}" {{ block.shopify_attributes }}>
+                      <div class="product-block product-description{% if block.settings.is_tab %} product-block--tab{% endif %}" {{ block.shopify_attributes }}>
                         {%- assign id = block.id | append: product.id -%}
                         {%- render 'product-description',
                           product: product,
