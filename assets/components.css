@@ -11135,8 +11135,7 @@ form + .footer__social {
   transition: transform 0.2s cubic-bezier(0.18, 0.77, 0.58, 1), background-color 0.2s cubic-bezier(0.18, 0.77, 0.58, 1);
 }
 .header-wrapper--compressed .site-header__element--sub {
-    transform: translateY(-100%);
-    display: none;
+    transform: translateY(calc(-100% + 1px));
   }
 .header-wrapper--compressed .site-header__element--sub.is-active {
       display: block;
