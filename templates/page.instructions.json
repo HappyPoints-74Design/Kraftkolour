@@ -65,13 +65,40 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
           }
+        },
+        "download_item_UHcMaA": {
+          "type": "download_item",
+          "settings": {
+            "title": "Devore \/ Burnout Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_nemQ4y": {
+          "type": "download_item",
+          "settings": {
+            "title": "Acid Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_PapRXk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Printing & Painting Acid Dye",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
         }
       },
       "block_order": [
         "download_title_wjCTUy",
         "download_item_pYwKt6",
         "download_item_UPgQ86",
-        "download_item_AwEzzR"
+        "download_item_AwEzzR",
+        "download_item_UHcMaA",
+        "download_item_nemQ4y",
+        "download_item_PapRXk"
       ],
       "settings": {
         "title": "",
