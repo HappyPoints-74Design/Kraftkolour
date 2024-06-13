@@ -108,6 +108,7 @@
 .customer-page .btn,
 .customer-page .btn.btn--secondary {
     color: var(--colorTextButtonSecondaryCustomer);
+    background-color: var(--colorBgButtonSecondaryCustomer);
     min-height: 56px;
     font-size: 16px;
     line-height: 1.5;
