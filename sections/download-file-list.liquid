@@ -26,14 +26,18 @@
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'download_title' %}
-        <h5 class="block-header__title">
-          {{ block.settings.title }}
-        </h5>
+        {% if block.settings.title != blank %}
+          <h5 class="block-header__title">
+            {{ block.settings.title }}
+          </h5>
+        {% endif %}
       {% when 'download_item' %}
-        <div class="block-download--item">
-          <span>{{ block.settings.title }}</span>
-          <a href="{{ block.settings.file_download }}" download="file_name" target="_blank" class="btn btn--small btn--white">{{ block.settings.download_label }}</a>
-        </div>
+        {% if block.settings.title != blank %}
+          <div class="block-download--item">
+            <span>{{ block.settings.title }}</span>
+            <a href="{{ block.settings.file_download }}" download="file_name" target="_blank" class="btn btn--small btn--white">{{ block.settings.download_label }}</a>
+          </div>
+        {% endif %}
     {% endcase %}
   {% endfor %}
 </div>
