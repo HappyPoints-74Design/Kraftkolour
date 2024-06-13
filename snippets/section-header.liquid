@@ -97,6 +97,19 @@
   {% endif %}
 </style>
 
+{% style %}
+  {% if section.settings.border_bottom_header %}
+    .header-wrapper--init .site-header__element--sub[data-type="nav"] {
+      border-bottom: 1px solid var(--colorBorder);
+    }
+    @media screen and (max-width: 768px) {
+      .header-wrapper--init .site-header__element--sub[data-type="search"] {
+        border-bottom: 1px solid var(--colorBorder);
+      }
+    }
+  {% endif %}
+{% endstyle %}
+
 <is-land {{ hydration }}>
   <header-section data-section-id="{{ section.id }}" data-section-type="header">
     <div id="HeaderWrapper" class="header-wrapper{% if overlay_header %} header-wrapper--overlay is-light{% endif %}">
