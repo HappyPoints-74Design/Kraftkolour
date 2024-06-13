@@ -29,7 +29,7 @@
         "heading_position": "center",
         "padding_top": 48,
         "padding_bottom": 72,
-        "padding_top_mobile": 24,
+        "padding_top_mobile": 0,
         "padding_bottom_mobile": 48
       }
     },
