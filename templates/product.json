@@ -140,7 +140,7 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "You May Also Like",
         "related_count": 6,
         "products_per_row": 3
       }
