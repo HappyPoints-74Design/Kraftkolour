@@ -2,11 +2,196 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "text_alignment": "center"
+      }
+    },
+    "download_file_grid_f4enyN": {
+      "type": "download-file-grid",
+      "blocks": {
+        "download_item_left_DFmA3W": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Albegal SET [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_left_7JA7Vb": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
+        },
+        "download_item_left_ckaa7h": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_left_gAkPYQ": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Albegal SET [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_left_g6NQUn": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_left_QkL6kk": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_center_GcpYrq": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Albegal SET [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
+        },
+        "download_item_center_gfMgzg": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
+        },
+        "download_item_center_QfwtFN": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_center_6nh4eC": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Albegal SET [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_center_7JDB94": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_center_AR9XHk": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_right_VgiiUw": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Albegal SET [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_right_yBxgca": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_right_NtU8mw": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_right_XXxh8L": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_right_HEDGQk": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Algipaste [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_right_QRMa9F": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Aluminium Acetate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
+        }
+      },
+      "block_order": [
+        "download_item_left_DFmA3W",
+        "download_item_left_7JA7Vb",
+        "download_item_left_ckaa7h",
+        "download_item_left_gAkPYQ",
+        "download_item_left_g6NQUn",
+        "download_item_left_QkL6kk",
+        "download_item_center_GcpYrq",
+        "download_item_center_gfMgzg",
+        "download_item_center_QfwtFN",
+        "download_item_center_6nh4eC",
+        "download_item_center_7JDB94",
+        "download_item_center_AR9XHk",
+        "download_item_right_VgiiUw",
+        "download_item_right_yBxgca",
+        "download_item_right_NtU8mw",
+        "download_item_right_XXxh8L",
+        "download_item_right_HEDGQk",
+        "download_item_right_QRMa9F"
+      ],
+      "settings": {
+        "title": "Safety Data Sheets [SDS]",
+        "heading_size": "h2",
+        "text": "<p>We are adding to the list regularly, if there is an SDS you need that is not yet downloadable please give us a call (03 9465 4865) or email us via the contact page.<\/p>",
+        "heading_position": "center",
+        "title_left": "Acid Milling [SDS]",
+        "title_center": "Disperse Dyes",
+        "title_right": "Liquid Pigments",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "download_file_grid_f4enyN"
   ]
 }
