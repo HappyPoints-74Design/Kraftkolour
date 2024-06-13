@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#E22128",
+            "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Rectangle_20.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Group_9.jpg",
@@ -36,7 +36,7 @@
         "desktop_size": 0,
         "mobile_size": 0,
         "style": "minimal",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
