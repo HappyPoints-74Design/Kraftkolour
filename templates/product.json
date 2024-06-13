@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "description_4JMjBP": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -72,6 +78,7 @@
         }
       },
       "block_order": [
+        "description_4JMjBP",
         "variant_picker",
         "price",
         "sales_point",
