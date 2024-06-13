@@ -7,39 +7,15 @@
     <div class="promo-grid collection-related" >
       <div class="flex-grid flex-grid--gutters flex-grid--{{ section.id }}">
 		{%- liquid
-			assign collection_first = collection.metafields.custom.category_first.value
-			assign collection_second = collection.metafields.custom.category_second.value
-			assign collection_third = collection.metafields.custom.category_third.value
+			assign collection_related = collection.metafields.custom.collection_related.value
 		-%}
-
-		{%- if collection_first != blank -%}
-          <div class="flex-grid__item flex-grid__item--33 type-image">
-            <a class="promo-image-wrap" href="{{ collection_first.url }}" alt="{{- collection_first.handle -}}">
-				{%- if collection_first.featured_image != blank -%}
-					<div class="image-wrap" style="height: 0; padding-bottom: 100%">
-						{%- render 'image-element',
-						img: collection_first.featured_image,
-						loading: loading,
-						widths: '900, 1080, 1600',
-						sizeVariable: 33,
-						-%}
-					</div>
-				{%- else -%}
-					{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
-				{%- endif -%}
-				
-				<h3 class="collection-related--title">{{- collection_first.title -}}</h3>
-			</a>
-          </div>
-		{%- endif -%}
-
-		{%- if collection_second != blank -%}
+        {%- for item in collection_related -%}
 			<div class="flex-grid__item flex-grid__item--33 type-image">
-				<a class="promo-image-wrap" href="{{ collection_second.url }}" alt="{{- collection_second.handle -}}">
-					{%- if collection_second.featured_image != blank -%}
+				<a class="promo-image-wrap" href="{{ item.url }}" alt="{{- item.handle -}}">
+					{%- if item.featured_image != blank -%}
 						<div class="image-wrap" style="height: 0; padding-bottom: 100%">
 							{%- render 'image-element',
-							img: collection_second.featured_image,
+							img: item.featured_image,
 							loading: loading,
 							widths: '900, 1080, 1600',
 							sizeVariable: 33,
@@ -48,38 +24,16 @@
 					{%- else -%}
 						{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
 					{%- endif -%}
-				  
-					<h3 class="collection-related--title">{{- collection_second.title -}}</h3>
+					
+					<h3 class="collection-related--title">{{- item.title -}}</h3>
 				</a>
 			</div>
-		{%- endif -%}
-
-		{%- if collection_third != blank -%}
-			<div class="flex-grid__item flex-grid__item--33 type-image">
-				<a class="promo-image-wrap" href="{{ collection_third.url }}" alt="{{- collection_third.handle -}}">
-					{%- if collection_third.featured_image != blank -%}
-						<div class="image-wrap" style="height: 0; padding-bottom: 100%">
-							{%- render 'image-element',
-							img: collection_third.featured_image,
-							loading: loading,
-							widths: '900, 1080, 1600',
-							sizeVariable: 33,
-							-%}
-						</div>
-					{%- else -%}
-						{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
-					{%- endif -%}
-				  
-					<h3 class="collection-related--title">{{- collection_third.title -}}</h3>
-				</a>
-			</div>
-		{%- endif -%}
-
+		{%- endfor -%}
       </div>
     </div>
 
 
-    {%- if collection.metafields.custom.category_first == blank and collection.metafields.custom.category_second == blank and collection.metafields.custom.category_third == blank -%}
+    {%- if collection_related == blank -%}
       <div class="page-width text-center">
         <div class="rte clearfix">
           <p>

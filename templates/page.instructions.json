@@ -7,36 +7,6 @@
         "text_alignment": "center"
       }
     },
-    "rich_text_tqpJTt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_RDx9Uk": {
-          "type": "heading",
-          "settings": {
-            "title": "Instructions",
-            "heading_size": "h2"
-          }
-        },
-        "text_HqAqXn": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Instruction sheets can also be found under individual products below the product image, under the 'Instructions'<\/p>",
-            "show_icon_flag": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_RDx9Uk",
-        "text_HqAqXn"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "none",
-        "divider": false
-      }
-    },
     "download_file_list_aTzLDn": {
       "type": "download-file-list",
       "blocks": {
@@ -53,12 +23,98 @@
         "download_item_9dWkt9"
       ],
       "settings": {
+        "title": "Instructions",
+        "heading_size": "h2",
+        "text": "<p>Instruction sheets can also be found under individual products below the product image, under the 'Instructions'<\/p>",
+        "heading_position": "center",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
+    },
+    "download_file_list_qFdxMx": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_wjCTUy": {
+          "type": "download_title",
+          "settings": {
+            "title": "Dyes and Auxiliaries "
+          }
+        },
+        "download_item_pYwKt6": {
+          "type": "download_item",
+          "settings": {
+            "title": "Acid Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_UPgQ86": {
+          "type": "download_item",
+          "settings": {
+            "title": "Printing & Painting Acid Dye",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
+          }
+        },
+        "download_item_AwEzzR": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cyanotype Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_UHcMaA": {
+          "type": "download_item",
+          "settings": {
+            "title": "Devore \/ Burnout Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_nemQ4y": {
+          "type": "download_item",
+          "settings": {
+            "title": "Acid Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_item_PapRXk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Printing & Painting Acid Dye",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        }
+      },
+      "block_order": [
+        "download_title_wjCTUy",
+        "download_item_pYwKt6",
+        "download_item_UPgQ86",
+        "download_item_AwEzzR",
+        "download_item_UHcMaA",
+        "download_item_nemQ4y",
+        "download_item_PapRXk"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 48
       }
     }
   },
   "order": [
     "main",
-    "rich_text_tqpJTt",
-    "download_file_list_aTzLDn"
+    "download_file_list_aTzLDn",
+    "download_file_list_qFdxMx"
   ]
 }
