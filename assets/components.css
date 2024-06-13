@@ -2129,7 +2129,7 @@ html input[disabled] {
   padding: var(--btnPadding);
   margin: 0;
   width: auto;
-  min-width: 90px;
+  min-width: max-content;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
@@ -2248,7 +2248,7 @@ html input[disabled] {
     height: 23px;
   }
 .btn--small {
-  padding: 8px 14px;
+  padding: 10px 24px;
   font-size: calc(var(--typeBaseSize) - 2px);
 }
 .btn--large {

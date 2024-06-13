@@ -1,3 +1,8 @@
+.btn--white {
+    background-color: var(--color-white);
+    color: var(--color-grey-dark);
+    border-color: var(--colorBorder);
+}
 .text-underline-link {
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -396,4 +401,36 @@ p.addresses-cancel-link {
 
 .rich-text-section .rich-text-page-content img {
     display: inline;
+}
+
+.download-file-list-section .block-download--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-top: 1px solid var(--colorBorder);
+}
+
+.download-file-list-section .block-download--item:last-child {
+    border-bottom: 1px solid var(--colorBorder);
+}
+
+.download-file-list-section .block-download--item .btn {
+    margin-left: 8px;
+}
+
+.download-file-list-section .block-download--item a.btn:hover {
+    color: var(--color-grey-dark);
+}
+
+.download-file-list-section .block-header__title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .block-download--item {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
