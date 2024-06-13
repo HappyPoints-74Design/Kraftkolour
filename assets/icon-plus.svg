@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewbox="0 0 64 64"><path d="M32 9v46m23-23H9" class="cls-1"></path></svg>
+<!-- <svg xmlns="http://www.w3.org/2000/svg"  aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" viewbox="0 0 64 64"><path d="M32 9v46m23-23H9" class="cls-1"></path></svg> -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-plus" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<g id="Actions/Plus">
+<path id="Icon" fill-rule="evenodd" clip-rule="evenodd" d="M12.7714 12.7714V19.7139H11.2286V12.7714L4.28611 12.7714L4.28611 11.2286H11.2286L11.2286 4.2861L12.7714 4.2861L12.7714 11.2286L19.7139 11.2286L19.7139 12.7714L12.7714 12.7714Z" fill="#28282C"/>
+</g>
+</svg>
