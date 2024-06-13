@@ -137,7 +137,7 @@
                     class="product__thumb js-no-transition"
                     data-index="{{ forloop.index0 }}"
                     data-id="{{ media.id }}">
-                    <div class="image-wrap image-wrap__thumbnail" style="height: 0; padding-bottom: {{ 100 | divided_by: media.preview_image.aspect_ratio }}%;">
+                    <div class="image-wrap image-wrap__thumbnail" style="height: 0; padding-bottom: 100%;">
 
                       {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
                         <span class="product__thumb-icon">
@@ -154,8 +154,8 @@
                       {%- render 'image-element',
                         img: media.preview_image,
                         alt: media.alt | escape | split: '#' | first,
-                        widths: '120, 360, 540, 720',
-                        sizeVariable: '80px',
+                        widths: '360, 540, 720',
+                        sizeVariable: '100px',
                         loading: loading,
                       -%}
                     </div>
