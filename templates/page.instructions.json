@@ -7,36 +7,6 @@
         "text_alignment": "center"
       }
     },
-    "rich_text_tqpJTt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_RDx9Uk": {
-          "type": "heading",
-          "settings": {
-            "title": "Instructions",
-            "heading_size": "h2"
-          }
-        },
-        "text_HqAqXn": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Instruction sheets can also be found under individual products below the product image, under the 'Instructions'<\/p>",
-            "show_icon_flag": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_RDx9Uk",
-        "text_HqAqXn"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "none",
-        "divider": false
-      }
-    },
     "download_file_list_aTzLDn": {
       "type": "download-file-list",
       "blocks": {
@@ -53,12 +23,19 @@
         "download_item_9dWkt9"
       ],
       "settings": {
+        "title": "Instructions",
+        "heading_size": "h2",
+        "text": "<p>Instruction sheets can also be found under individual products below the product image, under the 'Instructions'<\/p>",
+        "heading_position": "center",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
       }
     }
   },
   "order": [
     "main",
-    "rich_text_tqpJTt",
     "download_file_list_aTzLDn"
   ]
 }
