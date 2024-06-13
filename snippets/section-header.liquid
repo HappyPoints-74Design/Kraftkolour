@@ -97,6 +97,14 @@
   {% endif %}
 </style>
 
+{% style %}
+  {% if section.settings.border_bottom_header %}
+    .header-section {
+      border-bottom: 1px solid var(--border-color);
+    }
+  {% endif %}
+{% endstyle %}
+
 <is-land {{ hydration }}>
   <header-section data-section-id="{{ section.id }}" data-section-type="header">
     <div id="HeaderWrapper" class="header-wrapper{% if overlay_header %} header-wrapper--overlay is-light{% endif %}">
