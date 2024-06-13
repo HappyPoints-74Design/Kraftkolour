@@ -100,7 +100,7 @@
 
           <div class="cart__item-sub cart__item-row cart__item--subtotal">
             <div>{{ 'labels.subtotal' | t }}</div>
-            <div data-subtotal>
+            <div data-subtotal bss-po-cart-total-price>
               {%- render 'price',
                 price: cart.total_price,
                 shop: shop,
