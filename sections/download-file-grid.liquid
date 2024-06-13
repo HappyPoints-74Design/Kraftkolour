@@ -1,0 +1,187 @@
+{% style %}
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    @media only screen and (max-width: 768px) {
+      #section-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top_mobile }}px;
+        padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+      }
+    }
+  {% endstyle %}
+  <div id="section-{{ section.id }}" class="page-width page-width--narrow page-content">
+    {%- if section.settings.title != blank or section.settings.text != blank -%}
+      <div class="section-header text-{{ section.settings.heading_position }}">
+        {%- if section.settings.title != blank -%}
+          <h2 class="section-header__title {{ section.settings.heading_size }}">
+            {{ section.settings.title }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div class="rte section-header__rte clearfix text-{{ section.settings.heading_position }}">{{ section.settings.text }}</div>
+        {%- endif -%}
+      </div>
+    {% endif %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'download_title' %}
+          {% if block.settings.title != blank %}
+            <h5 class="block-header__title">
+              {{ block.settings.title }}
+            </h5>
+          {% endif %}
+        {% when 'download_item' %}
+          {% if block.settings.title != blank %}
+          <div class="block-download--item">
+            <span>{{ block.settings.title }}</span>
+            <a href="{{ block.settings.file_download }}" download="file_name" class="btn btn--small btn--white">{{ block.settings.download_label }}</a>  
+          </div>
+        {% endif %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+  
+  {% schema %}
+  {
+    "name": "Download file grid",
+    "class": "download-file-grid-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading section"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "label": "t:labels.heading_size",
+        "default": "h2",
+        "options": [
+          {
+            "value": "h3",
+            "label": "t:labels.sizes.small"
+          },
+          {
+            "value": "h2",
+            "label": "t:labels.sizes.medium"
+          },
+          {
+            "value": "h1",
+            "label": "t:labels.sizes.large"
+          },
+          {
+            "value": "h0",
+            "label": "t:labels.sizes.extra_large"
+          }
+        ]
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Description"
+      },
+      {
+        "type": "select",
+        "id": "heading_position",
+        "label": "Text position",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:labels.alignments.left"
+          },
+          {
+            "value": "center",
+            "label": "t:labels.alignments.center"
+          },
+          {
+            "value": "right",
+            "label": "t:labels.alignments.right"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top padding desktop",
+        "min": 0,
+        "step": 2,
+        "max": 100,
+        "default": 72,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Top padding desktop",
+        "min": 0,
+        "step": 2,
+        "max": 100,
+        "default": 72,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "label": "Top padding mobile",
+        "min": 0,
+        "step": 2,
+        "max": 100,
+        "default": 48,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_mobile",
+        "label": "Top padding mobile",
+        "min": 0,
+        "step": 2,
+        "max": 100,
+        "default": 48,
+        "unit": "px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "download_item",
+        "name": "Download item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Download item"
+          },
+          {
+            "type": "text",
+            "id": "download_label",
+            "label": "Download label",
+            "default": "Download"
+          },
+          {
+            "type": "url",
+            "id": "file_download",
+            "label": "File download"
+          }
+        ]
+      },
+      {
+        "type": "download_title",
+        "name": "Download title",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Download item"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Download file grid"
+      }
+    ]
+  }
+  {% endschema %}
+  
