@@ -417,6 +417,12 @@
         "id": "color_label_button_secondary_customer",
         "label": "Color label button",
         "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_bg_button_secondary_customer",
+        "label": "Color label button",
+        "default": "#ffffff"
       }
     ]
   },

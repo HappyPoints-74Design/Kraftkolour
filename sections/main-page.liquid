@@ -6,6 +6,28 @@
 {% schema %}
 {
   "name": "t:labels.page",
-  "tag": "section"
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Title alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    }
+  ]
 }
 {% endschema %}
