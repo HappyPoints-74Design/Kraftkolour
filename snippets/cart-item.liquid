@@ -93,15 +93,17 @@
     {% if item.original_price != item.final_price %}
       <span class="visually-hidden">{{ 'labels.regular_price' | t }}</span>
       <small class="cart__price cart__price--strikethrough">
-        {%- render 'price',
-          price: item.original_price,
-          shop: shop,
-          superscript_decimals: superscript_decimals,
-          priceType: 'original_price'
-        -%}
+        <span bss-po-cart-item-key={{ item.key }} bss-po-item-original-price>
+          {%- render 'price',
+            price: item.original_price,
+            shop: shop,
+            superscript_decimals: superscript_decimals,
+            priceType: 'original_price'
+          -%}
+        </span>
       </small>
       <span class="visually-hidden">{{ 'labels.sale_price' | t }}</span>
-      <span class="cart__price cart__discount">
+      <span class="cart__price cart__discount" bss-po-cart-item-key={{ item.key }} bss-po-item-final-price>
         {%- render 'price',
           price: item.final_price,
           shop: shop,
@@ -110,7 +112,7 @@
         -%}
       </span>
     {% else %}
-      <span class="cart__price">
+      <span class="cart__price" bss-po-cart-item-key={{ item.key }} bss-po-item-original-price>
         {%- render 'price',
           price: item.original_price,
           shop: shop,
