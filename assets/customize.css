@@ -581,6 +581,12 @@ product-recommendations .section-header__title {
 	}
 }
 /**
+ * Pagiantions
+ */
+.pagination svg path {
+	fill: #FFFFFF;
+}
+/**
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {
