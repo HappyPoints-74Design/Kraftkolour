@@ -587,6 +587,17 @@ product-recommendations .section-header__title {
 	fill: #FFFFFF;
 }
 /**
+ * Quick Icons
+ */
+.grid-item quick-add svg path {
+    fill: #ffffff;
+    stroke: #FFFFFF;
+    stroke-width: 0;
+}
+.grid-item quick-shop svg path {
+	stroke: #FFFFFF;
+}
+/**
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {
