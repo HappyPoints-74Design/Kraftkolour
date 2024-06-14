@@ -533,6 +533,14 @@ product-recommendations .section-header__title {
 	font-weight: 400;
 	line-height: 32px;
 }
+.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+	color: #FFFFFF;
+}
+.product-single__sku {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+}
 
 @media only screen and (min-width: 769px) {
 	.product__price {
@@ -555,12 +563,17 @@ product-recommendations .section-header__title {
 	}
 }
 @media screen and (max-width: 768px) {
+	[data-has-slideshow=false] .product__main-photos,
 	.product__main-photos {
 		margin-bottom: 24px;
 	}
 	.product-main-slide {
 		border-width: 0;
 	}
+	.grid--product-images--partial .product-main-slide {
+		width: 90%;
+	}
+	.product-image-main[data-size=square] .image-wrap,
 	.product-image-main[data-size=landscape] .image-wrap {
 		border-radius: 8px;
 		overflow: hidden;
@@ -585,6 +598,17 @@ product-recommendations .section-header__title {
  */
 .pagination svg path {
 	fill: #FFFFFF;
+}
+/**
+ * Quick Icons
+ */
+.grid-item quick-add svg path {
+    fill: #ffffff;
+    stroke: #FFFFFF;
+    stroke-width: 0;
+}
+.grid-item quick-shop svg path {
+	stroke: #FFFFFF;
 }
 /**
  * Footer
