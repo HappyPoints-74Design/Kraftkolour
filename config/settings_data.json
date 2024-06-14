@@ -57,6 +57,7 @@
     "product_grid_image_fill": true,
     "product_hover_image": true,
     "enable_swatches": true,
+    "swatch_style": "round",
     "product_grid_style": "simple",
     "product_grid_image_margin": 10,
     "collection_grid_shape": "square",
