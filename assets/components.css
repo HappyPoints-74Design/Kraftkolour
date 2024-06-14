@@ -6568,7 +6568,7 @@ html[dir="rtl"] .product-single__meta .rte {
       margin-right: 0;
     }
 .product__thumb .image-wrap img {
-  border: 1px solid;
+  border: 0px solid;
   border-color: var(--colorBorder);
   position: static;
 }
