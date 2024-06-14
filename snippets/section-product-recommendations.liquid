@@ -95,7 +95,7 @@
         {%- endif -%}
         {%- if related_collection.products_count > 0 -%}
           <div class="product-recommendations page-width">
-            <div class="new-grid product-grid scrollable-grid--small" data-view="{{ gridView }}">
+            <div class="new-grid product-grid scrollable-grid--small" data-view="{{ gridView }}" data-slideshow>
               {%- for product in related_collection.products -%}
                 {%- render 'product-grid-item',
                   product: product,
