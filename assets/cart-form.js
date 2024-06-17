@@ -188,7 +188,7 @@ export default class CartForm {
     /** Handle Style For docapp-shipping */
     let _setTimeout = setTimeout(() => {
       this.handleStyleDocapp();
-    }, 2000)
+    }, 4000)
   }
 
   quantityChanged(evt) {
@@ -241,6 +241,12 @@ export default class CartForm {
             cart: parsedCart
           }
         }));
+
+        /** Handle Style For docapp-shipping */
+        let _setTimeout = setTimeout(() => {
+          this.handleStyleDocapp();
+        }, 4000)
+        
       }.bind(this))
       .catch(function(XMLHttpRequest){});
   }
