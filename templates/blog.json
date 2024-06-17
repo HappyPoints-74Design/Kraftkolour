@@ -3,6 +3,13 @@
     "main": {
       "type": "blog-template",
       "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide"
       }
     },
     "sidebar": {
@@ -12,65 +19,54 @@
           "type": "tags",
           "settings": {
           }
+        },
+        "article_R4CMYQ": {
+          "type": "article",
+          "settings": {
+            "title": "Popular posts",
+            "article": "news\/blog-our-blog-texcraft-printing-ink-system",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "product_crkEey": {
+          "type": "product",
+          "settings": {
+            "featured_product": "3ml-plastic-bulb-pipette-pkt-of-10"
+          }
         }
       },
       "block_order": [
-        "tags"
+        "tags",
+        "article_R4CMYQ",
+        "product_crkEey"
       ],
       "settings": {
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection1": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection2": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection3": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection4": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection5": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection6": {
-          "type": "collection",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "collection1",
-        "collection2",
-        "collection3",
-        "collection4",
-        "collection5",
-        "collection6"
-      ],
+    "featured_collection_fty8dU": {
+      "type": "featured-collection",
       "settings": {
-        "title": "You may also like"
+        "title": "You may also like",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "home_featured_products": "acid-dyes",
+        "count": 5,
+        "products_per_row": 2,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
       }
     }
   },
   "order": [
     "main",
     "sidebar",
-    "featured-collections"
+    "featured_collection_fty8dU"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
