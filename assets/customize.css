@@ -674,6 +674,111 @@ product-recommendations .section-header__title {
 .cart__item .js-qty__adjust .icon-minus {
 	width: 12px;
 }
+.cart__page-col:last-child {
+	border-radius: 8px;
+	overflow: hidden;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator {
+	padding: 0 !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator--input {
+	padding: 0 !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input input[type="text"].docapp-shipping-calculator--input-city, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input input[type="text"].docapp-shipping-calculator--input-zip,
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input select.docapp-shipping-calculator--select, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--button, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates {
+	border-radius: 8px !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input select.docapp-shipping-calculator--select, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator--input select.docapp-shipping-calculator--select {
+	padding: 5px 25px 5px 10px !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input input[type=text].docapp-shipping-calculator--input-zip {
+	padding: 5px 10px !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--button, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator--button {
+    padding: 8px 48px !important;
+    border-radius: 999px !important;
+	border-width: 0px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates-title {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator--rates .docapp-shipping-rate {
+	margin-bottom: 8px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-rate, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-rate div, 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-rate label {
+	color: #28282C !important;
+	font-size: 14px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--input {
+	margin-bottom: 16px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates, 
+.cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator--rates {
+	margin: 0;
+	padding: 16px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates {
+	background-color: #FDFDF6 !important;
+}
+.cart__page-col  .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name label, 
+.cart__page-col  .docapp-single-shipping-calculator .docapp-shipping-calculator--rates .docapp-shipping-rate-name label {
+	display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name input[type=radio] {
+	height: 0 !important;
+	width: 0 !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name input[type=radio],
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name label {
+	cursor: pointer;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate label {
+	position: relative;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate label::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #75757C;
+	border-radius: 50%;
+}
+
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate.docapp--selected label::before {
+	border: 7px solid #28282C;
+}
+@media screen and (min-width: 769px) {
+	.cart__page-col:first-child {
+		flex: 1 1 60%;
+        padding-right: 48px;
+	}
+	.cart__page-col:last-child {
+		flex: 0 1 40%;
+        padding: 48px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.cart__page-col .docapp-cart-with-shipping-summary, 
+	.cart__page-col .docapp-single-shipping-calculator {
+		margin-top: 24px;
+	}
+}
 /**
  * Footer
  */
