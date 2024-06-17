@@ -3,25 +3,51 @@
     "main": {
       "type": "article-template",
       "settings": {
+        "blog_capitalize_first": true,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false
       }
     },
     "sidebar": {
       "type": "blog-sidebar",
       "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "article_YQxknH": {
+          "type": "article",
+          "settings": {
+            "title": "Popular posts",
+            "article": "news\/1914-translation-by-h-rackham",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
         "tags": {
           "type": "tags",
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "product_KbUFKf": {
+          "type": "product",
           "settings": {
+            "featured_product": "algipaste"
           }
         }
       },
       "block_order": [
+        "share",
+        "article_YQxknH",
         "tags",
-        "share"
+        "product_KbUFKf"
       ],
       "settings": {
       }
