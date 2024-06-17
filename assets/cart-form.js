@@ -184,6 +184,11 @@ export default class CartForm {
         isCart: true
       });
     });
+
+    /** Handle Style For docapp-shipping */
+    let _setTimeout = setTimeout(() => {
+      this.handleStyleDocapp();
+    }, 2000)
   }
 
   quantityChanged(evt) {
@@ -283,5 +288,26 @@ export default class CartForm {
         });
       }
     }
+  }
+  /**
+  * Handles Style For Docapp Shipping
+  */
+  handleStyleDocapp(){
+      if(this.form.querySelector('.docapp-cart-with-shipping-summary') && this.form.querySelector('.docapp-shipping-calculator--rates')){
+        this.form.querySelectorAll('.docapp-shipping-rate').forEach((elm) => {
+
+          elm.querySelector('input[type="radio"]').addEventListener('click', (e) => {
+            this.form.querySelectorAll('.docapp-shipping-rate').forEach((el) => {
+              el.classList.contains('docapp--selected') ? el.classList.remove('docapp--selected') : '';
+            })
+            e.target.parentNode.parentNode.parentNode.classList.add('docapp--selected');
+          });
+
+          if(elm.querySelector('.docapp-shipping-rate-price').classList.contains('docapp-selected')){
+              elm.classList.add('docapp--selected');
+          }
+          
+        });
+      }
   }
 }

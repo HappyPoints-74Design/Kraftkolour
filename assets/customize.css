@@ -676,6 +676,7 @@ product-recommendations .section-header__title {
 }
 .cart__page-col:last-child {
 	border-radius: 8px;
+	overflow: hidden;
 }
 .cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator, 
 .cart__page-col .docapp-single-shipping-calculator .docapp-shipping-calculator {
@@ -733,7 +734,35 @@ product-recommendations .section-header__title {
 .cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates {
 	background-color: #FDFDF6 !important;
 }
+.cart__page-col  .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name label, 
+.cart__page-col  .docapp-single-shipping-calculator .docapp-shipping-calculator--rates .docapp-shipping-rate-name label {
+	display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name input[type=radio] {
+	height: 0 !important;
+	width: 0 !important;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name input[type=radio],
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate-name label {
+	cursor: pointer;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate label {
+	position: relative;
+}
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate label::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #75757C;
+	border-radius: 50%;
+}
 
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate.docapp--selected label::before {
+	border: 7px solid #28282C;
+}
 @media screen and (min-width: 769px) {
 	.cart__page-col:first-child {
 		flex: 1 1 60%;
@@ -742,6 +771,12 @@ product-recommendations .section-header__title {
 	.cart__page-col:last-child {
 		flex: 0 1 40%;
         padding: 48px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.cart__page-col .docapp-cart-with-shipping-summary, 
+	.cart__page-col .docapp-single-shipping-calculator {
+		margin-top: 24px;
 	}
 }
 /**
