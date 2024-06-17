@@ -763,6 +763,20 @@ product-recommendations .section-header__title {
 .cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates .docapp-shipping-rate.docapp--selected label::before {
 	border: 7px solid #28282C;
 }
+.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates-title {
+	font-size: 16px !important;
+}
+.cart__item {
+	grid-template-columns: 100px auto auto;
+    grid-column-gap: 16px;
+}
+.cart__item-remove a {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	border-bottom: 1px solid #28282C;
+
+}
 @media screen and (min-width: 769px) {
 	.cart__page-col:first-child {
 		flex: 1 1 60%;
@@ -777,6 +791,12 @@ product-recommendations .section-header__title {
 	.cart__page-col .docapp-cart-with-shipping-summary, 
 	.cart__page-col .docapp-single-shipping-calculator {
 		margin-top: 24px;
+	}
+	.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates {
+		background-color: #F3F2E9 !important;
+	}
+	.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates-title {
+		font-size: 14px !important;
 	}
 }
 /**
