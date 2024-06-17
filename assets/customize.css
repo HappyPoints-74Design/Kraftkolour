@@ -662,6 +662,18 @@ product-recommendations .section-header__title {
 .cart__item-row {
 	margin-bottom: 16px;
 }
+.cart__item-price .cart__price {
+	visibility: visible;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.cart__item .js-qty__adjust .icon-plus {
+    width: 19px;
+}
+.cart__item .js-qty__adjust .icon-minus {
+	width: 12px;
+}
 /**
  * Footer
  */
