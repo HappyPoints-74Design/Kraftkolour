@@ -71,7 +71,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
             "show_gift_card_recipient": false
           }
@@ -90,7 +90,7 @@
         "buy_buttons"
       ],
       "settings": {
-        "sku_enable": false,
+        "sku_enable": true,
         "image_position": "left",
         "image_container_size": "large",
         "product_image_size": "square",
