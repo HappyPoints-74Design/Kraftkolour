@@ -863,6 +863,9 @@ predictive-search .btn--close-search .icon path {
 		padding-top: 0;
 		border-width: 0px;
 	}
+	.search__results {
+		max-width: calc(660px - 44px);
+	}
 }
 @media screen and (min-width: 1280px) {
 	.main-search-page [data-view=medium] .grid-item {
