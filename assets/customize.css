@@ -859,6 +859,9 @@ predictive-search .btn--close-search .icon path {
 	margin-right: auto;
 }
 @media screen and (min-width: 768px) {
+	.grid__item--sidebar::-webkit-scrollbar {
+		width: 5px;
+	}
 	.main-search-page .collection-content {
 		padding-top: 0;
 		border-width: 0px;
