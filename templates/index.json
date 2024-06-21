@@ -25,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
+            "image": "shopify:\/\/shop_images\/products_banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/products_banner.jpg",
             "overlay_opacity": 0
           }
         },
@@ -43,7 +43,7 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
+            "image": "shopify:\/\/shop_images\/Cottons_banner.png",
             "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
@@ -61,7 +61,7 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
+            "image": "shopify:\/\/shop_images\/Landscapes_History_slide.png",
             "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
