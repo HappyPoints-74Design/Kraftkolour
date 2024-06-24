@@ -623,6 +623,7 @@ product-recommendations .section-header__title {
 }
 .site-header__cart .cart__item {
 	grid-column-gap: 16px;
+	border-bottom: 1px solid #DCDBCF;
 }
 .cart__image img {
 	object-fit: cover;
@@ -779,6 +780,26 @@ product-recommendations .section-header__title {
 	line-height: 18px;
 	border-bottom: 1px solid #28282C;
 
+}
+.scrollable-grid::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+/* Track */
+.scrollable-grid::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+/* Handle */
+.scrollable-grid::-webkit-scrollbar-thumb {
+	background: #28282C; 
+	border-radius: 20px;
+	border: 3px solid 28282C;
+}
+
+/* Handle on hover */
+.scrollable-grid::-webkit-scrollbar-thumb:hover {
+	background: #555555; 
 }
 @media screen and (min-width: 769px) {
 	.cart__page-col:first-child {
