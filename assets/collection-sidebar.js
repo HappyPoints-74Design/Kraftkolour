@@ -13,7 +13,7 @@ theme.CollectionSidebar = (function() {
   };
 
   var config = {
-    isOpen: true,
+    isOpen: false,
     namespace: '.collection-filters'
   }
 
@@ -44,7 +44,7 @@ theme.CollectionSidebar = (function() {
 
   CollectionSidebar.prototype = Object.assign({}, CollectionSidebar.prototype, {
     init: function() {
-      config.isOpen = true;
+      config.isOpen = false;
       theme.a11y.unlockMobileScrolling(config.namespace);
 
       // This function runs on page load, and when the collection section loads

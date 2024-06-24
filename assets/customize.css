@@ -192,6 +192,9 @@ body::after {
 	font-weight: 400;
 	line-height: 24px;
 }
+.pagination .btn {
+	background-color: #28282C;
+}
 @media only screen and (min-width: 768px) {
 	.index-section.collection-lists {
 		margin-top: 48px;
