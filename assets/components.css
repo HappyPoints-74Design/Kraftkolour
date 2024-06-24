@@ -4486,9 +4486,7 @@ input[type="image"] {
   border-top-color: var(--colorBorder);
   padding-top: var(--indexSectionPadding);
 }
-.index-section--faq {
-  margin-bottom: 20px;
-}
+
 /*Hide footer sections on /challenge page*/
 .template-challange .index-section--footer {
   display: none;

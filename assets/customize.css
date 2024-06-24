@@ -895,6 +895,36 @@ predictive-search .btn--close-search .icon path {
 	}
 }
 /**
+ * FAQ - Page
+ */
+.index-section--faq {
+	margin-bottom: 10px;
+}
+.template--faq > .index-section:not(.index-section--sub-product):first-child {
+	padding-top: 30px;
+	padding-bottom: 72px;
+	margin-bottom: 0;
+}
+.index-section--faq {
+	margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+	.template--faq>.index-section:not(.index-section--sub-product):first-child {
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+	.index-section--faq {
+		margin-top: 20px;
+	}
+	.collapsible-content__inner {
+		font-size: 14px;
+	}
+	.collapsible-content__inner {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+/**
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {
