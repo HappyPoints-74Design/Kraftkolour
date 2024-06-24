@@ -216,6 +216,9 @@ body::after {
 	.collection-item__title {
 		font-size: 24px;
 	}
+	.filter-wrapper ul > li {
+		font-size: 14px;
+	}
 }
 /**
  * @Arrivals Collection
@@ -916,10 +919,10 @@ predictive-search .btn--close-search .icon path {
 	.index-section--faq {
 		margin-top: 20px;
 	}
-	.collapsible-content__inner {
+	.template--faq .collapsible-content__inner {
 		font-size: 14px;
 	}
-	.collapsible-content__inner {
+	.template--faq .collapsible-content__inner {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
