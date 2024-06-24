@@ -801,6 +801,17 @@ product-recommendations .section-header__title {
 .scrollable-grid::-webkit-scrollbar-thumb:hover {
 	background: #555555; 
 }
+.btn--secondary.cart__continue {
+	background-color: #FFFFFF;
+	color: #28282C;
+	border: 1px solid #DCDBCF;
+}
+.btn--secondary.cart__continue:hover {
+	color: #28282C;
+}
+.cart__item-row .btn {
+	padding: 16px 48px;
+}
 @media screen and (min-width: 769px) {
 	.cart__page-col:first-child {
 		flex: 1 1 60%;
@@ -809,6 +820,12 @@ product-recommendations .section-header__title {
 	.cart__page-col:last-child {
 		flex: 0 1 40%;
         padding: 48px;
+	}
+	.cart__item-row.cart-recommendations {
+		margin-top: 48px;
+	}
+	.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator {
+		gap: 8px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -821,6 +838,9 @@ product-recommendations .section-header__title {
 	}
 	.cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates-title {
 		font-size: 14px !important;
+	}
+	.cart__item-row.cart-recommendations {
+		margin-top: 24px;
 	}
 }
 /**

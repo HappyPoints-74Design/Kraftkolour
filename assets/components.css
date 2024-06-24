@@ -11626,7 +11626,7 @@ form + .footer__social {
 }
   }
 .cart__item:last-of-type {
-    border-bottom: 0;
+    /* border-bottom: 0; */
   }
 .cart__image {
   grid-area: cartImage;
@@ -11797,7 +11797,7 @@ iframe.zoid-component-frame {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
