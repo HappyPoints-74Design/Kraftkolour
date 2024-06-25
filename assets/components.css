@@ -1623,6 +1623,7 @@ body {
   display: block;
   min-height: 300px;
   box-shadow: 0 calc(var(--header-padding-bottom) * -1) var(--colorNav);
+  background-color: var(--colorBody);
 }
 @media only screen and (min-width: 769px) {
 .main-content {
