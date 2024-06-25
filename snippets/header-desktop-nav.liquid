@@ -81,31 +81,32 @@
             <div class="page-width">
               <div class="site-nav__dropdown-animate megamenu__wrapper">
                 <div class="megamenu__cols">
-                  <div class="megamenu__col">
+                  {% comment %} <div class="megamenu__col"> {% endcomment %}
                     {%- for childlink in link.links -%}
                       {%- liquid
                         assign create_new_column = false
 
-                        if childlink.levels > 0 and forloop.index != 1
+                        if childlink.levels > 0
                           assign create_new_column = true
                         endif
 
                         if childlink.levels == 0 and previous_column_type == 'full'
-                          assign create_new_column = true
+                          assign create_new_column = false
                         endif
                       -%}
-
-                      {%- if create_new_column -%}
-                        </div>
-                      {%- endif -%}
                       {%- if create_new_column -%}
                         <div class="megamenu__col">
+                          <div class="megamenu__col-title">
+                            <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                          </div>
+                      {%- else -%}
+                        <div class="megamenu__col">
+                          <div class="megamenu__col-title">
+                            <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                          </div>
+                        </div>  
                       {%- endif -%}
-
-                      <div class="megamenu__col-title">
-                        <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
-                      </div>
-
+              
                       {%- liquid
                         if childlink.levels > 0
                           assign previous_column_type = 'full'
@@ -119,8 +120,11 @@
                           {{ grandchildlink.title }}
                         </a>
                       {%- endfor -%}
+                      {%- if create_new_column -%}
+                        </div>
+                      {%- endif -%}
                     {%- endfor -%}
-                  </div>
+                  {% comment %} </div> {% endcomment %}
                 </div>
                 {%- if isCollection -%}
                   <div class="megamenu__featured">
@@ -133,6 +137,9 @@
                     </div>
                   </div>
                 {%- endif -%}
+                <div class="link-collection--all">
+                  <a class="btn" href="/collections/all">Shop All</a>
+                </div>
               </div>
             </div>
           </div>
