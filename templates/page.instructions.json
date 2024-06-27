@@ -21,6 +21,7 @@
       "blocks": {
         "download_item_9dWkt9": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Acid Dye Instructions",
             "download_label": "Download",
