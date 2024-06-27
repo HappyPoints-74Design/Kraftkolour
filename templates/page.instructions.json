@@ -67,12 +67,6 @@
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
           }
         },
-        "download_title_83Nd6w": {
-          "type": "download_title",
-          "settings": {
-            "title": "Dyeing with Natural Dyes"
-          }
-        },
         "download_item_AwEzzR": {
           "type": "download_item",
           "settings": {
@@ -87,12 +81,6 @@
             "title": "Devore \/ Burnout Instructions",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
-          }
-        },
-        "download_title_9kJE6M": {
-          "type": "download_title",
-          "settings": {
-            "title": "Painting and Printing"
           }
         },
         "download_item_nemQ4y": {
@@ -117,12 +105,6 @@
             "title": "Cyanotype Instructions",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
-          }
-        },
-        "download_title_ENYezL": {
-          "type": "download_title",
-          "settings": {
-            "title": "Crafting Techniques"
           }
         },
         "download_item_bdnVcd": {
@@ -154,14 +136,11 @@
         "download_title_wjCTUy",
         "download_item_pYwKt6",
         "download_item_UPgQ86",
-        "download_title_83Nd6w",
         "download_item_AwEzzR",
         "download_item_UHcMaA",
-        "download_title_9kJE6M",
         "download_item_nemQ4y",
         "download_item_PapRXk",
         "download_item_Cx4BEQ",
-        "download_title_ENYezL",
         "download_item_bdnVcd",
         "download_item_GKmnMP",
         "download_item_M7EPdi"
@@ -172,9 +151,9 @@
         "text": "",
         "heading_position": "left",
         "padding_top": 0,
-        "padding_bottom": 72,
+        "padding_bottom": 20,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 48
+        "padding_bottom_mobile": 20
       }
     },
     "download_file_list_jRdtEA": {
@@ -213,6 +192,48 @@
         "heading_size": "h2",
         "text": "",
         "heading_position": "left",
+        "padding_top": 30,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
+    },
+    "download_file_list_dD8F6y": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_mNwq4y": {
+          "type": "download_title",
+          "settings": {
+            "title": "Dyeing with Synthetics"
+          }
+        },
+        "download_item_DHFC9X": {
+          "type": "download_item",
+          "settings": {
+            "title": "Download item 1",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_GbebYK": {
+          "type": "download_item",
+          "settings": {
+            "title": "Download item 2",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        }
+      },
+      "block_order": [
+        "download_title_mNwq4y",
+        "download_item_DHFC9X",
+        "download_item_GbebYK"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
         "padding_top": 72,
         "padding_bottom": 72,
         "padding_top_mobile": 48,
@@ -224,6 +245,7 @@
     "main",
     "download_file_list_aTzLDn",
     "download_file_list_qFdxMx",
-    "download_file_list_jRdtEA"
+    "download_file_list_jRdtEA",
+    "download_file_list_dD8F6y"
   ]
 }
