@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -58,6 +67,12 @@
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
           }
         },
+        "download_title_83Nd6w": {
+          "type": "download_title",
+          "settings": {
+            "title": "Dyeing with Natural Dyes"
+          }
+        },
         "download_item_AwEzzR": {
           "type": "download_item",
           "settings": {
@@ -72,6 +87,12 @@
             "title": "Devore \/ Burnout Instructions",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+          }
+        },
+        "download_title_9kJE6M": {
+          "type": "download_title",
+          "settings": {
+            "title": "Painting and Printing"
           }
         },
         "download_item_nemQ4y": {
@@ -96,6 +117,12 @@
             "title": "Cyanotype Instructions",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_title_ENYezL": {
+          "type": "download_title",
+          "settings": {
+            "title": "Crafting Techniques"
           }
         },
         "download_item_bdnVcd": {
@@ -127,11 +154,14 @@
         "download_title_wjCTUy",
         "download_item_pYwKt6",
         "download_item_UPgQ86",
+        "download_title_83Nd6w",
         "download_item_AwEzzR",
         "download_item_UHcMaA",
+        "download_title_9kJE6M",
         "download_item_nemQ4y",
         "download_item_PapRXk",
         "download_item_Cx4BEQ",
+        "download_title_ENYezL",
         "download_item_bdnVcd",
         "download_item_GKmnMP",
         "download_item_M7EPdi"
@@ -146,11 +176,54 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 48
       }
+    },
+    "download_file_list_jRdtEA": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_7PC38k": {
+          "type": "download_title",
+          "settings": {
+            "title": "Acid Dye Instructions"
+          }
+        },
+        "download_item_mxBaKV": {
+          "type": "download_item",
+          "settings": {
+            "title": "Download item 1",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_zLeWam": {
+          "type": "download_item",
+          "settings": {
+            "title": "Download item 2",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        }
+      },
+      "block_order": [
+        "download_title_7PC38k",
+        "download_item_mxBaKV",
+        "download_item_zLeWam"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
     }
   },
   "order": [
     "main",
     "download_file_list_aTzLDn",
-    "download_file_list_qFdxMx"
+    "download_file_list_qFdxMx",
+    "download_file_list_jRdtEA"
   ]
 }
