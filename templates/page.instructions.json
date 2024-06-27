@@ -85,6 +85,7 @@
         },
         "download_item_PapRXk": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Printing & Painting Acid Dye",
             "download_label": "Download",
@@ -93,6 +94,7 @@
         },
         "download_item_Cx4BEQ": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Cyanotype Instructions",
             "download_label": "Download",
@@ -101,6 +103,7 @@
         },
         "download_item_bdnVcd": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Devore \/ Burnout Instructions",
             "download_label": "Download",
@@ -109,6 +112,7 @@
         },
         "download_item_GKmnMP": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Acid Dye Instructions",
             "download_label": "Download",
@@ -117,6 +121,7 @@
         },
         "download_item_AwEzzR": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Cyanotype Instructions",
             "download_label": "Download",
@@ -125,6 +130,7 @@
         },
         "download_item_M7EPdi": {
           "type": "download_item",
+          "disabled": true,
           "settings": {
             "title": "Printing & Painting Acid Dye",
             "download_label": "Download",
