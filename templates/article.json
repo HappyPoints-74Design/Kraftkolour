@@ -60,34 +60,11 @@
       ],
       "settings": {
       }
-    },
-    "text_and_image_PjGJHG": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/remnant109.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Image with text",
-        "heading_size": "h2",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "color_scheme": "1",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true
-      }
     }
   },
   "order": [
     "main",
-    "sidebar",
-    "text_and_image_PjGJHG"
+    "sidebar"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
