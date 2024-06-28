@@ -1300,6 +1300,10 @@ a.return-link:hover {
 	.return-link {
 		margin-top: 50px;
 	}
+
+	.template-article .section-header {
+		margin-top: 48px;
+	}
 }
 @media screen and (max-width: 767px) {
 	.template-article .section-header .section-header__title {
