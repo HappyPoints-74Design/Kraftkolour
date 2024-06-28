@@ -1302,7 +1302,7 @@ a.return-link:hover {
 	}
 
 	.template-article .section-header {
-		margin-top: 48px;
+		margin-bottom: 48px;
 	}
 }
 @media screen and (max-width: 767px) {
