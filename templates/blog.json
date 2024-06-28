@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -33,6 +42,32 @@
             "blog_image_size": "wide"
           }
         },
+        "article_mNBAHy": {
+          "type": "article",
+          "settings": {
+            "title": "",
+            "article": "news\/1914-translation-by-h-rackham",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "article_HYbj36": {
+          "type": "article",
+          "settings": {
+            "title": "",
+            "article": "news\/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
         "product_crkEey": {
           "type": "product",
           "settings": {
@@ -43,6 +78,8 @@
       "block_order": [
         "tags",
         "article_R4CMYQ",
+        "article_mNBAHy",
+        "article_HYbj36",
         "product_crkEey"
       ],
       "settings": {
