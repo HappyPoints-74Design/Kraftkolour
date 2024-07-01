@@ -39,7 +39,7 @@
         "heading_position": "center",
         "padding_top": 10,
         "padding_bottom": 10,
-        "padding_top_mobile": 10,
+        "padding_top_mobile": 40,
         "padding_bottom_mobile": 10
       }
     },
@@ -52,7 +52,7 @@
         "heading_position": "left",
         "padding_top": 0,
         "padding_bottom": 40,
-        "padding_top_mobile": 48,
+        "padding_top_mobile": 16,
         "padding_bottom_mobile": 48
       }
     },
