@@ -40,6 +40,19 @@
             "blog_image_size": "wide"
           }
         },
+        "article_UaNBVd": {
+          "type": "article",
+          "settings": {
+            "title": "",
+            "article": "news\/lorem-ipsum-dolor-sit-amet",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
         "tags": {
           "type": "tags",
           "settings": {
@@ -55,6 +68,7 @@
       "block_order": [
         "share",
         "article_YQxknH",
+        "article_UaNBVd",
         "tags",
         "product_KbUFKf"
       ],
