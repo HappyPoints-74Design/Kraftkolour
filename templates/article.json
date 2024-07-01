@@ -53,6 +53,19 @@
             "blog_image_size": "wide"
           }
         },
+        "article_y7AaL7": {
+          "type": "article",
+          "settings": {
+            "title": "Popular posts",
+            "article": "news\/blog-tips-for-indigo-dyeing",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_image_size": "wide"
+          }
+        },
         "tags": {
           "type": "tags",
           "settings": {
@@ -69,6 +82,7 @@
         "share",
         "article_YQxknH",
         "article_UaNBVd",
+        "article_y7AaL7",
         "tags",
         "product_KbUFKf"
       ],
