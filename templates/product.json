@@ -18,11 +18,6 @@
             "is_tab": false
           }
         },
-        "bss_variant_options_option_set_yCtEWc": {
-          "type": "shopify:\/\/apps\/bss-variant-options\/blocks\/option-set\/2c446099-c349-4e73-80cd-49c9770b7807",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -30,6 +25,11 @@
             "picker_type": "button",
             "product_dynamic_variants_enable": true,
             "color_swatches": true
+          }
+        },
+        "bss_variant_options_option_set_yCtEWc": {
+          "type": "shopify:\/\/apps\/bss-variant-options\/blocks\/option-set\/2c446099-c349-4e73-80cd-49c9770b7807",
+          "settings": {
           }
         },
         "price": {
@@ -93,8 +93,8 @@
       },
       "block_order": [
         "description_4JMjBP",
-        "bss_variant_options_option_set_yCtEWc",
         "variant_picker",
+        "bss_variant_options_option_set_yCtEWc",
         "price",
         "sales_point",
         "sales_point2",
