@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "current": {
     "color_body_bg": "#fdfdf6",
@@ -15,7 +6,7 @@
     "color_savings_text": "#ba4444",
     "color_borders": "#dcdbcf",
     "color_button": "#e22128",
-    "color_button_text": "#ffffff",
+    "color_button_text": "#28282c",
     "color_sale_tag": "#ba4444",
     "color_cart_dot": "#ffffff",
     "color_cart_dot_text": "#42434d",
@@ -38,10 +29,8 @@
     "color_scheme_3_bg": "#efebeb",
     "color_scheme_3_text": "#272831",
     "color_scheme_3_texture": "none",
-    "color_bg_button_secondary": "#16bab1",
-    "color_label_button_secondary": "#ffffff",
-    "color_label_button_secondary_customer": "#ffffff",
-    "color_bg_button_secondary_customer": "#16bab1",
+    "color_label_button_secondary_customer": "#28282c",
+    "color_bg_button_secondary_customer": "#b3bb33",
     "type_header_font_family": "itc_new_baskerville_n4",
     "type_header_spacing": "0",
     "type_header_base_size": 64,
@@ -68,7 +57,6 @@
     "product_grid_image_fill": true,
     "product_hover_image": true,
     "enable_swatches": true,
-    "swatch_style": "round",
     "product_grid_style": "simple",
     "product_grid_image_margin": 10,
     "collection_grid_shape": "square",
@@ -76,7 +64,7 @@
     "collection_grid_image_margin": 17,
     "cart_type": "dropdown",
     "cart_additional_buttons": false,
-    "cart_collection": "acid-dyes",
+    "cart_collection": "business-card-cases",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
@@ -87,7 +75,6 @@
     "share_twitter": true,
     "share_pinterest": true,
     "favicon": "shopify:\/\/shop_images\/favicon-u.png",
-    "predictive_search_show_vendor": false,
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": true,
     "checkout_logo_position": "left",
@@ -112,6 +99,7 @@
     "product_color_swatches": true,
     "product_content_1": "shipping-info",
     "product_contact": true,
+    "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
     "type_product_style": "body",
     "type_product_capitalize": true,
@@ -951,12 +939,6 @@
     "blocks": {
       "5918707185744429496": {
         "type": "shopify:\/\/apps\/bss-variant-options\/blocks\/bss-po-script\/2c446099-c349-4e73-80cd-49c9770b7807",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5140161176031010482": {
-        "type": "shopify:\/\/apps\/dr-shipping-calculator\/blocks\/instant-load\/6fdcf202-26c0-4288-be36-8b389f5d262c",
         "disabled": false,
         "settings": {
         }

@@ -1,90 +1,27 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
       "type": "article-template",
       "settings": {
-        "blog_capitalize_first": true,
-        "blog_show_tags": true,
-        "blog_show_date": true,
-        "blog_show_comments": true,
-        "blog_show_author": false
       }
     },
     "sidebar": {
       "type": "blog-sidebar",
       "blocks": {
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
-        "article_YQxknH": {
-          "type": "article",
-          "settings": {
-            "title": "Popular posts",
-            "article": "news\/1914-translation-by-h-rackham",
-            "blog_show_tags": true,
-            "blog_show_date": true,
-            "blog_show_comments": true,
-            "blog_show_author": false,
-            "blog_show_excerpt": false,
-            "blog_image_size": "wide"
-          }
-        },
-        "article_UaNBVd": {
-          "type": "article",
-          "settings": {
-            "title": "",
-            "article": "news\/lorem-ipsum-dolor-sit-amet",
-            "blog_show_tags": true,
-            "blog_show_date": true,
-            "blog_show_comments": true,
-            "blog_show_author": false,
-            "blog_show_excerpt": false,
-            "blog_image_size": "wide"
-          }
-        },
-        "article_y7AaL7": {
-          "type": "article",
-          "settings": {
-            "title": "",
-            "article": "news\/blog-tips-for-indigo-dyeing",
-            "blog_show_tags": true,
-            "blog_show_date": true,
-            "blog_show_comments": true,
-            "blog_show_author": false,
-            "blog_show_excerpt": false,
-            "blog_image_size": "wide"
-          }
-        },
         "tags": {
           "type": "tags",
           "settings": {
           }
         },
-        "product_KbUFKf": {
-          "type": "product",
+        "share": {
+          "type": "share",
           "settings": {
-            "featured_product": "algipaste"
           }
         }
       },
       "block_order": [
-        "share",
-        "article_YQxknH",
-        "article_UaNBVd",
-        "article_y7AaL7",
         "tags",
-        "product_KbUFKf"
+        "share"
       ],
       "settings": {
       }

@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -187,7 +178,7 @@
       "settings": {
         "title": "Safety Data Sheets [SDS]",
         "heading_size": "h2",
-        "text": "<p>We are adding to the list regularly, if there is an SDS you need that is not yet downloadable please email us via the <a href=\"\/pages\/contact-us\" title=\"Contact Us\">contact<\/a> page.<\/p>",
+        "text": "<p>We are adding to the list regularly, if there is an SDS you need that is not yet downloadable please give us a call (03 9465 4865) or email us via the contact page.<\/p>",
         "heading_position": "center",
         "title_left": "Acid Milling [SDS]",
         "title_center": "Disperse Dyes",

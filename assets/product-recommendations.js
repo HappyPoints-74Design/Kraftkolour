@@ -31,7 +31,7 @@ class ProductRecommendations extends HTMLElement {
       this.placeholder.innerHTML = recommendations.innerHTML;
 
       this.slideshow = this.querySelector('[data-slideshow]');
-console.log(this.slideshow);
+
       if (this.slideshow) {
         this.setupSlider();
       }

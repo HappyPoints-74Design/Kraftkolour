@@ -184,11 +184,6 @@ export default class CartForm {
         isCart: true
       });
     });
-
-    /** Handle Style For docapp-shipping */
-    let _setTimeout = setTimeout(() => {
-      this.handleStyleDocapp();
-    }, 3500)
   }
 
   quantityChanged(evt) {
@@ -241,12 +236,6 @@ export default class CartForm {
             cart: parsedCart
           }
         }));
-
-        /** Handle Style For docapp-shipping */
-        let _setTimeout = setTimeout(() => {
-          this.handleStyleDocapp();
-        }, 3500)
-        
       }.bind(this))
       .catch(function(XMLHttpRequest){});
   }
@@ -294,44 +283,5 @@ export default class CartForm {
         });
       }
     }
-  }
-  /**
-  * Handles Style For Docapp Shipping
-  */
-  handleStyleDocapp(){
-      if(this.form.querySelector('.docapp-cart-with-shipping-summary') && this.form.querySelector('.docapp-shipping-calculator--rates')){
-        this.form.querySelectorAll('.docapp-shipping-rate').forEach((elm) => {
-
-          elm.querySelector('input[type="radio"]').addEventListener('click', (e) => {
-            this.form.querySelectorAll('.docapp-shipping-rate').forEach((el) => {
-              el.classList.contains('docapp--selected') ? el.classList.remove('docapp--selected') : '';
-            })
-            e.target.parentNode.parentNode.parentNode.classList.add('docapp--selected');
-          });
-
-          if(elm.querySelector('.docapp-shipping-rate-price').classList.contains('docapp-selected')){
-              elm.classList.add('docapp--selected');
-          }
-        });
-
-        this.form.querySelector('.docapp-shipping-calculator--button').addEventListener('click', (e) => {
-          
-          setTimeout(() => {
-            this.form.querySelectorAll('.docapp-shipping-rate').forEach((elm) => {
-              
-              elm.querySelector('input[type="radio"]').addEventListener('click', (e) => {
-                this.form.querySelectorAll('.docapp-shipping-rate').forEach((el) => {
-                  el.classList.contains('docapp--selected') ? el.classList.remove('docapp--selected') : '';
-                })
-                e.target.parentNode.parentNode.parentNode.classList.add('docapp--selected');
-              });
-
-              if(elm.querySelector('.docapp-shipping-rate-price').classList.contains('docapp-selected')){
-                  elm.classList.add('docapp--selected');
-              }
-            })
-          },3500);
-        });
-      }
   }
 }

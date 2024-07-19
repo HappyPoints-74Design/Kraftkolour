@@ -1201,12 +1201,6 @@
         "id": "predictive_search_enabled",
         "label": "t:actions.enable_predictive_search",
         "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "predictive_search_show_vendor",
-        "label": "t:actions.show_vendor",
-        "default": false
       }
     ]
   },

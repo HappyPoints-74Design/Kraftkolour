@@ -152,11 +152,11 @@
             </span>
           {%- endif -%}
 
-          {% comment %} {%- if sku_enable -%}
+          {%- if sku_enable -%}
             <span data-sku class="product-single__sku{% if current_variant.sku == blank %} hide{% endif %}">
               SKU: <span data-sku-id>{{ current_variant.sku }}</span>
             </span>
-          {%- endif -%} {% endcomment %}
+          {%- endif -%}
         </div>
       {%- endif -%}
     {%- endcapture -%}
@@ -441,13 +441,7 @@
                             -%}
                           </div>
                         {%- endunless -%}
-                        {%- if sku_enable -%}
-                          <div class="product-single__vendor-sku">
-                            <span data-sku class="product-single__sku{% if current_variant.sku == blank %} hide{% endif %}">
-                              SKU: <span data-sku-id>{{ current_variant.sku }}</span>
-                            </span>
-                          </div>
-                        {%- endif -%}
+
                         {%- if block.settings.surface_pickup_enable -%}
                           {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
                           {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}

@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "slideshow": {
@@ -25,8 +16,8 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/products_banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/products_banner.jpg",
+            "image": "shopify:\/\/shop_images\/main-banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
         },
@@ -43,7 +34,7 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Cottons_banner.png",
+            "image": "shopify:\/\/shop_images\/main-banner.jpg",
             "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
@@ -61,7 +52,7 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Landscapes_History_slide.png",
+            "image": "shopify:\/\/shop_images\/main-banner.jpg",
             "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
@@ -74,7 +65,7 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": 10,
+        "desktop_size": 0,
         "mobile_size": 0,
         "style": "minimal",
         "autoplay": true,
@@ -159,7 +150,7 @@
             "width": "50",
             "height": 500,
             "text_align": "vertical-center horizontal-left",
-            "color_accent": "#16bab1",
+            "color_accent": "#b3bb33",
             "color_text": "#ffffff"
           }
         },

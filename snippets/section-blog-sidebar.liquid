@@ -31,7 +31,7 @@
   {%- case block.type -%}
     {%- when 'article' -%}
       {%- assign article_object = articles[block.settings.article] -%}
-      <div class="theme-block theme-block--article" {{ block.shopify_attributes }}>
+      <div class="theme-block" {{ block.shopify_attributes }}>
         {%- if block.settings.title != blank -%}
           <h4>{{ block.settings.title }}</h4>
         {%- endif -%}
@@ -48,7 +48,7 @@
       </div>
     {%- when 'tags' -%}
       {%- if blog.all_tags.size > 0 -%}
-        <div class="theme-block them-block--tags" {{ block.shopify_attributes }}>
+        <div class="theme-block" {{ block.shopify_attributes }}>
           <h4>{{ 'actions.explore_more' | t }}</h4>
           <ul class="no-bullets tag-list">
             {%- for tag in blog.all_tags -%}
@@ -63,7 +63,7 @@
     {%- when 'product' -%}
       {%- assign product = all_products[block.settings.featured_product] -%}
       {%- unless product.empty? -%}
-        <div class="theme-block theme-block--product" {{ block.shopify_attributes }}>
+        <div class="theme-block" {{ block.shopify_attributes }}>
           <h4>{{ 'labels.featured_product' | t }}</h4>
           {%- render 'product-grid-item',
             product: product,
@@ -88,7 +88,7 @@
       {%- endunless -%}
     {%- when 'share' -%}
       {%- if article -%}
-        <div class="theme-block theme-block--share" {{ block.shopify_attributes }}>
+        <div class="theme-block" {{ block.shopify_attributes }}>
           <h4>{{ 'actions.share_this' | t }}</h4>
           {%- render 'social-sharing',
             share_facebook: share_facebook,
