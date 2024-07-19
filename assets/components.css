@@ -2383,6 +2383,10 @@ html input[disabled] {
 .add-to-cart.btn--secondary[disabled] + button.add-to-cart.btn--secondary {
   display: none;
 }
+.payment-buttons {
+  display: flex;
+  flex-direction: column;
+}
 .shopify-payment-button__button--hidden {
   display: none !important;
 }
