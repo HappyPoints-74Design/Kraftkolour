@@ -70,6 +70,11 @@
           assign product_available = product.variants[forloop.index0].available
         endif
       -%}
+      {% for variant in product.variants %}
+        {% if variant.title == value %}
+          {%- assign color_swtach_metafields = variant.metafields.custom.color -%}
+        {% endif %}
+      {% endfor %}
       <div
         class="variant-input"
         data-index="option{{ option_index }}"
@@ -93,8 +98,9 @@
           <label
             tabindex="0"
             for="ProductSelect-{{ section.id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
+            data-color= "{{ color_swtach_metafields }}"
             class="variant__button-label color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
-            style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+            style="{% if color_swtach_metafields != blank %}background-color: {{ color_swtach_metafields }};{% else %}background-color: {{ color_swatch_fallback }};{% endif %}{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
           >
             {{ value | escape }}
           </label>

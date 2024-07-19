@@ -46,7 +46,8 @@
                 data-variant-id="{{ variant.id }}"
                 data-variant-image="{{ variant.image | image_url: width: 400 }}"
               {% endif %}
-              style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
+              data-color= "{{ variant.metafields.custom.color }}"
+              style="{% if variant.metafields.custom.color != blank %}background-color: {{ variant.metafields.custom.color }};{% else %}background-color: {{ color_swatch_fallback }};{% endif %}{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
               <span class="visually-hidden">{{ value }}</span>
             </span>
           {%- else -%}
