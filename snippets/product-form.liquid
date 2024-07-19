@@ -42,7 +42,7 @@
   {%- endif -%}
 
   {%- if enable_dynamic_buttons -%}
-    <div class="payment-buttons">
+    <div class="payment-buttons{% unless current_variant.available %} button--sold-out{% endunless %}">
   {%- endif -%}
 
     {%- liquid
