@@ -2380,7 +2380,7 @@ html input[disabled] {
   .add-to-cart.btn--secondary[disabled] {
     border-color: var(--disabledBorder);
   }
-.add-to-cart.btn--secondary[disabled] + button.add-to-cart.btn--secondary[disabled] {
+.add-to-cart.btn--secondary[disabled] + button.add-to-cart.btn--secondary {
   display: none;
 }
 .shopify-payment-button__button--hidden {
