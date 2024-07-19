@@ -70,11 +70,13 @@
           assign product_available = product.variants[forloop.index0].available
         endif
       -%}
-      {% for variant in product.variants %}
-        {% if variant.title == value %}
-          {%- assign color_swtach_metafields = variant.metafields.custom.color -%}
-        {% endif %}
-      {% endfor %}
+      {%- if is_color -%}
+        {% for variant in product.variants %}
+          {% if variant.title == value %}
+            {%- assign color_swtach_metafields = variant.metafields.custom.color -%}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       <div
         class="variant-input"
         data-index="option{{ option_index }}"
