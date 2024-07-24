@@ -80,7 +80,7 @@
           <div class="site-nav__dropdown megamenu text-left">
             <div class="page-width">
               <div class="site-nav__dropdown-animate megamenu__wrapper">
-                <div class="megamenu__cols">
+                <div class="megamenu__cols {% if isCollection == false %}megamenu__cols--without-feature{%- endif -%}">
                   <div class="megamenu__col">
                     {%- for childlink in link.links -%}
                       {%- liquid

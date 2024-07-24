@@ -35,7 +35,8 @@ body::after {
 @media screen and (min-width: 1400px) {
 	.site-navigation--below {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
+        flex-wrap: wrap;
 	}
 	.site-navigation--below > .site-nav__item > .site-nav__link {
 		padding-right: 0;
@@ -133,6 +134,29 @@ body::after {
 		background-color: #FEFDF2;
 	}
 }
+
+/**
+ * Mega menu
+ */
+
+ @media screen and (min-width: 750px) {
+	.megamenu__col .megamenu__col-title {
+		margin-bottom: 16px;
+	}
+	.megamenu__col .megamenu__col-title .site-nav__dropdown-link {
+		font-size: 16px;
+	}
+	.megamenu__col .site-nav__dropdown-link {
+		font-size: 13px;
+	}
+	.megamenu__cols.megamenu__cols--without-feature {
+		flex: 1 1 100%;
+		columns: 5;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-around;
+	}
+ }
 
 /**
  * SlideShow
