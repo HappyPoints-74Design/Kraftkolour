@@ -35,7 +35,7 @@ body::after {
 @media screen and (min-width: 1400px) {
 	.site-navigation--below {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
         flex-wrap: wrap;
 	}
 	.site-navigation--below > .site-nav__item > .site-nav__link {
