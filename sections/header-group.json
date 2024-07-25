@@ -60,7 +60,7 @@
         "main_menu_link_list": "main-menu",
         "hover_menu": false,
         "main_menu_alignment": "below",
-        "mega_products": true,
+        "mega_products": false,
         "header_sticky": true,
         "border_bottom_header": true,
         "header_footer_menu": true,
