@@ -532,6 +532,32 @@ label:not(.variant__button-label):not(.text-label), .label {
     stroke: inherit;
     stroke-width: 0;
 }
+.page-content--product .shopify-product-form,
+.page-content--product .shopify-product-form .po-stack,
+.page-content--product .shopify-product-form .po-option--type-button__inline  {
+	margin-left: 0px !important;
+}
+.shopify-product-form .po-option__button-media {
+	border-radius: 8px !important;
+	border: 2px solid #DCDBCF !important;
+	padding: 8px 16px !important;
+}
+.shopify-product-form .po-option__button-media:hover,
+.shopify-product-form .po-option__value input:checked ~ .po-option__button-media {
+	background-color: #FFFFFF !important;
+}
+.shopify-product-form .po-option__value input:checked ~ .po-option__button-media {
+	border-color: #28282C !important;
+	color: #28282C !important;
+}
+.shopify-product-form .po-option__button-value {
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	line-height: 24px !important;
+}
+.shopify-product-form .po-option__button-media:hover .po-option__button-value {
+	color: #28282C !important;
+}
 @media only screen and (min-width: 769px) {
 	.product__price {
         font-size: calc(var(--typeBaseSize) + 8px);
