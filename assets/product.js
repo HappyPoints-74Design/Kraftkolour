@@ -1227,6 +1227,15 @@ customElements.define('product-component', Product)
 let setTimecheck = setTimeout(() => {
   document.querySelectorAll('.po-option--button-container .po-option__button-media')?.forEach((elm) => {
 
+      
+      if (elm.parentNode.parentNode.querySelector('input[checked]')){
+        let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
+        if (priceOption) {
+          let price = handlePriceByApp(priceOption);
+          getCurrentPrice(true, price);
+        }
+      }
+
       elm.addEventListener("click", (event) => {
         
         setTimeout (() => {
