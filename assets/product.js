@@ -356,7 +356,8 @@ export default class Product extends HTMLElement {
       }
 
       // Regular price
-      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat)
+      this.cache.price.dataset.price = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
+      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
 
       // Sale price, if necessary
       if (variant.compare_at_price > variant.price) {
@@ -378,13 +379,15 @@ export default class Product extends HTMLElement {
           savings = theme.Currency.formatMoney(savings, theme.settings.moneyFormat)
         }
 
-        this.cache.savePrice.classList.remove(this.classes.hidden)
-        this.cache.savePrice.innerHTML = theme.strings.savePrice.replace('[saved_amount]', savings)
+        this.cache.savePrice?.classList.remove(this.classes.hidden)
+        if(this.cache.savePrice){
+          this.cache.savePrice.innerHTML = theme.strings.savePrice.replace('[saved_amount]', savings)
+        }
       } else {
         if (this.cache.priceWrapper) {
           this.cache.priceWrapper.classList.add(this.classes.hidden)
         }
-        this.cache.savePrice.classList.add(this.classes.hidden)
+        this.cache.savePrice?.classList.add(this.classes.hidden)
         this.cache.price.classList.remove(this.classes.onSale)
         if (this.cache.comparePriceA11y) {
           this.cache.comparePriceA11y.setAttribute('aria-hidden', 'true')
@@ -1217,3 +1220,153 @@ export default class Product extends HTMLElement {
 }
 
 customElements.define('product-component', Product)
+
+/**
+ * Handle change variant price from BSS app
+ */
+let setTimecheck = setTimeout(() => {
+  document.querySelectorAll('.po-option--button-container .po-option__button-media')?.forEach((elm) => {
+
+      elm.addEventListener("click", (event) => {
+        
+        setTimeout (() => {
+          let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
+          if (priceOption) {
+            let price = handlePriceByApp(priceOption);
+            getCurrentPrice(true, price);
+          }
+          else {
+            getCurrentPrice(false);
+          }
+        }, 500);
+
+      });
+  });
+}, 1000);
+
+function getCurrentPrice(status, priceOption = 0) {
+
+  let span = document.querySelector(".product__price[data-product-price] span");
+
+  if(document.querySelector(".product__price[data-product-price]").contains(span)) {
+    let priceProduct = '';
+    priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
+    priceProduct = priceProduct?.split("$");
+    priceProduct = parseFloat(priceProduct[1]?.trim());
+
+    document.querySelector(".product__price[data-product-price] span[aria-hidden='true']").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
+
+    //Hide compare price if totalPrice > comparePrice
+    let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    comparePrice = comparePrice?.split("$");
+    comparePrice = parseFloat(comparePrice[1]?.trim());
+
+    if((priceProduct + priceOption) >= comparePrice){
+      !document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.add('visually-hidden') : '';
+    }else{
+      document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.remove('visually-hidden') : '';
+    }
+
+  }else {
+    let priceProduct = '';
+    priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
+    priceProduct = priceProduct?.split("$");
+    priceProduct = parseFloat(priceProduct[1]?.trim());
+
+    document.querySelector(".product__price[data-product-price]").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
+    
+    //Hide compare price if totalPrice > comparePrice
+    let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    comparePrice = comparePrice?.split("$");
+    comparePrice = parseFloat(comparePrice[1]?.trim());
+
+    if((priceProduct + priceOption) >= comparePrice){
+      !document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.add('visually-hidden') : '';
+    }else{
+      document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.remove('visually-hidden') : '';
+    }
+  }
+
+}
+
+function handlePriceByApp(price) {
+  let priceOption = price;
+
+  priceOption = priceOption?.split("+");
+  priceOption = priceOption[1]?.split(")");
+  priceOption = priceOption[0]?.split("$");
+  priceOption = parseFloat(priceOption[1]?.trim());
+
+  return priceOption;
+}
+
+/**
+ * @param Check when user change the product variant
+ */
+
+if (document.querySelector('.variant-input-wrap')){
+
+  document.querySelectorAll('.variant-input-wrap .variant-input .variant__input--color-swatch').forEach((elm) => {
+    elm.addEventListener("change", (e) => {
+
+        let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
+        if (priceOption) {
+          
+          let price = handlePriceByApp(priceOption)
+          getCurrentPrice(true, price);
+
+        }
+    });
+  });
+}
+
+/**
+ * Formats Price
+ */
+
+function formatPrice(price, separator) {
+  var num = price;
+  var sep = separator;
+  var array = [];
+  var numbers;
+  var integer;
+  var decimal;
+  var sign;
+
+  if (typeof num !== 'number') {
+      num = parseFloat(num);
+  }
+
+  if (typeof sep !== 'string') {
+      sep = ',';
+  }
+
+  if (isNaN(num)) {
+      num = 0;
+  }
+
+  if (num < 0) {
+      sign = '-';
+      num = -num;
+  } else {
+      sign = '';
+  }
+
+  num = num.toFixed(2);
+
+  numbers = num.split('.');
+  integer = numbers[0] || '';
+  decimal = numbers[1] || '00';
+
+  while (integer.length) {
+      if (integer.length > 3) {
+          array.unshift(integer.substr(-3));
+          integer = integer.substr(0, integer.length - 3);
+      } else {
+          array.unshift(integer);
+          integer = '';
+      }
+  }
+
+  return sign + array.join(sep) + '.' + decimal;
+}

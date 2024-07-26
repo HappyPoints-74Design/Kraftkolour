@@ -278,7 +278,7 @@
                         {%- endif -%}
 
                         <span data-product-price
-                          class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                          class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}" data-price="{{ current_variant.price |  money }}">
                           {%- unless product.empty? -%}
                             {%- render 'price',
                               price: current_variant.price,
