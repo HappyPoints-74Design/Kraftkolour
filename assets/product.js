@@ -356,8 +356,8 @@ export default class Product extends HTMLElement {
       }
 
       // Regular price
-      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
       this.cache.price.dataset.price = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
+      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
 
       // Sale price, if necessary
       if (variant.compare_at_price > variant.price) {
@@ -379,13 +379,15 @@ export default class Product extends HTMLElement {
           savings = theme.Currency.formatMoney(savings, theme.settings.moneyFormat)
         }
 
-        this.cache.savePrice.classList.remove(this.classes.hidden)
-        this.cache.savePrice.innerHTML = theme.strings.savePrice.replace('[saved_amount]', savings)
+        this.cache.savePrice?.classList.remove(this.classes.hidden)
+        if(this.cache.savePrice){
+          this.cache.savePrice.innerHTML = theme.strings.savePrice.replace('[saved_amount]', savings)
+        }
       } else {
         if (this.cache.priceWrapper) {
           this.cache.priceWrapper.classList.add(this.classes.hidden)
         }
-        this.cache.savePrice.classList.add(this.classes.hidden)
+        this.cache.savePrice?.classList.add(this.classes.hidden)
         this.cache.price.classList.remove(this.classes.onSale)
         if (this.cache.comparePriceA11y) {
           this.cache.comparePriceA11y.setAttribute('aria-hidden', 'true')
@@ -1253,6 +1255,18 @@ function getCurrentPrice(status, priceOption = 0) {
     priceProduct = parseFloat(priceProduct[1]?.trim());
 
     document.querySelector(".product__price[data-product-price] span[aria-hidden='true']").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
+
+    //Hide compare price if totalPrice > comparePrice
+    let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    comparePrice = comparePrice?.split("$");
+    comparePrice = parseFloat(comparePrice[1]?.trim());
+
+    if((priceProduct + priceOption) >= comparePrice){
+      !document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.add('visually-hidden') : '';
+    }else{
+      document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.remove('visually-hidden') : '';
+    }
+
   }else {
     let priceProduct = '';
     priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
@@ -1260,6 +1274,17 @@ function getCurrentPrice(status, priceOption = 0) {
     priceProduct = parseFloat(priceProduct[1]?.trim());
 
     document.querySelector(".product__price[data-product-price]").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
+    
+    //Hide compare price if totalPrice > comparePrice
+    let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    comparePrice = comparePrice?.split("$");
+    comparePrice = parseFloat(comparePrice[1]?.trim());
+
+    if((priceProduct + priceOption) >= comparePrice){
+      !document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.add('visually-hidden') : '';
+    }else{
+      document.querySelector('[data-compare-price]').classList.contains('visually-hidden') ? document.querySelector('[data-compare-price]').classList.remove('visually-hidden') : '';
+    }
   }
 
 }
@@ -1289,7 +1314,7 @@ if (document.querySelector('.variant-input-wrap')){
           
           let price = handlePriceByApp(priceOption)
           getCurrentPrice(true, price);
-          
+
         }
     });
   });
