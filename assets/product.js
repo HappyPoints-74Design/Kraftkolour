@@ -1256,15 +1256,65 @@ function getCurrentPrice(status, priceOption = 0) {
     priceProduct = priceProduct?.split("$");
     priceProduct = parseFloat(priceProduct[1]?.trim());
 
-    document.querySelector(".product__price[data-product-price] span[aria-hidden='true']").textContent = status ? `$${priceProduct + priceOption}` : `$${priceProduct}`;
+    document.querySelector(".product__price[data-product-price] span[aria-hidden='true']").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
   }else {
     let priceProduct = '';
     priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
     priceProduct = priceProduct?.split("$");
     priceProduct = parseFloat(priceProduct[1]?.trim());
 
-    document.querySelector(".product__price[data-product-price]").textContent = status ? `$${priceProduct + priceOption}` : `$${priceProduct}`;
+    document.querySelector(".product__price[data-product-price]").textContent = status ? `$${formatPrice((priceProduct + priceOption))}` : `$${formatPrice(priceProduct)}`;
   }
 
 }
 
+/**
+ * Formats Price
+ */
+
+function formatPrice(price, separator) {
+  var num = price;
+  var sep = separator;
+  var array = [];
+  var numbers;
+  var integer;
+  var decimal;
+  var sign;
+
+  if (typeof num !== 'number') {
+      num = parseFloat(num);
+  }
+
+  if (typeof sep !== 'string') {
+      sep = ',';
+  }
+
+  if (isNaN(num)) {
+      num = 0;
+  }
+
+  if (num < 0) {
+      sign = '-';
+      num = -num;
+  } else {
+      sign = '';
+  }
+
+  num = num.toFixed(2);
+
+  numbers = num.split('.');
+  integer = numbers[0] || '';
+  decimal = numbers[1] || '00';
+
+  while (integer.length) {
+      if (integer.length > 3) {
+          array.unshift(integer.substr(-3));
+          integer = integer.substr(0, integer.length - 3);
+      } else {
+          array.unshift(integer);
+          integer = '';
+      }
+  }
+
+  return sign + array.join(sep) + '.' + decimal;
+}
