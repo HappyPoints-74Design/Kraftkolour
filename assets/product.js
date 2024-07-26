@@ -1230,14 +1230,10 @@ let setTimecheck = setTimeout(() => {
         setTimeout (() => {
           let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
           if (priceOption) {
-            priceOption = priceOption?.split("+");
-            priceOption = priceOption[1]?.split(")");
-            priceOption = priceOption[0]?.split("$");
-            priceOption = parseFloat(priceOption[1]?.trim());
-          
-            getCurrentPrice(true, priceOption);
-          }else{
-
+            let price = handlePriceByApp(priceOption);
+            getCurrentPrice(true, price);
+          }
+          else {
             getCurrentPrice(false);
           }
         }, 500);
@@ -1268,23 +1264,32 @@ function getCurrentPrice(status, priceOption = 0) {
 
 }
 
+function handlePriceByApp(price) {
+  let priceOption = price;
+
+  priceOption = priceOption?.split("+");
+  priceOption = priceOption[1]?.split(")");
+  priceOption = priceOption[0]?.split("$");
+  priceOption = parseFloat(priceOption[1]?.trim());
+
+  return priceOption;
+}
+
 /**
  * @param Check when user change the product variant
  */
 
 if (document.querySelector('.variant-input-wrap')){
-  
+
   document.querySelectorAll('.variant-input-wrap .variant-input .variant__input--color-swatch').forEach((elm) => {
     elm.addEventListener("change", (e) => {
 
         let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
         if (priceOption) {
-          priceOption = priceOption?.split("+");
-          priceOption = priceOption[1]?.split(")");
-          priceOption = priceOption[0]?.split("$");
-          priceOption = parseFloat(priceOption[1]?.trim());
-
-          getCurrentPrice(true, priceOption);
+          
+          let price = handlePriceByApp(priceOption)
+          getCurrentPrice(true, price);
+          
         }
     });
   });
