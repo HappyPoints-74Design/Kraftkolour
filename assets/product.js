@@ -356,7 +356,8 @@ export default class Product extends HTMLElement {
       }
 
       // Regular price
-      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat)
+      this.cache.price.innerHTML = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
+      this.cache.price.dataset.price = theme.Currency.formatMoney(variant.price, theme.settings.moneyFormat);
 
       // Sale price, if necessary
       if (variant.compare_at_price > variant.price) {
@@ -1217,3 +1218,53 @@ export default class Product extends HTMLElement {
 }
 
 customElements.define('product-component', Product)
+
+/**
+ * Handle change variant price from BSS app
+ */
+let setTimecheck = setTimeout(() => {
+  document.querySelectorAll('.po-option--button-container .po-option__button-media')?.forEach((elm) => {
+
+      elm.addEventListener("click", (event) => {
+        
+        setTimeout (() => {
+          let priceOption = document.querySelector('.po-label .po-extra-price')?.textContent;
+          if (priceOption) {
+            priceOption = priceOption?.split("+");
+            priceOption = priceOption[1]?.split(")");
+            priceOption = priceOption[0]?.split("$");
+            priceOption = parseFloat(priceOption[1]?.trim());
+          
+            getCurrentPrice(true, priceOption);
+          }else{
+
+            getCurrentPrice(false);
+          }
+        }, 500);
+
+      });
+  });
+}, 1000);
+
+function getCurrentPrice(status, priceOption = 0) {
+
+  let span = document.querySelector(".product__price[data-product-price] span");
+
+  if(document.querySelector(".product__price[data-product-price]").contains(span)) {
+    let priceProduct = '';
+    priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
+    priceProduct = priceProduct?.split("$");
+    priceProduct = parseFloat(priceProduct[1]?.trim());
+
+    document.querySelector(".product__price[data-product-price] span[aria-hidden='true']").textContent = status ? `$${priceProduct + priceOption}` : `$${priceProduct}`;
+  }else {
+    let priceProduct = '';
+    priceProduct = document.querySelector(".product__price[data-product-price]")?.getAttribute('data-price');
+    priceProduct = priceProduct?.split("$");
+    priceProduct = parseFloat(priceProduct[1]?.trim());
+
+    document.querySelector(".product__price[data-product-price]").textContent = status ? `$${priceProduct + priceOption}` : `$${priceProduct}`;
+  }
+
+}
+
