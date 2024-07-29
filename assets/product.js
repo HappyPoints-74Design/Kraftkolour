@@ -1267,6 +1267,7 @@ function getCurrentPrice(status, priceOption = 0) {
 
     //Hide compare price if totalPrice > comparePrice
     let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    if(!comparePrice) return false;
     comparePrice = comparePrice?.split("$");
     comparePrice = parseFloat(comparePrice[1]?.trim());
 
@@ -1286,6 +1287,7 @@ function getCurrentPrice(status, priceOption = 0) {
     
     //Hide compare price if totalPrice > comparePrice
     let comparePrice = document.querySelector('[data-compare-price]')?.textContent;
+    if(!comparePrice) return false;
     comparePrice = comparePrice?.split("$");
     comparePrice = parseFloat(comparePrice[1]?.trim());
 
