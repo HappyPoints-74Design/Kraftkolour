@@ -1201,6 +1201,18 @@
         "id": "predictive_search_enabled",
         "label": "t:actions.enable_predictive_search",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "predictive_search_show_price",
+        "label": "Show price",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "predictive_search_show_vendor",
+        "label": "Show vendor",
+        "default": true
       }
     ]
   },
