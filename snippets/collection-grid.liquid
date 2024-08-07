@@ -74,21 +74,22 @@
             assign productGridView = cart.attributes.product_view
           endif
         -%}
-
-        <ul class="no-bullets inline-list text-right">
-          <li><button type="button" class="grid-view-btn{% if productGridView == 'large' %} is-active{% endif %}" data-view="large" title="{{ 'labels.large' | t }}">
-            {% render 'icon', name: 'view-large' %}
-            <span class="icon__fallback-text visually-hidden">{{ 'labels.large' | t }}</span>
-          </button></li>
-          <li><button type="button" class="grid-view-btn{% if productGridView == 'medium' %} is-active{% endif %}" data-view="medium" title="{{ 'labels.small' | t }}">
-            {% render 'icon', name: 'view-small' %}
-            <span class="icon__fallback-text visually-hidden">{{ 'labels.small' | t }}</span>
-          </button></li>
-          <li><button type="button" class="grid-view-btn{% if productGridView == 'labels.list' %} is-active{% endif %}" data-view="list" title="{{ 'labels.list' | t }}">
-            {% render 'icon', name: 'view-list' %}
-            <span class="icon__fallback-text visually-hidden">{{ 'labels.list' | t }}</span>
-          </button></li>
-        </ul>
+        {% if show_grid_view_btn %}
+          <ul class="no-bullets inline-list text-right">
+            <li><button type="button" class="grid-view-btn{% if productGridView == 'large' %} is-active{% endif %}" data-view="large" title="{{ 'labels.large' | t }}">
+              {% render 'icon', name: 'view-large' %}
+              <span class="icon__fallback-text visually-hidden">{{ 'labels.large' | t }}</span>
+            </button></li>
+            <li><button type="button" class="grid-view-btn{% if productGridView == 'medium' %} is-active{% endif %}" data-view="medium" title="{{ 'labels.small' | t }}">
+              {% render 'icon', name: 'view-small' %}
+              <span class="icon__fallback-text visually-hidden">{{ 'labels.small' | t }}</span>
+            </button></li>
+            <li><button type="button" class="grid-view-btn{% if productGridView == 'labels.list' %} is-active{% endif %}" data-view="list" title="{{ 'labels.list' | t }}">
+              {% render 'icon', name: 'view-list' %}
+              <span class="icon__fallback-text visually-hidden">{{ 'labels.list' | t }}</span>
+            </button></li>
+          </ul>
+        {% endif %}
       </div>
     </div>
 

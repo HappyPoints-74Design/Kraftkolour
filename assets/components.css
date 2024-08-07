@@ -2121,10 +2121,9 @@ html input[disabled] {
   text-decoration: none;
   text-align: center;
   white-space: normal;
-
+  font-family: var(--typeHeaderPrimary);
   font-size: calc(var(--typeBaseSize) + 2px);
   font-weight: 700;
-
   display: inline-block;
   padding: var(--btnPadding);
   margin: 0;
@@ -5224,14 +5223,14 @@ input[type="image"] {
 .collection-filter__item--right > .inline-list {
     margin-right: -7px;
   }
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
   .collection-filter__sort {
     padding-right: 15px;
     margin-right: 15px;
     border-right: 1px solid;
     border-right-color: var(--colorBorder);
   }
-}
+} */
 @media only screen and (max-width: 768px) {
   .collection-filter__item--count {
     order: 3;
@@ -5326,6 +5325,13 @@ input[type="image"] {
     max-height: 90vh;
     overflow-y: auto;
   }
+}
+.grid__item--sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.grid__item--sidebar::-webkit-scrollbar {
+  display: none;
 }
 /*Collection sidebar turns into a slide-down drawer on mobile*/
 @media only screen and (max-width: 768px) {
@@ -7788,14 +7794,14 @@ html[dir="rtl"] .product-single__meta .rte {
 .collection-filter__item--right > .inline-list {
     margin-right: -7px;
   }
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
   .collection-filter__sort {
     padding-right: 15px;
     margin-right: 15px;
     border-right: 1px solid;
     border-right-color: var(--colorBorder);
   }
-}
+} */
 @media only screen and (max-width: 768px) {
   .collection-filter__item--count {
     order: 3;

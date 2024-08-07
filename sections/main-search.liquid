@@ -25,6 +25,7 @@
     hydration: 'on:idle',
     set_image_breathing_room: true,
     product_grid_style: settings.product_grid_style,
+    show_grid_view_btn: section.settings.show_grid_view_btn
 -%}
 
 {% schema %}
@@ -79,6 +80,12 @@
           "label": "t:labels.list"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_grid_view_btn",
+      "label": "Show grid view button",
+      "default": false
     }
   ]
 }

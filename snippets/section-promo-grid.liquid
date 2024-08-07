@@ -508,7 +508,7 @@
     </div>
 
 
-    {%- if section.blocks.size == 0 -%}
+    {% comment %} {%- if section.blocks.size == 0 -%}
       <div class="page-width text-center">
         <div class="rte clearfix">
           <p>
@@ -516,7 +516,7 @@
           </p>
         </div>
       </div>
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
 
     {%- unless full_width -%}
       </div>

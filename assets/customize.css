@@ -281,6 +281,9 @@ body::after {
     flex-direction: column;
     justify-content: space-around;
 }
+.product-grid-item .grid-item__link:hover {
+	color: var(--colorTextBody);
+}
 .grid-item__meta-main {
 	height: inherit;
 	width: 100%;
@@ -367,6 +370,13 @@ body::after {
     max-height: 236px;
     height: 100%;
     overflow: auto;
+}
+.no-bullets {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-bullets::-webkit-scrollbar {
+  display: none;
 }
 .collection-related .promo-grid__container {
 	display: flex;
