@@ -115,6 +115,7 @@
     color: var(--colorTextButtonSecondaryCustomer);
     background-color: var(--colorBgButtonSecondaryCustomer);
     min-height: 56px;
+    font-family: var(--typeHeaderPrimary);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 700;
@@ -224,6 +225,7 @@ input:-webkit-autofill:active{
 
 .main-account table thead tr th {
     text-transform: uppercase;
+    font-family: var(--typeHeaderPrimary);
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
@@ -234,6 +236,7 @@ input:-webkit-autofill:active{
     padding: 10px 25px;
     border: 1px solid var(--colorBorder);
     border-radius: 999px;
+    font-family: var(--typeHeaderPrimary);
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
@@ -256,6 +259,7 @@ input:-webkit-autofill:active{
 }
 
 .main-account table tfoot td {
+    font-family: var(--typeHeaderPrimary);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -312,6 +316,7 @@ input:-webkit-autofill:active{
     color: var(--color-white);
     padding: 4px 8px;
     text-transform: uppercase;
+    font-family: var(--typeHeaderPrimary);
     font-size: 12px;
     line-height: 18px;
     border-radius: 8px;

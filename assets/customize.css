@@ -172,7 +172,7 @@ body::after {
 
 .hero .slideshow__slide .hero__link .btn {
 	font-size: 16px;
-	font-family: var(--typeBaseMedium);
+	font-family: var(--typeHeaderPrimary);
 	font-weight: 700;
 	text-transform: capitalize;
 }
@@ -245,7 +245,7 @@ body::after {
  * @Arrivals Collection
  */
 .feature-collection .section-header__link {
-	font-family: var(--typeBaseMedium);
+	font-family: var(--typeHeaderPrimary);
 	color: var(--colorLinks);
 	text-transform: capitalize;
 	font-size: 16px;
@@ -324,7 +324,7 @@ body::after {
  * Promo Grid Item
  */
 .promo-grid .rte--em {
-	font-family: var(--typeBaseMedium);
+	font-family: var(--typeHeaderPrimary);
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 18px;
@@ -342,7 +342,7 @@ body::after {
 	font-weight: 400;
 }
 .promo-grid>.flex-grid>.flex-grid__item--50 .btn {
-	font-family: var(--typeBaseMedium);
+	font-family: var(--typeHeaderPrimary);
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -493,6 +493,7 @@ label:not(.variant__button-label):not(.text-label), .label {
 	font-weight: 400;
 }
 .variant-input-wrap input[type=radio]:checked+label {
+	font-family: var(--typeHeaderPrimary);
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -560,6 +561,7 @@ label:not(.variant__button-label):not(.text-label), .label {
 	color: #28282C !important;
 }
 .shopify-product-form .po-option__button-value {
+	font-family: var(--typeHeaderPrimary);
 	font-size: 16px !important;
 	font-weight: 700 !important;
 	line-height: 24px !important;
@@ -612,7 +614,7 @@ label:not(.variant__button-label):not(.text-label), .label {
 
 .input-group .input-group-btn:last-child .btn {
 	padding: 12px 48px;
-	font-family: var(--typeBaseMedium);
+	font-family: var(--typeHeaderPrimary);
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 700;
@@ -736,4 +738,18 @@ label:not(.variant__button-label):not(.text-label), .label {
 	.footer__subscribe p {
 		font-size: 14px;
 	}
+}
+
+.site-nav__details .site-nav__link .icon-chevron-down,
+.collapsible-trigger-btn .collapsible-trigger__icon svg {
+	transition: 0.2s ease;
+}
+
+.site-nav__details[open] .site-nav__link .icon-chevron-down,
+.collapsible-trigger-btn.is-open .collapsible-trigger__icon svg {
+	transform: rotate(-180deg);
+}
+
+b, strong {
+  font-family: var(--typeHeaderPrimary);
 }
