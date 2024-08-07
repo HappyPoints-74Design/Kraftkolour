@@ -1578,6 +1578,9 @@ body {
       overflow: initial;
   }
     }
+    .lock-scroll body {
+      overflow: hidden;
+    }
 }
 .transition-body {
   position: relative;
