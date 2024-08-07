@@ -5350,9 +5350,14 @@ input[type="image"] {
     box-shadow: var(--drawerBoxShadow);
   }
 
+  .collection-mobile-filters .filter-wrapper.is-transitioning {
+    max-height: 0;
+  }
+
     .collection-mobile-filters .filter-wrapper.is-active {
       display: block;
       transform: translateY(0);
+      height: 100vh;
     }
 
   .collection-mobile-filters {
