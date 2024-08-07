@@ -367,7 +367,6 @@ body::after {
 	margin-bottom: 32px;
 }
 .no-bullets {
-    max-height: 236px;
     height: 100%;
     overflow: auto;
 }
