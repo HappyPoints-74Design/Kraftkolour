@@ -106,6 +106,118 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20DIRECT%20DYES%202023.pdf"
           }
+        },
+        "download_item_center_CctQjA": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes Canary Yellow",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20CANARY%20YELLOW%202023.pdf"
+          }
+        },
+        "download_item_center_ekV8rw": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes Gold Yellow",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_bpAFCk": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_wbN6LF": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_AzrBqP": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_Qmfh6C": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_Up3iXJ": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_bnk8nD": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_YwBc9A": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_kNrWrq": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_TjFnLP": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_Ynz7A3": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_7GmLKY": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_hKrkBz": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
         }
       },
       "block_order": [
@@ -119,7 +231,21 @@
         "download_item_left_NQybgy",
         "download_item_left_me6btF",
         "download_item_left_4dhd4T",
-        "download_item_left_3HAWCP"
+        "download_item_left_3HAWCP",
+        "download_item_center_CctQjA",
+        "download_item_center_ekV8rw",
+        "download_item_center_bpAFCk",
+        "download_item_center_wbN6LF",
+        "download_item_center_AzrBqP",
+        "download_item_center_Qmfh6C",
+        "download_item_center_Up3iXJ",
+        "download_item_center_bnk8nD",
+        "download_item_center_YwBc9A",
+        "download_item_center_kNrWrq",
+        "download_item_center_TjFnLP",
+        "download_item_center_Ynz7A3",
+        "download_item_center_7GmLKY",
+        "download_item_center_hKrkBz"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
@@ -127,8 +253,8 @@
         "text": "<p>We are adding to the list regularly, if there is an SDS you need that is not yet downloadable please give us a call (03 9465 4865) or email us via the contact page.<\/p>",
         "heading_position": "center",
         "title_left": "Acid Milling [SDS]",
-        "title_center": "Disperse Dyes",
-        "title_right": "Liquid Pigments",
+        "title_center": "Discharge Liquid HD [SDS] ",
+        "title_right": "Polytex NOC [SDS]",
         "padding_top": 72,
         "padding_bottom": 72,
         "padding_top_mobile": 24,
