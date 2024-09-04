@@ -334,25 +334,65 @@
         "download_item_center_VgEM4R": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Indigo - Natural [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Natural%20Indigo%202022.pdf"
           }
         },
         "download_item_center_LAyQkB": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Indigo - Prereduced 60% [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PRE%20REDUCED%20INDIGO%202022(1).pdf"
           }
         },
         "download_item_center_NCjXbY": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Indigo - Synthetic VAT Dye [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Vat%20Blue%201%202022(1).pdf"
+          }
+        },
+        "download_item_center_AkGb38": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Kolourfix FF [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20KOLOURFIX%20FF%202023.pdf"
+          }
+        },
+        "download_item_center_yWDqKy": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Landscapes Dyes - Wool and Silk [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20DYES%202021.pdf"
+          }
+        },
+        "download_item_center_TF4zaK": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Landcapes Dyes - Cottons [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20COTTON%20DYES%202023.pdf"
+          }
+        },
+        "download_item_center_NdY3Vb": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Hydrated Lime [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIME%20-%20HYDRATED%20LIME%202022.pdf"
+          }
+        },
+        "download_item_center_qBWm64": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Liquid Lead Black [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
           }
         }
       },
@@ -398,7 +438,12 @@
         "download_item_center_axnbHB",
         "download_item_center_VgEM4R",
         "download_item_center_LAyQkB",
-        "download_item_center_NCjXbY"
+        "download_item_center_NCjXbY",
+        "download_item_center_AkGb38",
+        "download_item_center_yWDqKy",
+        "download_item_center_TF4zaK",
+        "download_item_center_NdY3Vb",
+        "download_item_center_qBWm64"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
