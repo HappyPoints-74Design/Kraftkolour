@@ -198,23 +198,95 @@
         "download_item_center_Ynz7A3": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Leaf Green",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20LEAF%20GREEN%202023.pdf"
           }
         },
         "download_item_center_7GmLKY": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Jade Green",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20JADE%20GREEN%202023.pdf"
           }
         },
         "download_item_center_hKrkBz": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Chocolate",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Chocolate%20Brown%202022.pdf"
+          }
+        },
+        "download_item_center_Kq986Q": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes Navy",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20Navy%202023.pdf"
+          }
+        },
+        "download_item_center_XTiNz7": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Disperse Dyes Black",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20BLACK%20E-G%202022.pdf"
+          }
+        },
+        "download_item_center_PqPjjg": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Drimarene K Dyes [SDS]",
+            "download_label": "Download",
+            "file_download": "http:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Drimarene%20K%20Dyes%202020.pdf"
+          }
+        },
+        "download_item_center_aiKAWp": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Dynazol Washoff [SDS]",
+            "download_label": "Download",
+            "file_download": "http:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Dynazol%20Washoff%202022.pdf"
+          }
+        },
+        "download_item_center_dG8Jpk": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Ego Gel [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Eco%20Gel%202022.pdf"
+          }
+        },
+        "download_item_center_BbrFP3": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Ferrous Sulphate [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FERROUS%20SULPHATE%202022.pdf"
+          }
+        },
+        "download_item_center_Wcf9pe": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_wgUFra": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_aqbWxn": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
             "download_label": "Download",
             "file_download": ""
           }
@@ -245,7 +317,16 @@
         "download_item_center_TjFnLP",
         "download_item_center_Ynz7A3",
         "download_item_center_7GmLKY",
-        "download_item_center_hKrkBz"
+        "download_item_center_hKrkBz",
+        "download_item_center_Kq986Q",
+        "download_item_center_XTiNz7",
+        "download_item_center_PqPjjg",
+        "download_item_center_aiKAWp",
+        "download_item_center_dG8Jpk",
+        "download_item_center_BbrFP3",
+        "download_item_center_Wcf9pe",
+        "download_item_center_wgUFra",
+        "download_item_center_aqbWxn"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
