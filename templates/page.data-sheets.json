@@ -394,6 +394,30 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
           }
+        },
+        "download_item_right_mWBiG6": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Fibre Rinse",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_qpfbLR": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Fibre Wash",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_mMkgFp": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Power Scour",
+            "download_label": "Download",
+            "file_download": ""
+          }
         }
       },
       "block_order": [
@@ -443,7 +467,10 @@
         "download_item_center_yWDqKy",
         "download_item_center_TF4zaK",
         "download_item_center_NdY3Vb",
-        "download_item_center_qBWm64"
+        "download_item_center_qBWm64",
+        "download_item_right_mWBiG6",
+        "download_item_right_qpfbLR",
+        "download_item_right_mMkgFp"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
@@ -850,7 +877,7 @@
         "heading_position": "left",
         "title_left": "Liquid Pigments",
         "title_center": "Polytex NOC [SDS]",
-        "title_right": "",
+        "title_right": "Unicorn",
         "padding_top": 72,
         "padding_bottom": 72,
         "padding_top_mobile": 48,
