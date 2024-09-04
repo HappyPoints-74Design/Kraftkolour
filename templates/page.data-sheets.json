@@ -270,12 +270,68 @@
         "download_item_center_Wcf9pe": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Fibre Fix [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Fibre%20Fix%20-%202022.pdf"
           }
         },
         "download_item_center_wgUFra": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Food Dyes ECO [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FOOD%20DYES%20Eco%20Colour%202020.pdf"
+          }
+        },
+        "download_item_center_aqbWxn": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Fructose: Crystalline [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FRUCTOSE.pdf"
+          }
+        },
+        "download_item_center_7KMjJC": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Glauber Salt [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Glauber%20Salt_Sodium%20Sulphate%202022.pdf"
+          }
+        },
+        "download_item_center_jq48qa": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Glycerine [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20GLYCERIN%202022.pdf"
+          }
+        },
+        "download_item_center_cB6ryj": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Guar Gum [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Guar%20Gum%202022.pdf"
+          }
+        },
+        "download_item_center_hNeD9J": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Clear Water-Based Gutta [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20GUTTA%20Water%20Based%202020.pdf"
+          }
+        },
+        "download_item_center_axnbHB": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Hydros ST [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Hydros%20ST%202019.pdf"
+          }
+        },
+        "download_item_center_VgEM4R": {
           "type": "download_item_center",
           "settings": {
             "title": "",
@@ -283,7 +339,15 @@
             "file_download": ""
           }
         },
-        "download_item_center_aqbWxn": {
+        "download_item_center_LAyQkB": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_center_NCjXbY": {
           "type": "download_item_center",
           "settings": {
             "title": "",
@@ -326,7 +390,15 @@
         "download_item_center_BbrFP3",
         "download_item_center_Wcf9pe",
         "download_item_center_wgUFra",
-        "download_item_center_aqbWxn"
+        "download_item_center_aqbWxn",
+        "download_item_center_7KMjJC",
+        "download_item_center_jq48qa",
+        "download_item_center_cB6ryj",
+        "download_item_center_hNeD9J",
+        "download_item_center_axnbHB",
+        "download_item_center_VgEM4R",
+        "download_item_center_LAyQkB",
+        "download_item_center_NCjXbY"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
