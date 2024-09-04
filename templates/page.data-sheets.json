@@ -120,47 +120,47 @@
           "settings": {
             "title": "Disperse Dyes Gold Yellow",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Gold%20Yellow%202022(1).pdf"
           }
         },
         "download_item_center_bpAFCk": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Orange",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Orange%202022.pdf"
           }
         },
         "download_item_center_wbN6LF": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Scarlet",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Scarlet%202023.pdf"
           }
         },
         "download_item_center_AzrBqP": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Pillarbox Red",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Pillarbox%20Red%202023.pdf"
           }
         },
         "download_item_center_Qmfh6C": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Magenta",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20Magenta%20Red%202023.pdf"
           }
         },
         "download_item_center_Up3iXJ": {
           "type": "download_item_center",
           "settings": {
-            "title": "Disperse Dyes",
+            "title": "Disperse Dyes Burgundy",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Burgundy%202022.pdf"
           }
         },
         "download_item_center_bnk8nD": {
@@ -182,7 +182,7 @@
         "download_item_center_kNrWrq": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Disperse Dyes",
             "download_label": "Download",
             "file_download": ""
           }
@@ -190,7 +190,7 @@
         "download_item_center_TjFnLP": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Disperse Dyes",
             "download_label": "Download",
             "file_download": ""
           }
@@ -198,7 +198,7 @@
         "download_item_center_Ynz7A3": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Disperse Dyes",
             "download_label": "Download",
             "file_download": ""
           }
@@ -206,7 +206,7 @@
         "download_item_center_7GmLKY": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Disperse Dyes",
             "download_label": "Download",
             "file_download": ""
           }
@@ -214,7 +214,7 @@
         "download_item_center_hKrkBz": {
           "type": "download_item_center",
           "settings": {
-            "title": "",
+            "title": "Disperse Dyes",
             "download_label": "Download",
             "file_download": ""
           }
