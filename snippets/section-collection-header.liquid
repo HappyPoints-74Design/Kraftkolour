@@ -17,9 +17,13 @@
 {%- liquid
     if collection.metafields.custom.banner_desktop.value != blank
       assign collection_image =  collection.metafields.custom.banner_desktop.value | image_url
+    else
+      assign collection_image =  collection.image | image_url
     endif
     if collection.metafields.custom.banner_mobile.value != blank
       assign collection_image_mobile =  collection.metafields.custom.banner_mobile.value | image_url
+    else
+      assign collection_image =  collection.image | image_url
     endif
 -%}
 

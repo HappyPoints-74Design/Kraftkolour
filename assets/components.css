@@ -1422,7 +1422,7 @@ html[dir="rtl"] .grid-item__content {
   margin-top: calc(var(--gutter) / -2);
   margin-left: calc(var(--gutter) / -2);
 }
-.flex-grid__item {
+.flex-grid__item:not(.flex-grid__item--25-mobile) {
   flex: 0 1 100%;
   display: flex;
   align-items: stretch;
@@ -1439,6 +1439,10 @@ html[dir="rtl"] .grid-item__content {
 }
 /*Flex grid sizing from theme settings*/
 @media only screen and (min-width: 769px) {
+  .flex-grid__item--14 {
+    flex-basis: calc(100% / 7);
+  }
+
   .flex-grid__item--25 {
     flex-basis: 25%;
   }
@@ -1457,6 +1461,20 @@ html[dir="rtl"] .grid-item__content {
 
   .flex-grid__item--75 {
     flex-basis: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex-grid__item--25-mobile {
+    width: 25%;
+  }
+  .flex-grid--gutters .flex-grid__item {
+    padding-top: calc(var(--gutter) / 4);
+    padding-left: calc(var(--gutter) / 4);
+  }
+
+  .flex-grid--gutters {
+    margin-top: calc(var(--gutter) / -4);
+    margin-left: calc(var(--gutter) / -4);
   }
 }
 .clearfix::after {

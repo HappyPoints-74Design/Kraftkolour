@@ -395,6 +395,9 @@ body::after {
 	justify-content: space-between;
 	gap: 16px;
 }
+.collection-related .promo-image-wrap {
+	justify-content: flex-start;
+}
 .collection-related--title {
 	width: 100%;
 	font-size: 14px;
@@ -403,7 +406,7 @@ body::after {
 	text-align: center;
 }
 .collection-related .flex-grid {
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 .tag--remove .btn {
 	color: #FDFDF6;

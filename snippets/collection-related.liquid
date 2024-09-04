@@ -10,7 +10,7 @@
 			assign collection_related = collection.metafields.custom.collection_related.value
 		-%}
         {%- for item in collection_related -%}
-			<div class="flex-grid__item flex-grid__item--33 type-image">
+			<div class="flex-grid__item flex-grid__item--14 flex-grid__item--25-mobile type-image">
 				<a class="promo-image-wrap" href="{{ item.url }}" alt="{{- item.handle -}}">
 					{%- if item.featured_image != blank -%}
 						<div class="image-wrap" style="height: 0; padding-bottom: 100%">
