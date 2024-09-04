@@ -750,7 +750,7 @@
           "settings": {
             "title": "Synthrapol (Jacquard) [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Synthrapol%202022.pdf"
           }
         },
         "download_item_center_DmeQXM": {
@@ -758,7 +758,7 @@
           "settings": {
             "title": "Texacid ECO [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXACID%20ECO%202023.pdf"
           }
         },
         "download_item_center_eHCHhG": {
@@ -766,7 +766,7 @@
           "settings": {
             "title": "Texcraft Deco Printing Inks [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20Deco%20Printing%20Inks%202022.pdf"
           }
         },
         "download_item_center_MGaPkn": {
@@ -774,7 +774,7 @@
           "settings": {
             "title": "Texcraft Fabric Paints [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20FABRIC%20PAINT%202021.pdf"
           }
         },
         "download_item_center_t7w8pn": {
@@ -782,7 +782,7 @@
           "settings": {
             "title": "Texiflock E-FF [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXIFLOCK%20E-FF%202022.pdf"
           }
         },
         "download_item_center_fqtFey": {
@@ -790,7 +790,7 @@
           "settings": {
             "title": "Tie Dye Kit [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TIE%20DYE%20KIT%202022.pdf"
           }
         },
         "download_item_center_tyRLjc": {
@@ -798,7 +798,7 @@
           "settings": {
             "title": "Transfix Medium [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TRANSFIX%20MEDIUM%202023.pdf"
           }
         },
         "download_item_center_4teJwt": {
@@ -806,7 +806,7 @@
           "settings": {
             "title": "Transprint Inks [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Transprint%20Inks%202022.pdf"
           }
         },
         "download_item_center_dxe6c4": {
@@ -814,7 +814,7 @@
           "settings": {
             "title": "Urea [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20UREA%202022(1).pdf"
           }
         },
         "download_item_center_P6JDUA": {
@@ -822,7 +822,31 @@
           "settings": {
             "title": "Wetter OT [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Wetter%20OT%202022%20New.pdf"
+          }
+        },
+        "download_item_right_cqyikV": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Fibre Rinse",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Rinse%20-%20Beyond%20Soft%20SDS.pdf"
+          }
+        },
+        "download_item_right_Amn4FU": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Fibre Wash",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Wash%20-%20Beyond%20Fibre%20Wash%20SDS.pdf"
+          }
+        },
+        "download_item_right_VEyiwE": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Power Scour",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Power%20Scour%20-%20Beyond%20Clean%20SDS.pdf"
           }
         }
       },
@@ -868,7 +892,10 @@
         "download_item_center_tyRLjc",
         "download_item_center_4teJwt",
         "download_item_center_dxe6c4",
-        "download_item_center_P6JDUA"
+        "download_item_center_P6JDUA",
+        "download_item_right_cqyikV",
+        "download_item_right_Amn4FU",
+        "download_item_right_VEyiwE"
       ],
       "settings": {
         "title": "",
