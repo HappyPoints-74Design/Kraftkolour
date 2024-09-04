@@ -267,28 +267,52 @@
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
           }
         },
-        "download_item_right_mWBiG6": {
-          "type": "download_item_right",
+        "download_item_center_YxdtG4": {
+          "type": "download_item_center",
           "settings": {
-            "title": "Fibre Rinse",
+            "title": "Manutex F (Paste)",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALGIPASTE_Manutex%20Paste%202022(1).pdf"
           }
         },
-        "download_item_right_qpfbLR": {
-          "type": "download_item_right",
+        "download_item_center_QxigDx": {
+          "type": "download_item_center",
           "settings": {
-            "title": "Fibre Wash",
+            "title": "Mesitol NBS40 [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mesitol%20NBS40%202023.pdf"
           }
         },
-        "download_item_right_mMkgFp": {
-          "type": "download_item_right",
+        "download_item_center_t9k9HP": {
+          "type": "download_item_center",
           "settings": {
-            "title": "Power Scour",
+            "title": "Opulence Embellishment Inks [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20EMBELLISMENT%202020.pdf"
+          }
+        },
+        "download_item_center_zNyNCE": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Opulence Heat Set [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20OPULENCE%20HEAT%20SET%20SILK%20DYES%20%202022.pdf"
+          }
+        },
+        "download_item_center_qypHEx": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Opulence Steam Fix [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20Steam%20Fix%20Dyes%202022.pdf"
+          }
+        },
+        "download_item_center_TUCxVk": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Polytex MF-U [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Polytex%20MF-U%202021.pdf"
           }
         }
       },
@@ -324,9 +348,12 @@
         "download_item_center_TF4zaK",
         "download_item_center_NdY3Vb",
         "download_item_center_qBWm64",
-        "download_item_right_mWBiG6",
-        "download_item_right_qpfbLR",
-        "download_item_right_mMkgFp"
+        "download_item_center_YxdtG4",
+        "download_item_center_QxigDx",
+        "download_item_center_t9k9HP",
+        "download_item_center_zNyNCE",
+        "download_item_center_qypHEx",
+        "download_item_center_TUCxVk"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
