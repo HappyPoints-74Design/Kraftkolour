@@ -138,6 +138,134 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ICE%20DYEING%20INSTRUCTIONS%202022%20%20(1).pdf"
           }
+        },
+        "download_item_QGN8R9": {
+          "type": "download_item",
+          "settings": {
+            "title": "Indigo Tutorial (Natural\/Bio Vat)",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Kraftkolour%20Natural%20Indigo%20Tutorial.pdf"
+          }
+        },
+        "download_item_cTYNkG": {
+          "type": "download_item",
+          "settings": {
+            "title": "Indigo Fructose Vat",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/FRUCTOSE%20VAT%20FINAL%20DRAFT(4).pdf"
+          }
+        },
+        "download_item_fKkPGc": {
+          "type": "download_item",
+          "settings": {
+            "title": "iDye Poly Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/iDye%2BPoly%2BInstructions(1).pdf"
+          }
+        },
+        "download_item_878g3h": {
+          "type": "download_item",
+          "settings": {
+            "title": "Lanaset\/Everset Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/LANASET%20%20INSTRUCTIONS%202022%20(1).pdf"
+          }
+        },
+        "download_item_iwAxpB": {
+          "type": "download_item",
+          "settings": {
+            "title": "Landscapes Dyes For Wool And Silk FAQ's",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/LANDSCAPES%20FAQS(4).pdf"
+          }
+        },
+        "download_item_VQkU9z": {
+          "type": "download_item",
+          "settings": {
+            "title": "Landscapes Dyes For Wool And Silk Colourchart & Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Landscapes%20CC.pdf"
+          }
+        },
+        "download_item_GbGN3t": {
+          "type": "download_item",
+          "settings": {
+            "title": "Landscapes Dyes For Wool And Silk Seasons Colourchart & Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/LANDSCAPES%20SEASONS%20INSTRUCTIONS%202022(2).pdf"
+          }
+        },
+        "download_item_pAYy9R": {
+          "type": "download_item",
+          "settings": {
+            "title": "Landscapes Dyes For Cotton Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Landscape%20Cottons%20Instructions%20July%202024(1).pdf"
+          }
+        },
+        "download_item_6p9eQc": {
+          "type": "download_item",
+          "settings": {
+            "title": "Making Rolags with a Blending Board",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Making%20Rolags%20with%20a%20Blending%20Board%20by%20Kraftkolour.pdf"
+          }
+        },
+        "download_item_zHJkAf": {
+          "type": "download_item",
+          "settings": {
+            "title": "Marbling Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/MARBLING%20INS%20WB%202017.pdf"
+          }
+        },
+        "download_item_LDyEeP": {
+          "type": "download_item",
+          "settings": {
+            "title": "Mordanting for Natural Dyeing Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/MORDANTS%20INSTRUCTIONS%202022%20FINAL%20DRAFT.pdf"
+          }
+        },
+        "download_item_ie3Brf": {
+          "type": "download_item",
+          "settings": {
+            "title": "Natural Dyes & Mordants Instructions ",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/NATURAL%20DYE%20BOOKLET.pdf"
+          }
+        },
+        "download_item_3Byh4e": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Heat Set Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Opulence%20Heat%20Set%20ins%202018.pdf"
+          }
+        },
+        "download_item_p4EEd7": {
+          "type": "download_item",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_aNUUBw": {
+          "type": "download_item",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_dwCGce": {
+          "type": "download_item",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
         }
       },
       "block_order": [
@@ -152,7 +280,23 @@
         "download_item_LfB47U",
         "download_item_NkXA8h",
         "download_item_pHJhRN",
-        "download_item_ngCDiL"
+        "download_item_ngCDiL",
+        "download_item_QGN8R9",
+        "download_item_cTYNkG",
+        "download_item_fKkPGc",
+        "download_item_878g3h",
+        "download_item_iwAxpB",
+        "download_item_VQkU9z",
+        "download_item_GbGN3t",
+        "download_item_pAYy9R",
+        "download_item_6p9eQc",
+        "download_item_zHJkAf",
+        "download_item_LDyEeP",
+        "download_item_ie3Brf",
+        "download_item_3Byh4e",
+        "download_item_p4EEd7",
+        "download_item_aNUUBw",
+        "download_item_dwCGce"
       ],
       "settings": {
         "title": "",
