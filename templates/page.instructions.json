@@ -110,17 +110,33 @@
         "download_item_LfB47U": {
           "type": "download_item",
           "settings": {
-            "title": "",
+            "title": "Disperse Dye Instructions",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/DISPERSE%20INSTRUCTIONS%202022%20(8).pdf"
           }
         },
         "download_item_NkXA8h": {
           "type": "download_item",
           "settings": {
-            "title": "",
+            "title": "Drimarene Dye Instructions",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/DRIMARENE%20K%20INSTRUCTIONS%202022%20.pdf"
+          }
+        },
+        "download_item_pHJhRN": {
+          "type": "download_item",
+          "settings": {
+            "title": "Easy Shibori with Kraftkolour",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Easy%20Shibori%20with%20Kraftkolour.pdf"
+          }
+        },
+        "download_item_ngCDiL": {
+          "type": "download_item",
+          "settings": {
+            "title": "Ice Dyeing Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ICE%20DYEING%20INSTRUCTIONS%202022%20%20(1).pdf"
           }
         }
       },
@@ -134,7 +150,9 @@
         "download_item_cd9WXx",
         "download_item_wexzf8",
         "download_item_LfB47U",
-        "download_item_NkXA8h"
+        "download_item_NkXA8h",
+        "download_item_pHJhRN",
+        "download_item_ngCDiL"
       ],
       "settings": {
         "title": "",
