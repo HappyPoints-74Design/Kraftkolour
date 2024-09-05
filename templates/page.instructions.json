@@ -246,25 +246,137 @@
         "download_item_p4EEd7": {
           "type": "download_item",
           "settings": {
-            "title": "",
+            "title": "Opulence Steam Fix Instructions",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Opulence%20Steam%20Fix%202024.pdf"
           }
         },
         "download_item_aNUUBw": {
           "type": "download_item",
           "settings": {
-            "title": "",
+            "title": "Procion Batik Instructions",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/BATIK%20KIT.pdf"
           }
         },
         "download_item_dwCGce": {
           "type": "download_item",
           "settings": {
-            "title": "",
+            "title": "Procion Cram Jar Dyeing",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/CRAM%20JAR%20INSTRUCTIONS%202022%201.pdf"
+          }
+        },
+        "download_item_hPYfXr": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Handpainting & Printing Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/PROCION%20HANDPAINTING%20%26%20PRINTING%20%20INSTRUCTIONS%202022%20(1).pdf"
+          }
+        },
+        "download_item_Kah8k7": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Ice Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ICE%20DYEING%20INSTRUCTIONS%202022%20%20(3).pdf"
+          }
+        },
+        "download_item_tLDbQk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Ice Dyeing For Beginners Resource",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Kraftkolour%20Procion%20ice%20dyeing%20resource%20for%20beginners(1).pdf"
+          }
+        },
+        "download_item_HpqD3Q": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Ice Dye Colour Chart",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Kraftkolour%20Procion%20Ice%20Dye%20Colour%20Chart%20-%20complete%20April%202024.pdf"
+          }
+        },
+        "download_item_agbRmh": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Dyebath Instructions & Colourchart",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/PROCION%20INSTRUCTIONS%202022%20WITH%20COLOUR%20CHART(3).pdf"
+          }
+        },
+        "download_item_MTVGFY": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Presoak Dyeing Method",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SODA%20PRESOAK%20INSTRUCTIONS%202022(1).pdf"
+          }
+        },
+        "download_item_Cb4zKV": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Tie Dye with Squeeze Bottles ",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SQUEEZE%20BOTTLES%20INSTRUCTIONS%202022(1).pdf"
+          }
+        },
+        "download_item_8yhBbg": {
+          "type": "download_item",
+          "settings": {
+            "title": "Remazol Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ins%20REMAZOL%202017.pdf"
+          }
+        },
+        "download_item_iWLkbF": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sun Dyes Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ins_Sun_Dyes.pdf"
+          }
+        },
+        "download_item_NzzNan": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transprint Ink Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ins%20Transprint.pdf"
+          }
+        },
+        "download_item_ML3Ay8": {
+          "type": "download_item",
+          "settings": {
+            "title": "How To Work With Fibre Tops",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/How%20to%20work%20with%20fibre%20tops%20by%20Kraftkolour.pdf"
+          }
+        },
+        "download_item_fj4Eq8": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQ'S - Fabric inks, Bases & Their Uses",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/FAQS%20PRINTING%20INKS.doc"
+          }
+        },
+        "download_item_YJ97cg": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQ'S - Fibres, Origins, Eco Status & Uses",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/FAQS%20FIBRES.doc"
+          }
+        },
+        "download_item_yp6cLe": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQ'S - Packaging & Mailing Materials Sustainability",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/FAQ'S%20MAILING%20AND%20PACKAGING%20MATERIALS.docx"
           }
         }
       },
@@ -296,7 +408,21 @@
         "download_item_3Byh4e",
         "download_item_p4EEd7",
         "download_item_aNUUBw",
-        "download_item_dwCGce"
+        "download_item_dwCGce",
+        "download_item_hPYfXr",
+        "download_item_Kah8k7",
+        "download_item_tLDbQk",
+        "download_item_HpqD3Q",
+        "download_item_agbRmh",
+        "download_item_MTVGFY",
+        "download_item_Cb4zKV",
+        "download_item_8yhBbg",
+        "download_item_iWLkbF",
+        "download_item_NzzNan",
+        "download_item_ML3Ay8",
+        "download_item_fj4Eq8",
+        "download_item_YJ97cg",
+        "download_item_yp6cLe"
       ],
       "settings": {
         "title": "",
