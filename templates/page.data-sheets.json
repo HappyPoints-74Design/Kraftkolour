@@ -629,6 +629,198 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20BLACK%20E-G%202022.pdf"
           }
+        },
+        "download_item_center_iKRgiP": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Lemon Yellow",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Lemon%20Yellow%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_znnW7k": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Mid Yellow",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mid%20Yellow%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_UCg6jJ": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Gold Yellow",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Gold%20Yellow%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_rNnank": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Yellow Ochre",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Yellow%20Ochre%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_pmqte3": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Orange",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Orange%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_YBwQjn": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Scarlet",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Scarlet%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_hB8AR9": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Pillarbox Red",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Pillarbox%20Red%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_cpKLGm": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Crimson",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Crimson%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_WtRrTC": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Burgundy",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Burgundy%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_qeRdMw": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Brilliant Pink",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Pink%20B%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_3pG8Yh": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Magenta",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Magenta%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_center_pk6mKR": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Violet",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Violet%20Pigment%202022.pdf"
+          }
+        },
+        "download_item_right_GQ8NmM": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_aJdPqX": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_q3FzTe": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_qyjy8P": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_PVQBc3": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_TzFhyw": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_AwcdQm": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_yhjTKt": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_7g7yhe": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_NjmYNb": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_HLBCRH": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_right_eYgJ6k": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
         }
       },
       "block_order": [
@@ -647,7 +839,31 @@
         "download_item_left_PKM9xg",
         "download_item_left_bGn7P7",
         "download_item_left_MHQFFF",
-        "download_item_left_N867VP"
+        "download_item_left_N867VP",
+        "download_item_center_iKRgiP",
+        "download_item_center_znnW7k",
+        "download_item_center_UCg6jJ",
+        "download_item_center_rNnank",
+        "download_item_center_pmqte3",
+        "download_item_center_YBwQjn",
+        "download_item_center_hB8AR9",
+        "download_item_center_cpKLGm",
+        "download_item_center_WtRrTC",
+        "download_item_center_qeRdMw",
+        "download_item_center_3pG8Yh",
+        "download_item_center_pk6mKR",
+        "download_item_right_GQ8NmM",
+        "download_item_right_aJdPqX",
+        "download_item_right_q3FzTe",
+        "download_item_right_qyjy8P",
+        "download_item_right_PVQBc3",
+        "download_item_right_TzFhyw",
+        "download_item_right_AwcdQm",
+        "download_item_right_yhjTKt",
+        "download_item_right_7g7yhe",
+        "download_item_right_NjmYNb",
+        "download_item_right_HLBCRH",
+        "download_item_right_eYgJ6k"
       ],
       "settings": {
         "title": "",
