@@ -1025,6 +1025,30 @@
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Wetter%20OT%202022%20New.pdf"
           }
+        },
+        "download_item_center_qrGkRz": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Fibre Rinse",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Rinse%20-%20Beyond%20Soft%20SDS.pdf"
+          }
+        },
+        "download_item_center_XMePth": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Fibre Wash",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Wash%20-%20Beyond%20Fibre%20Wash%20SDS.pdf"
+          }
+        },
+        "download_item_center_9RCtAh": {
+          "type": "download_item_center",
+          "settings": {
+            "title": "Power Scour",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Power%20Scour%20-%20Beyond%20Clean%20SDS.pdf"
+          }
         }
       },
       "block_order": [
@@ -1045,7 +1069,10 @@
         "download_item_left_gRLMDD",
         "download_item_left_UMHyJF",
         "download_item_left_L93B66",
-        "download_item_left_yJhEpU"
+        "download_item_left_yJhEpU",
+        "download_item_center_qrGkRz",
+        "download_item_center_XMePth",
+        "download_item_center_9RCtAh"
       ],
       "settings": {
         "title": "",
