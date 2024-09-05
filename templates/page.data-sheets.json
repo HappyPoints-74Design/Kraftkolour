@@ -949,17 +949,81 @@
         "download_item_left_qQcQmV": {
           "type": "download_item_left",
           "settings": {
-            "title": "",
+            "title": "Synthrapol (Jacquard) [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Synthrapol%202022.pdf"
           }
         },
         "download_item_left_m6Fx3A": {
           "type": "download_item_left",
           "settings": {
-            "title": "",
+            "title": "Texacid ECO [SDS]",
             "download_label": "Download",
-            "file_download": ""
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXACID%20ECO%202023.pdf"
+          }
+        },
+        "download_item_left_pd9UBL": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Texcraft Deco Printing Inks [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20Deco%20Printing%20Inks%202022.pdf"
+          }
+        },
+        "download_item_left_UxxDd9": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Texcraft Fabric Paints [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20FABRIC%20PAINT%202021.pdf"
+          }
+        },
+        "download_item_left_KcwXaK": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Texiflock E-FF [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXIFLOCK%20E-FF%202022.pdf"
+          }
+        },
+        "download_item_left_KyNDEh": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Tie Dye Kit [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TIE%20DYE%20KIT%202022.pdf"
+          }
+        },
+        "download_item_left_gRLMDD": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Transfix Medium [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TRANSFIX%20MEDIUM%202023.pdf"
+          }
+        },
+        "download_item_left_UMHyJF": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Transprint Inks [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Transprint%20Inks%202022.pdf"
+          }
+        },
+        "download_item_left_L93B66": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Urea [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20UREA%202022(1).pdf"
+          }
+        },
+        "download_item_left_yJhEpU": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Wetter OT [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Wetter%20OT%202022%20New.pdf"
           }
         }
       },
@@ -973,7 +1037,15 @@
         "download_item_left_BFHTaB",
         "download_item_left_UbCVDb",
         "download_item_left_qQcQmV",
-        "download_item_left_m6Fx3A"
+        "download_item_left_m6Fx3A",
+        "download_item_left_pd9UBL",
+        "download_item_left_UxxDd9",
+        "download_item_left_KcwXaK",
+        "download_item_left_KyNDEh",
+        "download_item_left_gRLMDD",
+        "download_item_left_UMHyJF",
+        "download_item_left_L93B66",
+        "download_item_left_yJhEpU"
       ],
       "settings": {
         "title": "",
