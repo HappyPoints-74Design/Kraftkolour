@@ -878,11 +878,122 @@
         "padding_top_mobile": 48,
         "padding_bottom_mobile": 48
       }
+    },
+    "download_file_grid_8dghqt": {
+      "type": "download-file-grid",
+      "blocks": {
+        "download_item_left_tArwtC": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Procion Dyes [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PROCION%20MX%20Dyes%202022(1).pdf"
+          }
+        },
+        "download_item_left_dmJ8Lq": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Remazol Dyes [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Remazol%20Dyes%20Assorted%20Colours%202022(1).pdf"
+          }
+        },
+        "download_item_left_z8CrqC": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Resist Salt [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20RESIST%20SALT%20L%202022.pdf"
+          }
+        },
+        "download_item_left_wGVdJG": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Shimmer Paints [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SHIMMER%20PAINTS%202019.pdf"
+          }
+        },
+        "download_item_left_Ae84nn": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Soda Ash [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SODA%20ASH%202022.pdf"
+          }
+        },
+        "download_item_left_rPi7GN": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Sodium Alginate Manutex F [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Sodium%20Alginate%20Manutex%20F%202022.pdf"
+          }
+        },
+        "download_item_left_BFHTaB": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Sulphonated Canola Oil [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Sulphanated%20Canola%20Oil%20Turkey%20Red%20Oil%20Aug%202024.pdf"
+          }
+        },
+        "download_item_left_UbCVDb": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Sun Dyes [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SUN%20DYES%202022.pdf"
+          }
+        },
+        "download_item_left_qQcQmV": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
+        "download_item_left_m6Fx3A": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        }
+      },
+      "block_order": [
+        "download_item_left_tArwtC",
+        "download_item_left_dmJ8Lq",
+        "download_item_left_z8CrqC",
+        "download_item_left_wGVdJG",
+        "download_item_left_Ae84nn",
+        "download_item_left_rPi7GN",
+        "download_item_left_BFHTaB",
+        "download_item_left_UbCVDb",
+        "download_item_left_qQcQmV",
+        "download_item_left_m6Fx3A"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "title_left": "Polytex NOC [SDS]",
+        "title_center": "Unicorn",
+        "title_right": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
     }
   },
   "order": [
     "main",
     "download_file_grid_f4enyN",
-    "download_file_grid_MHcY9A"
+    "download_file_grid_MHcY9A",
+    "download_file_grid_8dghqt"
   ]
 }
