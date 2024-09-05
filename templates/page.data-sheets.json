@@ -213,6 +213,7 @@
         },
         "download_item_center_LAyQkB": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Indigo - Prereduced 60% [SDS]",
             "download_label": "Download",
@@ -221,6 +222,7 @@
         },
         "download_item_center_NCjXbY": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Indigo - Synthetic VAT Dye [SDS]",
             "download_label": "Download",
@@ -229,6 +231,7 @@
         },
         "download_item_center_AkGb38": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Kolourfix FF [SDS]",
             "download_label": "Download",
@@ -237,6 +240,7 @@
         },
         "download_item_center_yWDqKy": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Landscapes Dyes - Wool and Silk [SDS]",
             "download_label": "Download",
@@ -245,6 +249,7 @@
         },
         "download_item_center_TF4zaK": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Landcapes Dyes - Cottons [SDS]",
             "download_label": "Download",
@@ -253,6 +258,7 @@
         },
         "download_item_center_NdY3Vb": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Hydrated Lime [SDS]",
             "download_label": "Download",
@@ -261,6 +267,7 @@
         },
         "download_item_center_qBWm64": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Liquid Lead Black [SDS]",
             "download_label": "Download",
@@ -269,6 +276,7 @@
         },
         "download_item_center_YxdtG4": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Manutex F (Paste)",
             "download_label": "Download",
@@ -277,6 +285,7 @@
         },
         "download_item_center_QxigDx": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Mesitol NBS40 [SDS]",
             "download_label": "Download",
@@ -285,6 +294,7 @@
         },
         "download_item_center_t9k9HP": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Opulence Embellishment Inks [SDS]",
             "download_label": "Download",
@@ -293,6 +303,7 @@
         },
         "download_item_center_zNyNCE": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Opulence Heat Set [SDS]",
             "download_label": "Download",
@@ -301,6 +312,7 @@
         },
         "download_item_center_qypHEx": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Opulence Steam Fix [SDS]",
             "download_label": "Download",
@@ -309,34 +321,115 @@
         },
         "download_item_center_TUCxVk": {
           "type": "download_item_center",
+          "disabled": true,
           "settings": {
             "title": "Polytex MF-U [SDS]",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Polytex%20MF-U%202021.pdf"
           }
         },
-        "download_item_right_7XRdkb": {
+        "download_item_right_86Njpd": {
           "type": "download_item_right",
           "settings": {
-            "title": "Fibre Rinse",
+            "title": "Indigo - Prereduced 60% [SDS]",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Rinse%20-%20Beyond%20Soft%20SDS.pdf"
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PRE%20REDUCED%20INDIGO%202022(1).pdf"
           }
         },
-        "download_item_right_XtQYeU": {
+        "download_item_right_7GWBBq": {
           "type": "download_item_right",
           "settings": {
-            "title": "Fibre Wash",
+            "title": "Indigo - Synthetic VAT Dye [SDS]",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Wash%20-%20Beyond%20Fibre%20Wash%20SDS.pdf"
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Vat%20Blue%201%202022(1).pdf"
           }
         },
-        "download_item_right_6QDaiQ": {
+        "download_item_right_WbbGcM": {
           "type": "download_item_right",
           "settings": {
-            "title": "Power Scour",
+            "title": "Kolourfix FF [SDS]",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Power%20Scour%20-%20Beyond%20Clean%20SDS.pdf"
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20KOLOURFIX%20FF%202023.pdf"
+          }
+        },
+        "download_item_right_9J8BwD": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Landscapes Dyes - Wool and Silk [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20DYES%202021.pdf"
+          }
+        },
+        "download_item_right_NyeKJL": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Landcapes Dyes - Cottons [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20COTTON%20DYES%202023.pdf"
+          }
+        },
+        "download_item_right_UtdDQw": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Hydrated Lime [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIME%20-%20HYDRATED%20LIME%202022.pdf"
+          }
+        },
+        "download_item_right_PBU8eA": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Liquid Lead Black [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
+          }
+        },
+        "download_item_right_QQpp8P": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Manutex F (Paste)",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALGIPASTE_Manutex%20Paste%202022(1).pdf"
+          }
+        },
+        "download_item_right_WcjXU6": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Mesitol NBS40 [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mesitol%20NBS40%202023.pdf"
+          }
+        },
+        "download_item_right_giR9hA": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Opulence Embellishment Inks [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20EMBELLISMENT%202020.pdf"
+          }
+        },
+        "download_item_right_xKwdfb": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Opulence Heat Set [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20OPULENCE%20HEAT%20SET%20SILK%20DYES%20%202022.pdf"
+          }
+        },
+        "download_item_right_B8tHKD": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Opulence Steam Fix [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20Steam%20Fix%20Dyes%202022.pdf"
+          }
+        },
+        "download_item_right_rzAfnH": {
+          "type": "download_item_right",
+          "settings": {
+            "title": "Polytex MF-U [SDS]",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Polytex%20MF-U%202021.pdf"
           }
         }
       },
@@ -378,9 +471,19 @@
         "download_item_center_zNyNCE",
         "download_item_center_qypHEx",
         "download_item_center_TUCxVk",
-        "download_item_right_7XRdkb",
-        "download_item_right_XtQYeU",
-        "download_item_right_6QDaiQ"
+        "download_item_right_86Njpd",
+        "download_item_right_7GWBBq",
+        "download_item_right_WbbGcM",
+        "download_item_right_9J8BwD",
+        "download_item_right_NyeKJL",
+        "download_item_right_UtdDQw",
+        "download_item_right_PBU8eA",
+        "download_item_right_QQpp8P",
+        "download_item_right_WcjXU6",
+        "download_item_right_giR9hA",
+        "download_item_right_xKwdfb",
+        "download_item_right_B8tHKD",
+        "download_item_right_rzAfnH"
       ],
       "settings": {
         "title": "Safety Data Sheets [SDS]",
@@ -389,7 +492,7 @@
         "heading_position": "center",
         "title_left": "Acid Milling [SDS]",
         "title_center": "Discharge Liquid HD [SDS] ",
-        "title_right": "Unicorn",
+        "title_right": "Discharge Liquid HD [SDS] ",
         "padding_top": 72,
         "padding_bottom": 72,
         "padding_top_mobile": 24,
