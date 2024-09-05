@@ -64,71 +64,63 @@
           "settings": {
             "title": "Printing & Painting Acid Dye",
             "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYES%20HANDPAINTING%20%26%20PRINTING%202022.pdf"
+          }
+        },
+        "download_item_TAcPbq": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cyanotype Instructions",
+            "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Cyanotype%2BInstructions(1).pdf"
           }
         },
-        "download_item_AwEzzR": {
-          "type": "download_item",
-          "settings": {
-            "title": "Cyanotype Instructions",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
-          }
-        },
-        "download_item_UHcMaA": {
+        "download_item_LR7VzN": {
           "type": "download_item",
           "settings": {
             "title": "Devore \/ Burnout Instructions",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/DEVORE%20%20INSTRUCTIONS%202022%20(6).pdf"
           }
         },
-        "download_item_nemQ4y": {
+        "download_item_E3j79d": {
           "type": "download_item",
           "settings": {
-            "title": "Acid Dye Instructions",
+            "title": "Texcraft Deco Printing Ink Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ins%20TEXINKS%202015.pdf"
+          }
+        },
+        "download_item_cd9WXx": {
+          "type": "download_item",
+          "settings": {
+            "title": "Direct Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/DIRECT%20INSTRUCTIONS%202022%20(4).pdf"
+          }
+        },
+        "download_item_wexzf8": {
+          "type": "download_item",
+          "settings": {
+            "title": "Discharge Printing Instructions",
             "download_label": "Download",
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
           }
         },
-        "download_item_PapRXk": {
+        "download_item_LfB47U": {
           "type": "download_item",
           "settings": {
-            "title": "Printing & Painting Acid Dye",
+            "title": "",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Discharge%20Paste%20Printing%20Instructions%202023(2).pdf"
+            "file_download": ""
           }
         },
-        "download_item_Cx4BEQ": {
+        "download_item_NkXA8h": {
           "type": "download_item",
           "settings": {
-            "title": "Cyanotype Instructions",
+            "title": "",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
-          }
-        },
-        "download_item_bdnVcd": {
-          "type": "download_item",
-          "settings": {
-            "title": "Devore \/ Burnout Instructions",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
-          }
-        },
-        "download_item_GKmnMP": {
-          "type": "download_item",
-          "settings": {
-            "title": "Acid Dye Instructions",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
-          }
-        },
-        "download_item_M7EPdi": {
-          "type": "download_item",
-          "settings": {
-            "title": "Printing & Painting Acid Dye",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/ACID%20DYE%20INSTRUCTIONS%202022(2).pdf"
+            "file_download": ""
           }
         }
       },
@@ -136,14 +128,13 @@
         "download_title_wjCTUy",
         "download_item_pYwKt6",
         "download_item_UPgQ86",
-        "download_item_AwEzzR",
-        "download_item_UHcMaA",
-        "download_item_nemQ4y",
-        "download_item_PapRXk",
-        "download_item_Cx4BEQ",
-        "download_item_bdnVcd",
-        "download_item_GKmnMP",
-        "download_item_M7EPdi"
+        "download_item_TAcPbq",
+        "download_item_LR7VzN",
+        "download_item_E3j79d",
+        "download_item_cd9WXx",
+        "download_item_wexzf8",
+        "download_item_LfB47U",
+        "download_item_NkXA8h"
       ],
       "settings": {
         "title": "",
