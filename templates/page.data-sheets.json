@@ -590,6 +590,14 @@
             "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Turquoise%202022.pdf"
           }
         },
+        "download_item_left_fd3UKT": {
+          "type": "download_item_left",
+          "settings": {
+            "title": "Leaf Green",
+            "download_label": "Download",
+            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20LEAF%20GREEN%202023.pdf"
+          }
+        },
         "download_item_left_PKM9xg": {
           "type": "download_item_left",
           "settings": {
@@ -635,6 +643,7 @@
         "download_item_left_88HzDn",
         "download_item_left_pXCL3U",
         "download_item_left_iNVdQA",
+        "download_item_left_fd3UKT",
         "download_item_left_PKM9xg",
         "download_item_left_bGn7P7",
         "download_item_left_MHQFFF",
