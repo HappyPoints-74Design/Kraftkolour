@@ -15807,3 +15807,17 @@ form + .footer__social {
 /* This file and all its inclusions will be processed through postcss */
 /* This is the stylesheet entrypoint for the video-modal component. */
 /* This file and all its inclusions will be processed through postcss */
+
+
+/* BSS CUSTOM CSS */
+.tooltip-swatch-label {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10px !important;
+}
+
+.tooltip-swatch-label > * {
+  margin-top: 0 !important;
+  margin-left: 0!important; 
+}
