@@ -280,7 +280,7 @@
                         <span data-product-price
                           class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}" data-price="{{ current_variant.price |  money }}">
                           {%- unless product.empty? -%}
-                            <span bss-po-product-id="{{ product.id }}" bss-po-variant-price bss-po-variant-id="{{ variant.id }}" bss-po-product-price> 
+                            <span bss-po-product-id="{{ product.id }}" bss-po-variant-price bss-po-variant-id="{{ current_variant.id }}" bss-po-product-price> 
                               {%- render 'price',
                                 price: current_variant.price,
                                 shop: shop,
