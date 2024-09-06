@@ -15822,3 +15822,7 @@ form + .footer__social {
   margin-left: 0 !important; 
   top: 0 !important; 
 }
+
+.po-extra-price {
+  display: none !important;
+}
