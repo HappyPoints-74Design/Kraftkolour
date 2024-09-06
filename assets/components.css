@@ -15826,3 +15826,7 @@ form + .footer__social {
 .po-extra-price {
   visibility: hidden !important;
 }
+
+.po-option--swatch-container {
+  margin-left: 0 !important;
+}
