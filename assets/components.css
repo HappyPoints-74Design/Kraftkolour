@@ -15824,5 +15824,5 @@ form + .footer__social {
 }
 
 .po-extra-price {
-  display: none !important;
+  visibility: hidden !important;
 }
