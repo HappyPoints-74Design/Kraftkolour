@@ -10,7 +10,11 @@
   if product.empty?
     assign description = 'info.placeholder_product_description' | t
   else
-    assign description = product.description
+    if is_top and product.metafields.custom.product_description_top != blank
+      assign description = product.metafields.custom.product_description_top | metafield_tag
+    else
+      assign description = product.description
+    endif
   endif
 -%}
 

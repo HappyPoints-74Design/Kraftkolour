@@ -241,7 +241,8 @@
                         {%- render 'product-description',
                           product: product,
                           id: id,
-                          is_tab: block.settings.is_tab
+                          is_tab: block.settings.is_tab,
+                          is_top: block.settings.is_top
                         -%}
                       </div>
                     {%- when 'price' -%}
