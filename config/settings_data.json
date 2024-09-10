@@ -959,6 +959,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "3318355620493698349": {
+        "type": "shopify:\/\/apps\/bogo\/blocks\/wbogo\/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
