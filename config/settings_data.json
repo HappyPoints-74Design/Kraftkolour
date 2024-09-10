@@ -953,6 +953,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "5140161176031010482": {
+        "type": "shopify:\/\/apps\/dr-shipping-calculator\/blocks\/instant-load\/6fdcf202-26c0-4288-be36-8b389f5d262c",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
