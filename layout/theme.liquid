@@ -117,6 +117,26 @@
   {% if request.design_mode %}
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
+
+<script>
+          document.addEventListener("DOMContentLoaded", function() {
+              if (window.location.pathname.includes("apps/customer-portal")) {
+                  var style = document.createElement('style');
+                  style.innerHTML = `
+                  @media screen and (min-width: 1400px) {
+    .site-navigation--below {
+        flex-wrap: nowrap !important;
+    }
+}
+                  
+                  
+		  `;
+	      document.head.appendChild(style);
+              }
+          });
+</script>
+
+  
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-button_style="{{ settings.button_style }}" data-edges="{{ settings.roundness }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" data-grid-style="{{ settings.product_grid_style }}">
