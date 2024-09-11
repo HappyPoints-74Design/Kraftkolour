@@ -974,7 +974,7 @@
       },
       "13856562633712291205": {
         "type": "shopify:\/\/apps\/downpay\/blocks\/downpay-cart-embed\/da700d84-7ed1-410a-a8b5-5cb99a33758a",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "show_currency_code": true,
           "amount_due_today_label": "",
