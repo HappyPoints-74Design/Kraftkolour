@@ -35,11 +35,29 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "1726045075b46da195": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_portal_netterm_cart_button_9mw4fx": {
+          "type": "shopify:\/\/apps\/bss-b2b-portal\/blocks\/netterm-cart-button\/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_portal_netterm_cart_button_9mw4fx"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "recently-viewed",
-    "1726044846bb99fa9d"
+    "1726044846bb99fa9d",
+    "1726045075b46da195"
   ]
 }
