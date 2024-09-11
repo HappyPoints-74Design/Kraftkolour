@@ -15830,3 +15830,7 @@ form + .footer__social {
 .po-option--swatch-container {
   margin-left: 0 !important;
 }
+
+button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
+    margin-top: 10px;
+}
