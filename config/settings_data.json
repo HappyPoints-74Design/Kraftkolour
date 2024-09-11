@@ -960,16 +960,28 @@
         "settings": {
         }
       },
-      "7385302900728337613": {
-        "type": "shopify:\/\/apps\/depo\/blocks\/app-embed\/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "3318355620493698349": {
         "type": "shopify:\/\/apps\/bogo\/blocks\/wbogo\/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
         "disabled": true,
         "settings": {
+        }
+      },
+      "7385302900728337613": {
+        "type": "shopify:\/\/apps\/depo\/blocks\/app-embed\/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "13856562633712291205": {
+        "type": "shopify:\/\/apps\/downpay\/blocks\/downpay-cart-embed\/da700d84-7ed1-410a-a8b5-5cb99a33758a",
+        "disabled": false,
+        "settings": {
+          "show_currency_code": true,
+          "amount_due_today_label": "",
+          "amount_due_later_label": "",
+          "insert_area": "",
+          "insert_position": "afterend",
+          "custom_css": ""
         }
       }
     }
