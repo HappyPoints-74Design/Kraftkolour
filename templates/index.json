@@ -16,9 +16,9 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "<p>Since 1984<\/p>",
             "title_size": 64,
-            "subheading": "Since 1984",
+            "subheading": "",
             "link": "shopify:\/\/pages\/about_us",
             "link_text": "About Us",
             "link_2": "",
