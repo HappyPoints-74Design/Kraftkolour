@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "hero",
           "settings": {
-            "top_subheading": "KK original hero",
-            "title": "<p>Silk Scarves <br\/>& Fabrics<\/p>",
+            "top_subheading": "",
+            "title": "",
             "title_size": 64,
             "subheading": "A variety of sizes and weights.",
             "link": "shopify:\/\/pages\/about_us",
