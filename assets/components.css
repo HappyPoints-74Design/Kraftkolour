@@ -8738,7 +8738,7 @@ image-lightbox {
 .newsletter__input-group {
   margin: 0 auto 20px;
   width: 100%;
-  max-width: 618px;
+  max-width: 650px;
   gap: var(--inputButtonGap);
 }
 .newsletter__input-group:last-of-type {
