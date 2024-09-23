@@ -7,8 +7,7 @@
      */
   */
 {% endcomment %}
-
-{%- assign newsletter_form_id = 'newsletter-' | append: section_id -%}
+{% comment %} {%- assign newsletter_form_id = 'newsletter-' | append: section_id -%}
 {% form 'customer', id: newsletter_form_id %}
   {%- if form.posted_successfully? -%}
     <div class="note note--success">
@@ -36,4 +35,15 @@
       </div>
     </div>
   {%- endunless -%}
-{% endform %}
+{% endform %} {% endcomment %}
+<div class="input-group newsletter__input-group">
+  <div class="klaviyo-form-ULQip9"></div>
+</div>
+
+<script type="text/javascript">
+
+window._klOnsite = window._klOnsite || [];
+window._klOnsite.push(['openForm', 'ULQip9']);
+
+</script>
+

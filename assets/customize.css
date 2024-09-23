@@ -62,22 +62,22 @@ body::after {
 .site-header__element--sub .search__input::-ms-input-placeholder,
 .footer__newsletter .newsletter__input-group input[type="email"]::-ms-input-placeholder { 
 	color: var(--color-primary-text) !important;
-	font-family: var(--typeBaseMedium);
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 500;
-	opacity: 1;
+	font-family: var(--typeBaseMedium) !important;
+	font-size: 16px !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	opacity: 1 !important;
 }
 
 .header-item--search .search__input::placeholder,
 .site-header__element--sub .search__input::placeholder,
 .footer__newsletter .newsletter__input-group input[type="email"]::placeholder {
 	color: var(--color-primary-text) !important;
-	font-family: var(--typeBaseMedium);
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 500;
-	opacity: 1
+	font-family: var(--typeBaseMedium) !important;
+	font-size: 16px !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	opacity: 1 !important;
 }
 
 .header-item--search .btn--search path {
@@ -608,11 +608,19 @@ label:not(.variant__button-label):not(.text-label), .label {
  * Footer
  */
 .footer__newsletter .newsletter__input-group input[type="email"] {
-    max-width: 423px;
-    width: 432px;
-    border-radius: 50px;
-    padding: 12px 24px;
-	border: 1px solid var(--colorBorder);
+	border-radius: 50px !important;
+	padding: 12px 24px !important;
+	border: 1px solid var(--colorBorder) !important;
+}
+
+@media screen and (max-width: 1048px) {
+	.footer__newsletter .newsletter__input-group input[type="email"] {
+		margin-right: 0;
+	}
+}
+
+.klaviyo-form-ULQip9 {
+	width: 100%;
 }
 
 .input-group .input-group-btn:last-child .btn {
@@ -621,6 +629,20 @@ label:not(.variant__button-label):not(.text-label), .label {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 700;
+}
+
+.input-group.newsletter__input-group button {
+	padding: 0 48px !important;
+	font-family: var(--typeHeaderPrimary) !important;
+	font-size: 16px !important;
+	line-height: 24px !important;
+	font-weight: 700 !important;
+}
+
+@media screen and (max-width: 749px) {
+	.input-group.newsletter__input-group button {
+    padding: 0 24px !important;
+	}
 }
 
 .footer__title {
