@@ -611,12 +611,23 @@ label:not(.variant__button-label):not(.text-label), .label {
 	border-radius: 50px !important;
 	padding: 12px 24px !important;
 	border: 1px solid var(--colorBorder) !important;
+	color: var(--color-primary-text) !important;
+	font-family: var(--typeBaseMedium) !important;
+	font-size: 16px !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
 }
 
 @media screen and (max-width: 1048px) {
 	.footer__newsletter .newsletter__input-group input[type="email"] {
 		margin-right: 0;
 	}
+}
+
+.footer__newsletter .newsletter__input-group input[type="email"]:focus,
+.footer__newsletter .newsletter__input-group input[type="email"]:focus-visible {
+	outline-width: 0 !important;
+	outline: 0 !important;
 }
 
 .klaviyo-form-ULQip9 {
