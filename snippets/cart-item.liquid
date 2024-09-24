@@ -51,7 +51,10 @@
         {% unless p.last == blank or first_character_in_key == '_' %}
           <div class="cart__item--properties">
             <span>{{ p.first }}:</span>
-            {% if p.last contains '/uploads/' %}
+            {% if p.last contains '(+ $' %}
+              {% assign parts = p.last | split: '(+ $' %}
+              {{ parts.first | strip }}
+            {% elsif p.last contains '/uploads/' %}
               <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
             {% else %}
               {{ p.last }}
