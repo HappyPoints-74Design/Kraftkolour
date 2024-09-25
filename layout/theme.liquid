@@ -120,6 +120,7 @@
 
 <script>
           document.addEventListener("DOMContentLoaded", function() {
+              console.log("load done")
               const BSS_isRenderOptionSet = !!(document.querySelector(".bss-po-product-page"))
               if (BSS_isRenderOptionSet) {
                 document.querySelectorAll("button[data-add-to-cart]").forEach(add_to_cart_btn => {
