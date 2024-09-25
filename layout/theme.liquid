@@ -118,17 +118,9 @@
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
 
-<script>
-          window.addEventListener("load", function() {
-            const BSS_isRenderOptionSet = !!(document.querySelector(".bss-po-product-page"))
-            console.log("ON LOAD DONE", BSS_isRenderOptionSet)
-            if (BSS_isRenderOptionSet) {
-              const allBtnATC = document.querySelectorAll("button[data-add-to-cart].btn.btn--full.add-to-cart")
-              allBtnATC.forEach(add_to_cart_btn => {
-                add_to_cart_btn.removeAttribute('disabled');
-              })
-            }
-          })
+  <script src="{{ 'bss-po-custom-atc.js' | asset_url }}" defer></script>
+
+<script >
           document.addEventListener("DOMContentLoaded", function() {
             if (window.location.pathname.includes("apps/customer-portal")) {
                   var style = document.createElement('style');
