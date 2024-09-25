@@ -11,7 +11,7 @@ console.log("============== HAU DEP TRAI BSS_PO")
         if (document.querySelector(".bss-po-product-page")) {
           clearInterval(BSS_isRenderOptionSetID);
           handleEnableATC()
-        })
+        }
     }, 1000)
   
     setTimeout(()=> {
@@ -19,4 +19,3 @@ console.log("============== HAU DEP TRAI BSS_PO")
       handleEnableATC()
     }, 5000)
 } else handleEnableATC()
-
