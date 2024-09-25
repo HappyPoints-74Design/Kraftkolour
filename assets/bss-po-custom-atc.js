@@ -1,5 +1,5 @@
-if (BSS_PO) {
-  console.log(111111)
+if (BSS_PO && BSS_PO.po.appliedOptionSetForOneProduct) {
+  
 }
 //   const a = setInterval(()=>{
 //     if (document.querySelector(".bss-po-product-page")) {
