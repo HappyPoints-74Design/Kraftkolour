@@ -18,10 +18,42 @@
       "type": "recently-viewed",
       "settings": {
       }
+    },
+    "172725222559665b8d": {
+      "type": "apps",
+      "blocks": {
+        "dr_shipping_calculator_single_calculator_3Krr4C": {
+          "type": "shopify://apps/dr-shipping-calculator/blocks/single-calculator/6fdcf202-26c0-4288-be36-8b389f5d262c",
+          "settings": {
+            "alignment": "right",
+            "cta-alignment": "left",
+            "cta-font-size": 16,
+            "cta-color": "#000",
+            "fields-and-button-font-size": 16,
+            "button-color": "#000",
+            "button-text-color": "#fff",
+            "shipping-rates-background-color": "#f3f3f3",
+            "shipping-rates-title-font-size": 18,
+            "shipping-rates-title-text-color": "#1c1c1c",
+            "shipping-rates-font-size": 14,
+            "shipping-rates-text-color": "#5A5A5A",
+            "include-padding": true,
+            "max-width": 650
+          }
+        }
+      },
+      "block_order": [
+        "dr_shipping_calculator_single_calculator_3Krr4C"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
-    "recently-viewed"
+    "recently-viewed",
+    "172725222559665b8d"
   ]
 }
