@@ -120,8 +120,8 @@
 
 <script>
           document.addEventListener("DOMContentLoaded", function() {
-              console.log("load done")
               const BSS_isRenderOptionSet = !!(document.querySelector(".bss-po-product-page"))
+              console.log("load done", BSS_isRenderOptionSet)
               if (BSS_isRenderOptionSet) {
                 document.querySelectorAll("button[data-add-to-cart]").forEach(add_to_cart_btn => {
                   add_to_cart_btn.removeAttribute("disabled")
