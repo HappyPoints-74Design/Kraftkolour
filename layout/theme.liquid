@@ -119,6 +119,15 @@
   {% endif %}
 
 <script>
+          document.addEventListener("load", function() {
+            const BSS_isRenderOptionSet = !!(document.querySelector(".bss-po-product-page"))
+            if (BSS_isRenderOptionSet) {
+              const allBtnATC = document.querySelectorAll("button[data-add-to-cart].btn.btn--full.add-to-cart")
+              allBtnATC.forEach(add_to_cart_btn => {
+                add_to_cart_btn.removeAttribute('disabled');
+              })
+            }
+          })
           document.addEventListener("DOMContentLoaded", function() {
             if (window.location.pathname.includes("apps/customer-portal")) {
                   var style = document.createElement('style');
