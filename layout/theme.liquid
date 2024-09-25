@@ -120,6 +120,13 @@
 
 <script>
           document.addEventListener("DOMContentLoaded", function() {
+              const BSS_isRenderOptionSet = !!(document.querySelector(".bss-po-product-page"))
+              if (BSS_isRenderOptionSet) {
+                document.querySelectorAll("button[data-add-to-cart]").forEach(add_to_cart_btn => {
+                  add_to_cart_btn.removeAttribute("disabled")
+                })
+              }
+            
               if (window.location.pathname.includes("apps/customer-portal")) {
                   var style = document.createElement('style');
                   style.innerHTML = `
