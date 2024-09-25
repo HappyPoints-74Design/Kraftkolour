@@ -78,14 +78,14 @@
     "cart_collection": "acid-dyes",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@shopify",
+    "social_facebook_link": "https://www.facebook.com/shopify",
+    "social_pinterest_link": "https://www.pinterest.com/shopify",
+    "social_instagram_link": "https://instagram.com/shopify",
+    "social_tiktok_link": "https://www.tiktok.com/@shopify",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "shopify:\/\/shop_images\/favicon-u.png",
+    "favicon": "shopify://shop_images/favicon-u.png",
     "predictive_search_show_price": false,
     "predictive_search_show_vendor": true,
     "show_breadcrumbs": false,
@@ -140,8 +140,8 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/urban_living-white.png",
-              "logo-inverted": "shopify:\/\/shop_images\/urban_living-white.png",
+              "logo": "shopify://shop_images/urban_living-white.png",
+              "logo-inverted": "shopify://shop_images/urban_living-white.png",
               "desktop_logo_width": 120,
               "mobile_logo_width": 110
             }
@@ -306,8 +306,8 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Get 10% off your first purchase.",
-          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
-          "popup_image": "shopify:\/\/shop_images\/office-furniture-grey-chairs.jpg",
+          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.</p>",
+          "popup_image": "shopify://shop_images/office-furniture-grey-chairs.jpg",
           "image_position": "left",
           "color_scheme": "2",
           "show_social_icons": false,
@@ -355,11 +355,11 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/person-sits-on-there-balcony-and-tends-to-a-large-plant.jpg",
+              "image": "shopify://shop_images/person-sits-on-there-balcony-and-tends-to-a-large-plant.jpg",
               "title": "Spring Savings",
-              "text": "<p>We're clearing out last years inventory, shop now and save up to 40% off!<\/p>",
+              "text": "<p>We're clearing out last years inventory, shop now and save up to 40% off!</p>",
               "button_label": "Shop Sale",
-              "button_link": "shopify:\/\/collections\/sale",
+              "button_link": "shopify://collections/sale",
               "color_scheme": "1"
             }
           },
@@ -367,11 +367,11 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/home-decor-and-kitchen-accessories.jpg",
+              "image": "shopify://shop_images/home-decor-and-kitchen-accessories.jpg",
               "title": "New from Umbra",
-              "text": "<p>Our latest addition makes unique watches and contemporary jewellery.<\/p>",
+              "text": "<p>Our latest addition makes unique watches and contemporary jewellery.</p>",
               "button_label": "Shop Umbra",
-              "button_link": "shopify:\/\/collections\/whats-new",
+              "button_link": "shopify://collections/whats-new",
               "color_scheme": "3"
             }
           },
@@ -379,11 +379,11 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/brief-exchange-during-curbside-pickup.jpg",
+              "image": "shopify://shop_images/brief-exchange-during-curbside-pickup.jpg",
               "title": "Next-day pickup",
-              "text": "<p>Mon - Fri: 10am - 7pm<br\/>Sat - Sun: 11am - 6pm<\/p>",
+              "text": "<p>Mon - Fri: 10am - 7pm<br/>Sat - Sun: 11am - 6pm</p>",
               "button_label": "View locations",
-              "button_link": "shopify:\/\/pages\/our-story",
+              "button_link": "shopify://pages/our-story",
               "color_scheme": "2"
             }
           }
@@ -414,21 +414,21 @@
           "1d60d2aa-1704-4343-98b9-02b9533c2c85": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
+              "richtext": "<p>Hassle-free returns. 30-day postage paid returns</p>",
               "richtext_mobile": ""
             }
           },
           "a3c703d0-3d75-4c68-be7c-5e25e58e383d": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Up to 40% Off All Coffee Sets<\/p>",
+              "richtext": "<p>Up to 40% Off All Coffee Sets</p>",
               "richtext_mobile": ""
             }
           },
           "b5fedb0e-6170-46b8-9235-d5e69834337b": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Free Worldwide Shipping on All Purchases 100$ +<\/p>",
+              "richtext": "<p>Free Worldwide Shipping on All Purchases 100$ +</p>",
               "richtext_mobile": ""
             }
           }
@@ -463,19 +463,19 @@
           "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
             "type": "article",
             "settings": {
-              "article": "news\/featured-property-tuscan-villa-with-modern-outdoor-dining"
+              "article": "news/featured-property-tuscan-villa-with-modern-outdoor-dining"
             }
           },
           "a9c19dcb-3172-4927-b454-954715dfdfbc": {
             "type": "article",
             "settings": {
-              "article": "news\/d"
+              "article": "news/d"
             }
           },
           "a0382939-ffb8-4144-83cc-9565ad819150": {
             "type": "article",
             "settings": {
-              "article": "news\/decorating-101-interior-design-basics"
+              "article": "news/decorating-101-interior-design-basics"
             }
           }
         },
@@ -533,7 +533,7 @@
         ],
         "settings": {
           "show_newsletter": true,
-          "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+          "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
           "footer_main_menu": true,
           "show_copyright": true,
           "copyright_text": "",
@@ -548,7 +548,7 @@
             "settings": {
               "heading": "Free shipping over $50",
               "text": "Within the contiguous United States",
-              "link": "shopify:\/\/pages\/shipping-info",
+              "link": "shopify://pages/shipping-info",
               "label": "Learn more",
               "color_scheme": "2"
             }
@@ -600,85 +600,85 @@
           "16167068142513abfa-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/alessi.png",
-              "link": "\/collections\/vendors?q=Alessi"
+              "image": "shopify://shop_images/alessi.png",
+              "link": "/collections/vendors?q=Alessi"
             }
           },
           "16167068142513abfa-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/bella-tunno_30ceeb35-194d-4c26-a3ed-d29f8480800a.png",
-              "link": "\/collections\/vendors?q=Bella Tunno"
+              "image": "shopify://shop_images/bella-tunno_30ceeb35-194d-4c26-a3ed-d29f8480800a.png",
+              "link": "/collections/vendors?q=Bella Tunno"
             }
           },
           "16167068142513abfa-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/corkcicle.png",
-              "link": "\/collections\/vendors?q=Corkcicle"
+              "image": "shopify://shop_images/corkcicle.png",
+              "link": "/collections/vendors?q=Corkcicle"
             }
           },
           "16167068142513abfa-3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/eva-solo.png",
-              "link": "\/collections\/vendors?q=Eva Solo"
+              "image": "shopify://shop_images/eva-solo.png",
+              "link": "/collections/vendors?q=Eva Solo"
             }
           },
           "052533e5-a371-4932-a016-34def42383db": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/georg-jensen.png",
-              "link": "\/collections\/vendors?q=Georg Jensen"
+              "image": "shopify://shop_images/georg-jensen.png",
+              "link": "/collections/vendors?q=Georg Jensen"
             }
           },
           "ba0ef081-a41c-4913-a3db-412ecb522875": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/iittala.png",
-              "link": "\/collections\/vendors?q=iittala"
+              "image": "shopify://shop_images/iittala.png",
+              "link": "/collections/vendors?q=iittala"
             }
           },
           "28f0d3a8-34e2-4ab3-aed2-005079fb606c": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/jonathan-adler.jpg",
-              "link": "\/collections\/vendors?q=Jonathan Adler"
+              "image": "shopify://shop_images/jonathan-adler.jpg",
+              "link": "/collections/vendors?q=Jonathan Adler"
             }
           },
           "9a3e96b5-aa08-4445-9220-c9d3f38ebb1f": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/kikkerland.png",
-              "link": "\/collections\/vendors?q=Kikkerland"
+              "image": "shopify://shop_images/kikkerland.png",
+              "link": "/collections/vendors?q=Kikkerland"
             }
           },
           "a8344f31-4814-45bb-bcbe-344add4a8906": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/moleskine.jpg",
-              "link": "\/collections\/vendors?q=Moleskine"
+              "image": "shopify://shop_images/moleskine.jpg",
+              "link": "/collections/vendors?q=Moleskine"
             }
           },
           "68c87a86-7a8c-4bfe-ae97-6e35be8bd1e1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/moma_f69c6feb-0ca4-4296-8177-e485c100b3ea.png",
-              "link": "\/collections\/vendors?q=MoMA"
+              "image": "shopify://shop_images/moma_f69c6feb-0ca4-4296-8177-e485c100b3ea.png",
+              "link": "/collections/vendors?q=MoMA"
             }
           },
           "3220078b-da32-490e-aad7-343808280226": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/tom-dixon.png",
-              "link": "\/collections\/vendors?q=Tom Dixon"
+              "image": "shopify://shop_images/tom-dixon.png",
+              "link": "/collections/vendors?q=Tom Dixon"
             }
           },
           "11926c01-2a95-4f6f-b2fc-42255d8237e5": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/umbra_cc0f54b2-3c63-448c-a203-872e882c06c6.png",
-              "link": "\/collections\/vendors?q=Umbra"
+              "image": "shopify://shop_images/umbra_cc0f54b2-3c63-448c-a203-872e882c06c6.png",
+              "link": "/collections/vendors?q=Umbra"
             }
           }
         },
@@ -718,11 +718,11 @@
               "title": "New from Wild Wood",
               "title_size": 60,
               "subheading": "Decorative planters that will bring your home office to life.",
-              "link": "shopify:\/\/collections\/planters",
+              "link": "shopify://collections/planters",
               "link_text": "Shop Planters",
               "link_text_2": "",
               "text_position": "right",
-              "image": "shopify:\/\/shop_images\/green-wall-cream.jpg",
+              "image": "shopify://shop_images/green-wall-cream.jpg",
               "indent_image": false,
               "color_scheme": "1"
             }
@@ -734,12 +734,12 @@
               "title": "Lakehouse Lifestyle.",
               "title_size": 60,
               "subheading": "Spring has sprung and it's time to make your outdoor space come to life. Shop all the top outdoor brands.",
-              "link": "shopify:\/\/collections\/homestyle",
+              "link": "shopify://collections/homestyle",
               "link_text": "Shop Home",
-              "link_2": "shopify:\/\/collections\/decor",
+              "link_2": "shopify://collections/decor",
               "link_text_2": "Shop All",
               "text_position": "left",
-              "image": "shopify:\/\/shop_images\/outdoor-dining_685376f1-9e94-4d09-8b14-a621a5e8e19b.jpg",
+              "image": "shopify://shop_images/outdoor-dining_685376f1-9e94-4d09-8b14-a621a5e8e19b.jpg",
               "indent_image": false,
               "color_scheme": "2"
             }
@@ -751,12 +751,12 @@
               "title": "Back in stock.",
               "title_size": 70,
               "subheading": "We've restocked on items from Jonathan Adler, Tom Dixon, and more of your favourite designers.",
-              "link": "\/collections\/vendors?q=Jonathan%20Adler",
+              "link": "/collections/vendors?q=Jonathan%20Adler",
               "link_text": "Shop New",
-              "link_2": "shopify:\/\/collections\/decor",
+              "link_2": "shopify://collections/decor",
               "link_text_2": "Shop All",
               "text_position": "left",
-              "image": "shopify:\/\/shop_images\/product.jpg",
+              "image": "shopify://shop_images/product.jpg",
               "indent_image": true,
               "color_scheme": "1"
             }
@@ -788,10 +788,10 @@
         "settings": {
           "subtitle": "",
           "title": "Serving NYC since 1994.",
-          "text": "<p>Thanks to your business over the years we&#x27;ve grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.<\/p>",
+          "text": "<p>Thanks to your business over the years we&#x27;ve grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.</p>",
           "button_label": "View locations",
-          "button_link": "shopify:\/\/pages\/our-story",
-          "image": "shopify:\/\/shop_images\/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
+          "button_link": "shopify://pages/our-story",
+          "image": "shopify://shop_images/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
           "layout": "left",
           "height": 550,
           "parallax": false
@@ -841,16 +841,16 @@
             "type": "hero",
             "settings": {
               "top_subheading": "",
-              "title": "<p>Build your dream <br\/>outdoor oasis.<\/p>",
+              "title": "<p>Build your dream <br/>outdoor oasis.</p>",
               "title_size": 56,
               "subheading": "",
-              "link": "shopify:\/\/collections\/outdoor-garden-decor",
+              "link": "shopify://collections/outdoor-garden-decor",
               "link_text": "Shop Outdoor",
-              "link_2": "shopify:\/\/collections\/decor",
+              "link_2": "shopify://collections/decor",
               "link_text_2": "Shop All",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/outdoor-pool_cf604255-b274-4f3c-a917-4fd383330216.jpg",
+              "image": "shopify://shop_images/outdoor-pool_cf604255-b274-4f3c-a917-4fd383330216.jpg",
               "overlay_opacity": 0
             }
           },
@@ -858,16 +858,16 @@
             "type": "hero",
             "settings": {
               "top_subheading": "",
-              "title": "<p>Entertain in style.<\/p>",
+              "title": "<p>Entertain in style.</p>",
               "title_size": 55,
               "subheading": "",
-              "link": "shopify:\/\/collections\/outdoor-style",
+              "link": "shopify://collections/outdoor-style",
               "link_text": "Shop Outdoor",
-              "link_2": "shopify:\/\/collections\/decor",
+              "link_2": "shopify://collections/decor",
               "link_text_2": "Shop All",
               "color_accent": "#ffffff",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/outdoor-dining_842be956-7149-4cee-bf47-2ed9d99bbb19.jpg",
+              "image": "shopify://shop_images/outdoor-dining_842be956-7149-4cee-bf47-2ed9d99bbb19.jpg",
               "overlay_opacity": 0
             }
           }
@@ -895,11 +895,11 @@
               "title": "Serving NYC since 1994.",
               "title_size": 45,
               "subheading": "Thanks to your business over the years we've grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.",
-              "link": "shopify:\/\/pages\/our-story",
+              "link": "shopify://pages/our-story",
               "link_text": "View locations",
               "link_text_2": "",
               "text_position": "left",
-              "image": "shopify:\/\/shop_images\/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
+              "image": "shopify://shop_images/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
               "indent_image": false,
               "color_scheme": "1"
             }
@@ -924,11 +924,11 @@
           "color_scheme": "none",
           "blur_image": false,
           "heading": "Confirm your age",
-          "text": "<p>Are you 18 years old or older?<\/p>",
+          "text": "<p>Are you 18 years old or older?</p>",
           "decline_button_label": "No I'm not",
           "approve_button_label": "Yes I am",
           "decline_heading": "Come back when you're older",
-          "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+          "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
           "return_button_label": "Oops, I entered incorrectly"
         }
       }
@@ -948,33 +948,33 @@
       "16242877764ba69f0b"
     ],
     "blocks": {
-      "5918707185744429496": {
-        "type": "shopify:\/\/apps\/bss-variant-options\/blocks\/bss-po-script\/2c446099-c349-4e73-80cd-49c9770b7807",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "5140161176031010482": {
-        "type": "shopify:\/\/apps\/dr-shipping-calculator\/blocks\/instant-load\/6fdcf202-26c0-4288-be36-8b389f5d262c",
+        "type": "shopify://apps/dr-shipping-calculator/blocks/instant-load/6fdcf202-26c0-4288-be36-8b389f5d262c",
         "disabled": false,
         "settings": {
         }
       },
       "3318355620493698349": {
-        "type": "shopify:\/\/apps\/bogo\/blocks\/wbogo\/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
+        "type": "shopify://apps/bogo/blocks/wbogo/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
         "disabled": true,
         "settings": {
         }
       },
       "7385302900728337613": {
-        "type": "shopify:\/\/apps\/depo\/blocks\/app-embed\/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+        "type": "shopify://apps/depo/blocks/app-embed/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
         "disabled": true,
         "settings": {
         }
       },
       "1102061855093433159": {
-        "type": "shopify:\/\/apps\/bss-b2b-portal\/blocks\/config-header\/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
+        "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "5918707185744429496": {
+        "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
+        "disabled": true,
         "settings": {
         }
       }
@@ -1043,8 +1043,8 @@
       "cart_additional_buttons": false,
       "cart_notes_enable": false,
       "cart_terms_conditions_enable": false,
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
       "show_breadcrumbs": false,
       "show_breadcrumbs_collection_link": true,
       "checkout_logo_position": "left",
@@ -1173,14 +1173,14 @@
       "cart_collection": "business-card-cases",
       "cart_notes_enable": false,
       "cart_terms_conditions_enable": false,
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
-      "social_tiktok_link": "https:\/\/www.tiktok.com\/@shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_pinterest_link": "https://www.pinterest.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_tiktok_link": "https://www.tiktok.com/@shopify",
       "share_facebook": true,
       "share_twitter": true,
       "share_pinterest": true,
-      "favicon": "shopify:\/\/shop_images\/favicon-u.png",
+      "favicon": "shopify://shop_images/favicon-u.png",
       "show_breadcrumbs": false,
       "show_breadcrumbs_collection_link": true,
       "checkout_logo_position": "left",
@@ -1235,8 +1235,8 @@
             "1524770014057": {
               "type": "logo",
               "settings": {
-                "logo": "shopify:\/\/shop_images\/urban_living-white.png",
-                "logo-inverted": "shopify:\/\/shop_images\/urban_living-white.png",
+                "logo": "shopify://shop_images/urban_living-white.png",
+                "logo-inverted": "shopify://shop_images/urban_living-white.png",
                 "desktop_logo_width": 120,
                 "mobile_logo_width": 110
               }
@@ -1401,8 +1401,8 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Get 10% off your first purchase.",
-            "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
-            "popup_image": "shopify:\/\/shop_images\/office-furniture-grey-chairs.jpg",
+            "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.</p>",
+            "popup_image": "shopify://shop_images/office-furniture-grey-chairs.jpg",
             "image_position": "left",
             "color_scheme": "2",
             "show_social_icons": false,
@@ -1450,11 +1450,11 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/person-sits-on-there-balcony-and-tends-to-a-large-plant.jpg",
+                "image": "shopify://shop_images/person-sits-on-there-balcony-and-tends-to-a-large-plant.jpg",
                 "title": "Spring Savings",
-                "text": "<p>We're clearing out last years inventory, shop now and save up to 40% off!<\/p>",
+                "text": "<p>We're clearing out last years inventory, shop now and save up to 40% off!</p>",
                 "button_label": "Shop Sale",
-                "button_link": "shopify:\/\/collections\/sale",
+                "button_link": "shopify://collections/sale",
                 "color_scheme": "1"
               }
             },
@@ -1462,11 +1462,11 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/home-decor-and-kitchen-accessories.jpg",
+                "image": "shopify://shop_images/home-decor-and-kitchen-accessories.jpg",
                 "title": "New from Umbra",
-                "text": "<p>Our latest addition makes unique watches and contemporary jewellery.<\/p>",
+                "text": "<p>Our latest addition makes unique watches and contemporary jewellery.</p>",
                 "button_label": "Shop Umbra",
-                "button_link": "shopify:\/\/collections\/whats-new",
+                "button_link": "shopify://collections/whats-new",
                 "color_scheme": "3"
               }
             },
@@ -1474,11 +1474,11 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/brief-exchange-during-curbside-pickup.jpg",
+                "image": "shopify://shop_images/brief-exchange-during-curbside-pickup.jpg",
                 "title": "Next-day pickup",
-                "text": "<p>Mon - Fri: 10am - 7pm<br\/>Sat - Sun: 11am - 6pm<\/p>",
+                "text": "<p>Mon - Fri: 10am - 7pm<br/>Sat - Sun: 11am - 6pm</p>",
                 "button_label": "View locations",
-                "button_link": "shopify:\/\/pages\/our-story",
+                "button_link": "shopify://pages/our-story",
                 "color_scheme": "2"
               }
             }
@@ -1509,21 +1509,21 @@
             "1d60d2aa-1704-4343-98b9-02b9533c2c85": {
               "type": "announcement",
               "settings": {
-                "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
+                "richtext": "<p>Hassle-free returns. 30-day postage paid returns</p>",
                 "richtext_mobile": ""
               }
             },
             "a3c703d0-3d75-4c68-be7c-5e25e58e383d": {
               "type": "announcement",
               "settings": {
-                "richtext": "<p>Up to 40% Off All Coffee Sets<\/p>",
+                "richtext": "<p>Up to 40% Off All Coffee Sets</p>",
                 "richtext_mobile": ""
               }
             },
             "b5fedb0e-6170-46b8-9235-d5e69834337b": {
               "type": "announcement",
               "settings": {
-                "richtext": "<p>Free Worldwide Shipping on All Purchases 100$ +<\/p>",
+                "richtext": "<p>Free Worldwide Shipping on All Purchases 100$ +</p>",
                 "richtext_mobile": ""
               }
             }
@@ -1558,19 +1558,19 @@
             "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
               "type": "article",
               "settings": {
-                "article": "news\/featured-property-tuscan-villa-with-modern-outdoor-dining"
+                "article": "news/featured-property-tuscan-villa-with-modern-outdoor-dining"
               }
             },
             "a9c19dcb-3172-4927-b454-954715dfdfbc": {
               "type": "article",
               "settings": {
-                "article": "news\/d"
+                "article": "news/d"
               }
             },
             "a0382939-ffb8-4144-83cc-9565ad819150": {
               "type": "article",
               "settings": {
-                "article": "news\/decorating-101-interior-design-basics"
+                "article": "news/decorating-101-interior-design-basics"
               }
             }
           },
@@ -1628,7 +1628,7 @@
           ],
           "settings": {
             "show_newsletter": true,
-            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
             "footer_main_menu": true,
             "show_copyright": true,
             "copyright_text": "",
@@ -1643,7 +1643,7 @@
               "settings": {
                 "heading": "Free shipping over $50",
                 "text": "Within the contiguous United States",
-                "link": "shopify:\/\/pages\/shipping-info",
+                "link": "shopify://pages/shipping-info",
                 "label": "Learn more",
                 "color_scheme": "2"
               }
@@ -1695,85 +1695,85 @@
             "16167068142513abfa-0": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/alessi.png",
-                "link": "\/collections\/vendors?q=Alessi"
+                "image": "shopify://shop_images/alessi.png",
+                "link": "/collections/vendors?q=Alessi"
               }
             },
             "16167068142513abfa-1": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/bella-tunno_30ceeb35-194d-4c26-a3ed-d29f8480800a.png",
-                "link": "\/collections\/vendors?q=Bella Tunno"
+                "image": "shopify://shop_images/bella-tunno_30ceeb35-194d-4c26-a3ed-d29f8480800a.png",
+                "link": "/collections/vendors?q=Bella Tunno"
               }
             },
             "16167068142513abfa-2": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/corkcicle.png",
-                "link": "\/collections\/vendors?q=Corkcicle"
+                "image": "shopify://shop_images/corkcicle.png",
+                "link": "/collections/vendors?q=Corkcicle"
               }
             },
             "16167068142513abfa-3": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/eva-solo.png",
-                "link": "\/collections\/vendors?q=Eva Solo"
+                "image": "shopify://shop_images/eva-solo.png",
+                "link": "/collections/vendors?q=Eva Solo"
               }
             },
             "052533e5-a371-4932-a016-34def42383db": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/georg-jensen.png",
-                "link": "\/collections\/vendors?q=Georg Jensen"
+                "image": "shopify://shop_images/georg-jensen.png",
+                "link": "/collections/vendors?q=Georg Jensen"
               }
             },
             "ba0ef081-a41c-4913-a3db-412ecb522875": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/iittala.png",
-                "link": "\/collections\/vendors?q=iittala"
+                "image": "shopify://shop_images/iittala.png",
+                "link": "/collections/vendors?q=iittala"
               }
             },
             "28f0d3a8-34e2-4ab3-aed2-005079fb606c": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/jonathan-adler.jpg",
-                "link": "\/collections\/vendors?q=Jonathan Adler"
+                "image": "shopify://shop_images/jonathan-adler.jpg",
+                "link": "/collections/vendors?q=Jonathan Adler"
               }
             },
             "9a3e96b5-aa08-4445-9220-c9d3f38ebb1f": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/kikkerland.png",
-                "link": "\/collections\/vendors?q=Kikkerland"
+                "image": "shopify://shop_images/kikkerland.png",
+                "link": "/collections/vendors?q=Kikkerland"
               }
             },
             "a8344f31-4814-45bb-bcbe-344add4a8906": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/moleskine.jpg",
-                "link": "\/collections\/vendors?q=Moleskine"
+                "image": "shopify://shop_images/moleskine.jpg",
+                "link": "/collections/vendors?q=Moleskine"
               }
             },
             "68c87a86-7a8c-4bfe-ae97-6e35be8bd1e1": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/moma_f69c6feb-0ca4-4296-8177-e485c100b3ea.png",
-                "link": "\/collections\/vendors?q=MoMA"
+                "image": "shopify://shop_images/moma_f69c6feb-0ca4-4296-8177-e485c100b3ea.png",
+                "link": "/collections/vendors?q=MoMA"
               }
             },
             "3220078b-da32-490e-aad7-343808280226": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/tom-dixon.png",
-                "link": "\/collections\/vendors?q=Tom Dixon"
+                "image": "shopify://shop_images/tom-dixon.png",
+                "link": "/collections/vendors?q=Tom Dixon"
               }
             },
             "11926c01-2a95-4f6f-b2fc-42255d8237e5": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/umbra_cc0f54b2-3c63-448c-a203-872e882c06c6.png",
-                "link": "\/collections\/vendors?q=Umbra"
+                "image": "shopify://shop_images/umbra_cc0f54b2-3c63-448c-a203-872e882c06c6.png",
+                "link": "/collections/vendors?q=Umbra"
               }
             }
           },
@@ -1813,11 +1813,11 @@
                 "title": "New from Wild Wood",
                 "title_size": 60,
                 "subheading": "Decorative planters that will bring your home office to life.",
-                "link": "shopify:\/\/collections\/planters",
+                "link": "shopify://collections/planters",
                 "link_text": "Shop Planters",
                 "link_text_2": "",
                 "text_position": "right",
-                "image": "shopify:\/\/shop_images\/green-wall-cream.jpg",
+                "image": "shopify://shop_images/green-wall-cream.jpg",
                 "indent_image": false,
                 "color_scheme": "1"
               }
@@ -1829,12 +1829,12 @@
                 "title": "Lakehouse Lifestyle.",
                 "title_size": 60,
                 "subheading": "Spring has sprung and it's time to make your outdoor space come to life. Shop all the top outdoor brands.",
-                "link": "shopify:\/\/collections\/homestyle",
+                "link": "shopify://collections/homestyle",
                 "link_text": "Shop Home",
-                "link_2": "shopify:\/\/collections\/decor",
+                "link_2": "shopify://collections/decor",
                 "link_text_2": "Shop All",
                 "text_position": "left",
-                "image": "shopify:\/\/shop_images\/outdoor-dining_685376f1-9e94-4d09-8b14-a621a5e8e19b.jpg",
+                "image": "shopify://shop_images/outdoor-dining_685376f1-9e94-4d09-8b14-a621a5e8e19b.jpg",
                 "indent_image": false,
                 "color_scheme": "2"
               }
@@ -1846,12 +1846,12 @@
                 "title": "Back in stock.",
                 "title_size": 70,
                 "subheading": "We've restocked on items from Jonathan Adler, Tom Dixon, and more of your favourite designers.",
-                "link": "\/collections\/vendors?q=Jonathan%20Adler",
+                "link": "/collections/vendors?q=Jonathan%20Adler",
                 "link_text": "Shop New",
-                "link_2": "shopify:\/\/collections\/decor",
+                "link_2": "shopify://collections/decor",
                 "link_text_2": "Shop All",
                 "text_position": "left",
-                "image": "shopify:\/\/shop_images\/product.jpg",
+                "image": "shopify://shop_images/product.jpg",
                 "indent_image": true,
                 "color_scheme": "1"
               }
@@ -1883,10 +1883,10 @@
           "settings": {
             "subtitle": "",
             "title": "Serving NYC since 1994.",
-            "text": "<p>Thanks to your business over the years we&#x27;ve grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.<\/p>",
+            "text": "<p>Thanks to your business over the years we&#x27;ve grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.</p>",
             "button_label": "View locations",
-            "button_link": "shopify:\/\/pages\/our-story",
-            "image": "shopify:\/\/shop_images\/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
+            "button_link": "shopify://pages/our-story",
+            "image": "shopify://shop_images/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
             "layout": "left",
             "height": 550,
             "parallax": false
@@ -1936,16 +1936,16 @@
               "type": "hero",
               "settings": {
                 "top_subheading": "",
-                "title": "<p>Build your dream <br\/>outdoor oasis.<\/p>",
+                "title": "<p>Build your dream <br/>outdoor oasis.</p>",
                 "title_size": 56,
                 "subheading": "",
-                "link": "shopify:\/\/collections\/outdoor-garden-decor",
+                "link": "shopify://collections/outdoor-garden-decor",
                 "link_text": "Shop Outdoor",
-                "link_2": "shopify:\/\/collections\/decor",
+                "link_2": "shopify://collections/decor",
                 "link_text_2": "Shop All",
                 "color_accent": "#ffffff",
                 "text_align": "vertical-center horizontal-center",
-                "image": "shopify:\/\/shop_images\/outdoor-pool_cf604255-b274-4f3c-a917-4fd383330216.jpg",
+                "image": "shopify://shop_images/outdoor-pool_cf604255-b274-4f3c-a917-4fd383330216.jpg",
                 "overlay_opacity": 0
               }
             },
@@ -1953,16 +1953,16 @@
               "type": "hero",
               "settings": {
                 "top_subheading": "",
-                "title": "<p>Entertain in style.<\/p>",
+                "title": "<p>Entertain in style.</p>",
                 "title_size": 55,
                 "subheading": "",
-                "link": "shopify:\/\/collections\/outdoor-style",
+                "link": "shopify://collections/outdoor-style",
                 "link_text": "Shop Outdoor",
-                "link_2": "shopify:\/\/collections\/decor",
+                "link_2": "shopify://collections/decor",
                 "link_text_2": "Shop All",
                 "color_accent": "#ffffff",
                 "text_align": "vertical-center horizontal-center",
-                "image": "shopify:\/\/shop_images\/outdoor-dining_842be956-7149-4cee-bf47-2ed9d99bbb19.jpg",
+                "image": "shopify://shop_images/outdoor-dining_842be956-7149-4cee-bf47-2ed9d99bbb19.jpg",
                 "overlay_opacity": 0
               }
             }
@@ -1990,11 +1990,11 @@
                 "title": "Serving NYC since 1994.",
                 "title_size": 45,
                 "subheading": "Thanks to your business over the years we've grown to cover Brooklyn, Manhattan and Queens. Now offering next-day local pickup.",
-                "link": "shopify:\/\/pages\/our-story",
+                "link": "shopify://pages/our-story",
                 "link_text": "View locations",
                 "link_text_2": "",
                 "text_position": "left",
-                "image": "shopify:\/\/shop_images\/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
+                "image": "shopify://shop_images/store-expensive_6dd3bb0d-7aaf-4624-919f-4f57bc61932c.jpg",
                 "indent_image": false,
                 "color_scheme": "1"
               }
@@ -2019,11 +2019,11 @@
             "color_scheme": "none",
             "blur_image": false,
             "heading": "Confirm your age",
-            "text": "<p>Are you 18 years old or older?<\/p>",
+            "text": "<p>Are you 18 years old or older?</p>",
             "decline_button_label": "No I'm not",
             "approve_button_label": "Yes I am",
             "decline_heading": "Come back when you're older",
-            "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+            "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
             "return_button_label": "Oops, I entered incorrectly"
           }
         }
@@ -2107,14 +2107,14 @@
       "cart_collection": "all",
       "cart_notes_enable": false,
       "cart_terms_conditions_enable": false,
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
-      "social_tiktok_link": "https:\/\/www.tiktok.com\/@shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_pinterest_link": "https://www.pinterest.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_tiktok_link": "https://www.tiktok.com/@shopify",
       "share_facebook": true,
       "share_twitter": true,
       "share_pinterest": true,
-      "favicon": "shopify:\/\/shop_images\/favicon.png",
+      "favicon": "shopify://shop_images/favicon.png",
       "predictive_search_enabled": true,
       "show_breadcrumbs": true,
       "show_breadcrumbs_collection_link": true,
@@ -2168,8 +2168,8 @@
             "1524770014057": {
               "type": "logo",
               "settings": {
-                "logo": "shopify:\/\/shop_images\/Bubble.png",
-                "logo-inverted": "shopify:\/\/shop_images\/Frame_23-w.png",
+                "logo": "shopify://shop_images/Bubble.png",
+                "logo-inverted": "shopify://shop_images/Frame_23-w.png",
                 "desktop_logo_width": 100,
                 "mobile_logo_width": 90
               }
@@ -2286,8 +2286,8 @@
             "popup_seconds": 6,
             "popup_days": 30,
             "popup_title": "Get 10% off your first purchase.",
-            "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
-            "popup_image": "shopify:\/\/shop_images\/Everleaf_3bottles_1.jpg",
+            "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.</p>",
+            "popup_image": "shopify://shop_images/Everleaf_3bottles_1.jpg",
             "image_position": "left",
             "color_scheme": "none",
             "show_social_icons": false,
@@ -2335,11 +2335,11 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/Leske_ALT_0521_57043_0c8cf80d-65b8-42da-a825-3ebf420ba97c.jpg",
+                "image": "shopify://shop_images/Leske_ALT_0521_57043_0c8cf80d-65b8-42da-a825-3ebf420ba97c.jpg",
                 "title": "Organic + Sustainable.",
-                "text": "<p>We started our business with a commitment to organically grown ingredients and sustainable farming practices.<\/p>",
+                "text": "<p>We started our business with a commitment to organically grown ingredients and sustainable farming practices.</p>",
                 "button_label": "",
-                "button_link": "shopify:\/\/pages\/faq",
+                "button_link": "shopify://pages/faq",
                 "color_scheme": "3"
               }
             },
@@ -2347,11 +2347,11 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/Everleaf_3bottles_1.jpg",
+                "image": "shopify://shop_images/Everleaf_3bottles_1.jpg",
                 "title": "Everleaf. At last.",
-                "text": "<p>Complex and balanced non-alcoholic aperitifs made with all the depth, aroma and flavour of the natural world.<\/p>",
+                "text": "<p>Complex and balanced non-alcoholic aperitifs made with all the depth, aroma and flavour of the natural world.</p>",
                 "button_label": "",
-                "button_link": "shopify:\/\/collections\/everleaf",
+                "button_link": "shopify://collections/everleaf",
                 "color_scheme": "2"
               }
             },
@@ -2359,9 +2359,9 @@
               "type": "promotion",
               "settings": {
                 "enable_image": true,
-                "image": "shopify:\/\/shop_images\/askobanner.png",
+                "image": "shopify://shop_images/askobanner.png",
                 "title": "Summer spritzers.",
-                "text": "<p>With summer heating up, try our refreshing new spritzers for a mindful way to enjoy long days relaxing in the sun.<\/p>",
+                "text": "<p>With summer heating up, try our refreshing new spritzers for a mindful way to enjoy long days relaxing in the sun.</p>",
                 "button_label": "Optional button",
                 "button_link": "",
                 "color_scheme": "1"
@@ -2394,7 +2394,7 @@
             "f709e6ea-d5cc-4702-adbf-e66e246fcaf1": {
               "type": "announcement",
               "settings": {
-                "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
+                "richtext": "<p>Hassle-free returns. 30-day postage paid returns</p>",
                 "richtext_mobile": ""
               }
             }
@@ -2427,19 +2427,19 @@
             "a9c19dcb-3172-4927-b454-954715dfdfbc": {
               "type": "article",
               "settings": {
-                "article": "news\/lyres-amaretti-sour"
+                "article": "news/lyres-amaretti-sour"
               }
             },
             "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
               "type": "article",
               "settings": {
-                "article": "news\/lyres-amalfi-spritz"
+                "article": "news/lyres-amalfi-spritz"
               }
             },
             "a0382939-ffb8-4144-83cc-9565ad819150": {
               "type": "article",
               "settings": {
-                "article": "news\/lyres-dark-spicy"
+                "article": "news/lyres-dark-spicy"
               }
             }
           },
@@ -2497,7 +2497,7 @@
           ],
           "settings": {
             "show_newsletter": true,
-            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
             "footer_main_menu": true,
             "show_copyright": true,
             "copyright_text": "",
@@ -2557,43 +2557,43 @@
             "16167068142513abfa-0": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/lyres.png",
-                "link": "shopify:\/\/collections\/lyres-spirit-co"
+                "image": "shopify://shop_images/lyres.png",
+                "link": "shopify://collections/lyres-spirit-co"
               }
             },
             "16167068142513abfa-1": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/everleaf.png",
-                "link": "shopify:\/\/collections\/everleaf"
+                "image": "shopify://shop_images/everleaf.png",
+                "link": "shopify://collections/everleaf"
               }
             },
             "16167068142513abfa-2": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/mikkeller.png",
-                "link": "shopify:\/\/collections\/mikkeller"
+                "image": "shopify://shop_images/mikkeller.png",
+                "link": "shopify://collections/mikkeller"
               }
             },
             "16167068142513abfa-3": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/luscombe.png",
-                "link": "shopify:\/\/collections\/luscombe-drinks"
+                "image": "shopify://shop_images/luscombe.png",
+                "link": "shopify://collections/luscombe-drinks"
               }
             },
             "052533e5-a371-4932-a016-34def42383db": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/ish_779ce952-6f26-4334-ac40-d43537225861.png",
-                "link": "shopify:\/\/collections\/ish-spirits"
+                "image": "shopify://shop_images/ish_779ce952-6f26-4334-ac40-d43537225861.png",
+                "link": "shopify://collections/ish-spirits"
               }
             },
             "ba0ef081-a41c-4913-a3db-412ecb522875": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/ambijus.png",
-                "link": "shopify:\/\/collections\/ambijus"
+                "image": "shopify://shop_images/ambijus.png",
+                "link": "shopify://collections/ambijus"
               }
             }
           },
@@ -2630,7 +2630,7 @@
                 "link_text": "Shop Now",
                 "link_text_2": "",
                 "text_position": "right",
-                "image": "shopify:\/\/shop_images\/SpritzISH_Serve_2048x2048_6eb25c52-7337-4d91-ba9f-89b13ff52488.jpg",
+                "image": "shopify://shop_images/SpritzISH_Serve_2048x2048_6eb25c52-7337-4d91-ba9f-89b13ff52488.jpg",
                 "indent_image": false,
                 "color_scheme": "1"
               }
@@ -2642,11 +2642,11 @@
                 "title": "Perfection, in a bottle.",
                 "title_size": 70,
                 "subheading": "Lyre's signature Amaretti Sour has all the taste a mindful drinker needs.",
-                "link": "shopify:\/\/blogs\/news\/lyres-amaretti-sour",
+                "link": "shopify://blogs/news/lyres-amaretti-sour",
                 "link_text": "View recipe",
                 "link_text_2": "",
                 "text_position": "left",
-                "image": "shopify:\/\/shop_images\/Lyres_Amaretti_Sour_RGB_1080x1080_416a5309-5b45-44c8-b882-e7cc01ca7868.jpg",
+                "image": "shopify://shop_images/Lyres_Amaretti_Sour_RGB_1080x1080_416a5309-5b45-44c8-b882-e7cc01ca7868.jpg",
                 "indent_image": false,
                 "color_scheme": "2"
               }
@@ -2681,11 +2681,11 @@
                 "title": "Everleaf Organic Gin",
                 "title_size": 70,
                 "subheading": "Complex and balanced non-alcoholic aperitifs made with all the depth, aroma and flavour of the natural world.",
-                "link": "shopify:\/\/collections\/everleaf",
+                "link": "shopify://collections/everleaf",
                 "link_text": "Shop Everleaf",
                 "link_text_2": "",
                 "text_position": "left",
-                "image": "shopify:\/\/shop_images\/Everleaf_3bottles_1.jpg",
+                "image": "shopify://shop_images/Everleaf_3bottles_1.jpg",
                 "indent_image": false,
                 "color_scheme": "3"
               }
@@ -2710,15 +2710,15 @@
               "type": "hero",
               "settings": {
                 "top_subheading": "",
-                "title": "<p>Drink, responsibly.<\/p>",
+                "title": "<p>Drink, responsibly.</p>",
                 "title_size": 80,
                 "subheading": "",
                 "link_text": "Our story",
-                "link_2": "shopify:\/\/pages\/our-story",
+                "link_2": "shopify://pages/our-story",
                 "link_text_2": "",
                 "color_accent": "#ffffff",
                 "text_align": "vertical-center horizontal-center",
-                "image": "shopify:\/\/shop_images\/Leske_ALT_0521_57043_0c8cf80d-65b8-42da-a825-3ebf420ba97c.jpg",
+                "image": "shopify://shop_images/Leske_ALT_0521_57043_0c8cf80d-65b8-42da-a825-3ebf420ba97c.jpg",
                 "overlay_opacity": 0
               }
             }
@@ -2745,9 +2745,9 @@
                 "heading": "Summer's Best",
                 "textarea": "",
                 "cta_text1": "",
-                "cta_link1": "shopify:\/\/collections\/sparkling-juice",
+                "cta_link1": "shopify://collections/sparkling-juice",
                 "cta_text2": "",
-                "image": "shopify:\/\/shop_images\/SpritzISH750.png",
+                "image": "shopify://shop_images/SpritzISH750.png",
                 "video_url": "",
                 "width": "50",
                 "height": 320,
@@ -2762,9 +2762,9 @@
                 "heading": "Recipes",
                 "textarea": "",
                 "cta_text1": "",
-                "cta_link1": "shopify:\/\/blogs\/news",
+                "cta_link1": "shopify://blogs/news",
                 "cta_text2": "",
-                "image": "shopify:\/\/shop_images\/luscombe_passionate.png",
+                "image": "shopify://shop_images/luscombe_passionate.png",
                 "video_url": "",
                 "width": "50",
                 "height": 300,
@@ -2802,8 +2802,8 @@
               "type": "testimonial",
               "settings": {
                 "icon": "5-stars",
-                "testimonial": "<p>Couldn't be happier with the service I received from this company.<\/p>",
-                "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-21_at_10.59.41_AM.png",
+                "testimonial": "<p>Couldn't be happier with the service I received from this company.</p>",
+                "image": "shopify://shop_images/Screen_Shot_2021-06-21_at_10.59.41_AM.png",
                 "author": "Angelina S.",
                 "author_info": "Montreal, QC"
               }
@@ -2812,8 +2812,8 @@
               "type": "testimonial",
               "settings": {
                 "icon": "5-stars",
-                "testimonial": "<p>Really went out of their way to make me feel special as a customer, highly recommend!<\/p>",
-                "image": "shopify:\/\/shop_images\/testimonial2.jpg",
+                "testimonial": "<p>Really went out of their way to make me feel special as a customer, highly recommend!</p>",
+                "image": "shopify://shop_images/testimonial2.jpg",
                 "author": "Rachel F.",
                 "author_info": "Toronto, ON"
               }
@@ -2822,8 +2822,8 @@
               "type": "testimonial",
               "settings": {
                 "icon": "5-stars",
-                "testimonial": "<p>Fantastic drinks, great taste and I felt so much better the day after! Would recommend to anyone.<\/p>",
-                "image": "shopify:\/\/shop_images\/testimonial4.png",
+                "testimonial": "<p>Fantastic drinks, great taste and I felt so much better the day after! Would recommend to anyone.</p>",
+                "image": "shopify://shop_images/testimonial4.png",
                 "author": "Sam R.",
                 "author_info": "Brooklyn, NY"
               }
@@ -2832,8 +2832,8 @@
               "type": "testimonial",
               "settings": {
                 "icon": "5-stars",
-                "testimonial": "<p>Couldn't be happier with the service I received from this company.<\/p>",
-                "image": "shopify:\/\/shop_images\/testimonial1.jpg",
+                "testimonial": "<p>Couldn't be happier with the service I received from this company.</p>",
+                "image": "shopify://shop_images/testimonial1.jpg",
                 "author": "James L.",
                 "author_info": "Los Angeles, CA"
               }
@@ -2842,8 +2842,8 @@
               "type": "testimonial",
               "settings": {
                 "icon": "5-stars",
-                "testimonial": "<p>Arrived fast and beautifully boxed. They even let me model on their site :)<\/p>",
-                "image": "shopify:\/\/shop_images\/Screen_Shot_2020-10-09_at_12.17.44_PM.png",
+                "testimonial": "<p>Arrived fast and beautifully boxed. They even let me model on their site :)</p>",
+                "image": "shopify://shop_images/Screen_Shot_2020-10-09_at_12.17.44_PM.png",
                 "author": "Sharon S.",
                 "author_info": "New Orleans, LA"
               }
@@ -2874,12 +2874,12 @@
         "162445498239d2eda9": {
           "type": "text-and-image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/500kr_1800x1800_ce0ad400-6ec9-44ce-bd9e-014290fc239f.jpg",
+            "image": "shopify://shop_images/500kr_1800x1800_ce0ad400-6ec9-44ce-bd9e-014290fc239f.jpg",
             "subtitle": "",
             "title": "Gift cards now available",
-            "text": "<p>We believe that local businesses are an integral part of a neighbourhood's character. Help us through difficult times and support us by buying a gift card.<\/p>",
+            "text": "<p>We believe that local businesses are an integral part of a neighbourhood's character. Help us through difficult times and support us by buying a gift card.</p>",
             "button_label": "Shop gift cards",
-            "button_link": "shopify:\/\/collections\/gift-certificates",
+            "button_link": "shopify://collections/gift-certificates",
             "image_width": "500",
             "layout": "left",
             "color_scheme": "none",
@@ -2891,14 +2891,14 @@
           "settings": {
             "enable_test_mode": false,
             "color_scheme": "3",
-            "image": "shopify:\/\/shop_images\/200930Everleaf_FlatLay-FOREST_0844x5_900x_4d766fdf-51cf-4ad1-bd17-4805f4000a3a.webp",
+            "image": "shopify://shop_images/200930Everleaf_FlatLay-FOREST_0844x5_900x_4d766fdf-51cf-4ad1-bd17-4805f4000a3a.webp",
             "blur_image": true,
             "heading": "Confirm your age",
-            "text": "<p>Are you 18 years old or older?<\/p>",
+            "text": "<p>Are you 18 years old or older?</p>",
             "decline_button_label": "No I'm not",
             "approve_button_label": "Yes I am",
             "decline_heading": "Come back when you're older",
-            "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+            "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
             "return_button_label": "Oops, I entered incorrectly"
           }
         }
