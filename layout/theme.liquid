@@ -121,6 +121,7 @@
 <script>
           window.addEventListener("load", function() {
               const allBtnATC = document.querySelectorAll("button[data-add-to-cart].btn.btn--full.add-to-cart")
+            console.log('check check')
               allBtnATC.forEach(add_to_cart_btn => {
                 add_to_cart_btn.removeAttribute('disabled');
               })
