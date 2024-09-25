@@ -117,7 +117,8 @@
   {% if request.design_mode %}
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
-
+  
+<script src="{{ 'bss-po-custom-atc.js' | asset_url }}" defer></script>
 <script >
           document.addEventListener("DOMContentLoaded", function() {
             if (window.location.pathname.includes("apps/customer-portal")) {
