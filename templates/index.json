@@ -122,7 +122,7 @@
           "type": "collection",
           "settings": {
             "collection": "dyes",
-            "feature_image": "shopify://shop_images/IMG_8610.jpg",
+            "feature_image": "shopify://shop_images/Spectrum_F.jpg",
             "title": "Dyes Dyes Dyes",
             "sub_title": "Dyes for different fibres."
           }
@@ -139,8 +139,8 @@
         "collection_9KU3Bp": {
           "type": "collection",
           "settings": {
-            "collection": "ashford-corriedale-wool-tops",
-            "feature_image": "shopify://shop_images/wool-tops-rovings.jpg",
+            "collection": "fibre",
+            "feature_image": "shopify://shop_images/KK_DHG_Fibre.jpg",
             "title": "Fibre",
             "sub_title": "Wool tops, roving, carded, slubs"
           }
