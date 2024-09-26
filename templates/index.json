@@ -127,6 +127,15 @@
             "sub_title": "Dyes for different fibres."
           }
         },
+        "collection_atBTjT": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "feature_image": "shopify://shop_images/KK_Natural_Dyes.jpg",
+            "title": "Natural Dyes",
+            "sub_title": "Powders and Extracts from nature"
+          }
+        },
         "collection_9KU3Bp": {
           "type": "collection",
           "settings": {
@@ -144,22 +153,13 @@
             "title": "Fabric Paint/Ink",
             "sub_title": "Wide variety of textile paints."
           }
-        },
-        "collection_atBTjT": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "feature_image": "shopify://shop_images/KK_Natural_Dyes.jpg",
-            "title": "Natural Dyes",
-            "sub_title": "Powders and Extracts from nature"
-          }
         }
       },
       "block_order": [
         "featured-collections-3",
+        "collection_atBTjT",
         "collection_9KU3Bp",
-        "collection_tTQibQ",
-        "collection_atBTjT"
+        "collection_tTQibQ"
       ],
       "settings": {
         "title": "",
