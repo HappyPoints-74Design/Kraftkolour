@@ -966,28 +966,21 @@
         "settings": {
         }
       },
-      "4571859552318407796": {
-        "type": "shopify://apps/glo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
-        "disabled": false,
-        "settings": {
-          "customCssGCW": ""
-        }
-      },
       "1102061855093433159": {
         "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
         "disabled": true,
         "settings": {
         }
       },
-      "3720565183479497137": {
-        "type": "shopify://apps/globo-product-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+      "5918707185744429496": {
+        "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
         "disabled": false,
         "settings": {
         }
       },
-      "5918707185744429496": {
-        "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
-        "disabled": false,
+      "3720565183479497137": {
+        "type": "shopify://apps/globo-product-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "disabled": true,
         "settings": {
         }
       }
