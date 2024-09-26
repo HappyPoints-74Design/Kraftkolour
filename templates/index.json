@@ -16,17 +16,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Since 1984<\/p>",
+            "title": "<p>Since 1984</p>",
             "title_size": 64,
             "subheading": "",
-            "link": "shopify:\/\/pages\/about_us",
+            "link": "shopify://pages/about_us",
             "link_text": "About Us",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Shopify_Web_Banner_Original.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Shopify_Web_Banner_Original.jpg",
+            "image": "shopify://shop_images/Shopify_Web_Banner_Original.jpg",
+            "image_mobile": "shopify://shop_images/Shopify_Web_Banner_Original.jpg",
             "overlay_opacity": 0
           }
         },
@@ -34,17 +34,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Silk Scarves <br\/>& Fabrics<\/p>",
+            "title": "<p>Silk Scarves <br/>& Fabrics</p>",
             "title_size": 64,
             "subheading": "A variety of sizes and weights.",
-            "link": "shopify:\/\/products\/3ml-plastic-bulb-pipette-pkt-of-10",
+            "link": "shopify://products/3ml-plastic-bulb-pipette-pkt-of-10",
             "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
+            "image": "shopify://shop_images/main-banner.jpg",
+            "image_mobile": "shopify://shop_images/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
         },
@@ -52,14 +52,14 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
             "subheading": "And optional subtext",
             "link": "",
             "link_text": "Optional button",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#E22128",
+            "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0
           }
@@ -68,17 +68,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/pages\/about_us",
+            "link": "shopify://pages/about_us",
             "link_text": "Shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
+            "image": "shopify://shop_images/main-banner.jpg",
+            "image_mobile": "shopify://shop_images/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
         },
@@ -86,14 +86,14 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
             "subheading": "And optional subtext",
             "link": "",
             "link_text": "Optional button",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#E22128",
+            "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0
           }
@@ -122,7 +122,7 @@
           "type": "collection",
           "settings": {
             "collection": "dyes",
-            "feature_image": "shopify:\/\/shop_images\/dyes-dyes-dyes.jpg",
+            "feature_image": "shopify://shop_images/dyes-dyes-dyes.jpg",
             "title": "Dyes Dyes Dyes",
             "sub_title": "Dyes for different fibres."
           }
@@ -131,8 +131,8 @@
           "type": "collection",
           "settings": {
             "collection": "ashford-corriedale-wool-tops",
-            "feature_image": "shopify:\/\/shop_images\/wool-tops-rovings.jpg",
-            "title": "Wool Tops\/Rovings",
+            "feature_image": "shopify://shop_images/wool-tops-rovings.jpg",
+            "title": "Wool Tops/Rovings",
             "sub_title": "18.5 micron merino wool tops."
           }
         },
@@ -140,16 +140,26 @@
           "type": "collection",
           "settings": {
             "collection": "create-at-home-fabric-paint",
-            "feature_image": "shopify:\/\/shop_images\/fabric-paint-ink.jpg",
-            "title": "Fabric Paint\/Ink",
+            "feature_image": "shopify://shop_images/fabric-paint-ink.jpg",
+            "title": "Fabric Paint/Ink",
             "sub_title": "Wide variety of textile paints."
+          }
+        },
+        "collection_atBTjT": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "feature_image": "shopify://shop_images/KK_Natural_Dyes.jpg",
+            "title": "Natural Dyes",
+            "sub_title": "Powders and Extracts from nature"
           }
         }
       },
       "block_order": [
         "featured-collections-3",
         "collection_9KU3Bp",
-        "collection_tTQibQ"
+        "collection_tTQibQ",
+        "collection_atBTjT"
       ],
       "settings": {
         "title": "",
@@ -185,10 +195,10 @@
             "heading_size_mobile": 24,
             "textarea": "Kraftkolour supplies  textile artists, eco dyers, silk painters, fabric printers, spinners, weavers, knitters and dyers with everything they could possibly need to fulfill their textile journey.",
             "cta_text1": "Read More",
-            "cta_link1": "shopify:\/\/pages\/about_us",
+            "cta_link1": "shopify://pages/about_us",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Group_11-1.png",
+            "image": "shopify://shop_images/Group_11-1.png",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -204,12 +214,12 @@
             "heading": "-15%",
             "heading_size": 64,
             "heading_size_mobile": 36,
-            "textarea": "Yarns - Wool , Silk, Cotton,\n\u2028Linen & Ribbons",
+            "textarea": "Yarns - Wool , Silk, Cotton,\n Linen & Ribbons",
             "cta_text1": "Shop Now",
-            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_link1": "shopify://collections/all",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "image": "shopify://shop_images/Group_11.png",
             "video_url": "",
             "width": "50",
             "height": 500,
