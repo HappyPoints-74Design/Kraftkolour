@@ -148,10 +148,10 @@
         "collection_tTQibQ": {
           "type": "collection",
           "settings": {
-            "collection": "create-at-home-fabric-paint",
-            "feature_image": "shopify://shop_images/fabric-paint-ink.jpg",
-            "title": "Fabric Paint/Ink",
-            "sub_title": "Wide variety of textile paints."
+            "collection": "silk-scarves-wraps-1",
+            "feature_image": "shopify://shop_images/Silk_Scarves_1.jpg",
+            "title": "Silk Scarves",
+            "sub_title": "From around the World"
           }
         }
       },
