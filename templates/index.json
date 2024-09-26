@@ -130,7 +130,7 @@
         "collection_atBTjT": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "natural-dyes",
             "feature_image": "shopify://shop_images/KK_Natural_Dyes.jpg",
             "title": "Natural Dyes",
             "sub_title": "Powders and Extracts from nature"
@@ -141,8 +141,8 @@
           "settings": {
             "collection": "ashford-corriedale-wool-tops",
             "feature_image": "shopify://shop_images/wool-tops-rovings.jpg",
-            "title": "Wool Tops/Rovings",
-            "sub_title": "18.5 micron merino wool tops."
+            "title": "Fibre",
+            "sub_title": "Wool tops, roving, carded, slubs"
           }
         },
         "collection_tTQibQ": {
