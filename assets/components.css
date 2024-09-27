@@ -15834,3 +15834,8 @@ form + .footer__social {
 button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
     margin-top: 10px;
 }
+
+.cart__item-title .cart__item--properties span {
+      font-family: 'Satoshi';
+    font-weight: unset;
+}
