@@ -186,6 +186,27 @@
     "promo_grid_fhAp4U": {
       "type": "promo-grid",
       "blocks": {
+        "advanced_QLANqV": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Celebrating 40 years",
+            "heading_size": 60,
+            "heading_size_mobile": 20,
+            "textarea": "We are so excited and grateful to share this milestone with you, our fantastic customers.",
+            "cta_text1": "Read the interview with founder Bonny Francis",
+            "cta_link1": "shopify://blogs/news/1914-translation-by-h-rackham",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/Happy_Birthday_KK_group_memories_sml_0.75x.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#b3bb33",
+            "color_text": "#fff"
+          }
+        },
         "advanced_xCWN4k": {
           "type": "advanced",
           "settings": {
@@ -230,6 +251,7 @@
         }
       },
       "block_order": [
+        "advanced_QLANqV",
         "advanced_xCWN4k",
         "advanced_hD3tt6"
       ],
