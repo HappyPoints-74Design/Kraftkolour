@@ -123,6 +123,14 @@
             "file_download": "https://www.kraftkolour.net.au/assets/files/LANASET%20%20INSTRUCTIONS%202022%20(1).pdf"
           }
         },
+        "download_item_WR6iAG": {
+          "type": "download_item",
+          "settings": {
+            "title": "Lanasol Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/LANASOL_INSTRUCTIONS.pdf?v=1727675398"
+          }
+        },
         "download_item_iwAxpB": {
           "type": "download_item",
           "settings": {
@@ -233,6 +241,14 @@
             "title": "Remazol Dye Instructions",
             "download_label": "Download",
             "file_download": "https://www.kraftkolour.net.au/assets/files/ins%20REMAZOL%202017.pdf"
+          }
+        },
+        "download_item_Md6jpK": {
+          "type": "download_item",
+          "settings": {
+            "title": "Spectrum F Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SPECTRUM_INSTRUCTIONS.pdf?v=1727675446"
           }
         },
         "download_title_F3tFVJ": {
@@ -429,6 +445,7 @@
         "download_item_NkXA8h",
         "download_item_fKkPGc",
         "download_item_878g3h",
+        "download_item_WR6iAG",
         "download_item_iwAxpB",
         "download_item_VQkU9z",
         "download_item_GbGN3t",
@@ -443,6 +460,7 @@
         "download_item_MTVGFY",
         "download_item_Cb4zKV",
         "download_item_8yhBbg",
+        "download_item_Md6jpK",
         "download_title_F3tFVJ",
         "download_item_pHJhRN",
         "download_item_cTYNkG",
