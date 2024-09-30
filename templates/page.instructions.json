@@ -75,6 +75,14 @@
             "file_download": "https://www.kraftkolour.net.au/assets/files/ACID%20DYES%20HANDPAINTING%20%26%20PRINTING%202022.pdf"
           }
         },
+        "download_item_JepxBx": {
+          "type": "download_item",
+          "settings": {
+            "title": "Authentic Dolls Wig Dye Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/AUTHENTIC_DOLLS_WIG_DYES_INSTRUCTIONS.pdf?v=1727675321"
+          }
+        },
         "download_item_cd9WXx": {
           "type": "download_item",
           "settings": {
@@ -415,6 +423,7 @@
         "download_item_pYwKt6",
         "download_item_h3JMjU",
         "download_item_UPgQ86",
+        "download_item_JepxBx",
         "download_item_cd9WXx",
         "download_item_LfB47U",
         "download_item_NkXA8h",
