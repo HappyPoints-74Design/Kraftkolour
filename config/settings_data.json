@@ -960,6 +960,12 @@
         "settings": {
         }
       },
+      "7385302900728337613": {
+        "type": "shopify://apps/depo/blocks/app-embed/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "5294968793578418440": {
         "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
         "disabled": false,
@@ -974,18 +980,6 @@
       },
       "5918707185744429496": {
         "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14660309866608708618": {
-        "type": "shopify://apps/split-payment/blocks/app-embed/35a708d6-4cb9-406a-9fdb-e05a89b032c6",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "7385302900728337613": {
-        "type": "shopify://apps/depo/blocks/app-embed/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
         "disabled": false,
         "settings": {
         }
