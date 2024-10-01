@@ -283,12 +283,75 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ALGIPASTE_Manutex_Paste_2022.pdf?v=1727760810"
           }
+        },
+        "download_item_3WqAfn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Aluminium Acetate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Aluminium_Acetate_2022.pdf?v=1727760817"
+          }
+        },
+        "download_item_Mc3iUJ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Aluminium Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Aluminium_Sulphate_2022.pdf?v=1727760820"
+          }
+        },
+        "download_item_fyGtPY": {
+          "type": "download_item",
+          "settings": {
+            "title": "Calcium Carbonate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_CALCIUM_CARBONATE_2022.pdf?v=1727760835"
+          }
+        },
+        "download_item_LtFcQN": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cellulose Thickener HEC100C",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Cellulose_Thickener_2022.pdf?v=1727760843"
+          }
+        },
+        "download_item_xB4CBz": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cold Wax",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_COLD_WAX_-_WAX_EMULSION_2022.pdf?v=1727760845"
+          }
+        },
+        "download_item_GdwJBw": {
+          "type": "download_item",
+          "settings": {
+            "title": "Copper Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_COPPER_SULPHATE_2021.pdf?v=1727760849"
+          }
+        },
+        "download_item_ngUXD3": {
+          "type": "download_item",
+          "settings": {
+            "title": "Devore Paste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DEVORE_PASTE_2022.pdf?v=1727760866"
+          }
         }
       },
       "block_order": [
         "download_title_RrtpBf",
         "download_item_Et8MVk",
-        "download_item_UNEAgn"
+        "download_item_UNEAgn",
+        "download_item_3WqAfn",
+        "download_item_Mc3iUJ",
+        "download_item_fyGtPY",
+        "download_item_LtFcQN",
+        "download_item_xB4CBz",
+        "download_item_GdwJBw",
+        "download_item_ngUXD3"
       ],
       "settings": {
         "title": "",
