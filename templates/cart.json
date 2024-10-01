@@ -14,23 +14,6 @@
       "settings": {
       }
     },
-    "1727753247f907c24b": {
-      "type": "apps",
-      "blocks": {
-        "split_payment_app_split_button_xBxRg6": {
-          "type": "shopify://apps/split-payment/blocks/app-split-button/35a708d6-4cb9-406a-9fdb-e05a89b032c6",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "split_payment_app_split_button_xBxRg6"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
@@ -71,7 +54,6 @@
   },
   "order": [
     "main",
-    "1727753247f907c24b",
     "recently-viewed",
     "172725222559665b8d"
   ]
