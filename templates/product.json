@@ -33,11 +33,6 @@
           "settings": {
           }
         },
-        "globo_product_option_app_block_8nQLzB": {
-          "type": "shopify://apps/globo-product-option/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -91,7 +86,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
             "show_gift_card_recipient": false
           }
@@ -101,7 +96,6 @@
         "description_4JMjBP",
         "variant_picker",
         "bss_variant_options_option_set_gPKPdA",
-        "globo_product_option_app_block_8nQLzB",
         "price",
         "sales_point",
         "sales_point2",
