@@ -577,4 +577,8 @@ p.addresses-cancel-link {
         padding-top: 24px;
         border-top: 1px solid #DCDBCF;
     }
+  
+    .cart__page-col .cart__item--subtotal {
+      margin-bottom: 16px;
+    }
 }
