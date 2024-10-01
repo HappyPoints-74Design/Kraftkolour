@@ -21,7 +21,7 @@
 
     {%- if shop.customer_accounts_enabled -%}
       <a class="site-nav__link site-nav__link--icon site-nav__link--icon-account" href="{{ routes.account_url }}">
-        {% render 'icon', name: 'user' %}
+        {% render 'icon-user' %}
         <span class="site-nav__icon-label small--hide{% if hide_icon_labels %} icon__fallback-text visually-hidden{% endif %}">
           {{ 'labels.account' | t }}
         </span>
@@ -36,7 +36,7 @@
       aria-label="{{ 'labels.cart' | t }}"
     >
       <span class="cart-link">
-        {% render 'icon', name: cart_icon %}
+        {% render 'icon-cart' %}
         <span class="cart-link__bubble{% if cart.item_count > 0 %} cart-link__bubble--visible{% endif %}">
           <span class="cart-link__bubble-num">{{ cart.item_count }}</span>
         </span>
