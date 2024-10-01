@@ -491,10 +491,73 @@
           "settings": {
             "title": "Auxilliary Chemicals and Equipment"
           }
+        },
+        "download_item_R9T7wq": {
+          "type": "download_item",
+          "settings": {
+            "title": "Algipaste Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/ALGIPASTE_INSTRUCTIONS.pdf?v=1727749215"
+          }
+        },
+        "download_item_cFecCQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Bonding Powder Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Bonding_Powder_Instructions.pdf?v=1727749250"
+          }
+        },
+        "download_item_jJaxTX": {
+          "type": "download_item",
+          "settings": {
+            "title": "Colour Stripper Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/COLOUR_STRIPPER_KIT_Instructions.pdf?v=1727749306"
+          }
+        },
+        "download_item_DChgPU": {
+          "type": "download_item",
+          "settings": {
+            "title": "Dynazol Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Dynazol_instructions_2017.pdf?v=1727749317"
+          }
+        },
+        "download_item_bQBedC": {
+          "type": "download_item",
+          "settings": {
+            "title": "Flock and Foil Adhesive Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/FOIL_ADHESIVE_2024.pdf?v=1727749346"
+          }
+        },
+        "download_item_Dm6y7X": {
+          "type": "download_item",
+          "settings": {
+            "title": "Manutex Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/MANUTEX_PASTE_RECIPE.pdf?v=1727749548"
+          }
+        },
+        "download_item_pWacDp": {
+          "type": "download_item",
+          "settings": {
+            "title": "Painting Powder Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/PAINTING_POWDER_2016.pdf?v=1727749272"
+          }
         }
       },
       "block_order": [
-        "download_title_bRrqnL"
+        "download_title_bRrqnL",
+        "download_item_R9T7wq",
+        "download_item_cFecCQ",
+        "download_item_jJaxTX",
+        "download_item_DChgPU",
+        "download_item_bQBedC",
+        "download_item_Dm6y7X",
+        "download_item_pWacDp"
       ],
       "settings": {
         "title": "",
