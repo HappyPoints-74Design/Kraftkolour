@@ -638,10 +638,46 @@
           "settings": {
             "title": "FAQs"
           }
+        },
+        "download_item_ELGAMy": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQs - Calculating Dye Formulas",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/CALCULATING_DYE_FORMULAS.pdf?v=1727749998"
+          }
+        },
+        "download_item_thQPyG": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQs - Fabric Inks, Bases and Their Uses",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/FAQS_PRINTING_INKS.doc?v=1727749960"
+          }
+        },
+        "download_item_hYNF39": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQs - Fibres, Origins, Eco Status and Uses",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/FAQS_FIBRES.doc?v=1727749961"
+          }
+        },
+        "download_item_V8Wtgb": {
+          "type": "download_item",
+          "settings": {
+            "title": "FAQs - Packaging and Mailing Materials Sustainability",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/FAQ_S_MAILING_AND_PACKAGING_MATERIALS.docx?v=1727749972"
+          }
         }
       },
       "block_order": [
-        "download_title_CKJRQg"
+        "download_title_CKJRQg",
+        "download_item_ELGAMy",
+        "download_item_thQPyG",
+        "download_item_hYNF39",
+        "download_item_V8Wtgb"
       ],
       "settings": {
         "title": "",
