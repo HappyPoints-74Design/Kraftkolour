@@ -402,12 +402,75 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/DEVORE_PASTE_Instructions.pdf?v=1727748062"
           }
+        },
+        "download_item_L6Vx4A": {
+          "type": "download_item",
+          "settings": {
+            "title": "Discharge Printing Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Discharge_Paste_Printing_Instructions_2023.pdf?v=1727748076"
+          }
+        },
+        "download_item_8WY88w": {
+          "type": "download_item",
+          "settings": {
+            "title": "Marbling Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Marbling_Instructions_2024.pdf?v=1727748184"
+          }
+        },
+        "download_item_qCXqwE": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Heat Set Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Opulence_Heat_Fix_instructions_2024.pdf?v=1727748432"
+          }
+        },
+        "download_item_ECmcBX": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Steam Fix Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Opulence_Steam_Fix_Silk_Paint_Instructions_2024.pdf?v=1727748423"
+          }
+        },
+        "download_item_jaU8Uy": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sun Dyes Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SUN_DYES_INSTRUCTIONS.pdf?v=1727748473"
+          }
+        },
+        "download_item_kTEUxe": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Deco Printing Ink Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/TEXCRAFT_INK_FIXING_INSTRUCTIONS.pdf?v=1727748125"
+          }
+        },
+        "download_item_GjTkCc": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transprint Ink Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/TRANSPRINT_INSTRUCTIONS.pdf?v=1727748491"
+          }
         }
       },
       "block_order": [
         "download_title_HQXR9m",
         "download_item_Lb93Gm",
-        "download_item_ePxKHF"
+        "download_item_ePxKHF",
+        "download_item_L6Vx4A",
+        "download_item_8WY88w",
+        "download_item_qCXqwE",
+        "download_item_ECmcBX",
+        "download_item_jaU8Uy",
+        "download_item_kTEUxe",
+        "download_item_GjTkCc"
       ],
       "settings": {
         "title": "",
