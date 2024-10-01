@@ -339,6 +339,118 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DEVORE_PASTE_2022.pdf?v=1727760866"
           }
+        },
+        "download_item_FeBgaW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Dextrin TW",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dextrin_TW_2022.pdf?v=1727760879"
+          }
+        },
+        "download_item_VGKgNV": {
+          "type": "download_item",
+          "settings": {
+            "title": "Dynazol Washoff",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dynazol_Washoff_2022.pdf?v=1727760885"
+          }
+        },
+        "download_item_yGzLHN": {
+          "type": "download_item",
+          "settings": {
+            "title": "Ferrous Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Ferrous_Sulphate_Monohydrate_2021.pdf?v=1727760890"
+          }
+        },
+        "download_item_i8enby": {
+          "type": "download_item",
+          "settings": {
+            "title": "Fructose: Crystalline",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_FRUCTOSE_2021_MERCK.pdf?v=1727760908"
+          }
+        },
+        "download_item_JwVYxm": {
+          "type": "download_item",
+          "settings": {
+            "title": "Glauber Salt",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Glauber_Salt_2020.pdf?v=1727760913"
+          }
+        },
+        "download_item_9kX8te": {
+          "type": "download_item",
+          "settings": {
+            "title": "Glycerine",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_GLYCERIN_2022.pdf?v=1727760915"
+          }
+        },
+        "download_item_b3mTgz": {
+          "type": "download_item",
+          "settings": {
+            "title": "Guar Gum",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Guar_Gum_2022.pdf?v=1727760919"
+          }
+        },
+        "download_item_YiqLCk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Clear Water-Based Gutta",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_GUTTA_Water_Based_2020.pdf?v=1727760922"
+          }
+        },
+        "download_item_zMkx8K": {
+          "type": "download_item",
+          "settings": {
+            "title": "Hydros ST",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Hydros_ST_2019.pdf?v=1727760928"
+          }
+        },
+        "download_item_th6gU9": {
+          "type": "download_item",
+          "settings": {
+            "title": "Kolourfix FF",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_KOLOURFIX_FF_2023.pdf?v=1727760934"
+          }
+        },
+        "download_item_dhWdNQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Mesitol NBS40",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Mesitol_NBS40_2023.pdf?v=1727760964"
+          }
+        },
+        "download_item_96cf94": {
+          "type": "download_item",
+          "settings": {
+            "title": "Polytex MF-U",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Polytex_MF-U_2021.pdf?v=1727760998"
+          }
+        },
+        "download_item_YVjJQn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Polytex NOC",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_POLYTEX_NOC_Nov_2023.pdf?v=1727760996"
+          }
+        },
+        "download_item_d6rKqW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Resist Salt L",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_RESIST_SALT_L_2022.pdf?v=1727761006"
+          }
         }
       },
       "block_order": [
@@ -351,7 +463,21 @@
         "download_item_LtFcQN",
         "download_item_xB4CBz",
         "download_item_GdwJBw",
-        "download_item_ngUXD3"
+        "download_item_ngUXD3",
+        "download_item_FeBgaW",
+        "download_item_VGKgNV",
+        "download_item_yGzLHN",
+        "download_item_i8enby",
+        "download_item_JwVYxm",
+        "download_item_9kX8te",
+        "download_item_b3mTgz",
+        "download_item_YiqLCk",
+        "download_item_zMkx8K",
+        "download_item_th6gU9",
+        "download_item_dhWdNQ",
+        "download_item_96cf94",
+        "download_item_YVjJQn",
+        "download_item_d6rKqW"
       ],
       "settings": {
         "title": "",
