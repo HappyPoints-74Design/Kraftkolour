@@ -178,12 +178,117 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_EMBELLISMENT_2020.pdf?v=1727760512"
           }
+        },
+        "download_item_dL8zYW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Heat Set Silk Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_HEAT_SET_SILK_DYES_2022.pdf?v=1727760508"
+          }
+        },
+        "download_item_hniMiC": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Steam Fix Silk Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_Steam_Fix_Dyes_2022.pdf?v=1727760510"
+          }
+        },
+        "download_item_mi4ypU": {
+          "type": "download_item",
+          "settings": {
+            "title": "Shimmer Paints",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SHIMMER_PAINTS_2019.pdf?v=1727760525"
+          }
+        },
+        "download_item_a4ykiH": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sun Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SUN_DYES_2022.pdf?v=1727760529"
+          }
+        },
+        "download_item_jXCBFD": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Deco Printing Inks",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Texcraft_Deco_Printing_Inks_2022.pdf?v=1727760534"
+          }
+        },
+        "download_item_UfCd7g": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Fabric Paints",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Texcraft_FABRIC_PAINT_2021.pdf?v=1727760537"
+          }
+        },
+        "download_item_dxXQwP": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transprint Inks",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Transprint_Inks_2022.pdf?v=1727760548"
+          }
         }
       },
       "block_order": [
         "download_title_JWaDAm",
         "download_item_PRdmdc",
-        "download_item_GWizY4"
+        "download_item_GWizY4",
+        "download_item_dL8zYW",
+        "download_item_hniMiC",
+        "download_item_mi4ypU",
+        "download_item_a4ykiH",
+        "download_item_jXCBFD",
+        "download_item_UfCd7g",
+        "download_item_dxXQwP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
+    },
+    "download_file_list_FbdbNN": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_RrtpBf": {
+          "type": "download_title",
+          "settings": {
+            "title": "Auxiliaries and Chemicals"
+          }
+        },
+        "download_item_Et8MVk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Albegal SET",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ALBEGAL_SB_2022.pdf?v=1727760804"
+          }
+        },
+        "download_item_UNEAgn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Algipaste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ALGIPASTE_Manutex_Paste_2022.pdf?v=1727760810"
+          }
+        }
+      },
+      "block_order": [
+        "download_title_RrtpBf",
+        "download_item_Et8MVk",
+        "download_item_UNEAgn"
       ],
       "settings": {
         "title": "",
@@ -201,6 +306,7 @@
     "main",
     "download_file_list_RYqwPb",
     "download_file_list_L3EfNK",
-    "download_file_list_YUfzJe"
+    "download_file_list_YUfzJe",
+    "download_file_list_FbdbNN"
   ]
 }
