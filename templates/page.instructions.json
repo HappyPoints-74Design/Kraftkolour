@@ -576,12 +576,48 @@
         "download_title_HcqHEG": {
           "type": "download_title",
           "settings": {
-            "title": "Techniques and How-Tos"
+            "title": "Techniques and Resources"
+          }
+        },
+        "download_item_eEKK4Y": {
+          "type": "download_item",
+          "settings": {
+            "title": "Easy Shibori with Kraftkolour",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Easy_Shibori_with_Kraftkolour.pdf?v=1727749819"
+          }
+        },
+        "download_item_bkgpQJ": {
+          "type": "download_item",
+          "settings": {
+            "title": "How To Work With Fibre Tops",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/How_to_work_with_fibre_tops_by_Kraftkolour.pdf?v=1727749767"
+          }
+        },
+        "download_item_JVcrKz": {
+          "type": "download_item",
+          "settings": {
+            "title": "Make Your Own Fabric Steamer",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Make_Your_Own_Fabric_Steamer_Instructions.pdf?v=1727749773"
+          }
+        },
+        "download_item_EXXVJX": {
+          "type": "download_item",
+          "settings": {
+            "title": "Making Rolags With A Blending Board",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Making_Rolags_with_a_Blending_Board_by_Kraftkolour.pdf?v=1727749791"
           }
         }
       },
       "block_order": [
-        "download_title_HcqHEG"
+        "download_title_HcqHEG",
+        "download_item_eEKK4Y",
+        "download_item_bkgpQJ",
+        "download_item_JVcrKz",
+        "download_item_EXXVJX"
       ],
       "settings": {
         "title": "",
