@@ -24,6 +24,7 @@
       "blocks": {
         "dr_shipping_calculator_single_calculator_3Krr4C": {
           "type": "shopify://apps/dr-advanced-shipping/blocks/single-calculator/6fdcf202-26c0-4288-be36-8b389f5d262c",
+          "disabled": true,
           "settings": {
             "alignment": "right",
             "cta-alignment": "left",
