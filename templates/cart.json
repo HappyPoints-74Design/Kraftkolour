@@ -23,20 +23,20 @@
       "type": "apps",
       "blocks": {
         "dr_shipping_calculator_single_calculator_3Krr4C": {
-          "type": "shopify://apps/dr-shipping-calculator/blocks/single-calculator/6fdcf202-26c0-4288-be36-8b389f5d262c",
+          "type": "shopify://apps/dr-advanced-shipping/blocks/single-calculator/6fdcf202-26c0-4288-be36-8b389f5d262c",
           "settings": {
             "alignment": "right",
             "cta-alignment": "left",
             "cta-font-size": 16,
-            "cta-color": "#000",
+            "cta-color": "#000000",
             "fields-and-button-font-size": 16,
-            "button-color": "#000",
-            "button-text-color": "#fff",
+            "button-color": "#000000",
+            "button-text-color": "#ffffff",
             "shipping-rates-background-color": "#f3f3f3",
             "shipping-rates-title-font-size": 18,
             "shipping-rates-title-text-color": "#1c1c1c",
             "shipping-rates-font-size": 14,
-            "shipping-rates-text-color": "#5A5A5A",
+            "shipping-rates-text-color": "#5a5a5a",
             "include-padding": true,
             "max-width": 650
           }
@@ -49,11 +49,29 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "1727753247f907c24b": {
+      "type": "apps",
+      "blocks": {
+        "split_payment_app_split_button_xBxRg6": {
+          "type": "shopify://apps/split-payment/blocks/app-split-button/35a708d6-4cb9-406a-9fdb-e05a89b032c6",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "split_payment_app_split_button_xBxRg6"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "recently-viewed",
-    "172725222559665b8d"
+    "172725222559665b8d",
+    "1727753247f907c24b"
   ]
 }
