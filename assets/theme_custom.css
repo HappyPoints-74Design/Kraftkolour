@@ -491,6 +491,7 @@ p.addresses-cancel-link {
     accent-color: var(--colorTextBody);
     width: 20px !important;
     height: 20px !important;
+    min-width: 20px !important;
     margin: 0 !important;
 }
 
@@ -558,4 +559,22 @@ p.addresses-cancel-link {
 
 #shopify-block-dr_shipping_calculator_single_calculator_3Krr4C {
     display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .cart__page-col .docapp-cart-with-shipping-summary .docapp-shipping-calculator--rates {
+        background-color: #F3F2E9 !important;
+    }
+
+    .docapp-cart-with-shipping-summary {
+        margin: 0 auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .cart__page-col.cart__page-subtotal,
+    .cart__page-col .cart__item-row.cart-recommendations{
+        padding-top: 24px;
+        border-top: 1px solid #DCDBCF;
+    }
 }
