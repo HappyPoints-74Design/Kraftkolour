@@ -451,6 +451,102 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_RESIST_SALT_L_2022.pdf?v=1727761006"
           }
+        },
+        "download_item_UYP8Hi": {
+          "type": "download_item",
+          "settings": {
+            "title": "Soda Ash",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SODA_ASH_2022.pdf?v=1727761011"
+          }
+        },
+        "download_item_iFzCWx": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sodium Alginate Manutex F",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Sodium_Alginate_Manutex_F_2022.pdf?v=1727760980"
+          }
+        },
+        "download_item_Dfd9Ja": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sulphonated Canola Oil",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Sulphanated_Canola_Oil_Turkey_Red_Oil_Aug_2024.pdf?v=1727761025"
+          }
+        },
+        "download_item_xJKhWy": {
+          "type": "download_item",
+          "settings": {
+            "title": "Synthrapol",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Synthrapol-SDS-GHS-CT-QF.pdf?v=1727761043"
+          }
+        },
+        "download_item_ACh7qQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texacid ECO",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TEXACID_ECO_2023.pdf?v=1727761052"
+          }
+        },
+        "download_item_ULW3Nb": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texiflock E-FF",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TEXIFLOCK_E-FF_2022_db574e7b-9f36-43e6-8428-d377e57ad131.pdf?v=1727761059"
+          }
+        },
+        "download_item_pkhbLW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transfix Medium",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TRANSFIX_MEDIUM_2023.pdf?v=1727761062"
+          }
+        },
+        "download_item_mJtBpg": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Beyond Soft",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Fibre_Rinse_-_Beyond_Soft.pdf?v=1727761068"
+          }
+        },
+        "download_item_xYmiAM": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Fibre Wash",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Fibre_Wash_-_Beyond_Fibre_Wash.pdf?v=1727761070"
+          }
+        },
+        "download_item_BiRGr8": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Beyond Clean",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Power_Scour_-_Beyond_Clean.pdf?v=1727761072"
+          }
+        },
+        "download_item_tJFbFk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Urea",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_UREA_2022.pdf?v=1727761098"
+          }
+        },
+        "download_item_DK8LDf": {
+          "type": "download_item",
+          "settings": {
+            "title": "Wetter OT",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Wetter_OT_2020_New.pdf?v=1727761102"
+          }
         }
       },
       "block_order": [
@@ -477,7 +573,19 @@
         "download_item_dhWdNQ",
         "download_item_96cf94",
         "download_item_YVjJQn",
-        "download_item_d6rKqW"
+        "download_item_d6rKqW",
+        "download_item_UYP8Hi",
+        "download_item_iFzCWx",
+        "download_item_Dfd9Ja",
+        "download_item_xJKhWy",
+        "download_item_ACh7qQ",
+        "download_item_ULW3Nb",
+        "download_item_pkhbLW",
+        "download_item_mJtBpg",
+        "download_item_xYmiAM",
+        "download_item_BiRGr8",
+        "download_item_tJFbFk",
+        "download_item_DK8LDf"
       ],
       "settings": {
         "title": "",
