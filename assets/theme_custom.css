@@ -578,7 +578,8 @@ p.addresses-cancel-link {
         border-top: 1px solid #DCDBCF;
     }
   
-    .cart__page-col .cart__item--subtotal {
+    .cart__page-col .cart__item--subtotal,
+    .cart__item-row.cart__checkout-wrapper{
       margin-bottom: 16px;
     }
 }
