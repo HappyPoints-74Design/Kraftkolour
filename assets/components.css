@@ -11843,7 +11843,7 @@ iframe.zoid-component-frame {
 @media only screen and (min-width: 769px) {
   .cart__page {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 100%;
