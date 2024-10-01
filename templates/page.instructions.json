@@ -299,10 +299,73 @@
           "settings": {
             "title": "Natural Dyes"
           }
+        },
+        "download_item_EKMUUf": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cochineal Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Cochineal_Instructions_2023.pdf?v=1727747492"
+          }
+        },
+        "download_item_qppBHb": {
+          "type": "download_item",
+          "settings": {
+            "title": "Indigo Instructions - Natural/Synthetic",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/INDIGO_INS_-_BIO_and_SYNTH.pdf?v=1727747700"
+          }
+        },
+        "download_item_bracwQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Indigo Instructions - Prereduced",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/INDIGO_PREREDUCED_INS_2022.pdf?v=1727747841"
+          }
+        },
+        "download_item_hkfE6x": {
+          "type": "download_item",
+          "settings": {
+            "title": "Indigo Instructions - Fructose Vat",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/INDIGO_FRUCTOSE_VAT_2019.pdf?v=1727747723"
+          }
+        },
+        "download_item_99Aa4q": {
+          "type": "download_item",
+          "settings": {
+            "title": "Mordanting for Natural Dyes Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/MORDANTS_INSTRUCTIONS_2022_updated.pdf?v=1727747612"
+          }
+        },
+        "download_item_wpPehw": {
+          "type": "download_item",
+          "settings": {
+            "title": "Natural Dyes and Mordants Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/NATURAL_DYE_BOOKLET.pdf?v=1727747631"
+          }
+        },
+        "download_item_rpHqTQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Woad Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/WOAD_INSTRUCTIONS.pdf?v=1727747758"
+          }
         }
       },
       "block_order": [
-        "download_title_KYDDnq"
+        "download_title_KYDDnq",
+        "download_item_EKMUUf",
+        "download_item_qppBHb",
+        "download_item_bracwQ",
+        "download_item_hkfE6x",
+        "download_item_99Aa4q",
+        "download_item_wpPehw",
+        "download_item_rpHqTQ"
       ],
       "settings": {
         "title": "",
@@ -323,10 +386,28 @@
           "settings": {
             "title": "Painting and Printing"
           }
+        },
+        "download_item_Lb93Gm": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cyanotype Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Cyanotype_Instructions.pdf?v=1727748038"
+          }
+        },
+        "download_item_ePxKHF": {
+          "type": "download_item",
+          "settings": {
+            "title": "Devore/Burnout Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/DEVORE_PASTE_Instructions.pdf?v=1727748062"
+          }
         }
       },
       "block_order": [
-        "download_title_HQXR9m"
+        "download_title_HQXR9m",
+        "download_item_Lb93Gm",
+        "download_item_ePxKHF"
       ],
       "settings": {
         "title": "",
