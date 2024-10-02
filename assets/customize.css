@@ -485,6 +485,9 @@ div[data-collection-count] {
 .product-block {
 	margin-bottom: 24px;
 }
+.product-block.product-block--tab {
+  margin-bottom: 0;
+}
 .product-block--header {
 	margin-bottom: 16px;
 }
