@@ -2332,7 +2332,7 @@ html input[disabled] {
   font-weight: var(--typeHeaderWeight);
   font-size: calc(var(--typeBaseSize) + 3px);
 }
-.collapsible-trigger-btn label {
+.collapsible-trigger-btn.label {
   font-family: var(--typeBasePrimary);
 }
 @media only screen and (max-width: 768px) {
