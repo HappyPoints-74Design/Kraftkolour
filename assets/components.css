@@ -2339,7 +2339,7 @@ html input[disabled] {
 }
 @media only screen and (max-width: 768px) {
 .collapsible-trigger-btn {
-    padding: 12px 17px 12px 0;
+    padding: 24px 17px 24px 0;
     font-size: calc(var(--typeBaseSize) + 1px);
 }
   }
