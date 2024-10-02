@@ -55,6 +55,14 @@
   </div>
 
   <div class="site-nav__close-cart">
+    {%- if shop.customer_accounts_enabled -%}
+      <a class="site-nav__link site-nav__link--icon site-nav__link--icon-account" href="{{ routes.account_url }}">
+        {% render 'icon-user' %}
+        <span class="site-nav__icon-label small--hide{% if hide_icon_labels %} icon__fallback-text visually-hidden{% endif %}">
+          {{ 'labels.account' | t }}
+        </span>
+      </a>
+    {%- endif -%}
     <button type="button" class="site-nav__link site-nav__link--icon js-close-header-cart">
       <span>{{ 'actions.close' | t }}</span>
       {% render 'icon', name: 'close' %}

@@ -2359,6 +2359,7 @@ html input[disabled] {
 .collapsible-trigger-btn--borders {
   border-bottom: 1px solid;
   border-color: var(--colorBorder);
+  border-radius: 0;
 }
 .collapsible-trigger-btn--borders.is-open {
     border-color: transparent;
@@ -6181,6 +6182,10 @@ we can create larger tap areas with smaller visuals*/
       flex: 0 0 45%;
     }
 
+    .cart-recommendations .scrollable-grid--small .grid-item {
+      flex: 0 0 35%;
+    }
+
     /*Some one-off sizing*/
     .scrollable-grid--small[data-type="subcollections"] {
       margin-left: calc(var(--grid-gutter-small) * -1);
@@ -8341,7 +8346,10 @@ html[dir="rtl"] .product-single__meta .rte {
   display: none;
 }
 .cart-open .site-nav__close-cart {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
   }
 .site-nav__link--icon {
   display: flex;
