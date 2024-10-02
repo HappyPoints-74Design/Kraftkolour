@@ -2334,6 +2334,8 @@ html input[disabled] {
 }
 .collapsible-trigger-btn.label {
   font-family: var(--typeBasePrimary);
+  font-size: 20px;
+  line-height: 1.4;
 }
 @media only screen and (max-width: 768px) {
 .collapsible-trigger-btn {
