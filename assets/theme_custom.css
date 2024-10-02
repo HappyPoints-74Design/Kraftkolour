@@ -671,15 +671,15 @@ p.addresses-cancel-link {
 .card-product .grid-product__title {
     overflow: hidden;
    display: -webkit-box;
-   -webkit-line-clamp: 3;
-           line-clamp: 3; 
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
    -webkit-box-orient: vertical;
 }
 
 .site-header__drawer .card-product .grid-product__title {
     font-size: 12px;
     line-height: 1.33333;
-    min-height: 48px;
+    min-height: 32px;
 }
 
 .card-product .grid-item__meta-secondary {
@@ -815,3 +815,7 @@ p.addresses-cancel-link {
     }
 }
 /* Cart drawer */
+
+.bss-b2b-customer-portal-nt-checkout-btn {
+    display: none;
+}
