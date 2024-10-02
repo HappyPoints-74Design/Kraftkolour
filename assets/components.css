@@ -4023,7 +4023,7 @@ Only medium-up because iOS jumps to top otherwise*/
 }
 @media only screen and (min-width: 769px) {
   .collapsible-content__inner {
-    padding: 0 0 35px;
+    padding: 0 0 24px;
   }
 }
 .collapsible-trigger[aria-expanded="true"] .collapsible-label__closed {
