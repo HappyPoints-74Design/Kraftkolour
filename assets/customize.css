@@ -9,6 +9,8 @@ body::after {
 	height: 8px;
 	background: url('./bg-line-body.jpeg') top left no-repeat;
 	background-size: cover;
+	position: relative;
+	z-index: 100;
 }
 
 .announcement-slider__content p {
