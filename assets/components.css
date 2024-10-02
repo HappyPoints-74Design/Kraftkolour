@@ -4639,7 +4639,10 @@ input[type="image"] {
     padding-left: 20px;
   }
 }
-.product-block,
+.product-block {
+  margin-bottom: 0;
+}
+
 .product-block.product-block--tab {
   margin-bottom: 0;
 }
