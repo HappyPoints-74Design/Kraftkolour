@@ -140,7 +140,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "content": "<p>Online orders are sent using Australia Post<br/>during business hours Monday to Friday. Orders are usually sent 1-2 days after<br/>your order is placed or when a pre-ordered item arrives. We email shipping<br/>confirmation with tracking information when your order is dispatched.</p><p><strong>Shipping : Australia</strong></p><p>Shipping is calculated at checkout<br/>according to the weight of the order, and your address location. Rates are<br/>supplied by Australia Post, and/or other carriers if listed.</p><p>Most orders will have the option of:</p><p>Kraftkolour cannot guarantee expected<br/>delivery times.</p><p><strong>Shipping : International</strong></p><p>We currently ship outside Australia to many<br/>countries using Australia Post’s International Express service. Rates will be<br/>automatically calculated at checkout.</p><p><strong>Click & Collect : Thomastown</strong></p><p>When ordering online you can choose 'Click<br/>& Collect' for order collection at our premises at 2/99 Heyington Ave,<br/>Thomastown, Victoria. We will call you confirming when your order is ready to<br/>collect. </p><p>Orders can be collected 10am-4pm Monday to<br/>Friday and we would appreciate it if you could collect your order within a<br/>week.</p>",
             "page": ""
           }
         },
