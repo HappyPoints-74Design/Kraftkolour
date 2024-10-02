@@ -178,7 +178,7 @@
             </div>
           {%- endif -%}
 
-          {%- if enable_swatches -%}
+          {% comment %} {%- if enable_swatches -%}
             {%- assign swatch_trigger = 'trigger.color_swatch' | t | downcase -%}
             {%- for option in product.options_with_values -%}
               {%- liquid
@@ -207,14 +207,14 @@
                 {%- endfor -%}
               {%- endif -%}
             {%- endfor -%}
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
         </a>
 
         <div class="grid-item__meta">
           <div class="grid-item__meta-main">
-            {%- if enable_swatches and type == blank -%}
+            {% comment %} {%- if enable_swatches and type == blank -%}
               {%- render 'swatches', product: product -%}
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
 
             <a href="{{ product.url | within: collection }}" class="grid-product__title">{{ product.title }}</a>
               {%- if vendor_enable -%}
