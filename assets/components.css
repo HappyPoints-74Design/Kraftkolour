@@ -2328,7 +2328,7 @@ html input[disabled] {
   text-align: left;
   display: block;
   width: 100%;
-  padding: 15px 0;
+  padding: 24px 0;
   font-weight: var(--typeHeaderWeight);
   font-size: calc(var(--typeBaseSize) + 3px);
 }
