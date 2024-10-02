@@ -4640,19 +4640,19 @@ input[type="image"] {
   }
 }
 .product-block {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 .product-block hr {
     margin: 0;
   }
 .product-block--tab + .product-block--tab {
-  margin-top: -30px;
+  margin-top: 0;
 }
 .product-block--sales-point + .product-block--sales-point {
-  margin-top: -20px;
+  margin-top: 0;
 }
 .theme-block {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 .theme-block:last-child {
     margin-bottom: 0;
