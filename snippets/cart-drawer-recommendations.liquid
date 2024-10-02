@@ -1,0 +1,65 @@
+{% comment %}
+  /**
+   * @param {object} collections - collections object
+   * @param {string} cart_collection_handle - handle of the collection to use for recommendations
+   * @param {string} location - context of the cart
+   * @param {boolean} quick_add_enable - whether quick add is enabled
+   * @param {boolean} quick_shop_enable - whether quick shop is enabled
+   * @param {string} product_grid_image_size - the image size to use for the grid item
+   * @param {boolean} product_grid_image_fill - whether the image should fill the grid item
+   * @param {boolean} product_hover_image - whether second image will be shown on hover
+   * @param {boolean} enable_swatches - whether swatches are enabled
+   * @param {boolean} vendor_enable - whether to show the vendor
+   * @param {boolean} product_save_amount - show save amount
+   * @param {string} product_save_type - dollar or percent
+   * @param {boolean} superscript_decimals - whether to superscript decimals
+   * @param {boolean} set_image_breathing_room - whether to set image breathing room
+   */
+{% endcomment %}
+
+{%- liquid
+  assign cart_collection = collections[cart_collection_handle]
+  assign mobileScrollOnly = true
+  if location == 'drawer'
+    assign mobileScrollOnly = false
+  endif
+-%}
+
+{%- if cart_collection != blank -%}
+  <div class="cart__item-row cart-recommendations cart-drawer-recommendations" data-location="{{ location }}" id="cart-recommendation-{{ section.id }}">
+    <div class="h3 h3--mobile cart__recommended-title">{{ 'labels.goes_great_with' | t }}</div>
+    <div class="cart-recommendations-slide swiper-{{ section.id }}">
+      <div class="swiper-wrapper">
+        {%- liquid
+          for product in cart_collection.products limit: 6
+            render 'card-product', product: product, collection: cart_collection, classes: 'swiper-slide', sizes: '150px', quick_add_enable: quick_add_enable, quick_shop_enable: quick_shop_enable, product_grid_image_size: product_grid_image_size, product_grid_image_fill: product_grid_image_fill, product_hover_image: product_hover_image, enable_swatches: enable_swatches, vendor_enable: vendor_enable, product_save_amount: product_save_amount, product_save_type: product_save_type, superscript_decimals: superscript_decimals, set_image_breathing_room: set_image_breathing_room, enable_product_tags: enable_product_tags, product_grid_style: product_grid_style,
+          endfor
+        -%}
+      </div>
+      <div class="swiper-button-prev">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" rx="12" fill="#28282C"/>
+          <path d="M14.0195 15.3131L13.3124 16.0202L9.97909 12.6869C9.80158 12.5094 9.78544 12.2316 9.93068 12.0359L9.97909 11.9798L13.3124 8.64645L14.0195 9.35355L11.04 12.3333L14.0195 15.3131Z" fill="white"/>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" rx="12" fill="#28282C"/>
+          <path d="M9.98047 9.35355L10.6876 8.64645L14.0209 11.9798C14.1984 12.1573 14.2146 12.4351 14.0693 12.6308L14.0209 12.6869L10.6876 16.0202L9.98047 15.3131L12.96 12.3333L9.98047 9.35355Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+<script>
+  var swiper = new Swiper(".swiper-{{ section.id }}", {
+    slidesPerView: 3,
+    spaceBetween: 15,
+    autoHeight: false,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>

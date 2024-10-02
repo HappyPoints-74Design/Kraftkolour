@@ -28,10 +28,10 @@
       </a>
     {%- endif -%}
 
-    <a href="{{ routes.cart_url }}"
+  <a {% if settings.cart_type == "page" %}href="{{ routes.cart_url }}"{% endif %}
       id="HeaderCartTrigger"
       aria-controls="HeaderCart"
-      class="site-nav__link site-nav__link--icon js-no-transition"
+      class="site-nav__link site-nav__link--icon site-nav__link--icon-cart js-no-transition"
       data-icon="{{ cart_icon }}"
       aria-label="{{ 'labels.cart' | t }}"
     >
@@ -53,7 +53,6 @@
       <span class="icon__fallback-text visually-hidden">{{ 'labels.site_navigation' | t }}</span>
     </button>
   </div>
-
   <div class="site-nav__close-cart">
     {%- if shop.customer_accounts_enabled -%}
       <a class="site-nav__link site-nav__link--icon site-nav__link--icon-account" href="{{ routes.account_url }}">
