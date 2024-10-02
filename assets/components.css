@@ -11892,7 +11892,6 @@ iframe.zoid-component-frame {
     flex: 0 1 35%;
     align-self: flex-start;
     position: sticky;
-    top: 130px;
     padding: 30px;
   }
 

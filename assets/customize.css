@@ -20,7 +20,7 @@ body::after {
 }
 
 .site-header__element.site-header__element--top {
-	background-color: #FEFDF2;
+	background-color: var(--colorNav);
 }
 
 .header-item--search > is-land {
