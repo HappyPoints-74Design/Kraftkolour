@@ -20,10 +20,10 @@
   */
 {% endcomment %}
 
-<form action="{{ routes.cart_url }}" method="post" novalidate data-location="header" class="cart__drawer-form">
+<form {% if settings.cart_type == "page" %}action="{{ routes.cart_url }}"{% endif %} method="post" novalidate data-location="header" class="cart__drawer-form">
   <div class="cart__scrollable">
-    <div data-products></div>
-    {%- render 'cart-recommendations',
+    <div data-products class="cart-items"></div>
+    {%- render 'cart-drawer-recommendations',
       collections: collections,
       cart_collection_handle: cart_collection_handle,
       location: 'drawer',

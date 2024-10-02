@@ -255,26 +255,36 @@
         <div class="page-width site-header__drawers">
           <div class="site-header__drawers-container">
             <div class="site-header__drawer site-header__cart" id="HeaderCart">
-              <div class="site-header__drawer-animate">
-                {%- render 'header-cart-drawer'
-                  cart_notes_enable: cart_notes_enable,
-                  cart_terms_conditions_enable: cart_terms_conditions_enable,
-                  cart_terms_conditions_page: cart_terms_conditions_page,
-                  cart_type: cart_type,
-                  cart_additional_buttons: cart_additional_buttons,
-                  cart_collection_handle: cart_collection_handle,
-                  quick_add_enable: quick_add_enable,
-                  quick_shop_enable: quick_shop_enable,
-                  product_grid_image_size: product_grid_image_size,
-                  product_grid_image_fill: product_grid_image_fill,
-                  product_hover_image: product_hover_image,
-                  enable_swatches: enable_swatches,
-                  vendor_enable: vendor_enable,
-                  product_save_amount: product_save_amount,
-                  product_save_type: product_save_type,
-                  set_image_breathing_room: set_image_breathing_room,
-                  product_grid_style: product_grid_style,
-                -%}
+              <div class="site-header__drawer-desktop-nav">
+                <div class="site-header__drawer-animate site-header__drawer-container">
+                  <div class="cart__drawer-header">
+                    <div class="cart__drawer-label">Cart</div>
+                    <div class="site-nav__close-cart">
+                      <button type="button" class="site-nav__link site-nav__link--icon site-nav__link--icon-cart js-close-header-cart">
+                        {% render 'icon', name: 'close' %}
+                      </button>
+                    </div>
+                  </div>
+                  {%- render 'header-cart-drawer'
+                    cart_notes_enable: cart_notes_enable,
+                    cart_terms_conditions_enable: cart_terms_conditions_enable,
+                    cart_terms_conditions_page: cart_terms_conditions_page,
+                    cart_type: cart_type,
+                    cart_additional_buttons: cart_additional_buttons,
+                    cart_collection_handle: cart_collection_handle,
+                    quick_add_enable: quick_add_enable,
+                    quick_shop_enable: quick_shop_enable,
+                    product_grid_image_size: product_grid_image_size,
+                    product_grid_image_fill: product_grid_image_fill,
+                    product_hover_image: product_hover_image,
+                    enable_swatches: enable_swatches,
+                    vendor_enable: vendor_enable,
+                    product_save_amount: product_save_amount,
+                    product_save_type: product_save_type,
+                    set_image_breathing_room: set_image_breathing_room,
+                    product_grid_style: product_grid_style,
+                  -%}
+                </div>
               </div>
             </div>
 
