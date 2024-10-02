@@ -580,6 +580,11 @@ p.addresses-cancel-link {
 }
 
 /* Cart drawer */
+.cart__page-col .cart__item--subtotal,
+.cart__item-row.cart__checkout-wrapper {
+    margin-bottom: 16px;
+}
+
 .cart__drawer-header {
     display: flex;
     flex-direction: row;

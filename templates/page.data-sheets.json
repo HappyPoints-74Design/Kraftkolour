@@ -16,1083 +16,594 @@
         "text_alignment": "center"
       }
     },
-    "download_file_grid_f4enyN": {
-      "type": "download-file-grid",
+    "download_file_list_RYqwPb": {
+      "type": "download-file-list",
       "blocks": {
-        "download_item_left_DFmA3W": {
-          "type": "download_item_left",
+        "download_title_jbADRk": {
+          "type": "download_title",
           "settings": {
-            "title": "Albegal SET [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALBEGAL%20SET%202022.pdf"
+            "title": "Dyes"
           }
         },
-        "download_item_left_7JA7Vb": {
-          "type": "download_item_left",
+        "download_item_aDBpMW": {
+          "type": "download_item",
           "settings": {
-            "title": "Algipaste [SDS]",
+            "title": "Direct Dyes",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALGIPASTE_Manutex%20Paste%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DIRECT_DYES_2023.pdf?v=1727754812"
           }
         },
-        "download_item_left_ckaa7h": {
-          "type": "download_item_left",
+        "download_item_MabNWU": {
+          "type": "download_item",
           "settings": {
-            "title": "Aluminium Acetate [SDS]",
+            "title": "Drimarene K Dyes",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20Aluminium%20Triacetate%20or%20Acetate.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Drimarene_K_Dyes_2020.pdf?v=1727754820"
           }
         },
-        "download_item_left_gAkPYQ": {
-          "type": "download_item_left",
+        "download_item_VQkdH8": {
+          "type": "download_item",
           "settings": {
-            "title": "Aluminium Sulphate [SDS]",
+            "title": "Landscapes Dyes - Cotton",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Aluminium%20Sulphate%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_LANDSCAPES_COTTON_DYES_2023.pdf?v=1727754833"
           }
         },
-        "download_item_left_g6NQUn": {
-          "type": "download_item_left",
+        "download_item_8KyCBT": {
+          "type": "download_item",
           "settings": {
-            "title": "Calcium Carbonate [SDS]",
+            "title": "Landscapes Dyes - Wool and Silk",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20CALCIUM%20CARBONATE%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_LANDSCAPES_DYES_2021.pdf?v=1727754835"
           }
         },
-        "download_item_left_QkL6kk": {
-          "type": "download_item_left",
+        "download_item_cJieti": {
+          "type": "download_item",
           "settings": {
-            "title": "Cellulose Thickener HEC100C [SDS]",
+            "title": "Procion MX Dyes",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Cellulose%20Thickener%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_PROCION_MX_Dyes_2022.pdf?v=1727754858"
           }
         },
-        "download_item_left_nUAmRq": {
-          "type": "download_item_left",
+        "download_item_FTGmNF": {
+          "type": "download_item",
           "settings": {
-            "title": "Cold Wax Emulsion [SDS]",
+            "title": "Remazol Dyes",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20COLD%20WAX%20-%20WAX%20EMULSION%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Remazol_Dyes_Assorted_Colours_2022.pdf?v=1727754862"
           }
         },
-        "download_item_left_NQybgy": {
-          "type": "download_item_left",
+        "download_item_cJtenC": {
+          "type": "download_item",
           "settings": {
-            "title": "Copper Suphate [SDS]",
+            "title": "Tie Dye Kit",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20COPPER%20SULPHATE%202022.pdf"
-          }
-        },
-        "download_item_left_me6btF": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Devore Paste [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20DEVORE%20PASTE%202022.pdf"
-          }
-        },
-        "download_item_left_4dhd4T": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Dextrin TW [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Dextrin%20TW%202022.pdf"
-          }
-        },
-        "download_item_left_3HAWCP": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Direct Dyes [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20DIRECT%20DYES%202023.pdf"
-          }
-        },
-        "download_item_center_PqPjjg": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Drimarene K Dyes [SDS]",
-            "download_label": "Download",
-            "file_download": "http:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Drimarene%20K%20Dyes%202020.pdf"
-          }
-        },
-        "download_item_center_aiKAWp": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Dynazol Washoff [SDS]",
-            "download_label": "Download",
-            "file_download": "http:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Dynazol%20Washoff%202022.pdf"
-          }
-        },
-        "download_item_center_dG8Jpk": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Ego Gel [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Eco%20Gel%202022.pdf"
-          }
-        },
-        "download_item_center_BbrFP3": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Ferrous Sulphate [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FERROUS%20SULPHATE%202022.pdf"
-          }
-        },
-        "download_item_center_Wcf9pe": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Fibre Fix [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Fibre%20Fix%20-%202022.pdf"
-          }
-        },
-        "download_item_center_wgUFra": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Food Dyes ECO [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FOOD%20DYES%20Eco%20Colour%202020.pdf"
-          }
-        },
-        "download_item_center_aqbWxn": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Fructose: Crystalline [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20FRUCTOSE.pdf"
-          }
-        },
-        "download_item_center_7KMjJC": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Glauber Salt [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Glauber%20Salt_Sodium%20Sulphate%202022.pdf"
-          }
-        },
-        "download_item_center_jq48qa": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Glycerine [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20GLYCERIN%202022.pdf"
-          }
-        },
-        "download_item_center_cB6ryj": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Guar Gum [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Guar%20Gum%202022.pdf"
-          }
-        },
-        "download_item_center_hNeD9J": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Clear Water-Based Gutta [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20GUTTA%20Water%20Based%202020.pdf"
-          }
-        },
-        "download_item_center_axnbHB": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Hydros ST [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Hydros%20ST%202019.pdf"
-          }
-        },
-        "download_item_center_VgEM4R": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Indigo - Natural [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Natural%20Indigo%202022.pdf"
-          }
-        },
-        "download_item_center_LAyQkB": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Indigo - Prereduced 60% [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PRE%20REDUCED%20INDIGO%202022(1).pdf"
-          }
-        },
-        "download_item_center_NCjXbY": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Indigo - Synthetic VAT Dye [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Vat%20Blue%201%202022(1).pdf"
-          }
-        },
-        "download_item_center_AkGb38": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Kolourfix FF [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20KOLOURFIX%20FF%202023.pdf"
-          }
-        },
-        "download_item_center_yWDqKy": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Landscapes Dyes - Wool and Silk [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20DYES%202021.pdf"
-          }
-        },
-        "download_item_center_TF4zaK": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Landcapes Dyes - Cottons [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20COTTON%20DYES%202023.pdf"
-          }
-        },
-        "download_item_center_NdY3Vb": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Hydrated Lime [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIME%20-%20HYDRATED%20LIME%202022.pdf"
-          }
-        },
-        "download_item_center_qBWm64": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Liquid Lead Black [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
-          }
-        },
-        "download_item_center_YxdtG4": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Manutex F (Paste)",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALGIPASTE_Manutex%20Paste%202022(1).pdf"
-          }
-        },
-        "download_item_center_QxigDx": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Mesitol NBS40 [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mesitol%20NBS40%202023.pdf"
-          }
-        },
-        "download_item_center_t9k9HP": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Opulence Embellishment Inks [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20EMBELLISMENT%202020.pdf"
-          }
-        },
-        "download_item_center_zNyNCE": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Opulence Heat Set [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20OPULENCE%20HEAT%20SET%20SILK%20DYES%20%202022.pdf"
-          }
-        },
-        "download_item_center_qypHEx": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Opulence Steam Fix [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20Steam%20Fix%20Dyes%202022.pdf"
-          }
-        },
-        "download_item_center_TUCxVk": {
-          "type": "download_item_center",
-          "disabled": true,
-          "settings": {
-            "title": "Polytex MF-U [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Polytex%20MF-U%202021.pdf"
-          }
-        },
-        "download_item_right_86Njpd": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Indigo - Prereduced 60% [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PRE%20REDUCED%20INDIGO%202022(1).pdf"
-          }
-        },
-        "download_item_right_7GWBBq": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Indigo - Synthetic VAT Dye [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20INDIGO%20Vat%20Blue%201%202022(1).pdf"
-          }
-        },
-        "download_item_right_WbbGcM": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Kolourfix FF [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20KOLOURFIX%20FF%202023.pdf"
-          }
-        },
-        "download_item_right_9J8BwD": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Landscapes Dyes - Wool and Silk [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20DYES%202021.pdf"
-          }
-        },
-        "download_item_right_NyeKJL": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Landcapes Dyes - Cottons [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LANDSCAPES%20COTTON%20DYES%202023.pdf"
-          }
-        },
-        "download_item_right_UtdDQw": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Hydrated Lime [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIME%20-%20HYDRATED%20LIME%202022.pdf"
-          }
-        },
-        "download_item_right_PBU8eA": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Liquid Lead Black [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20LIQUID%20LEAD%20BLACK%202022.pdf"
-          }
-        },
-        "download_item_right_QQpp8P": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Manutex F (Paste)",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20ALGIPASTE_Manutex%20Paste%202022(1).pdf"
-          }
-        },
-        "download_item_right_WcjXU6": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Mesitol NBS40 [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mesitol%20NBS40%202023.pdf"
-          }
-        },
-        "download_item_right_giR9hA": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Opulence Embellishment Inks [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20EMBELLISMENT%202020.pdf"
-          }
-        },
-        "download_item_right_xKwdfb": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Opulence Heat Set [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20OPULENCE%20HEAT%20SET%20SILK%20DYES%20%202022.pdf"
-          }
-        },
-        "download_item_right_B8tHKD": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Opulence Steam Fix [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20OPULENCE%20Steam%20Fix%20Dyes%202022.pdf"
-          }
-        },
-        "download_item_right_rzAfnH": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Polytex MF-U [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Polytex%20MF-U%202021.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TIE_DYE_KIT_2022.pdf?v=1727754873"
           }
         }
       },
       "block_order": [
-        "download_item_left_DFmA3W",
-        "download_item_left_7JA7Vb",
-        "download_item_left_ckaa7h",
-        "download_item_left_gAkPYQ",
-        "download_item_left_g6NQUn",
-        "download_item_left_QkL6kk",
-        "download_item_left_nUAmRq",
-        "download_item_left_NQybgy",
-        "download_item_left_me6btF",
-        "download_item_left_4dhd4T",
-        "download_item_left_3HAWCP",
-        "download_item_center_PqPjjg",
-        "download_item_center_aiKAWp",
-        "download_item_center_dG8Jpk",
-        "download_item_center_BbrFP3",
-        "download_item_center_Wcf9pe",
-        "download_item_center_wgUFra",
-        "download_item_center_aqbWxn",
-        "download_item_center_7KMjJC",
-        "download_item_center_jq48qa",
-        "download_item_center_cB6ryj",
-        "download_item_center_hNeD9J",
-        "download_item_center_axnbHB",
-        "download_item_center_VgEM4R",
-        "download_item_center_LAyQkB",
-        "download_item_center_NCjXbY",
-        "download_item_center_AkGb38",
-        "download_item_center_yWDqKy",
-        "download_item_center_TF4zaK",
-        "download_item_center_NdY3Vb",
-        "download_item_center_qBWm64",
-        "download_item_center_YxdtG4",
-        "download_item_center_QxigDx",
-        "download_item_center_t9k9HP",
-        "download_item_center_zNyNCE",
-        "download_item_center_qypHEx",
-        "download_item_center_TUCxVk",
-        "download_item_right_86Njpd",
-        "download_item_right_7GWBBq",
-        "download_item_right_WbbGcM",
-        "download_item_right_9J8BwD",
-        "download_item_right_NyeKJL",
-        "download_item_right_UtdDQw",
-        "download_item_right_PBU8eA",
-        "download_item_right_QQpp8P",
-        "download_item_right_WcjXU6",
-        "download_item_right_giR9hA",
-        "download_item_right_xKwdfb",
-        "download_item_right_B8tHKD",
-        "download_item_right_rzAfnH"
+        "download_title_jbADRk",
+        "download_item_aDBpMW",
+        "download_item_MabNWU",
+        "download_item_VQkdH8",
+        "download_item_8KyCBT",
+        "download_item_cJieti",
+        "download_item_FTGmNF",
+        "download_item_cJtenC"
       ],
       "settings": {
-        "title": "Safety Data Sheets [SDS]",
+        "title": "Safety Data Sheets",
         "heading_size": "h2",
-        "text": "<p>We are adding to the list regularly, if there is an SDS you need that is not yet downloadable please give us a call (03 9465 4865) or email us via the contact page.<\/p>",
-        "heading_position": "center",
-        "title_left": "Acid Milling [SDS]",
-        "title_center": "Discharge Liquid HD [SDS] ",
-        "title_right": "Discharge Liquid HD [SDS] ",
-        "padding_top": 72,
-        "padding_bottom": 0,
-        "padding_top_mobile": 24,
-        "padding_bottom_mobile": 0
-      }
-    },
-    "download_file_grid_MHcY9A": {
-      "type": "download-file-grid",
-      "blocks": {
-        "download_item_left_VhgE93": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Canary Yellow",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20CANARY%20YELLOW%202023.pdf"
-          }
-        },
-        "download_item_left_xhAyi8": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Gold Yellow",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Gold%20Yellow%202022(1).pdf"
-          }
-        },
-        "download_item_left_EGxWVU": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Orange",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Orange%202022.pdf"
-          }
-        },
-        "download_item_left_Bn4R8E": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Scarlet",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Scarlet%202023.pdf"
-          }
-        },
-        "download_item_left_F7yzqC": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Pillarbox Red",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Pillarbox%20Red%202023.pdf"
-          }
-        },
-        "download_item_left_W6hB6k": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Magenta",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20Magenta%20Red%202023.pdf"
-          }
-        },
-        "download_item_left_WB4Tyk": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Burgundy",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Burgundy%202022.pdf"
-          }
-        },
-        "download_item_left_RBbnnj": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Violet",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Violet%20BL%202023.pdf"
-          }
-        },
-        "download_item_left_88HzDn": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Sky Blue",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Sky%20Blue%202022(1).pdf"
-          }
-        },
-        "download_item_left_pXCL3U": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Royal Blue",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20ROYAL%20BLUE%202022.pdf"
-          }
-        },
-        "download_item_left_iNVdQA": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Turquoise",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Turquoise%202022.pdf"
-          }
-        },
-        "download_item_left_fd3UKT": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Leaf Green",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20LEAF%20GREEN%202023.pdf"
-          }
-        },
-        "download_item_left_PKM9xg": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Jade Green",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20JADE%20GREEN%202023.pdf"
-          }
-        },
-        "download_item_left_bGn7P7": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Chocolate",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20Chocolate%20Brown%202022.pdf"
-          }
-        },
-        "download_item_left_MHQFFF": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Navy",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20DISPERSE%20Navy%202023.pdf"
-          }
-        },
-        "download_item_left_N867VP": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Black",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Disperse%20BLACK%20E-G%202022.pdf"
-          }
-        },
-        "download_item_center_iKRgiP": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Lemon Yellow",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Lemon%20Yellow%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_znnW7k": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Mid Yellow",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mid%20Yellow%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_UCg6jJ": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Gold Yellow",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Gold%20Yellow%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_rNnank": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Yellow Ochre",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Yellow%20Ochre%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_pmqte3": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Orange",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Orange%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_YBwQjn": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Scarlet",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Scarlet%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_hB8AR9": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Pillarbox Red",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Pillarbox%20Red%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_cpKLGm": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Crimson",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Crimson%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_WtRrTC": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Burgundy",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Burgundy%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_qeRdMw": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Brilliant Pink",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Pink%20B%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_3pG8Yh": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Magenta",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Magenta%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_center_pk6mKR": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Violet",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Violet%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_GQ8NmM": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Royal Blue",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Royal%20Blue%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_aJdPqX": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Mid Blue",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Mid%20Blue%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_q3FzTe": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Aqua",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Aqua%20Pigment%202022(1).pdf"
-          }
-        },
-        "download_item_right_qyjy8P": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Turquoise",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Turquoise%20Aqua%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_PVQBc3": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Emerald",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Emerald%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_TzFhyw": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Leaf Green",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Leaf%20Green%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_AwcdQm": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Olive",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Olive%20Green%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_yhjTKt": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Tan",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Tan%20Pigment%202023.pdf"
-          }
-        },
-        "download_item_right_7g7yhe": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Chocolate",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Chocolate%20Brown%20Pigment%202023.pdf"
-          }
-        },
-        "download_item_right_NjmYNb": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Navy",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20NAVY%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_HLBCRH": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "Black",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20BLACK%20Pigment%202022.pdf"
-          }
-        },
-        "download_item_right_eYgJ6k": {
-          "type": "download_item_right",
-          "settings": {
-            "title": "White",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20-%20White%20Pigment%20-%202024.pdf"
-          }
-        }
-      },
-      "block_order": [
-        "download_item_left_VhgE93",
-        "download_item_left_xhAyi8",
-        "download_item_left_EGxWVU",
-        "download_item_left_Bn4R8E",
-        "download_item_left_F7yzqC",
-        "download_item_left_W6hB6k",
-        "download_item_left_WB4Tyk",
-        "download_item_left_RBbnnj",
-        "download_item_left_88HzDn",
-        "download_item_left_pXCL3U",
-        "download_item_left_iNVdQA",
-        "download_item_left_fd3UKT",
-        "download_item_left_PKM9xg",
-        "download_item_left_bGn7P7",
-        "download_item_left_MHQFFF",
-        "download_item_left_N867VP",
-        "download_item_center_iKRgiP",
-        "download_item_center_znnW7k",
-        "download_item_center_UCg6jJ",
-        "download_item_center_rNnank",
-        "download_item_center_pmqte3",
-        "download_item_center_YBwQjn",
-        "download_item_center_hB8AR9",
-        "download_item_center_cpKLGm",
-        "download_item_center_WtRrTC",
-        "download_item_center_qeRdMw",
-        "download_item_center_3pG8Yh",
-        "download_item_center_pk6mKR",
-        "download_item_right_GQ8NmM",
-        "download_item_right_aJdPqX",
-        "download_item_right_q3FzTe",
-        "download_item_right_qyjy8P",
-        "download_item_right_PVQBc3",
-        "download_item_right_TzFhyw",
-        "download_item_right_AwcdQm",
-        "download_item_right_yhjTKt",
-        "download_item_right_7g7yhe",
-        "download_item_right_NjmYNb",
-        "download_item_right_HLBCRH",
-        "download_item_right_eYgJ6k"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "text": "",
+        "text": "<p>We are adding to the list regularly, if there is an SDS you need that is<br/> not yet downloadable please give us a call (03 9465 4865) or email us <br/>via the contact page.</p>",
         "heading_position": "left",
-        "title_left": "Disperse Dyes",
-        "title_center": "Liquid Pigments",
-        "title_right": "Liquid Pigments",
-        "padding_top": 20,
-        "padding_bottom": 30,
-        "padding_top_mobile": 0,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
         "padding_bottom_mobile": 48
       }
     },
-    "download_file_grid_8dghqt": {
-      "type": "download-file-grid",
+    "download_file_list_L3EfNK": {
+      "type": "download-file-list",
       "blocks": {
-        "download_item_left_tArwtC": {
-          "type": "download_item_left",
+        "download_title_wa9r9C": {
+          "type": "download_title",
           "settings": {
-            "title": "Procion Dyes [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20PROCION%20MX%20Dyes%202022(1).pdf"
+            "title": "Natural Dyes"
           }
         },
-        "download_item_left_dmJ8Lq": {
-          "type": "download_item_left",
+        "download_item_YbUH4b": {
+          "type": "download_item",
           "settings": {
-            "title": "Remazol Dyes [SDS]",
+            "title": "Indigo - Natural",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Remazol%20Dyes%20Assorted%20Colours%202022(1).pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_INDIGO_Natural_Indigo_2022.pdf?v=1727759755"
           }
         },
-        "download_item_left_z8CrqC": {
-          "type": "download_item_left",
+        "download_item_3yFYAR": {
+          "type": "download_item",
           "settings": {
-            "title": "Resist Salt [SDS]",
+            "title": "Indigo - Prereduced",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20RESIST%20SALT%20L%202022.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_PRE_REDUCED_INDIGO_2022.pdf?v=1727759769"
           }
         },
-        "download_item_left_wGVdJG": {
-          "type": "download_item_left",
+        "download_item_mFM9F4": {
+          "type": "download_item",
           "settings": {
-            "title": "Shimmer Paints [SDS]",
+            "title": "Indigo - Synthetic",
             "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SHIMMER%20PAINTS%202019.pdf"
-          }
-        },
-        "download_item_left_Ae84nn": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Soda Ash [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SODA%20ASH%202022.pdf"
-          }
-        },
-        "download_item_left_rPi7GN": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Sodium Alginate Manutex F [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Sodium%20Alginate%20Manutex%20F%202022.pdf"
-          }
-        },
-        "download_item_left_BFHTaB": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Sulphonated Canola Oil [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Sulphanated%20Canola%20Oil%20Turkey%20Red%20Oil%20Aug%202024.pdf"
-          }
-        },
-        "download_item_left_UbCVDb": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Sun Dyes [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20SUN%20DYES%202022.pdf"
-          }
-        },
-        "download_item_left_qQcQmV": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Synthrapol (Jacquard) [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Synthrapol%202022.pdf"
-          }
-        },
-        "download_item_left_m6Fx3A": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Texacid ECO [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXACID%20ECO%202023.pdf"
-          }
-        },
-        "download_item_left_pd9UBL": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Texcraft Deco Printing Inks [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20Deco%20Printing%20Inks%202022.pdf"
-          }
-        },
-        "download_item_left_UxxDd9": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Texcraft Fabric Paints [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Texcraft%20FABRIC%20PAINT%202021.pdf"
-          }
-        },
-        "download_item_left_KcwXaK": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Texiflock E-FF [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TEXIFLOCK%20E-FF%202022.pdf"
-          }
-        },
-        "download_item_left_KyNDEh": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Tie Dye Kit [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TIE%20DYE%20KIT%202022.pdf"
-          }
-        },
-        "download_item_left_gRLMDD": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Transfix Medium [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20TRANSFIX%20MEDIUM%202023.pdf"
-          }
-        },
-        "download_item_left_UMHyJF": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Transprint Inks [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Transprint%20Inks%202022.pdf"
-          }
-        },
-        "download_item_left_L93B66": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Urea [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20UREA%202022(1).pdf"
-          }
-        },
-        "download_item_left_yJhEpU": {
-          "type": "download_item_left",
-          "settings": {
-            "title": "Wetter OT [SDS]",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/SDS%20Wetter%20OT%202022%20New.pdf"
-          }
-        },
-        "download_item_center_qrGkRz": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Fibre Rinse",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Rinse%20-%20Beyond%20Soft%20SDS.pdf"
-          }
-        },
-        "download_item_center_XMePth": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Fibre Wash",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Fibre%20Wash%20-%20Beyond%20Fibre%20Wash%20SDS.pdf"
-          }
-        },
-        "download_item_center_9RCtAh": {
-          "type": "download_item_center",
-          "settings": {
-            "title": "Power Scour",
-            "download_label": "Download",
-            "file_download": "https:\/\/www.kraftkolour.net.au\/assets\/files\/Unicorn%20Power%20Scour%20-%20Beyond%20Clean%20SDS.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_INDIGO_Vat_Blue_1_2022.pdf?v=1727759761"
           }
         }
       },
       "block_order": [
-        "download_item_left_tArwtC",
-        "download_item_left_dmJ8Lq",
-        "download_item_left_z8CrqC",
-        "download_item_left_wGVdJG",
-        "download_item_left_Ae84nn",
-        "download_item_left_rPi7GN",
-        "download_item_left_BFHTaB",
-        "download_item_left_UbCVDb",
-        "download_item_left_qQcQmV",
-        "download_item_left_m6Fx3A",
-        "download_item_left_pd9UBL",
-        "download_item_left_UxxDd9",
-        "download_item_left_KcwXaK",
-        "download_item_left_KyNDEh",
-        "download_item_left_gRLMDD",
-        "download_item_left_UMHyJF",
-        "download_item_left_L93B66",
-        "download_item_left_yJhEpU",
-        "download_item_center_qrGkRz",
-        "download_item_center_XMePth",
-        "download_item_center_9RCtAh"
+        "download_title_wa9r9C",
+        "download_item_YbUH4b",
+        "download_item_3yFYAR",
+        "download_item_mFM9F4"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "text": "",
         "heading_position": "left",
-        "title_left": "Polytex NOC [SDS]",
-        "title_center": "Unicorn",
-        "title_right": "",
-        "padding_top": 0,
+        "padding_top": 72,
         "padding_bottom": 72,
-        "padding_top_mobile": 0,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
+    },
+    "download_file_list_YUfzJe": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_JWaDAm": {
+          "type": "download_title",
+          "settings": {
+            "title": "Paints and Inks"
+          }
+        },
+        "download_item_PRdmdc": {
+          "type": "download_item",
+          "settings": {
+            "title": "Eco Food Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_LIQUID_FOOD_DYES_Eco_Colour_2022.pdf?v=1727760490"
+          }
+        },
+        "download_item_GWizY4": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Embellishment Inks",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_EMBELLISMENT_2020.pdf?v=1727760512"
+          }
+        },
+        "download_item_dL8zYW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Heat Set Silk Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_HEAT_SET_SILK_DYES_2022.pdf?v=1727760508"
+          }
+        },
+        "download_item_hniMiC": {
+          "type": "download_item",
+          "settings": {
+            "title": "Opulence Steam Fix Silk Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_OPULENCE_Steam_Fix_Dyes_2022.pdf?v=1727760510"
+          }
+        },
+        "download_item_mi4ypU": {
+          "type": "download_item",
+          "settings": {
+            "title": "Shimmer Paints",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SHIMMER_PAINTS_2019.pdf?v=1727760525"
+          }
+        },
+        "download_item_a4ykiH": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sun Dyes",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SUN_DYES_2022.pdf?v=1727760529"
+          }
+        },
+        "download_item_jXCBFD": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Deco Printing Inks",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Texcraft_Deco_Printing_Inks_2022.pdf?v=1727760534"
+          }
+        },
+        "download_item_UfCd7g": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Fabric Paints",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Texcraft_FABRIC_PAINT_2021.pdf?v=1727760537"
+          }
+        },
+        "download_item_dxXQwP": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transprint Inks",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Transprint_Inks_2022.pdf?v=1727760548"
+          }
+        }
+      },
+      "block_order": [
+        "download_title_JWaDAm",
+        "download_item_PRdmdc",
+        "download_item_GWizY4",
+        "download_item_dL8zYW",
+        "download_item_hniMiC",
+        "download_item_mi4ypU",
+        "download_item_a4ykiH",
+        "download_item_jXCBFD",
+        "download_item_UfCd7g",
+        "download_item_dxXQwP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
+    },
+    "download_file_list_FbdbNN": {
+      "type": "download-file-list",
+      "blocks": {
+        "download_title_RrtpBf": {
+          "type": "download_title",
+          "settings": {
+            "title": "Auxiliaries and Chemicals"
+          }
+        },
+        "download_item_Et8MVk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Albegal SET",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ALBEGAL_SB_2022.pdf?v=1727760804"
+          }
+        },
+        "download_item_UNEAgn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Algipaste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ALGIPASTE_Manutex_Paste_2022.pdf?v=1727760810"
+          }
+        },
+        "download_item_3WqAfn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Aluminium Acetate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Aluminium_Acetate_2022.pdf?v=1727760817"
+          }
+        },
+        "download_item_Mc3iUJ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Aluminium Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Aluminium_Sulphate_2022.pdf?v=1727760820"
+          }
+        },
+        "download_item_fyGtPY": {
+          "type": "download_item",
+          "settings": {
+            "title": "Calcium Carbonate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_CALCIUM_CARBONATE_2022.pdf?v=1727760835"
+          }
+        },
+        "download_item_LtFcQN": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cellulose Thickener HEC100C",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Cellulose_Thickener_2022.pdf?v=1727760843"
+          }
+        },
+        "download_item_xB4CBz": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cold Wax",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_COLD_WAX_-_WAX_EMULSION_2022.pdf?v=1727760845"
+          }
+        },
+        "download_item_GdwJBw": {
+          "type": "download_item",
+          "settings": {
+            "title": "Copper Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_COPPER_SULPHATE_2021.pdf?v=1727760849"
+          }
+        },
+        "download_item_ngUXD3": {
+          "type": "download_item",
+          "settings": {
+            "title": "Devore Paste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DEVORE_PASTE_2022.pdf?v=1727760866"
+          }
+        },
+        "download_item_FeBgaW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Dextrin TW",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dextrin_TW_2022.pdf?v=1727760879"
+          }
+        },
+        "download_item_VGKgNV": {
+          "type": "download_item",
+          "settings": {
+            "title": "Dynazol Washoff",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dynazol_Washoff_2022.pdf?v=1727760885"
+          }
+        },
+        "download_item_yGzLHN": {
+          "type": "download_item",
+          "settings": {
+            "title": "Ferrous Sulphate",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Ferrous_Sulphate_Monohydrate_2021.pdf?v=1727760890"
+          }
+        },
+        "download_item_i8enby": {
+          "type": "download_item",
+          "settings": {
+            "title": "Fructose: Crystalline",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_FRUCTOSE_2021_MERCK.pdf?v=1727760908"
+          }
+        },
+        "download_item_JwVYxm": {
+          "type": "download_item",
+          "settings": {
+            "title": "Glauber Salt",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Glauber_Salt_2020.pdf?v=1727760913"
+          }
+        },
+        "download_item_9kX8te": {
+          "type": "download_item",
+          "settings": {
+            "title": "Glycerine",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_GLYCERIN_2022.pdf?v=1727760915"
+          }
+        },
+        "download_item_b3mTgz": {
+          "type": "download_item",
+          "settings": {
+            "title": "Guar Gum",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Guar_Gum_2022.pdf?v=1727760919"
+          }
+        },
+        "download_item_YiqLCk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Clear Water-Based Gutta",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_GUTTA_Water_Based_2020.pdf?v=1727760922"
+          }
+        },
+        "download_item_zMkx8K": {
+          "type": "download_item",
+          "settings": {
+            "title": "Hydros ST",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Hydros_ST_2019.pdf?v=1727760928"
+          }
+        },
+        "download_item_th6gU9": {
+          "type": "download_item",
+          "settings": {
+            "title": "Kolourfix FF",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_KOLOURFIX_FF_2023.pdf?v=1727760934"
+          }
+        },
+        "download_item_dhWdNQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Mesitol NBS40",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Mesitol_NBS40_2023.pdf?v=1727760964"
+          }
+        },
+        "download_item_96cf94": {
+          "type": "download_item",
+          "settings": {
+            "title": "Polytex MF-U",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Polytex_MF-U_2021.pdf?v=1727760998"
+          }
+        },
+        "download_item_YVjJQn": {
+          "type": "download_item",
+          "settings": {
+            "title": "Polytex NOC",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_POLYTEX_NOC_Nov_2023.pdf?v=1727760996"
+          }
+        },
+        "download_item_d6rKqW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Resist Salt L",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_RESIST_SALT_L_2022.pdf?v=1727761006"
+          }
+        },
+        "download_item_UYP8Hi": {
+          "type": "download_item",
+          "settings": {
+            "title": "Soda Ash",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_SODA_ASH_2022.pdf?v=1727761011"
+          }
+        },
+        "download_item_iFzCWx": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sodium Alginate Manutex F",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Sodium_Alginate_Manutex_F_2022.pdf?v=1727760980"
+          }
+        },
+        "download_item_Dfd9Ja": {
+          "type": "download_item",
+          "settings": {
+            "title": "Sulphonated Canola Oil",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Sulphanated_Canola_Oil_Turkey_Red_Oil_Aug_2024.pdf?v=1727761025"
+          }
+        },
+        "download_item_xJKhWy": {
+          "type": "download_item",
+          "settings": {
+            "title": "Synthrapol",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Synthrapol-SDS-GHS-CT-QF.pdf?v=1727761043"
+          }
+        },
+        "download_item_ACh7qQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texacid ECO",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TEXACID_ECO_2023.pdf?v=1727761052"
+          }
+        },
+        "download_item_ULW3Nb": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texiflock E-FF",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TEXIFLOCK_E-FF_2022_db574e7b-9f36-43e6-8428-d377e57ad131.pdf?v=1727761059"
+          }
+        },
+        "download_item_pkhbLW": {
+          "type": "download_item",
+          "settings": {
+            "title": "Transfix Medium",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_TRANSFIX_MEDIUM_2023.pdf?v=1727761062"
+          }
+        },
+        "download_item_mJtBpg": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Beyond Soft",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Fibre_Rinse_-_Beyond_Soft.pdf?v=1727761068"
+          }
+        },
+        "download_item_xYmiAM": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Fibre Wash",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Fibre_Wash_-_Beyond_Fibre_Wash.pdf?v=1727761070"
+          }
+        },
+        "download_item_BiRGr8": {
+          "type": "download_item",
+          "settings": {
+            "title": "Unicorn Beyond Clean",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Unicorn_Power_Scour_-_Beyond_Clean.pdf?v=1727761072"
+          }
+        },
+        "download_item_tJFbFk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Urea",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_UREA_2022.pdf?v=1727761098"
+          }
+        },
+        "download_item_DK8LDf": {
+          "type": "download_item",
+          "settings": {
+            "title": "Wetter OT",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Wetter_OT_2020_New.pdf?v=1727761102"
+          }
+        }
+      },
+      "block_order": [
+        "download_title_RrtpBf",
+        "download_item_Et8MVk",
+        "download_item_UNEAgn",
+        "download_item_3WqAfn",
+        "download_item_Mc3iUJ",
+        "download_item_fyGtPY",
+        "download_item_LtFcQN",
+        "download_item_xB4CBz",
+        "download_item_GdwJBw",
+        "download_item_ngUXD3",
+        "download_item_FeBgaW",
+        "download_item_VGKgNV",
+        "download_item_yGzLHN",
+        "download_item_i8enby",
+        "download_item_JwVYxm",
+        "download_item_9kX8te",
+        "download_item_b3mTgz",
+        "download_item_YiqLCk",
+        "download_item_zMkx8K",
+        "download_item_th6gU9",
+        "download_item_dhWdNQ",
+        "download_item_96cf94",
+        "download_item_YVjJQn",
+        "download_item_d6rKqW",
+        "download_item_UYP8Hi",
+        "download_item_iFzCWx",
+        "download_item_Dfd9Ja",
+        "download_item_xJKhWy",
+        "download_item_ACh7qQ",
+        "download_item_ULW3Nb",
+        "download_item_pkhbLW",
+        "download_item_mJtBpg",
+        "download_item_xYmiAM",
+        "download_item_BiRGr8",
+        "download_item_tJFbFk",
+        "download_item_DK8LDf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
         "padding_bottom_mobile": 48
       }
     }
   },
   "order": [
     "main",
-    "download_file_grid_f4enyN",
-    "download_file_grid_MHcY9A",
-    "download_file_grid_8dghqt"
+    "download_file_list_RYqwPb",
+    "download_file_list_L3EfNK",
+    "download_file_list_YUfzJe",
+    "download_file_list_FbdbNN"
   ]
 }

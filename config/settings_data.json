@@ -960,15 +960,15 @@
         "settings": {
         }
       },
-      "5294968793578418440": {
-        "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
-        "disabled": false,
+      "7385302900728337613": {
+        "type": "shopify://apps/depo/blocks/app-embed/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+        "disabled": true,
         "settings": {
         }
       },
-      "1102061855093433159": {
-        "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
-        "disabled": true,
+      "5294968793578418440": {
+        "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
+        "disabled": false,
         "settings": {
         }
       },
@@ -978,8 +978,8 @@
         "settings": {
         }
       },
-      "7385302900728337613": {
-        "type": "shopify://apps/depo/blocks/app-embed/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+      "1102061855093433159": {
+        "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
         "disabled": false,
         "settings": {
         }

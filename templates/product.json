@@ -33,11 +33,6 @@
           "settings": {
           }
         },
-        "globo_product_option_app_block_8nQLzB": {
-          "type": "shopify://apps/globo-product-option/blocks/app-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -91,7 +86,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": false,
             "show_gift_card_recipient": false
           }
@@ -101,7 +96,6 @@
         "description_4JMjBP",
         "variant_picker",
         "bss_variant_options_option_set_gPKPdA",
-        "globo_product_option_app_block_8nQLzB",
         "price",
         "sales_point",
         "sales_point2",
@@ -146,7 +140,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "content": "<p>Online orders are sent using Australia Post during business hours Monday to Friday. Orders are usually sent 1-2 days after your order is placed or when a pre-ordered item arrives. We email shipping confirmation with tracking information when your order is dispatched.</p><p><strong>Shipping : Australia</strong></p><p>Shipping is calculated at checkout according to the weight of the order, and your address location. Rates are supplied by Australia Post, and/or other carriers if listed.</p><p>Most orders will have the option of:</p><ul><li>Australia Post Standard Shipping (estimated delivery in 3-5 days)</li><li>Australia Post Express Shipping (estimated delivery in 2-3 days)</li></ul><p>Kraftkolour cannot guarantee expected delivery times.</p><p><strong>Shipping : International</strong></p><p>We currently ship outside Australia to many countries using Australia Post’s International Express service. Rates will be automatically calculated at checkout.</p><p><strong>Click & Collect : Thomastown</strong></p><p>When ordering online you can choose 'Click & Collect' for order collection at our premises at 2/99 Heyington Ave, Thomastown, Victoria. We will call you confirming when your order is ready to collect. </p><p>Orders can be collected 10am 4pm Monday to Friday and we would appreciate it if you could collect your order within a week.</p>",
             "page": ""
           }
         },
