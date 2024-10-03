@@ -107,12 +107,11 @@
   {%- render 'preload-js' -%}
 
   {{ content_for_header }}
-
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
