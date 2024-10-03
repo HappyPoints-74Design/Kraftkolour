@@ -464,6 +464,7 @@ p.addresses-cancel-link {
 .docapp-single-shipping-calculator .docapp-shipping-calculator--rates .docapp-shipping-calculator--rates-title {
     margin-bottom: 8px !important;
     text-transform: uppercase !important;
+    font-family: var(--typeHeaderPrimary) !important;
     font-weight: 700 !important;
     font-size: 14px !important;
     line-height: 20px !important;
@@ -634,6 +635,11 @@ p.addresses-cancel-link {
     object-fit: cover;
 }
 
+.cart-drawer-recommendations .cart-recommendations-slide:not(.swiper-horizontal) .swiper-slide {
+    width: calc(100% / 3);
+    padding: 0 8px;
+}
+
 .cart-drawer-recommendations .grid-item__content {
     background-color: #FFFFFF;
 }
@@ -646,8 +652,12 @@ p.addresses-cancel-link {
     position: relative;
 }
 
+.cart-drawer-recommendations .cart-recommendations-slide:not(.swiper-horizontal) {
+    overflow-x: auto;
+}
+
 .cart-drawer-recommendations {
-    padding: 20px 20px 0;
+    padding: 20px 15px 0;
 }
 
 .cart-items {
@@ -664,8 +674,14 @@ p.addresses-cancel-link {
     justify-content: space-between;
 }
 
-.site-header__drawer .cart__scrollable::-webkit-scrollbar {
+.site-header__drawer .cart__scrollable::-webkit-scrollbar,
+.cart-recommendations-slide::-webkit-scrollbar  {
     display: none;
+}
+
+.cart-recommendations-slide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .card-product .grid-product__title {
@@ -748,6 +764,7 @@ p.addresses-cancel-link {
 
 .site-header__drawer .js-qty__wrapper {
     max-width: 80px;
+    margin-top: 10px;
 }
 
 .site-header__drawer .js-qty__wrapper input {
@@ -818,4 +835,8 @@ p.addresses-cancel-link {
 
 .bss-b2b-customer-portal-nt-checkout-btn {
     display: none;
+}
+
+[bss-po-cart-item-key][bss-po-item-original-price] {
+    visibility: visible;
 }

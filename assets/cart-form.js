@@ -16,7 +16,7 @@ export default class CartForm {
       discounts: '[data-discounts]',
       savings: '[data-savings]',
       subTotal: '[data-subtotal]',
-
+      
       cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
       termsCheckbox: '.cart__terms-checkbox',
