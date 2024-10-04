@@ -860,3 +860,13 @@ p.addresses-cancel-link {
 .bss-b2b-customer-portal-wrapper * {
   border-color: #dcdbcf!important;
 }
+.cart__item-row.cart__checkout-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.cart__continue {
+  order: 4
+}
+.bss-b2b-customer-portal-btn-quote-default {
+  order: 3
+}
