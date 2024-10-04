@@ -871,3 +871,6 @@ p.addresses-cancel-link {
   order: 3;
   margin-top: 10px;
 }
+.template-cart .bss-quote-cart-icon {
+  display: none;
+}
