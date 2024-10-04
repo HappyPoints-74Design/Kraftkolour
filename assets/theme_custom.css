@@ -868,5 +868,6 @@ p.addresses-cancel-link {
   order: 4
 }
 .bss-b2b-customer-portal-btn-quote-default {
-  order: 3
+  order: 3;
+  margin-top: 10px;
 }
