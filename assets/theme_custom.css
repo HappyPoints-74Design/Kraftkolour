@@ -850,6 +850,8 @@ p.addresses-cancel-link {
 .Polaris-LegacyCard__Header,
 .bss-b2b-customer-portal-wrapper input,
 .bss-b2b-customer-portal-wrapper select,
+.bss-b2b-customer-portal-wrapper textarea,
+.bss-b2b-customer-portal-wrapper select option,
 .Polaris-Box{
   background: var(--colorNav)!important;
 }
