@@ -840,6 +840,9 @@ p.addresses-cancel-link {
 [bss-po-cart-item-key][bss-po-item-original-price] {
     visibility: visible;
 }
+.bss-b2b-customer-portal-wrapper {
+  min-height: 564px!important;
+}
 .Polaris-Frame__Content, .bss-b2b-customer-portal-wrapper,
 .Polaris-Navigation,
 .Polaris-LegacyCard__Section,
