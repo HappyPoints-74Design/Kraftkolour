@@ -27,11 +27,7 @@
 {% endcomment %}
 
 <div class="page-width page-width--cart page-content">
-
-  {%- render 'breadcrumbs',
-    show_breadcrumbs: show_breadcrumbs,
-    template: template
-  -%}
+  {%- render 'breadcrumbs', show_breadcrumbs: show_breadcrumbs, template: template -%}
 
   <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
     <h1 class="section-header__title">{{ 'labels.cart' | t }}</h1>
@@ -58,7 +54,7 @@
                 sizes: '150px',
                 routes: routes,
                 shop: shop,
-                superscript_decimals: superscript_decimals,
+                superscript_decimals: superscript_decimals
               -%}
             {% endfor %}
           </div>
@@ -78,7 +74,7 @@
             product_save_type: product_save_type,
             superscript_decimals: superscript_decimals,
             set_image_breathing_room: set_image_breathing_room,
-            product_grid_style: product_grid_style,
+            product_grid_style: product_grid_style
           -%}
         </div>
         <div class="cart__page-col cart__page-subtotal medium-up--overlay">
@@ -101,11 +97,7 @@
           <div class="cart__item-sub cart__item-row cart__item--subtotal">
             <div>{{ 'labels.subtotal' | t }}</div>
             <div data-subtotal bss-po-cart-total-price>
-              {%- render 'price',
-                price: cart.total_price,
-                shop: shop,
-                superscript_decimals: superscript_decimals,
-              -%}
+              {%- render 'price', price: cart.total_price, shop: shop, superscript_decimals: superscript_decimals -%}
             </div>
           </div>
 
@@ -141,7 +133,13 @@
           {% endif %}
 
           <div class="cart__item-row cart__checkout-wrapper">
-            <button type="submit" name="checkout" data-terms-required="{{ cart_terms_conditions_enable }}" class="btn cart__checkout">
+            <button
+              type="submit"
+              name="checkout"
+              data-terms-required="{{ cart_terms_conditions_enable }}"
+              class="btn cart__checkout"
+              bss-b2b-customer-portal-netterm-checkout
+            >
               {{ 'actions.checkout' | t }}
             </button>
 
