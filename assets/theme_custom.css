@@ -843,4 +843,5 @@ p.addresses-cancel-link {
 .Polaris-Frame__Content, .bss-b2b-customer-portal-wrapper,
 .Polaris-Navigation{
   background: var(--colorNav)!important;
+  border-color: #dcdbcf!important
 }
