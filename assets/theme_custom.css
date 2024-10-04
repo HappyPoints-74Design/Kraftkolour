@@ -833,7 +833,7 @@ p.addresses-cancel-link {
 }
 /* Cart drawer */
 
-.bss-b2b-customer-portal-nt-checkout-btn {
+.site-header__drawer  .bss-b2b-customer-portal-nt-checkout-btn {
     display: none;
 }
 
