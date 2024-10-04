@@ -845,8 +845,7 @@ p.addresses-cancel-link {
 }
 .Polaris-Frame__Content, .bss-b2b-customer-portal-wrapper,
 .Polaris-Navigation,
-.Polaris-LegacyCard__Section,
-.footer__section {
+.Polaris-LegacyCard__Section {
   background: var(--colorNav)!important;
 }
 .bss-b2b-customer-portal-wrapper * {
