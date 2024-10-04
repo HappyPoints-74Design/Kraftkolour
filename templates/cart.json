@@ -51,11 +51,29 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "1728024568a4ad3b46": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_portal_quote_cart_button_YHBjMp": {
+          "type": "shopify://apps/bss-b2b-portal/blocks/quote-cart-button/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_portal_quote_cart_button_YHBjMp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "recently-viewed",
-    "172725222559665b8d"
+    "172725222559665b8d",
+    "1728024568a4ad3b46"
   ]
 }
