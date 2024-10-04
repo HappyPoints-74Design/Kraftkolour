@@ -852,7 +852,8 @@ p.addresses-cancel-link {
 .bss-b2b-customer-portal-wrapper select,
 .bss-b2b-customer-portal-wrapper textarea,
 .bss-b2b-customer-portal-wrapper select option,
-.Polaris-Box{
+.Polaris-Box,
+.Polaris-TextField__Backdrop{
   background: var(--colorNav)!important;
 }
 .bss-b2b-customer-portal-wrapper * {
