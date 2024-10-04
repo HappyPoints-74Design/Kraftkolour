@@ -15889,3 +15889,7 @@ button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
       font-family: 'Satoshi';
     font-weight: unset;
 }
+
+.product-section .product-block .bss-bcp-add-to-quote-btn {
+    display: none;
+}
