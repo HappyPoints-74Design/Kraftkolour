@@ -847,7 +847,9 @@ p.addresses-cancel-link {
 .Polaris-Navigation,
 .Polaris-LegacyCard__Section,
 #shopify-section-sections--18017430339832__footer .footer__section.footer__section--border,
-.Polaris-LegacyCard__Header{
+.Polaris-LegacyCard__Header,
+.bss-b2b-customer-portal-wrapper input,
+.bss-b2b-customer-portal-wrapper select{
   background: var(--colorNav)!important;
 }
 .bss-b2b-customer-portal-wrapper * {
