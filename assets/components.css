@@ -15890,6 +15890,6 @@ button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
     font-weight: unset;
 }
 
-.product-section .product-block .bss-bcp-add-to-quote-btn {
+.product-section .product-block .bss-bcp-add-to-quote-btn, .cart__item-row.cart__checkout-wrapper.payment-buttons .btn--white.bss-b2b-customer-portal-btn-quote-default {
     display: none;
 }
