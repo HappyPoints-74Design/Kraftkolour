@@ -841,7 +841,8 @@ p.addresses-cancel-link {
     visibility: visible;
 }
 .Polaris-Frame__Content, .bss-b2b-customer-portal-wrapper,
-.Polaris-Navigation{
+.Polaris-Navigation,
+.Polaris-LegacyCard__Section{
   background: var(--colorNav)!important;
-  border-color: #dcdbcf!important
+  border-color: #dcdbcf!important;
 }
