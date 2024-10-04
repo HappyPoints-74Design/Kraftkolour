@@ -135,17 +135,17 @@
                       margin: 0 !important;
                   }
                       
-		  `;
-	      document.head.appendChild(style);
+    		  `;
+    	      document.head.appendChild(style);
+                }
+            if (window.location.pathname.includes("product")) {
+              const quoteBtnPDP = document.querySelector('.product-block .bss-bcp-add-to-quote-btn')
+              if(quoteBtnPDP) {
+                quoteBtnPDP.remove();
               }
+            }
           });
 
-          if (window.location.pathname.includes("product")) {
-            const quoteBtnPDP = document.querySelector('.product-block .bss-bcp-add-to-quote-btn')
-            if(quoteBtnPDP) {
-              quoteBtnPDP.remove();
-            }
-          }
 </script>
 
 </head>
