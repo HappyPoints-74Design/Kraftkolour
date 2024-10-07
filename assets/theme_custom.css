@@ -874,3 +874,6 @@ p.addresses-cancel-link {
 .template-cart .bss-quote-cart-icon {
   display: none;
 }
+.po-option__color-value {
+  border: none!important;
+}
