@@ -877,3 +877,6 @@ p.addresses-cancel-link {
 .po-option__color-value {
   border: none!important;
 }
+.po-option__swatch-media {
+  border: 1px solid #e3e1e1 !important;
+}
