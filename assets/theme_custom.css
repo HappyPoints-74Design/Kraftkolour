@@ -880,9 +880,8 @@ p.addresses-cancel-link {
 .po-option__swatch-media {
     border-width: 1px!important;
 }
-.po-atc-btn {
+.po-atc-btn.button--loading {
   line-height: 1.42;
-  -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
   white-space: normal;
@@ -896,10 +895,6 @@ p.addresses-cancel-link {
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-user-select: none;
-          user-select: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   border-radius: var(--buttonRadius);
   color: var(--colorBtnPrimaryText);
   background: var(--colorBtnPrimary);
