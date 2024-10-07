@@ -880,3 +880,6 @@ p.addresses-cancel-link {
 .po-option__swatch-media {
     border-width: 1px!important;
 }
+.btn.btn--full.add-to-cart.po-atc-btn.button--loading span {
+    font-size: 18px!important;
+}
