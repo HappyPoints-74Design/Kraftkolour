@@ -880,22 +880,7 @@ p.addresses-cancel-link {
 .po-option__swatch-media {
     border-width: 1px!important;
 }
-.po-atc-btn.button--loading {
-  line-height: 1.42;
-  text-decoration: none;
-  text-align: center;
-  white-space: normal;
-  font-family: var(--typeHeaderPrimary);
-  font-size: calc(var(--typeBaseSize) + 2px);
-  font-weight: 700;
-  display: inline-block;
-  padding: var(--btnPadding);
-  margin: 0;
-  width: auto;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: var(--buttonRadius);
-  color: var(--colorBtnPrimaryText);
-  background: var(--colorBtnPrimary);
+.button--loading {
+  line-height: 1.42!important;
+  width: auto!important;
 }
