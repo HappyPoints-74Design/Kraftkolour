@@ -366,7 +366,7 @@ body::after {
  * Collection Content
  */
 .collection-grid__wrapper .grid-item {
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 .no-bullets {
     height: 100%;
