@@ -52,7 +52,9 @@
   -%}
 
   <script>
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    document.addEventListener("DOMContentLoaded", function() {
+      if (!window.location.pathname.includes("apps/customer-portal")) {
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
     window.theme = window.theme || {};
     theme.routes = {
@@ -99,6 +101,10 @@
       themeName: 'Expanse',
       themeVersion: "5.1.0"
     };
+      }
+      
+    });
+    
   </script>
 
   {%- render 'import-map' -%}
