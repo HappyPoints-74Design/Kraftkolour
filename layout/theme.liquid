@@ -54,52 +54,51 @@
   <script>
     if (!window.location.pathname.includes("apps/customer-portal")) {
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-
-    window.theme = window.theme || {};
-    theme.routes = {
-      home: "{{ routes.root_url }}",
-      collections: "{{ routes.collections_url }}",
-      cart: "{{ routes.cart_url | append: '.js' }}",
-      cartPage: "{{ routes.cart_url }}",
-      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
-      cartChange: "{{ routes.cart_change_url | append: '.js' }}",
-      search: "{{ routes.search_url }}",
-      predictiveSearch: "{{ routes.predictive_search_url }}"
-    };
-
-    theme.strings = {
-      soldOut: {{ 'info.sold_out' | t | json }},
-      unavailable: {{ 'info.unavailable' | t | json }},
-      inStockLabel: {{ 'info.in_stock' | t | json }},
-      oneStockLabel: {{ 'info.low_stock_count.one' | t: count: '[count]' | json }},
-      otherStockLabel: {{ 'info.low_stock_count.other' | t: count: '[count]' | json }},
-      willNotShipUntil: {{ 'info.ready_to_ship_on' | t: date: '[date]' | json }},
-      willBeInStockAfter: {{ 'info.back_in_stock_on' | t: date: '[date]' | json }},
-      waitingForStock: {{ 'info.backordered' | t | json }},
-      savePrice: {{ 'info.save_amount' | t: saved_amount: '[saved_amount]' | json }},
-      cartEmpty: {{ 'info.cart_empty' | t | json }},
-      cartTermsConfirmation: {{ 'info.you_must_agree' | t | json }},
-      searchCollections: {{ 'labels.collections' | t | json }},
-      searchPages: {{ 'labels.pages' | t | json }},
-      searchArticles: {{ 'labels.articles' | t | json }},
-      maxQuantity: {{ 'info.cart_max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
-    };
-    theme.settings = {
-      cartType: {{ settings.cart_type | json }},
-      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
-      moneyFormat: {{ shop.money_format | json }},
-      saveType: {{ settings.product_save_type | json }},
-      productImageSize: {{ settings.product_grid_image_size | json }},
-      productImageCover: {{ settings.product_grid_image_fill }},
-      predictiveSearch: {{ settings.predictive_search_enabled }},
-      predictiveSearchType: {{ settings.search_type | json }},
-      superScriptSetting: {{ settings.superscript_decimals }},
-      superScriptPrice: {{ enableSuperScript }},
-      quickView: {{ settings.quick_shop_enable }},
-      quickAdd: {{ settings.quick_add_enable }},
-      themeName: 'Expanse',
-      themeVersion: "5.1.0"
-    };
+      window.theme = window.theme || {};
+      theme.routes = {
+        home: "{{ routes.root_url }}",
+        collections: "{{ routes.collections_url }}",
+        cart: "{{ routes.cart_url | append: '.js' }}",
+        cartPage: "{{ routes.cart_url }}",
+        cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
+        cartChange: "{{ routes.cart_change_url | append: '.js' }}",
+        search: "{{ routes.search_url }}",
+        predictiveSearch: "{{ routes.predictive_search_url }}"
+      };
+  
+      theme.strings = {
+        soldOut: {{ 'info.sold_out' | t | json }},
+        unavailable: {{ 'info.unavailable' | t | json }},
+        inStockLabel: {{ 'info.in_stock' | t | json }},
+        oneStockLabel: {{ 'info.low_stock_count.one' | t: count: '[count]' | json }},
+        otherStockLabel: {{ 'info.low_stock_count.other' | t: count: '[count]' | json }},
+        willNotShipUntil: {{ 'info.ready_to_ship_on' | t: date: '[date]' | json }},
+        willBeInStockAfter: {{ 'info.back_in_stock_on' | t: date: '[date]' | json }},
+        waitingForStock: {{ 'info.backordered' | t | json }},
+        savePrice: {{ 'info.save_amount' | t: saved_amount: '[saved_amount]' | json }},
+        cartEmpty: {{ 'info.cart_empty' | t | json }},
+        cartTermsConfirmation: {{ 'info.you_must_agree' | t | json }},
+        searchCollections: {{ 'labels.collections' | t | json }},
+        searchPages: {{ 'labels.pages' | t | json }},
+        searchArticles: {{ 'labels.articles' | t | json }},
+        maxQuantity: {{ 'info.cart_max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+      };
+      theme.settings = {
+        cartType: {{ settings.cart_type | json }},
+        isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
+        moneyFormat: {{ shop.money_format | json }},
+        saveType: {{ settings.product_save_type | json }},
+        productImageSize: {{ settings.product_grid_image_size | json }},
+        productImageCover: {{ settings.product_grid_image_fill }},
+        predictiveSearch: {{ settings.predictive_search_enabled }},
+        predictiveSearchType: {{ settings.search_type | json }},
+        superScriptSetting: {{ settings.superscript_decimals }},
+        superScriptPrice: {{ enableSuperScript }},
+        quickView: {{ settings.quick_shop_enable }},
+        quickAdd: {{ settings.quick_add_enable }},
+        themeName: 'Expanse',
+        themeVersion: "5.1.0"
+      };
     }
     
   </script>
