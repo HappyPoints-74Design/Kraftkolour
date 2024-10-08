@@ -258,7 +258,7 @@ body::after {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 9px;
 	margin-right: 0;
 	height: inherit;
 	flex: 1;
