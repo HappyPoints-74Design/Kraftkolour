@@ -52,9 +52,7 @@
   -%}
 
   <script>
-    if (!window.location.pathname.includes("apps/customer-portal")) {
-            console.log('bss test')
-            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
     window.theme = window.theme || {};
     theme.routes = {
@@ -101,8 +99,6 @@
       themeName: 'Expanse',
       themeVersion: "5.1.0"
     };
-      }
-    
   </script>
 
   {%- render 'import-map' -%}
@@ -140,9 +136,6 @@
                   }
                   .bss-nt-cart-item-properties li:not(:first-child) {
                       display: none !important;
-                  }
-                  .bss-bcp-quote-cart-data-table th:last-child {
-                      text-align: left !important;
                   }
                       
     		  `;
