@@ -287,7 +287,7 @@ body::after {
 	color: var(--colorTextBody);
 }
 .grid-item__meta-main {
-	height: inherit;
+	/* height: inherit; */
 	width: 100%;
 }
 @media screen and (min-width: 769px) {
