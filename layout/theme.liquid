@@ -55,10 +55,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       if (!window.location.pathname.includes("apps/customer-portal")) {
             console.log('bss test')
-      }
-      
-    });
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
     window.theme = window.theme || {};
     theme.routes = {
@@ -105,6 +102,10 @@
       themeName: 'Expanse',
       themeVersion: "5.1.0"
     };
+      }
+      
+    });
+    
   </script>
 
   {%- render 'import-map' -%}
