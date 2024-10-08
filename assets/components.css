@@ -15895,6 +15895,7 @@ button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
 }
 
 button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn, .bss-b2b-customer-portal-btn-quote-default {
-    background: white;
-    color: black;
+    background-color: #fff;
+    color: #28282c;
+    border-color: #dcdbcf;
 }
