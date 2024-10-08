@@ -300,7 +300,7 @@ body::after {
 		font-size: 20px;
 	}
 	[dir="ltr"] [data-grid-style="simple"] .new-grid:not([data-view="list"]) .grid-item__meta {
-		gap: 16px;
+		gap: 9px;
 	}
 	.grid-item__meta {
 		margin: 16px;
