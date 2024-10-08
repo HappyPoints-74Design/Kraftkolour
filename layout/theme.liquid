@@ -55,7 +55,9 @@
     if (!window.location.pathname.includes("apps/customer-portal")) {
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       window.theme = window.theme || {};
-      theme.routes = {
+      
+    }
+    theme.routes = {
         home: "{{ routes.root_url }}",
         collections: "{{ routes.collections_url }}",
         cart: "{{ routes.cart_url | append: '.js' }}",
@@ -99,7 +101,6 @@
         themeName: 'Expanse',
         themeVersion: "5.1.0"
       };
-    }
     
   </script>
 
