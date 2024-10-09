@@ -72,8 +72,10 @@
       -%}
       {%- if is_color -%}
         {% for variant in product.variants %}
-          {% if variant.title == value %}
-            {%- assign color_swtach_metafields = variant.metafields.custom.color -%}
+          {% assign variable_title = variant.title | handleize %}
+          {% assign value_handleize = value | handleize %}
+          {% if variable_title contains value_handleize %}
+            {%- assign color_swatch_metafields = variant.metafields.custom.color -%}
           {% endif %}
         {% endfor %}
       {% endif %}
@@ -100,9 +102,9 @@
           <label
             tabindex="0"
             for="ProductSelect-{{ section.id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"
-            data-color= "{{ color_swtach_metafields }}"
-            class="variant__button-label color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
-            style="{% if color_swtach_metafields != blank %}background-color: {{ color_swtach_metafields }};{% else %}background-color: {{ color_swatch_fallback }};{% endif %}{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
+            data-color= "{{ color_swatch_metafields }}"
+            class="variant__button-label 12345-{{ color_swatch_metafields }} 1-{{  }} 2-{{ value }} color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
+            style="{% if color_swatch_metafields != blank %}background-color: {{ color_swatch_metafields }};{% else %}background-color: {{ color_swatch_fallback }};{% endif %}{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
           >
             {{ value | escape }}
           </label>
