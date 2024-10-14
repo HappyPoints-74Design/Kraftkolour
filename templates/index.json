@@ -32,6 +32,7 @@
         },
         "hero_7VExLi": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Silk Scarves <br/>& Fabrics</p>",
@@ -67,6 +68,7 @@
         },
         "hero_qPbeyR": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Overlaid Hero Slide</p>",
