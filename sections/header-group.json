@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:labels.header_group",
@@ -17,15 +17,15 @@
         "toolbar-0": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>Free shipping on orders over $99<\/p>",
+            "richtext": "<p>Free shipping on orders over $99</p>",
             "richtext_mobile": ""
           }
         },
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
-            "richtext_mobile": ""
+            "richtext": "<p>Welcome to our new Website! Stoewide Sale now on.</p>",
+            "richtext_mobile": "<p>Welcome to our new Website! Stoewide Sale now on.</p>"
           }
         }
       },
@@ -47,7 +47,7 @@
         "logo_hpPNW8": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Kraftkolour_Logo_-_Celebrating_40_years.png",
+            "logo": "shopify://shop_images/Kraftkolour_Logo_-_Celebrating_40_years.png",
             "desktop_logo_width": 300,
             "mobile_logo_width": 160
           }
