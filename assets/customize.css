@@ -160,6 +160,21 @@ body::after {
 	}
  }
 
+ @media screen and (min-width: 750px) {
+	.site-nav--megamenu-only-parent .megamenu__col {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+		padding-right: 0;
+		column-gap: 16px;
+	}
+
+	.site-nav--megamenu-only-parent .megamenu__col .megamenu__col-title {
+		width: calc(25% - (16px * 3 / 4));
+	}
+ }
+
 /**
  * SlideShow
  */
