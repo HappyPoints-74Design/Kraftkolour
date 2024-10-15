@@ -24,8 +24,8 @@
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>Welcome to our new Website! Stoewide Sale now on.</p>",
-            "richtext_mobile": "<p>Welcome to our new Website! Stoewide Sale now on.</p>"
+            "richtext": "<p>Welcome to our new Website! Storewide Sale now on.</p>",
+            "richtext_mobile": "<p>Welcome to our new Website! Storewide Sale now on.</p>"
           }
         }
       },
