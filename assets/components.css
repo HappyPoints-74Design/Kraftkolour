@@ -10698,6 +10698,12 @@ html[dir="rtl"] .background-media-text__text {
 .site-footer a {
     color: var(--colorFooterText);
   }
+.site-footer a:hover {
+  color: var(--colorLinkHover);
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .site-footer .faux-select {
     font-size: calc(var(--typeBaseSize) - 1px);
     min-width: -webkit-max-content;

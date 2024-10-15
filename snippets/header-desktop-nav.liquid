@@ -32,10 +32,13 @@
     {%- liquid
       assign has_dropdown = false
       assign is_megamenu = false
+      assign is_megamenu_only_parent = false
       if link.levels > 0
         assign has_dropdown = true
+        assign is_megamenu = true
+        assign is_megamenu_only_parent = true
         if link.levels > 1
-          assign is_megamenu = true
+          assign is_megamenu_only_parent = false
         endif
       endif
 
@@ -49,7 +52,7 @@
       endif
     -%}
 
-    <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
+    <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}{% if is_megamenu_only_parent %} site-nav--megamenu-only-parent{% endif %}">
       {% if is_megamenu or has_dropdown %}
         <details
           id="site-nav-item--{{ forloop.index }}"
