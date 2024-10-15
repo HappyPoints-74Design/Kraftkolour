@@ -32,7 +32,6 @@
         },
         "hero_7VExLi": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Silk Scarves <br/>& Fabrics</p>",
@@ -68,7 +67,6 @@
         },
         "hero_qPbeyR": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Overlaid Hero Slide</p>",
@@ -84,13 +82,30 @@
             "image_mobile": "shopify://shop_images/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
+        },
+        "hero_iRGy8n": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide</p>",
+            "title_size": 64,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#e22128",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "slide-1",
         "hero_7VExLi",
         "hero_BdPJwq",
-        "hero_qPbeyR"
+        "hero_qPbeyR",
+        "hero_iRGy8n"
       ],
       "settings": {
         "full_width": true,
@@ -195,6 +210,7 @@
         },
         "advanced_xCWN4k": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "About Us",
             "heading": "40 Years of Experience",
@@ -216,6 +232,7 @@
         },
         "advanced_hD3tt6": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "Up to",
             "heading": "-15%",
@@ -266,8 +283,8 @@
   "order": [
     "slideshow",
     "featured-collections",
-    "featured-collection",
+    "featured-collection2",
     "promo_grid_fhAp4U",
-    "featured-collection2"
+    "featured-collection"
   ]
 }
