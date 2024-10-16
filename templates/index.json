@@ -170,13 +170,13 @@
         "overtext": true
       }
     },
-    "featured-collection": {
+    "featured-collection2": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Arrivals",
+        "title": "Featured Products",
         "heading_size": "h3",
         "heading_position": "left",
-        "home_featured_products": "cotton-fabrics",
+        "home_featured_products": "featured-products",
         "count": 5,
         "products_per_row": 5,
         "mobile_scrollable": true,
@@ -265,13 +265,13 @@
         "space_below": false
       }
     },
-    "featured-collection2": {
+    "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Products",
+        "title": "New Arrivals",
         "heading_size": "h3",
         "heading_position": "left",
-        "home_featured_products": "pongee-5mm-silk-scarves",
+        "home_featured_products": "cotton-fabrics",
         "count": 5,
         "products_per_row": 5,
         "mobile_scrollable": true,
