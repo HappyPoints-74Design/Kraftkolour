@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,9 +22,9 @@
         "download_item_9dWkt9": {
           "type": "download_item",
           "settings": {
-            "title": "School Purchasing: Ordering with a Purchase Order Number",
+            "title": "What Dye Should I Use?",
             "download_label": "Download",
-            "file_download": "https://www.kraftkolour.net.au/assets/files/School%20Purchasing%20-%20Ordering%20with%20a%20PO.pdf"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/What_Dye_Should_I_Use.pdf?v=1729042285"
           }
         }
       },
