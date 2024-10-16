@@ -22,7 +22,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Contact Us",
+            "title": "Dye Troubleshooting",
             "heading_size": "h2"
           }
         },
@@ -30,7 +30,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Kraftkolour </p><p>Unit 2, 99 Heyington Ave </p><p>THOMASTOWN,   Vic   3074</p><p>Kraftkolour is open for online sales only. </p><p>Our showroom is closed until further notice.</p><p>Ph:  03 9465 4865      Int:  +61 3 9465 4865</p>",
+            "text": "<p>If you are having issues with your dye, please make sure to read through our <a href=\"https://kraftcolour.myshopify.com/pages/instructions\" title=\"https://kraftcolour.myshopify.com/pages/instructions\">instructions</a> first.</p>",
             "show_icon_flag": false
           }
         }
