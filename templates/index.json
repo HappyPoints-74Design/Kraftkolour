@@ -32,6 +32,7 @@
         },
         "hero_7VExLi": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Silk Scarves <br/>& Fabrics</p>",
@@ -67,6 +68,7 @@
         },
         "hero_qPbeyR": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Overlaid Hero Slide</p>",
@@ -85,6 +87,7 @@
         },
         "hero_iRGy8n": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Overlaid Hero Slide</p>",
@@ -267,11 +270,12 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "New Arrivals",
         "heading_size": "h3",
         "heading_position": "left",
-        "home_featured_products": "cotton-fabrics",
+        "home_featured_products": "new-arrivals",
         "count": 5,
         "products_per_row": 5,
         "mobile_scrollable": true,
