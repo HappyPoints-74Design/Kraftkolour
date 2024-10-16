@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -132,7 +132,7 @@
           "type": "tab",
           "settings": {
             "title": "Resources",
-            "content": "<p>{{ product.metafields.custom.resource | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.resource_richtext | metafield_tag }}",
             "page": ""
           }
         },
