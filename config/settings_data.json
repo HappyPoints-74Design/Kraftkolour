@@ -87,7 +87,7 @@
     "share_pinterest": true,
     "favicon": "shopify://shop_images/kraftkolour_favicon_logo_full_box.jpg",
     "predictive_search_show_price": false,
-    "predictive_search_show_vendor": true,
+    "predictive_search_show_vendor": false,
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": true,
     "checkout_logo_position": "left",
