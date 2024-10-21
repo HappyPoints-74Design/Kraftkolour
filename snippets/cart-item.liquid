@@ -92,8 +92,8 @@
       {{ 'actions.remove' | t }}
     </a>
   </div>
-  <div class="cart__item-price text-right">
-    {% if item.original_price != item.final_price %}
+  <div class="cart__item-price cart__item-price-total text-right">
+    {% comment %} {% if item.original_price != item.final_price %}
       <span class="visually-hidden">{{ 'labels.regular_price' | t }}</span>
       <small class="cart__price cart__price--strikethrough">
         <span bss-po-cart-item-key={{ item.key }} bss-po-item-original-price>
@@ -140,6 +140,35 @@
       {%- for discount_allocation in item.line_level_discount_allocations -%}
         <small class="cart__discount">{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})</small>
       {%- endfor -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
+    <div class="cart-item__price-wrapper appear-slow">
+      {%- if item.original_line_price != item.final_line_price -%}
+        <dl class="cart-item__discounted-prices">
+          <dd>
+            <s class="cart-item__old-price price price--end" bss-po-cart-item-key={{ item.key }} bss-po-item-original-price>
+              {{ item.original_line_price | money }}
+            </s>
+          </dd>
+          <dd class="price price--end" bss-po-cart-item-key={{ item.key }} bss-po-item-final-price>
+            {{ item.final_line_price | money }}
+          </dd>
+        </dl>
+      {%- else -%}
+        <span class="price price--end" bss-po-cart-item-key={{ item.key }} bss-po-item-original-price>
+          {{ item.original_line_price | money }}
+        </span>
+      {%- endif -%}
+
+      {%- if item.variant.available and item.unit_price_measurement -%}
+        <div class="unit-price caption">
+          {{ item.unit_price | money }}
+          <span aria-hidden="true">/</span>
+          {%- if item.unit_price_measurement.reference_value != 1 -%}
+            {{- item.unit_price_measurement.reference_value -}}
+          {%- endif -%}
+          {{ item.unit_price_measurement.reference_unit }}
+        </div>
+      {%- endif -%}
+    </div>
   </div>
 </div>
