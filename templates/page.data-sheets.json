@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -292,6 +292,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Aluminium_Acetate_2022.pdf?v=1727760817"
           }
         },
+        "download_item_WzLNPU": {
+          "type": "download_item",
+          "settings": {
+            "title": "Aluminium Potassium Sulphate (Potash Alum)",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_-_Aluminium_Potassium_Sulphate_Potash_Alum_-_2024.pdf?v=1729561846"
+          }
+        },
         "download_item_Mc3iUJ": {
           "type": "download_item",
           "settings": {
@@ -554,6 +562,7 @@
         "download_item_Et8MVk",
         "download_item_UNEAgn",
         "download_item_3WqAfn",
+        "download_item_WzLNPU",
         "download_item_Mc3iUJ",
         "download_item_fyGtPY",
         "download_item_LtFcQN",
