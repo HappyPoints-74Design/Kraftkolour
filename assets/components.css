@@ -15908,18 +15908,16 @@ button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn, .bss-b2b-cust
 }
 
 a.bss-customize-text-link {
-    line-height: 1.42;
-    text-decoration: none;
+    text-decoration: none !important;
     text-align: center;
     font-family: var(--typeHeaderPrimary);
-    font-size: calc(var(--typeBaseSize) + 2px);
     display: inline-block;
     padding: var(--btnPadding);
     cursor: pointer;
     border: 1px solid black;
     border-radius: var(--buttonRadius);
-    color: black;
-    background: white;
+    color: #000;
+    background: #fff;
     width: 100%;
 }
 
