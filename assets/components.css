@@ -15887,6 +15887,7 @@ form + .footer__social {
   margin-left: 0 !important;
 }
 
+/* Start BSS customize Portal CSS */
 button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn {
     margin-top: 10px;
 }
@@ -15905,3 +15906,21 @@ button.btn.cart__checkout.bss-b2b-customer-portal-nt-checkout-btn, .bss-b2b-cust
     color: #28282c;
     border-color: #dcdbcf;
 }
+
+a.bss-customize-text-link {
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--typeHeaderPrimary);
+    font-size: calc(var(--typeBaseSize) + 2px);
+    display: inline-block;
+    padding: var(--btnPadding);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: var(--buttonRadius);
+    color: black;
+    background: white;
+    width: 100%;
+}
+
+/* End BSS customize Portal CSS */
