@@ -53,7 +53,6 @@
       {{ customer.default_address | format_address }}
 
       <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'actions.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
-        <div hidden> {{ customer }}</div>
       {% if customer.tags contains "pay-on-account" %}
         <p><a href="https://kraftcolour.myshopify.com/apps/customer-portal/purchase-late" class="bss-customize-text-link">Cart purchase</a></p>
         <p><a href="https://kraftcolour.myshopify.com/apps/customer-portal/purchase-late/orders" class="bss-customize-text-link">Order history</a></p>
