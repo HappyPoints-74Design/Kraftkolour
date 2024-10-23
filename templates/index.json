@@ -63,6 +63,7 @@
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/Website_launch_hero.png",
+            "image_mobile": "shopify://shop_images/Web_launch_sale_mobile.png",
             "overlay_opacity": 0
           }
         },
