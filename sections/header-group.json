@@ -16,9 +16,8 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "richtext": "<p>Free shipping on orders over $99</p>",
+            "richtext": "<p>We hope you find our new wesite easy to use. We apologise for any \"teething issues\"!</p>",
             "richtext_mobile": ""
           }
         },
