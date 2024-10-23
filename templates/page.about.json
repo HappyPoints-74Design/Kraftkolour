@@ -44,14 +44,15 @@
             "top_subheading": "",
             "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#E22128",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/Happy_Birthday_KK_group_memories_sml_0.75x.jpg",
+            "image_mobile": "shopify://shop_images/Happy_Birthday_KK_group_memories_sml_0.75x.jpg",
             "overlay_opacity": 0
           }
         }
