@@ -16,8 +16,9 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "richtext": "<p>We hope you like our fresh new website. Please call or email if you are having any difficulties.</p>",
+            "richtext": "<p>Free shipping on orders over $99</p>",
             "richtext_mobile": ""
           }
         },
@@ -63,7 +64,7 @@
         "mega_products": false,
         "header_sticky": true,
         "border_bottom_header": true,
-        "header_footer_menu": true,
+        "header_footer_menu": false,
         "sticky_index": false,
         "sticky_collection": false
       }
