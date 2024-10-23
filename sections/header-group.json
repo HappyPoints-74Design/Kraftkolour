@@ -17,7 +17,7 @@
         "toolbar-0": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>We hope you like our fresh new website. Sorry about any \"teething issues\"! Please call or email if you are having difficulties.</p>",
+            "richtext": "<p>We hope you like our fresh new website. Please call or email if you are having any difficulties.</p>",
             "richtext_mobile": ""
           }
         },
