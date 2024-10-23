@@ -42,7 +42,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide</p>",
+            "title": "",
             "title_size": 64,
             "subheading": "",
             "link": "",
