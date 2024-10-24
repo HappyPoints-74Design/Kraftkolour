@@ -15866,14 +15866,14 @@ form + .footer__social {
 
 
 /* BSS CUSTOM CSS */
-.tooltip-swatch-label {
+.tooltip-swatch-label:not(.po-option__value .tooltip-swatch-label) {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   padding: 6px !important;
 }
 
-.tooltip-swatch-label > * {
+.tooltip-swatch-label:not(.po-option__value .tooltip-swatch-label) > * {
   margin-top: 0 !important;
   margin-left: 0 !important; 
   top: 0 !important; 
@@ -15922,3 +15922,7 @@ a.bss-customize-text-link {
 }
 
 /* End BSS customize Portal CSS */
+
+/* BSS custom */
+
+/* end */
