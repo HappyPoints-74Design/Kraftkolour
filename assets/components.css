@@ -9020,7 +9020,7 @@ predictive-search form {
   transition: flex 0.3s ease-in-out;
 }
 .search__input {
-  background: var(--colorNavSearch, #fff);
+  background: transparent;
   color: var(--color-body-text);
   flex: 1;
   width: 100%;
