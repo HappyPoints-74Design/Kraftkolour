@@ -25,7 +25,7 @@
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>Welcome to our new Website! 10% OFF STOREWIDE SALE NOW ON!</p>",
+            "richtext": "<p>10% OFF STOREWIDE SALE NOW ON!        SALE MUST END FRIDAY.</p>",
             "richtext_mobile": "<p>Welcome to our new Website! Storewide Sale now on.</p>"
           }
         }
