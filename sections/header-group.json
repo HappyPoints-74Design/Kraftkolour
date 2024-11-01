@@ -16,7 +16,6 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "richtext": "<p>🏇 Kraftkolour will be closed for the Melbourne Cup long weekend. We will be back on Wednesday the 6th of November 🏇 </p>",
             "richtext_mobile": ""
