@@ -37,9 +37,9 @@
 
 <div class="collection-grid__wrapper">
 
-  <div class="collection-filter">
+  <div class="collection-filter{% if enable_sidebar == false %} disable-filter{% endif %}">
     <div class="collection-filter__inner">
-      <div class="collection-filter__item collection-filter__item--drawer">
+      <div class="collection-filter__item collection-filter__item--drawer{% if enable_sidebar == false %} small--hide{% endif %}">
         <button
           type="button"
           class="collection-filter__btn text-link"
@@ -58,7 +58,7 @@
 
       <div class="collection-filter__item collection-filter__item--right">
         {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-        <div class="collection-filter__sort small--hide">
+        <div class="collection-filter__sort">
           <label for="SortBy" class="visually-hidden">{{ 'actions.sort' | t }}</label>
           <select name="SortBy" id="SortBy" data-default-sortby="{{ collection.default_sort_by }}">
             <option value="title-ascending"{% if sort_by == collection.default_sort_by %} selected="selected"{% endif %}>{{ 'actions.sort' | t }}</option>
