@@ -44,17 +44,17 @@
         {%- endif -%}
         {%- if block.settings.email != blank -%}
           <li><a href="mailto: {{ block.settings.email }}">
-            <span class="icon-and-text">
+            <span class="icon-and-text icon-email">
               {% render 'icon', name: 'email' %}
-              <span>{{ 'actions.email_us' | t }}</span>
+              <span>{{ block.settings.email }}</span>
             </span>
           </a></li>
         {%- endif -%}
         {%- if block.settings.contact != blank -%}
           <li><a href="{{ pages[block.settings.contact].url }}">
-            <span class="icon-and-text">
+            <span class="icon-and-text icon-contact">
               {% render 'icon', name: 'email' %}
-              <span>{{ 'actions.email_us' | t }}</span>
+              <span>{{ block.settings.email }}</span>
             </span>
           </a></li>
         {%- endif -%}
