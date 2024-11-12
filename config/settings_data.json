@@ -405,8 +405,7 @@
       },
       "recently-viewed": {
         "type": "recently-viewed",
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar": {
         "type": "toolbar",
@@ -484,8 +483,7 @@
           "a9c19dcb-3172-4927-b454-954715dfdfbc",
           "a0382939-ffb8-4144-83cc-9565ad819150"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "footer": {
         "type": "footer",
@@ -951,38 +949,37 @@
       "5140161176031010482": {
         "type": "shopify://apps/dr-shipping-calculator/blocks/instant-load/6fdcf202-26c0-4288-be36-8b389f5d262c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3318355620493698349": {
         "type": "shopify://apps/bogo/blocks/wbogo/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "5294968793578418440": {
         "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1102061855093433159": {
         "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5918707185744429496": {
         "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "2102808784413787648": {
         "type": "shopify://apps/kb-back-in-stock/blocks/main-app-embed/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -1099,8 +1096,7 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "password-header": {
           "type": "password-header",
@@ -1110,9 +1106,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Classic": {
       "color_body_bg": "#ffffff",
@@ -1506,8 +1500,7 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "toolbar": {
           "type": "toolbar",
@@ -1585,8 +1578,7 @@
             "a9c19dcb-3172-4927-b454-954715dfdfbc",
             "a0382939-ffb8-4144-83cc-9565ad819150"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
@@ -2391,8 +2383,7 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "toolbar": {
           "type": "toolbar",
@@ -2454,8 +2445,7 @@
             "ff7a549d-af1e-4e72-93c7-326f5ace6fbb",
             "a0382939-ffb8-4144-83cc-9565ad819150"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
