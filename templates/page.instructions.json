@@ -163,6 +163,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Landscape_Cottons_Instructions_July_2024.pdf?v=1729482975"
           }
         },
+        "download_item_U6MR9m": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Dye Dyebath Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/PROCION_DYEBATH_INSTRUCTIONS_2023_WITH_COLOUR_CHART_1.pdf?v=1729483259"
+          }
+        },
         "download_item_aNUUBw": {
           "type": "download_item",
           "settings": {
@@ -268,6 +276,7 @@
         "download_item_VQkU9z",
         "download_item_GbGN3t",
         "download_item_pAYy9R",
+        "download_item_U6MR9m",
         "download_item_aNUUBw",
         "download_item_dwCGce",
         "download_item_hPYfXr",
