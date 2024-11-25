@@ -187,6 +187,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/CRAM_JAR_INSTRUCTIONS.pdf?v=1730059555"
           }
         },
+        "download_item_b4nVzx": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Deep Black / RGB Instructions",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/PROCION_DEEP_BLACK_RGB_INSTRUCTIONS.pdf?v=1732574509"
+          }
+        },
         "download_item_hPYfXr": {
           "type": "download_item",
           "settings": {
@@ -279,6 +287,7 @@
         "download_item_U6MR9m",
         "download_item_aNUUBw",
         "download_item_dwCGce",
+        "download_item_b4nVzx",
         "download_item_hPYfXr",
         "download_item_Kah8k7",
         "download_item_tLDbQk",
