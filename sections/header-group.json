@@ -16,7 +16,6 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "richtext": "<p>***BLACK FRIDAY SALE!! MUST END  MONDAY 2ND DECEMBER ***</p>",
             "richtext_mobile": ""
@@ -25,7 +24,7 @@
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>WELCOME TO OUR NEW WEBSITE!</p>",
+            "richtext": "<p>&gt;&gt; WELCOME TO OUR NEW WEBSITE! &lt;&lt;</p>",
             "richtext_mobile": "<p>Welcome to our new Website! </p>"
           }
         }
