@@ -24,7 +24,7 @@
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>&gt;&gt; WELCOME TO OUR NEW WEBSITE! &lt;&lt;</p>",
+            "richtext": "<p>&gt;&gt;  WELCOME TO OUR NEW WEBSITE!  &lt;&lt;</p>",
             "richtext_mobile": "<p>Welcome to our new Website! </p>"
           }
         }
