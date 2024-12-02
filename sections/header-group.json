@@ -16,6 +16,7 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p>***  BLACK FRIDAY SALE!! MUST END  MONDAY 2ND DECEMBER  ***  DISCOUNT SHOWN AT CHECKOUT  ***</p>",
             "richtext_mobile": ""
