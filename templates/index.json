@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -7,17 +16,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Since 1984<\/p>",
+            "title": "<p>Since 1984</p>",
             "title_size": 64,
             "subheading": "",
-            "link": "shopify:\/\/pages\/about_us",
+            "link": "shopify://pages/about_us",
             "link_text": "About Us",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Shopify_Web_Banner_Original.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Shopify_Web_Banner_Original.jpg",
+            "image": "shopify://shop_images/Shopify_Web_Banner_Original.jpg",
+            "image_mobile": "shopify://shop_images/Shopify_Web_Banner_Original.jpg",
             "overlay_opacity": 0
           }
         },
@@ -26,34 +35,35 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Silk Scarves <br\/>& Fabrics<\/p>",
+            "title": "<p>Silk Scarves <br/>& Fabrics</p>",
             "title_size": 64,
             "subheading": "A variety of sizes and weights.",
-            "link": "shopify:\/\/products\/3ml-plastic-bulb-pipette-pkt-of-10",
+            "link": "shopify://products/3ml-plastic-bulb-pipette-pkt-of-10",
             "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
+            "image": "shopify://shop_images/main-banner.jpg",
+            "image_mobile": "shopify://shop_images/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
         },
         "hero_BdPJwq": {
           "type": "hero",
-          "disabled": true,
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "Kit - mas",
             "title": "",
             "title_size": 64,
             "subheading": "",
-            "link": "",
+            "link": "shopify://collections/kits",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/December_2023_Hero_Shot.jpg",
+            "image_mobile": "shopify://shop_images/December_2023_Hero_Shot.jpg",
             "overlay_opacity": 0
           }
         },
@@ -62,17 +72,17 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/pages\/about_us",
+            "link": "shopify://pages/about_us",
             "link_text": "Shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/main-banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/main-banner-mobile.jpg",
+            "image": "shopify://shop_images/main-banner.jpg",
+            "image_mobile": "shopify://shop_images/main-banner-mobile.jpg",
             "overlay_opacity": 0
           }
         },
@@ -81,7 +91,7 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 64,
             "subheading": "And optional subtext",
             "link": "",
@@ -117,7 +127,7 @@
           "type": "collection",
           "settings": {
             "collection": "dyes",
-            "feature_image": "shopify:\/\/shop_images\/Spectrum_F.jpg",
+            "feature_image": "shopify://shop_images/Spectrum_F.jpg",
             "title": "Dyes Dyes Dyes",
             "sub_title": "Dyes for different fibres."
           }
@@ -126,7 +136,7 @@
           "type": "collection",
           "settings": {
             "collection": "natural-dyes",
-            "feature_image": "shopify:\/\/shop_images\/KK_Natural_Dyes.jpg",
+            "feature_image": "shopify://shop_images/KK_Natural_Dyes.jpg",
             "title": "Natural Dyes",
             "sub_title": "Powders and Extracts from nature"
           }
@@ -135,7 +145,7 @@
           "type": "collection",
           "settings": {
             "collection": "fibre",
-            "feature_image": "shopify:\/\/shop_images\/KK_DHG_Fibre.jpg",
+            "feature_image": "shopify://shop_images/KK_DHG_Fibre.jpg",
             "title": "Fibre",
             "sub_title": "Wool tops, roving, carded, slubs"
           }
@@ -144,7 +154,7 @@
           "type": "collection",
           "settings": {
             "collection": "silk-scarves-wraps-1",
-            "feature_image": "shopify:\/\/shop_images\/Silk_Scarves_1.jpg",
+            "feature_image": "shopify://shop_images/Silk_Scarves_1.jpg",
             "title": "Silk Scarves",
             "sub_title": "From around the World"
           }
@@ -190,10 +200,10 @@
             "heading_size_mobile": 20,
             "textarea": "We are so excited and grateful to share this milestone with you, our fantastic customers.",
             "cta_text1": "Read the interview with founder Bonny Francis",
-            "cta_link1": "shopify:\/\/blogs\/news\/1914-translation-by-h-rackham",
+            "cta_link1": "shopify://blogs/news/1914-translation-by-h-rackham",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Happy_Birthday_KK_group_memories_sml_0.75x.jpg",
+            "image": "shopify://shop_images/Happy_Birthday_KK_group_memories_sml_0.75x.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -212,10 +222,10 @@
             "heading_size_mobile": 24,
             "textarea": "Kraftkolour supplies  textile artists, eco dyers, silk painters, fabric printers, spinners, weavers, knitters and dyers with everything they could possibly need to fulfill their textile journey.",
             "cta_text1": "Read More",
-            "cta_link1": "shopify:\/\/pages\/about_us",
+            "cta_link1": "shopify://pages/about_us",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Group_11-1.png",
+            "image": "shopify://shop_images/Group_11-1.png",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -232,12 +242,12 @@
             "heading": "-15%",
             "heading_size": 64,
             "heading_size_mobile": 36,
-            "textarea": "Yarns - Wool , Silk, Cotton,\n\u2028Linen & Ribbons",
+            "textarea": "Yarns - Wool , Silk, Cotton,\n Linen & Ribbons",
             "cta_text1": "Shop Now",
-            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_link1": "shopify://collections/all",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "image": "shopify://shop_images/Group_11.png",
             "video_url": "",
             "width": "50",
             "height": 500,
