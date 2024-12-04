@@ -52,8 +52,8 @@
         "hero_BdPJwq": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Kit - mas",
-            "title": "",
+            "top_subheading": "",
+            "title": "<p>Kit-mas</p>",
             "title_size": 64,
             "subheading": "",
             "link": "shopify://collections/kits",
