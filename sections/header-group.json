@@ -27,11 +27,20 @@
             "richtext": "<p>LAST SHIPPING FOR 2024 WILL BE THURSDAY 19TH DECEMBER.</p>",
             "richtext_mobile": "<p>Welcome to our new Website! </p>"
           }
+        },
+        "announcement_AgXRKy": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>Hassle-free returns. 30-day postage paid returns</p>",
+            "richtext_mobile": ""
+          }
         }
       },
       "block_order": [
         "toolbar-0",
-        "toolbar-1"
+        "toolbar-1",
+        "announcement_AgXRKy"
       ],
       "settings": {
         "announcement_center": true,
