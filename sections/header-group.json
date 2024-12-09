@@ -16,9 +16,8 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "richtext": "<p>***  BLACK FRIDAY SALE!! MUST END  MONDAY 2ND DECEMBER  ***  DISCOUNT SHOWN AT CHECKOUT  ***</p>",
+            "richtext": "<p>KRAFTKOLOUR WILL BE SHUT FOR THE CHRISTMAS HOLIDAYS FROM FRI 20TH DECEMBER AND WILL RE-OPEN MON 13TH JANUARY. LAST SHIPPING FOR THE YEAR WILL BE THURSDAY 19TH DECEMBER.</p>",
             "richtext_mobile": ""
           }
         },
