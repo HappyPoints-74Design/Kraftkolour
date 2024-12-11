@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "custom.popups",
   "name": "t:labels.popups",
@@ -25,18 +25,18 @@
       "block_order": [
         "reminder-block"
       ],
-      "disabled": true,
       "settings": {
-        "disable_for_account_holders": true,
+        "disable_for_account_holders": false,
         "popup_seconds": 5,
-        "popup_days": 30,
-        "popup_title": "Save 10% off your first purchase",
-        "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase.</p>",
+        "popup_days": 3,
+        "popup_title": "Christmas / New Year Holidays",
+        "popup_text": "<p>We will be taking a short Summer break after Thursday 19th December. </p><p>Orders will next be dispatched from Monday 13th January 2025.</p>",
+        "popup_image": "shopify://shop_images/umbrella-swimming.jpg",
         "image_position": "left",
         "color_scheme": "3",
         "show_social_icons": false,
-        "enable_newsletter": true,
-        "button_label": "Optional button",
+        "enable_newsletter": false,
+        "button_label": "Got it!",
         "button_link": ""
       }
     },
