@@ -25,13 +25,12 @@
       "block_order": [
         "reminder-block"
       ],
-      "disabled": true,
       "settings": {
         "disable_for_account_holders": false,
         "popup_seconds": 5,
         "popup_days": 3,
         "popup_title": "Christmas / New Year Holidays",
-        "popup_text": "<p>We will be taking a short Summer break after Thursday 19th December. </p><p>Orders made will next be dispatched from Monday 13th January 2025.</p>",
+        "popup_text": "<p>We will be taking a short Summer break after Thursday 19th December. </p><p>Orders made online will next be dispatched from Monday 13th January 2025.</p>",
         "popup_image": "shopify://shop_images/umbrella-swimming.jpg",
         "image_position": "left",
         "color_scheme": "3",
