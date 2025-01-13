@@ -17,12 +17,13 @@
         "toolbar-0": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>ORDERS ARE BEING FULFILLED FROM OUR WAREHOUSE. PLEASE EMAIL ONLY FOR QUERIES.</p>",
+            "richtext": "<p>ORDERS ARE NOW BEING FULFILLED FROM OUR WAREHOUSE. PLEASE EMAIL ONLY FOR QUERIES.</p>",
             "richtext_mobile": ""
           }
         },
         "toolbar-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p>LAST SHIPPING FOR 2024 WILL BE THURSDAY 19TH DECEMBER.</p>",
             "richtext_mobile": "<p>Welcome to our new Website! </p>"
