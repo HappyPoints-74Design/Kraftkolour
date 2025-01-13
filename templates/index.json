@@ -32,7 +32,6 @@
         },
         "hero_7VExLi": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Silk Scarves <br/>& Fabrics</p>",
@@ -51,6 +50,7 @@
         },
         "hero_BdPJwq": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Learn something new this Summer",
             "title": "<p>Kit-mas</p>",
