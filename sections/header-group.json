@@ -16,6 +16,7 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p>ORDERS ARE NOW BEING FULFILLED FROM OUR WAREHOUSE. </p>",
             "richtext_mobile": ""
