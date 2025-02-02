@@ -609,6 +609,19 @@
     },
     "download_file_list_Ppb3Hw": {
       "type": "download-file-list",
+      "blocks": {
+        "download_item_73x9be": {
+          "type": "download_item",
+          "settings": {
+            "title": "Cyanotype Kit",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/JACQUARD_CYANOTYPE_2_PART_SET_JCY1100_SDS.pdf?v=1738527705"
+          }
+        }
+      },
+      "block_order": [
+        "download_item_73x9be"
+      ],
       "settings": {
         "title": "Other Products",
         "heading_size": "h2",
