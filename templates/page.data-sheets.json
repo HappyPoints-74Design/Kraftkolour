@@ -610,6 +610,12 @@
     "download_file_list_Ppb3Hw": {
       "type": "download-file-list",
       "blocks": {
+        "download_title_tAtXXW": {
+          "type": "download_title",
+          "settings": {
+            "title": "Other Products"
+          }
+        },
         "download_item_73x9be": {
           "type": "download_item",
           "settings": {
@@ -620,10 +626,11 @@
         }
       },
       "block_order": [
+        "download_title_tAtXXW",
         "download_item_73x9be"
       ],
       "settings": {
-        "title": "Other Products",
+        "title": "",
         "heading_size": "h2",
         "text": "",
         "heading_position": "left",
