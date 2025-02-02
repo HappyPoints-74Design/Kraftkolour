@@ -606,6 +606,19 @@
         "padding_top_mobile": 48,
         "padding_bottom_mobile": 48
       }
+    },
+    "download_file_list_Ppb3Hw": {
+      "type": "download-file-list",
+      "settings": {
+        "title": "Other Products",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
     }
   },
   "order": [
@@ -613,6 +626,7 @@
     "download_file_list_RYqwPb",
     "download_file_list_L3EfNK",
     "download_file_list_YUfzJe",
-    "download_file_list_FbdbNN"
+    "download_file_list_FbdbNN",
+    "download_file_list_Ppb3Hw"
   ]
 }
