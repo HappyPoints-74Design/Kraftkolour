@@ -219,6 +219,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Texcraft_Deco_Printing_Inks_2022.pdf?v=1727760534"
           }
         },
+        "download_item_c9RDxc": {
+          "type": "download_item",
+          "settings": {
+            "title": "Texcraft Extender",
+            "download_label": "Download",
+            "file_download": ""
+          }
+        },
         "download_item_UfCd7g": {
           "type": "download_item",
           "settings": {
@@ -245,6 +253,7 @@
         "download_item_mi4ypU",
         "download_item_a4ykiH",
         "download_item_jXCBFD",
+        "download_item_c9RDxc",
         "download_item_UfCd7g",
         "download_item_dxXQwP"
       ],
