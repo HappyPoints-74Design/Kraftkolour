@@ -242,6 +242,12 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Transprint_Inks_2022.pdf?v=1727760548"
           }
+        },
+        "download_title_D4NzgL": {
+          "type": "download_title",
+          "settings": {
+            "title": "Pigments"
+          }
         }
       },
       "block_order": [
@@ -255,7 +261,8 @@
         "download_item_jXCBFD",
         "download_item_c9RDxc",
         "download_item_UfCd7g",
-        "download_item_dxXQwP"
+        "download_item_dxXQwP",
+        "download_title_D4NzgL"
       ],
       "settings": {
         "title": "",
