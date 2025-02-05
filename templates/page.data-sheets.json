@@ -280,6 +280,14 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Pillarbox_Red_Pigment_2022.pdf?v=1738730784"
           }
+        },
+        "download_item_iJKPDQ": {
+          "type": "download_item",
+          "settings": {
+            "title": "Mid Blue Pigment",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Mid_Blue_Pigment_2022_1.pdf?v=1738730828"
+          }
         }
       },
       "block_order": [
@@ -298,7 +306,8 @@
         "download_item_UYyHcr",
         "download_item_wfLy9M",
         "download_item_wBCcFV",
-        "download_item_DEjq67"
+        "download_item_DEjq67",
+        "download_item_iJKPDQ"
       ],
       "settings": {
         "title": "",
