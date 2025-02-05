@@ -248,6 +248,22 @@
           "settings": {
             "title": "Pigments"
           }
+        },
+        "download_item_UYyHcr": {
+          "type": "download_item",
+          "settings": {
+            "title": "White Pigment",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_-_White_Pigment_-_2024.pdf?v=1738730520"
+          }
+        },
+        "download_item_wfLy9M": {
+          "type": "download_item",
+          "settings": {
+            "title": "Black Pigment",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_BLACK_Pigment_2022.pdf?v=1738730616"
+          }
         }
       },
       "block_order": [
@@ -262,7 +278,9 @@
         "download_item_c9RDxc",
         "download_item_UfCd7g",
         "download_item_dxXQwP",
-        "download_title_D4NzgL"
+        "download_title_D4NzgL",
+        "download_item_UYyHcr",
+        "download_item_wfLy9M"
       ],
       "settings": {
         "title": "",
