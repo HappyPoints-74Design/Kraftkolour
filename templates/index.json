@@ -175,6 +175,21 @@
         "overtext": true
       }
     },
+    "background_image_text_Qx36Gj": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
     "featured-collection2": {
       "type": "featured-collection",
       "settings": {
@@ -289,6 +304,7 @@
   "order": [
     "slideshow",
     "featured-collections",
+    "background_image_text_Qx36Gj",
     "featured-collection2",
     "promo_grid_fhAp4U",
     "featured-collection"
