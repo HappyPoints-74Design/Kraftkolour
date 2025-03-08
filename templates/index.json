@@ -179,8 +179,8 @@
       "type": "background-image-text",
       "settings": {
         "subtitle": "March Special",
-        "title": "20% off Sun Dye Mood Kits  💜💙💚",
-        "text": "",
+        "title": "20% off Sun Dye Mood Kits  💜💚",
+        "text": "<p>(discount applied at checkout)</p>",
         "button_label": "Show me more...",
         "button_link": "shopify://collections/sun-dye-kits",
         "image": "shopify://shop_images/Sundye_Mood_Kit.jpg",
