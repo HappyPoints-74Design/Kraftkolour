@@ -190,13 +190,13 @@
         "parallax_direction": "top"
       }
     },
-    "featured-collection2": {
+    "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Products",
-        "heading_size": "h3",
+        "title": "New Arrivals",
+        "heading_size": "h1",
         "heading_position": "left",
-        "home_featured_products": "featured-products",
+        "home_featured_products": "new-products",
         "count": 5,
         "products_per_row": 5,
         "mobile_scrollable": true,
@@ -285,14 +285,13 @@
         "space_below": false
       }
     },
-    "featured-collection": {
+    "featured-collection2": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "New Arrivals",
+        "title": "Featured Products",
         "heading_size": "h3",
         "heading_position": "left",
-        "home_featured_products": "new-arrivals",
+        "home_featured_products": "featured-products",
         "count": 5,
         "products_per_row": 5,
         "mobile_scrollable": true,
@@ -305,8 +304,8 @@
     "slideshow",
     "featured-collections",
     "background_image_text_Qx36Gj",
-    "featured-collection2",
+    "featured-collection",
     "promo_grid_fhAp4U",
-    "featured-collection"
+    "featured-collection2"
   ]
 }
