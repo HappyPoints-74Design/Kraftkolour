@@ -521,6 +521,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_RESIST_SALT_L_2022.pdf?v=1727761006"
           }
         },
+        "download_item_7giCWd": {
+          "type": "download_item",
+          "settings": {
+            "title": "Rock Salt",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_ROCK_SALT_-_SODIUM_CHLORIDE_2025.pdf?v=1742932254"
+          }
+        },
         "download_item_UYP8Hi": {
           "type": "download_item",
           "settings": {
@@ -644,6 +652,7 @@
         "download_item_96cf94",
         "download_item_YVjJQn",
         "download_item_d6rKqW",
+        "download_item_7giCWd",
         "download_item_UYP8Hi",
         "download_item_iFzCWx",
         "download_item_Dfd9Ja",
