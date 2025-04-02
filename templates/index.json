@@ -178,12 +178,12 @@
     "background_image_text_Qx36Gj": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "March Special",
-        "title": "20% off Sun Dye Mood Kits  💜💚",
-        "text": "<p>(discount applied at checkout)</p>",
+        "subtitle": "April Special",
+        "title": "10% off Woollen Scarves & Wraps",
+        "text": "<p>(discount applied at checkout) 🐑</p>",
         "button_label": "Show me more...",
-        "button_link": "shopify://collections/sun-dye-kits",
-        "image": "shopify://shop_images/Sundye_Mood_Kit.jpg",
+        "button_link": "shopify://collections/wool-wool-blend-scarves-wraps-throws-1",
+        "image": "shopify://shop_images/72DPIHandloomedMerinoWoolThickScarf25x180cmwithtwistedfringe.jpg",
         "layout": "left",
         "height": 550,
         "parallax": false,
