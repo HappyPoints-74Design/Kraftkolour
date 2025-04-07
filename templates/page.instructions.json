@@ -437,6 +437,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Marbling_Instructions_2024.pdf?v=1727748184"
           }
         },
+        "download_item_7cNgKb": {
+          "type": "download_item",
+          "settings": {
+            "title": "Vastorg Marbling and Product Guide",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Vastorg_Marbling_Instructions_and_Product_Guide.pdf?v=1743995622"
+          }
+        },
         "download_item_qCXqwE": {
           "type": "download_item",
           "settings": {
@@ -492,6 +500,7 @@
         "download_item_ePxKHF",
         "download_item_L6Vx4A",
         "download_item_8WY88w",
+        "download_item_7cNgKb",
         "download_item_qCXqwE",
         "download_item_ECmcBX",
         "download_item_jaU8Uy",
