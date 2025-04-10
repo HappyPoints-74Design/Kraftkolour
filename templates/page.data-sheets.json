@@ -489,6 +489,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_KOLOURFIX_FF_2023.pdf?v=1727760934"
           }
         },
+        "download_item_rQmiJk": {
+          "type": "download_item",
+          "settings": {
+            "title": "SDS - Kolourfix LS",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_KOLOURFIX_LS_2025.pdf?v=1744255362"
+          }
+        },
         "download_item_dhWdNQ": {
           "type": "download_item",
           "settings": {
@@ -648,6 +656,7 @@
         "download_item_YiqLCk",
         "download_item_zMkx8K",
         "download_item_th6gU9",
+        "download_item_rQmiJk",
         "download_item_dhWdNQ",
         "download_item_96cf94",
         "download_item_YVjJQn",
