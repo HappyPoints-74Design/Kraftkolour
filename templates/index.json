@@ -177,6 +177,7 @@
     },
     "background_image_text_Qx36Gj": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "April Special",
         "title": "10% off Woollen Scarves & Wraps",
