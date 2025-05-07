@@ -190,7 +190,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9846f2",
-            "text_align": "vertical-center horizontal-left",
+            "text_align": "vertical-bottom horizontal-left",
             "image": "shopify://shop_images/Puima_sale.jpg",
             "image_mobile": "shopify://shop_images/Puima_sale.jpg",
             "overlay_opacity": 8
