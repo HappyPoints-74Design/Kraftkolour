@@ -185,7 +185,7 @@
             "title": "<p>15% OFF DHG Piuma Yarns</p>",
             "title_size": 64,
             "subheading": "Shop Piuma",
-            "link": "https://kraftkolour.net.au/search?q=dhg+piuma+yarn&options%5Bprefix%5D=last",
+            "link": "https://kraftkolour.net.au/search?q=DHG+Piuma+Yarn&options%5Bprefix%5D=last",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -193,7 +193,7 @@
             "text_align": "vertical-center horizontal-left",
             "image": "shopify://shop_images/KK_DHG_Yarn.jpg",
             "image_mobile": "shopify://shop_images/KK_DHG_Yarn.jpg",
-            "overlay_opacity": 0
+            "overlay_opacity": 8
           }
         }
       },
