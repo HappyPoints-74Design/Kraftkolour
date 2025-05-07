@@ -180,6 +180,7 @@
       "blocks": {
         "hero_GcpNzd": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "May Special",
             "title": "<p>15% OFF DHG Piuma Yarns</p>",
@@ -191,8 +192,8 @@
             "link_text_2": "",
             "color_accent": "#9846f2",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/KK_DHG_Yarn.jpg",
-            "image_mobile": "shopify://shop_images/KK_DHG_Yarn.jpg",
+            "image": "shopify://shop_images/Puima_sale.jpg",
+            "image_mobile": "shopify://shop_images/Puima_sale.jpg",
             "overlay_opacity": 8
           }
         }
