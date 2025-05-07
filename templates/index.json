@@ -175,6 +175,41 @@
         "overtext": true
       }
     },
+    "slideshow_qwhnpV": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_GcpNzd": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "May Special",
+            "title": "<p>All DHG Puima Yarn</p>",
+            "title_size": 64,
+            "subheading": "15% OFF all DHG Puima Yarns",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#7c7c80",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/KK_DHG_Yarn.jpg",
+            "image_mobile": "shopify://shop_images/KK_DHG_Yarn.jpg",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_GcpNzd"
+      ],
+      "name": "Monthly Special",
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
     "background_image_text_Qx36Gj": {
       "type": "background-image-text",
       "disabled": true,
@@ -304,6 +339,7 @@
   "order": [
     "slideshow",
     "featured-collections",
+    "slideshow_qwhnpV",
     "background_image_text_Qx36Gj",
     "featured-collection",
     "promo_grid_fhAp4U",
