@@ -279,16 +279,3 @@
   }
 }
 {% endschema %}
-
-{% if settings.show_newsletter %}
-  <div class="newsletter-signup">
-    <form method="post" action="{{ routes.root_url }}contact#newsletter" accept-charset="UTF-8" class="newsletter-form">
-      <input type="hidden" name="form_type" value="customer">
-      <input type="hidden" name="utf8" value="✓">
-      <label for="NewsletterEmail" class="visually-hidden">Email</label>
-      <input type="email" name="contact[email]" id="NewsletterEmail" placeholder="Enter your email" required>
-      <input type="hidden" name="contact[tags]" value="newsletter">
-      <button type="submit">Subscribe</button>
-    </form>
-  </div>
-{% endif %}
