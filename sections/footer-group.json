@@ -26,6 +26,7 @@
       "block_order": [
         "liquid_eaacjr"
       ],
+      "disabled": true,
       "name": "t:labels.custom_content",
       "settings": {
         "full_width": false,
