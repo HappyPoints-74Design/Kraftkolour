@@ -11,6 +11,27 @@
   "type": "footer",
   "name": "t:labels.footer_group",
   "sections": {
+    "advanced_content_ERHXhY": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_eaacjr": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div id=\"fd-form-682d9408917f56fa93c025f2\"></div>\n<script>\n  window.fd('form', {\n    formId: '682d9408917f56fa93c025f2',\n    containerEl: '#fd-form-682d9408917f56fa93c025f2'\n  });\n</script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_eaacjr"
+      ],
+      "name": "t:labels.custom_content",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "footer-promotions": {
       "type": "footer-promotions",
       "blocks": {
@@ -107,7 +128,7 @@
         "footer-1"
       ],
       "settings": {
-        "show_newsletter": true,
+        "show_newsletter": false,
         "newsletter_richtext": "<p>Subscribe today to hear first about our sales</p>",
         "footer_main_menu": true,
         "show_copyright": true,
@@ -117,6 +138,7 @@
     }
   },
   "order": [
+    "advanced_content_ERHXhY",
     "footer-promotions",
     "footer"
   ]
