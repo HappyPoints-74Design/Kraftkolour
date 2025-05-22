@@ -37,7 +37,6 @@
 
   {%- endstyle -%}
 
-
   {%- liquid
     assign enableSuperScript = false
     unless shop.money_format contains 'money' or shop.money_format contains '.'
@@ -52,7 +51,6 @@
   -%}
 
   <script>
-    
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
     if (!window.location.pathname.includes("apps/customer-portal")) {
@@ -60,50 +58,50 @@
     }
     
     theme.routes = {
-        home: "{{ routes.root_url }}",
-        collections: "{{ routes.collections_url }}",
-        cart: "{{ routes.cart_url | append: '.js' }}",
-        cartPage: "{{ routes.cart_url }}",
-        cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
-        cartChange: "{{ routes.cart_change_url | append: '.js' }}",
-        search: "{{ routes.search_url }}",
-        predictiveSearch: "{{ routes.predictive_search_url }}"
-      };
-  
-      theme.strings = {
-        soldOut: {{ 'info.sold_out' | t | json }},
-        unavailable: {{ 'info.unavailable' | t | json }},
-        inStockLabel: {{ 'info.in_stock' | t | json }},
-        oneStockLabel: {{ 'info.low_stock_count.one' | t: count: '[count]' | json }},
-        otherStockLabel: {{ 'info.low_stock_count.other' | t: count: '[count]' | json }},
-        willNotShipUntil: {{ 'info.ready_to_ship_on' | t: date: '[date]' | json }},
-        willBeInStockAfter: {{ 'info.back_in_stock_on' | t: date: '[date]' | json }},
-        waitingForStock: {{ 'info.backordered' | t | json }},
-        savePrice: {{ 'info.save_amount' | t: saved_amount: '[saved_amount]' | json }},
-        cartEmpty: {{ 'info.cart_empty' | t | json }},
-        cartTermsConfirmation: {{ 'info.you_must_agree' | t | json }},
-        searchCollections: {{ 'labels.collections' | t | json }},
-        searchPages: {{ 'labels.pages' | t | json }},
-        searchArticles: {{ 'labels.articles' | t | json }},
-        maxQuantity: {{ 'info.cart_max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
-      };
-      theme.settings = {
-        cartType: {{ settings.cart_type | json }},
-        isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
-        moneyFormat: {{ shop.money_format | json }},
-        saveType: {{ settings.product_save_type | json }},
-        productImageSize: {{ settings.product_grid_image_size | json }},
-        productImageCover: {{ settings.product_grid_image_fill }},
-        predictiveSearch: {{ settings.predictive_search_enabled }},
-        predictiveSearchType: {{ settings.search_type | json }},
-        superScriptSetting: {{ settings.superscript_decimals }},
-        superScriptPrice: {{ enableSuperScript }},
-        quickView: {{ settings.quick_shop_enable }},
-        quickAdd: {{ settings.quick_add_enable }},
-        themeName: 'Expanse',
-        themeVersion: "5.1.0"
-      };
-    
+      home: "{{ routes.root_url }}",
+      collections: "{{ routes.collections_url }}",
+      cart: "{{ routes.cart_url | append: '.js' }}",
+      cartPage: "{{ routes.cart_url }}",
+      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
+      cartChange: "{{ routes.cart_change_url | append: '.js' }}",
+      search: "{{ routes.search_url }}",
+      predictiveSearch: "{{ routes.predictive_search_url }}"
+    };
+
+    theme.strings = {
+      soldOut: {{ 'info.sold_out' | t | json }},
+      unavailable: {{ 'info.unavailable' | t | json }},
+      inStockLabel: {{ 'info.in_stock' | t | json }},
+      oneStockLabel: {{ 'info.low_stock_count.one' | t: count: '[count]' | json }},
+      otherStockLabel: {{ 'info.low_stock_count.other' | t: count: '[count]' | json }},
+      willNotShipUntil: {{ 'info.ready_to_ship_on' | t: date: '[date]' | json }},
+      willBeInStockAfter: {{ 'info.back_in_stock_on' | t: date: '[date]' | json }},
+      waitingForStock: {{ 'info.backordered' | t | json }},
+      savePrice: {{ 'info.save_amount' | t: saved_amount: '[saved_amount]' | json }},
+      cartEmpty: {{ 'info.cart_empty' | t | json }},
+      cartTermsConfirmation: {{ 'info.you_must_agree' | t | json }},
+      searchCollections: {{ 'labels.collections' | t | json }},
+      searchPages: {{ 'labels.pages' | t | json }},
+      searchArticles: {{ 'labels.articles' | t | json }},
+      maxQuantity: {{ 'info.cart_max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+    };
+
+    theme.settings = {
+      cartType: {{ settings.cart_type | json }},
+      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
+      moneyFormat: {{ shop.money_format | json }},
+      saveType: {{ settings.product_save_type | json }},
+      productImageSize: {{ settings.product_grid_image_size | json }},
+      productImageCover: {{ settings.product_grid_image_fill }},
+      predictiveSearch: {{ settings.predictive_search_enabled }},
+      predictiveSearchType: {{ settings.search_type | json }},
+      superScriptSetting: {{ settings.superscript_decimals }},
+      superScriptPrice: {{ enableSuperScript }},
+      quickView: {{ settings.quick_shop_enable }},
+      quickAdd: {{ settings.quick_add_enable }},
+      themeName: 'Expanse',
+      themeVersion: "5.1.0"
+    };
   </script>
 
   {%- render 'import-map' -%}
@@ -113,10 +111,9 @@
 
   {{ content_for_header }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
@@ -124,54 +121,55 @@
   {% if request.design_mode %}
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
-  
-<script src="{{ 'bss-po-custom-atc.js' | asset_url }}" defer></script>
-<script >
-          document.addEventListener("DOMContentLoaded", function() {
-            if (window.location.pathname.includes("apps/customer-portal")) {
-                  var style = document.createElement('style');
-                  style.innerHTML = `
-                  @media screen and (min-width: 1400px) {
-                      .site-navigation--below {
-                          flex-wrap: nowrap !important;
-                      }
-                  }
-                  ul.bss-nt-cart-item-properties {
-                      margin: 0 !important;
-                  }
-                  .bss-nt-cart-item-properties li:not(:first-child) {
-                      display: none !important;
-                  }
-                      
-    		  `;
-    	      document.head.appendChild(style);
-                }
-            
-          });
 
-</script>
-<meta name="google-site-verification" content="h5Of-FphnrZ1ID_VbdCB53xdu56DuplwBu2jOhkTXFQ" />
-<script>
-  (function(w, d, t, h, s, n) {
-    w.FlodeskObject = n;
-    var fn = function() {
-      (w[n].q = w[n].q || []).push(arguments);
-    };
-    w[n] = w[n] || fn;
-    var f = d.getElementsByTagName(t)[0];
-    var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-    var sm = d.createElement(t);
-    sm.async = true;
-    sm.type = 'module';
-    sm.src = h + s + '.mjs' + v;
-    f.parentNode.insertBefore(sm, f);
-    var sn = d.createElement(t);
-    sn.async = true;
-    sn.noModule = true;
-    sn.src = h + s + '.js' + v;
-    f.parentNode.insertBefore(sn, f);
-  })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-</script>
+  <script src="{{ 'bss-po-custom-atc.js' | asset_url }}" defer></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (window.location.pathname.includes("apps/customer-portal")) {
+        var style = document.createElement('style');
+        style.innerHTML = `
+          @media screen and (min-width: 1400px) {
+              .site-navigation--below {
+                  flex-wrap: nowrap !important;
+              }
+          }
+          ul.bss-nt-cart-item-properties {
+              margin: 0 !important;
+          }
+          .bss-nt-cart-item-properties li:not(:first-child) {
+              display: none !important;
+          }
+        `;
+        document.head.appendChild(style);
+      }
+    });
+  </script>
+
+  <meta name="google-site-verification" content="h5Of-FphnrZ1ID_VbdCB53xdu56DuplwBu2jOhkTXFQ" />
+
+  <!-- Flodesk universal script -->
+  <script>
+    (function(w, d, t, h, s, n) {
+      w.FlodeskObject = n;
+      var fn = function() {
+        (w[n].q = w[n].q || []).push(arguments);
+      };
+      w[n] = w[n] || fn;
+      var f = d.getElementsByTagName(t)[0];
+      var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+      var sm = d.createElement(t);
+      sm.async = true;
+      sm.type = 'module';
+      sm.src = h + s + '.mjs' + v;
+      f.parentNode.insertBefore(sm, f);
+      var sn = d.createElement(t);
+      sn.async = true;
+      sn.noModule = true;
+      sn.src = h + s + '.js' + v;
+      f.parentNode.insertBefore(sn, f);
+    })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+  </script>
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-button_style="{{ settings.button_style }}" data-edges="{{ settings.roundness }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" data-grid-style="{{ settings.product_grid_style }}">
@@ -196,15 +194,6 @@
     render 'photoswipe-template'
     render 'tool-tip'
   -%}
-  <script type="text/javascript" src="https://www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
-  <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VqxRjf"></script>
-  <script type="text/javascript"> 
-  //Initialize the Klaviyo object on page load
-  !function(){if(!window.klaviyo){window._klOnsite=window._klOnsite||[];try{window.klaviyo=new Proxy({},{get:function(n,i){return"push"===i?function(){var n;(n=window._klOnsite).push.apply(n,arguments)}:function(){for(var n=arguments.length,o=new Array(n),w=0;w<n;w++)o[w]=arguments[w];var t="function"==typeof o[o.length-1]?o.pop():void 0,e=new Promise((function(n){window._klOnsite.push([i].concat(o,[function(i){t&&t(i),n(i)}]))}));return e}}})}catch(n){window.klaviyo=window.klaviyo||[],window.klaviyo.push=function(){var n;(n=window._klOnsite).push.apply(n,arguments)}}}}(); </script>
-  <script type="text/javascript">
-  //Customer accounts
-  var klaviyo = window.klaviyo || [];
-  if ("{{ customer.email }}") {klaviyo.identify({"$email" : "{{ customer.email }}"})};
-  </script>
+
 </body>
 </html>
