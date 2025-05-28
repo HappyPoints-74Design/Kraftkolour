@@ -339,11 +339,11 @@
       "name": "t:labels.blog_posts",
       "settings": {
         "title": "From the blog",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "heading_position": "left",
         "blog": "news",
         "blog_show_tags": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "blog_show_comments": false,
         "blog_show_author": false,
         "blog_show_excerpt": false,
