@@ -60,18 +60,11 @@
           "settings": {
             "title": "Phone"
           }
-        },
-        "select_option_fiYf6Y": {
-          "type": "select_option",
-          "settings": {
-            "title": "Option 3"
-          }
         }
       },
       "block_order": [
         "select_option_gBApP9",
-        "select_option_bxjjyb",
-        "select_option_fiYf6Y"
+        "select_option_bxjjyb"
       ],
       "settings": {
         "title": "Email Enquiry Form",
