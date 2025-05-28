@@ -200,7 +200,6 @@
       "block_order": [
         "hero_GcpNzd"
       ],
-      "name": "Monthly Special",
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -334,6 +333,23 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "blog_posts_Eikrhq": {
+      "type": "blog-posts",
+      "name": "t:labels.blog_posts",
+      "settings": {
+        "title": "From the blog",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "blog": "news",
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -343,6 +359,7 @@
     "background_image_text_Qx36Gj",
     "featured-collection",
     "promo_grid_fhAp4U",
-    "featured-collection2"
+    "featured-collection2",
+    "blog_posts_Eikrhq"
   ]
 }
