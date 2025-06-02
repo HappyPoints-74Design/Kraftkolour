@@ -210,36 +210,6 @@
         "autoplay_speed": 7
       }
     },
-    "background_image_text_Qx36Gj": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "April Special",
-        "title": "10% off Woollen Scarves & Wraps",
-        "text": "<p>(discount applied at checkout) 🐑</p>",
-        "button_label": "Show me more...",
-        "button_link": "shopify://collections/wool-wool-blend-scarves-wraps-throws-1",
-        "image": "shopify://shop_images/72DPIHandloomedMerinoWoolThickScarf25x180cmwithtwistedfringe.jpg",
-        "layout": "left",
-        "height": 550,
-        "parallax": false,
-        "parallax_direction": "top"
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Arrivals",
-        "heading_size": "h1",
-        "heading_position": "left",
-        "home_featured_products": "new-products",
-        "count": 5,
-        "products_per_row": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "slideshow_izHFHb": {
       "type": "slideshow",
       "blocks": {
@@ -291,6 +261,36 @@
         "style": "minimal",
         "autoplay": false,
         "autoplay_speed": 7
+      }
+    },
+    "background_image_text_Qx36Gj": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "April Special",
+        "title": "10% off Woollen Scarves & Wraps",
+        "text": "<p>(discount applied at checkout) 🐑</p>",
+        "button_label": "Show me more...",
+        "button_link": "shopify://collections/wool-wool-blend-scarves-wraps-throws-1",
+        "image": "shopify://shop_images/72DPIHandloomedMerinoWoolThickScarf25x180cmwithtwistedfringe.jpg",
+        "layout": "left",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "heading_size": "h1",
+        "heading_position": "left",
+        "home_featured_products": "new-products",
+        "count": 5,
+        "products_per_row": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "promo_grid_fhAp4U": {
@@ -410,9 +410,9 @@
     "slideshow",
     "featured-collections",
     "slideshow_qwhnpV",
+    "slideshow_izHFHb",
     "background_image_text_Qx36Gj",
     "featured-collection",
-    "slideshow_izHFHb",
     "promo_grid_fhAp4U",
     "featured-collection2",
     "blog_posts_Eikrhq"
