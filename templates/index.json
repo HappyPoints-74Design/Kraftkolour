@@ -200,6 +200,7 @@
       "block_order": [
         "hero_GcpNzd"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -350,6 +351,57 @@
         "blog_image_size": "wide",
         "divider": false
       }
+    },
+    "slideshow_xBYeWK": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_XahkFQ": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "June Offering",
+            "title": "<p>Silk Scarves & Fabrics</p>",
+            "title_size": 64,
+            "subheading": "A variety of sizes and weights.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#dcdbcf",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Monthly_offering_web_banner_1200_x_300_px.png",
+            "overlay_opacity": 0
+          }
+        },
+        "hero_rrA8zW": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Silk Scarves & Fabrics</p>",
+            "title_size": 64,
+            "subheading": "A variety of sizes and weights.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#E22128",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_XahkFQ",
+        "hero_rrA8zW"
+      ],
+      "name": "Ashford Loom Sale 10% Off",
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "minimal",
+        "autoplay": true,
+        "autoplay_speed": 9
+      }
     }
   },
   "order": [
@@ -360,6 +412,7 @@
     "featured-collection",
     "promo_grid_fhAp4U",
     "featured-collection2",
-    "blog_posts_Eikrhq"
+    "blog_posts_Eikrhq",
+    "slideshow_xBYeWK"
   ]
 }
