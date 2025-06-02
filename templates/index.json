@@ -245,6 +245,7 @@
       "blocks": {
         "hero_ccCwEH": {
           "type": "hero",
+          "name": "June offering - ashford looms 10%off",
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -262,6 +263,7 @@
         },
         "hero_4zL33t": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Silk Scarves & Fabrics</p>",
