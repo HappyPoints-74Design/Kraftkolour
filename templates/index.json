@@ -201,6 +201,7 @@
         "hero_GcpNzd"
       ],
       "disabled": true,
+      "name": "May Special - Puima",
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -227,7 +228,7 @@
             "link_text_2": "",
             "color_accent": "#E22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Monthly_offering_web_banner_1200_x_300_px_65f7fd22-e357-44f2-9394-c1eb7a00b558.png",
+            "image": "shopify://shop_images/Monthly_offering_web_banner_1200_x_300_px_copy.png",
             "overlay_opacity": 0
           }
         },
