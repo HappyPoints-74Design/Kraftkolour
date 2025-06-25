@@ -16,9 +16,8 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "richtext": "<p>ORDERS ARE NOW BEING FULFILLED FROM OUR WAREHOUSE. </p>",
+            "richtext": "<p>WE ARE CURRENTLY EXPERIENCING PROBLEMS WITH OUR COLOURS DISPLAYING. SORRY! PLEASE BEAR WITH US. WE ARE WORKING ON IT.</p>",
             "richtext_mobile": ""
           }
         },
