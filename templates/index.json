@@ -226,7 +226,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#E22128",
+            "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/Monthly_offering_web_banner_1200_x_300_px_copy.png",
             "overlay_opacity": 0
@@ -237,15 +237,16 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Silk Scarves & Fabrics</p>",
+            "title": "",
             "title_size": 64,
-            "subheading": "A variety of sizes and weights.",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#E22128",
+            "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/July_2025_Monthly_offering_banner.png",
             "overlay_opacity": 0
           }
         }
