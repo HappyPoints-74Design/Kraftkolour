@@ -23,6 +23,7 @@
         },
         "toolbar-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p>WE APOLOGISE FOR ANY INCONVENIENCE THIS MAY CAUSE.</p>",
             "richtext_mobile": "<p>Welcome to our new Website! </p>"
