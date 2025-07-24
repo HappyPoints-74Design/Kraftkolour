@@ -92,7 +92,7 @@
       -%}
 
       <div class="grid-item__link">
-        <a href="{{ product.url | within: collection }}" class="grid-product__image-wrap">
+        <a href="{{ product.url  }}" class="grid-product__image-wrap">
           <div class="grid-product__tags">
             {%- if has_custom_label -%}
               {%- assign labels = custom_labels | split: ',' -%}
