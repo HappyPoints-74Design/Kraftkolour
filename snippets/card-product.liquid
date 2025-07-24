@@ -92,7 +92,7 @@
       -%}
 
       <div class="grid-item__link">
-        <a href="{{ product.url  }}" class="grid-product__image-wrap">
+        <a href="{{ product.url | within: collection }}" class="grid-product__image-wrap">
           <div class="grid-product__tags">
             {%- if has_custom_label -%}
               {%- assign labels = custom_labels | split: ',' -%}
@@ -216,7 +216,7 @@
               {%- render 'swatches', product: product -%}
             {%- endif -%} {% endcomment %}
 
-            <a href="{{ product.url }}" class="grid-product__title">{{ product.title }}</a>
+            <a href="{{ product.url | within: collection }}" class="grid-product__title">{{ product.title }}</a>
               {%- if vendor_enable -%}
                 <div class="grid-product__vendor">{{ product.vendor }}</div>
               {%- endif -%}
@@ -289,7 +289,7 @@
             {%- endif -%}
 
             <div class="grid-item__meta-button">
-              <a href="{{ product.url }}" class="btn btn--blue btn--full">
+              <a href="{{ product.url | within: collection }}" class="btn btn--blue btn--full">
                 Choose options
               </a>
               {% comment %} {% if product.available %}
