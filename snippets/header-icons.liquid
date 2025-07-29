@@ -14,7 +14,13 @@
 
 <div class="site-nav">
   <div class="site-nav__icons">
-    <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header small--hide{% if nav_position == 'below' %} medium-up--hide{% endif %} js-no-transition">
+    <a href="#swym-wishlist" class="swym-wishlist">
+      <i aria-hidden="true" focusable="false" role="presentation" class="fa fa-heart"></i>
+    </a>
+    <a
+      href="{{ routes.search_url }}"
+      class="site-nav__link site-nav__link--icon js-search-header small--hide{% if nav_position == 'below' %} medium-up--hide{% endif %} js-no-transition"
+    >
       {% render 'icon', name: 'search' %}
       <span class="icon__fallback-text visually-hidden">{{ 'labels.search' | t }}</span>
     </a>
@@ -28,7 +34,10 @@
       </a>
     {%- endif -%}
 
-  <a {% if settings.cart_type == "page" %}href="{{ routes.cart_url }}"{% endif %}
+    <a
+      {% if settings.cart_type == 'page' %}
+        href="{{ routes.cart_url }}"
+      {% endif %}
       id="HeaderCartTrigger"
       aria-controls="HeaderCart"
       class="site-nav__link site-nav__link--icon site-nav__link--icon-cart js-no-transition"
@@ -46,9 +55,11 @@
       </span>
     </a>
 
-    <button type="button"
+    <button
+      type="button"
       aria-controls="MobileNav"
-      class="site-nav__link site-nav__link--icon medium-up--hide mobile-nav-trigger">
+      class="site-nav__link site-nav__link--icon medium-up--hide mobile-nav-trigger"
+    >
       {% render 'icon', name: 'hamburger' %}
       <span class="icon__fallback-text visually-hidden">{{ 'labels.site_navigation' | t }}</span>
     </button>
