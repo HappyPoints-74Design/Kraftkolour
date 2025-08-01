@@ -1032,6 +1032,11 @@
           "storefront_layout_drawer_width": 400,
           "storefront_layout_as_section_page": ""
         }
+      },
+      "15573056287721514228": {
+        "type": "shopify://apps/json-ld-for-seo/blocks/app-embed/3fcb4f45-bdde-43fd-84ae-8006cdcd1028",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
