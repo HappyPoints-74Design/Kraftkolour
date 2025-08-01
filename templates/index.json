@@ -235,6 +235,7 @@
         },
         "hero_4zL33t": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
