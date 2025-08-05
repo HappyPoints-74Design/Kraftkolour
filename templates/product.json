@@ -29,7 +29,11 @@
           }
         },
         "bss_variant_options_option_set_gPKPdA": {
-          "type": "shopify://apps/optis-product-options-variant/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
+          "type": "shopify://apps/optis-product-options/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_E9d7W7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
         "price": {
@@ -93,6 +97,7 @@
         "description_4JMjBP",
         "variant_picker",
         "bss_variant_options_option_set_gPKPdA",
+        "judge_me_reviews_preview_badge_E9d7W7",
         "price",
         "sales_point",
         "sales_point2",
