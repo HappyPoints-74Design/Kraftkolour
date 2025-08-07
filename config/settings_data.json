@@ -1037,6 +1037,11 @@
         "type": "shopify://apps/json-ld-for-seo/blocks/app-embed/3fcb4f45-bdde-43fd-84ae-8006cdcd1028",
         "disabled": false,
         "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
