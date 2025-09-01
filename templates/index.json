@@ -216,7 +216,7 @@
       "blocks": {
         "hero_ccCwEH": {
           "type": "hero",
-          "name": "June offering - ashford looms 10%off",
+          "name": "SEPT 2025 OFFERING",
           "disabled": true,
           "settings": {
             "top_subheading": "",
@@ -229,7 +229,8 @@
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Monthly_offering_web_banner_1200_x_300_px_copy.png",
+            "image": "shopify://shop_images/Batik_Kit_September_Offering_2025.png",
+            "image_mobile": "shopify://shop_images/Batik_Kit_September_Offering_2025_Mobile_1.png",
             "overlay_opacity": 0
           }
         },
