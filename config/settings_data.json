@@ -956,11 +956,6 @@
         "disabled": true,
         "settings": {}
       },
-      "5294968793578418440": {
-        "type": "shopify://apps/king-product-options-variant/blocks/app-embed/ce104259-52b1-4720-9ecf-76b34cae0401",
-        "disabled": false,
-        "settings": {}
-      },
       "1102061855093433159": {
         "type": "shopify://apps/bss-b2b-portal/blocks/config-header/0c13e75b-92f5-4200-98c1-50c1fdb201bc",
         "disabled": false,
@@ -1039,8 +1034,8 @@
         "disabled": false,
         "settings": {}
       },
-      "225974469635385529": {
-        "type": "shopify://apps/cartly-abandoned-cart-recovery/blocks/app_er/27483516-328f-4b12-bd55-24ebb3ec5feb",
+      "18348123794867637515": {
+        "type": "shopify://apps/email-wiz/blocks/app-embed/240b6bc0-e686-4c07-8fde-eb7ee1949893",
         "disabled": false,
         "settings": {}
       }
