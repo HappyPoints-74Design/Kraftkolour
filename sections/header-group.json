@@ -23,7 +23,6 @@
         },
         "toolbar-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "richtext": "<p>KRAFTKOLOUR WILL BE CLOSED FOR PICKUPS AND PHONE CALLS THIS FRIDAY 26TH SEPTEMBER, DUE TO A VICTORIAN PUBLIC HOLIDAY.</p>",
             "richtext_mobile": "<p>KRAFTKOLOUR WILL BE CLOSED FOR PICKUPS AND PHONE CALLS THIS FRIDAY 26TH SEPTEMBER, DUE TO A VICTORIAN PUBLIC HOLIDAY.</p>"
