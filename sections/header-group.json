@@ -16,6 +16,7 @@
       "blocks": {
         "toolbar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p><strong>FAVOURITE FIBRE SALE NOW ON UNTIL 31 JULY! ... 10% OFF 19MIC TOPS, 19MIC BATTS, 27MIC BATTS!</strong></p>",
             "richtext_mobile": "<p><strong>FAVOURITE FIBRE SALE NOW ON UNTIL 31 JULY!</strong></p>"
@@ -42,7 +43,6 @@
         "toolbar-1",
         "announcement_AgXRKy"
       ],
-      "disabled": true,
       "settings": {
         "announcement_center": true,
         "toolbar_social": false,
