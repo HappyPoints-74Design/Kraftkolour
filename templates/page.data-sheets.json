@@ -417,6 +417,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dextrin_TW_2022.pdf?v=1727760879"
           }
         },
+        "download_item_rytgkE": {
+          "type": "download_item",
+          "settings": {
+            "title": "Discharge Stock Paste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DISCHARGE_STOCK_PASTE_2020.pdf?v=1759284804"
+          }
+        },
         "download_item_VGKgNV": {
           "type": "download_item",
           "settings": {
@@ -633,12 +641,12 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Wetter_OT_2020_New.pdf?v=1727761102"
           }
         },
-        "download_item_rytgkE": {
+        "download_item_cm848A": {
           "type": "download_item",
           "settings": {
-            "title": "Discharge Stock Paste",
+            "title": "Discharge Powder C",
             "download_label": "Download",
-            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DISCHARGE_STOCK_PASTE_2020.pdf?v=1759284804"
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Discharge_Powder_C_2023.pdf?v=1759284804"
           }
         }
       },
@@ -655,6 +663,7 @@
         "download_item_GdwJBw",
         "download_item_ngUXD3",
         "download_item_FeBgaW",
+        "download_item_rytgkE",
         "download_item_VGKgNV",
         "download_item_yGzLHN",
         "download_item_i8enby",
@@ -682,7 +691,7 @@
         "download_item_BiRGr8",
         "download_item_tJFbFk",
         "download_item_DK8LDf",
-        "download_item_rytgkE"
+        "download_item_cm848A"
       ],
       "settings": {
         "title": "",
