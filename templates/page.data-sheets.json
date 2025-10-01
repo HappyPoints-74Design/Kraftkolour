@@ -632,6 +632,14 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Wetter_OT_2020_New.pdf?v=1727761102"
           }
+        },
+        "download_item_rytgkE": {
+          "type": "download_item",
+          "settings": {
+            "title": "Discharge Stock Paste",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_DISCHARGE_STOCK_PASTE_2020.pdf?v=1759284804"
+          }
         }
       },
       "block_order": [
@@ -673,7 +681,8 @@
         "download_item_xYmiAM",
         "download_item_BiRGr8",
         "download_item_tJFbFk",
-        "download_item_DK8LDf"
+        "download_item_DK8LDf",
+        "download_item_rytgkE"
       ],
       "settings": {
         "title": "",
@@ -718,6 +727,20 @@
         "padding_top_mobile": 48,
         "padding_bottom_mobile": 48
       }
+    },
+    "download_file_list_d3t6dD": {
+      "type": "download-file-list",
+      "name": "Download file list",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "heading_position": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48
+      }
     }
   },
   "order": [
@@ -726,6 +749,7 @@
     "download_file_list_L3EfNK",
     "download_file_list_YUfzJe",
     "download_file_list_FbdbNN",
-    "download_file_list_Ppb3Hw"
+    "download_file_list_Ppb3Hw",
+    "download_file_list_d3t6dD"
   ]
 }
