@@ -417,6 +417,14 @@
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Dextrin_TW_2022.pdf?v=1727760879"
           }
         },
+        "download_item_VXG9wk": {
+          "type": "download_item",
+          "settings": {
+            "title": "Discharge Liquid FD",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Discharge_Liquid_FD_2023.pdf?v=1759284803"
+          }
+        },
         "download_item_cm848A": {
           "type": "download_item",
           "settings": {
@@ -648,14 +656,6 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Wetter_OT_2020_New.pdf?v=1727761102"
           }
-        },
-        "download_item_VXG9wk": {
-          "type": "download_item",
-          "settings": {
-            "title": "Discharge Liquid FD",
-            "download_label": "Download",
-            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/SDS_Discharge_Liquid_FD_2023.pdf?v=1759284803"
-          }
         }
       },
       "block_order": [
@@ -671,6 +671,7 @@
         "download_item_GdwJBw",
         "download_item_ngUXD3",
         "download_item_FeBgaW",
+        "download_item_VXG9wk",
         "download_item_cm848A",
         "download_item_rytgkE",
         "download_item_VGKgNV",
@@ -699,8 +700,7 @@
         "download_item_xYmiAM",
         "download_item_BiRGr8",
         "download_item_tJFbFk",
-        "download_item_DK8LDf",
-        "download_item_VXG9wk"
+        "download_item_DK8LDf"
       ],
       "settings": {
         "title": "",
