@@ -624,6 +624,14 @@
             "title": "Techniques and Resources"
           }
         },
+        "download_item_8nRJXD": {
+          "type": "download_item",
+          "settings": {
+            "title": "Batik for Beginners Resource",
+            "download_label": "Download",
+            "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Batik_for_Beginners_-_A_Kraftkolour_Resource.pdf?v=1759978153"
+          }
+        },
         "download_item_eEKK4Y": {
           "type": "download_item",
           "settings": {
@@ -659,6 +667,7 @@
       },
       "block_order": [
         "download_title_HcqHEG",
+        "download_item_8nRJXD",
         "download_item_eEKK4Y",
         "download_item_bkgpQJ",
         "download_item_JVcrKz",

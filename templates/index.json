@@ -217,6 +217,7 @@
         "hero_ccCwEH": {
           "type": "hero",
           "name": "SEPT 2025 OFFERING",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -256,6 +257,7 @@
         "hero_ccCwEH",
         "hero_4zL33t"
       ],
+      "disabled": true,
       "name": "t:labels.hero_optional_slides",
       "settings": {
         "full_width": true,
