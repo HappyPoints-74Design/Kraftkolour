@@ -218,16 +218,16 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide</p>",
+            "title": "",
             "title_size": 64,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#e22128",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/KROMSKI_SONS_zdjecie_w_tle_820_x_360_px__20250925_093031_0000.jpg",
+            "image": "shopify://shop_images/KROMSKI_WOOLTOBER_2025_BANNER.png",
             "overlay_opacity": 0
           }
         },
@@ -275,6 +275,7 @@
         "hero_ccCwEH",
         "hero_4zL33t"
       ],
+      "disabled": true,
       "name": "t:labels.hero_optional_slides",
       "settings": {
         "full_width": true,
