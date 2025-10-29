@@ -25,8 +25,8 @@
         "toolbar-1": {
           "type": "announcement",
           "settings": {
-            "richtext": "<p>KRAFTKOLOUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>",
-            "richtext_mobile": "<p>KRAFTKOLOUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>"
+            "richtext": "<p>OUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>",
+            "richtext_mobile": "<p>OUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>"
           }
         },
         "announcement_AgXRKy": {
@@ -43,7 +43,6 @@
         "toolbar-1",
         "announcement_AgXRKy"
       ],
-      "disabled": true,
       "settings": {
         "announcement_center": true,
         "toolbar_social": false,
