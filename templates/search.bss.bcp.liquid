@@ -7,6 +7,7 @@
             "tags": {{ item.tags | json }},
             "handle": {{ item.handle | json }},
             "featureImage": {{ item.featured_image | json }},
+            "variantsCount": {{ item.variants_count | json }},
             "variants": [{% for variant in item.variants %}
                 {% assign price_breaks_json = "" %}
                 {% if variant.quantity_price_breaks.size > 0 %}
@@ -22,7 +23,7 @@
                 {% endif %}
                 {
                     "id": {{ variant.id | json }},
-                    "image": {{ variant.featured_image | json }},
+                    "image": {{ variant.image.src | json }},
                     "inventory_management": {{ variant.inventory_management | json }},
                     "inventory_policy": {{ variant.inventory_policy | json }},
                     "inventory_quantity": {{ variant.inventory_quantity | json }},
@@ -50,6 +51,7 @@
             "price_min": {{ item.price_min | json }},
             "type": {{ item.type | json }},
             "vendor": {{ item.vendor | json }},
+            "description": {{ item.description | json }},
             "collections": [{% for collection in item.collections %}
                 {{ collection.id }}{% unless forloop.last %},{% endunless %}
             {% endfor %}]
