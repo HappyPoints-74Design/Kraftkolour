@@ -24,6 +24,7 @@
         },
         "toolbar-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "richtext": "<p>OUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>",
             "richtext_mobile": "<p>OUR OFFICE WILL BE CLOSED FOR PICKUPS AND PHONE CALLS MONDAY 3RD & TUESDAY 4TH NOVEMBER, DUE TO THE MELBOURNE CUP HOLIDAY.</p>"
