@@ -663,6 +663,14 @@
             "download_label": "Download",
             "file_download": "https://cdn.shopify.com/s/files/1/0702/7349/9384/files/Making_Rolags_with_a_Blending_Board_by_Kraftkolour.pdf?v=1727749791"
           }
+        },
+        "download_item_bizbqP": {
+          "type": "download_item",
+          "settings": {
+            "title": "Procion Ice Dyeing for Beginners Resource",
+            "download_label": "Download",
+            "file_download": ""
+          }
         }
       },
       "block_order": [
@@ -671,7 +679,8 @@
         "download_item_eEKK4Y",
         "download_item_bkgpQJ",
         "download_item_JVcrKz",
-        "download_item_EXXVJX"
+        "download_item_EXXVJX",
+        "download_item_bizbqP"
       ],
       "settings": {
         "title": "",
