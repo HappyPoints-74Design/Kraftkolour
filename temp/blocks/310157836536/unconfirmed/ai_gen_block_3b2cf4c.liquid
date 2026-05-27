@@ -1,6 +1,793 @@
+{% doc %}
+  @prompt
+    Create a custom product page section for "Landscape Dyes for Wool and Silk" that displays 90 colours across three named ranges — Originals, Elements, and Seasons — all on a single product page. The layout should include: A product image on the left and product title + description on the right. A Benefits section and Perfect For section as text blocks. Three visually separated colour range sections with headings ORIGINALS, ELEMENTS, and SEASONS. Under each heading, a grid of clickable colour swatches representing dye colours. A size variant selector with 4 options: 100g, 250g, 500g, 1kg. A quantity selector and Add to Cart button. Colour selection updates via line item property since 90 colours x 4 sizes exceeds Shopify's 100-variant limit. Style should be clean, craft-oriented, and colourful for a dye brand.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-landscape-dyes-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-landscape-dyes__container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+  }
+
+  .ai-landscape-dyes__image-section-{{ ai_gen_id }} {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+  }
+
+  .ai-landscape-dyes__image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+
+  .ai-landscape-dyes__image-wrapper-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-landscape-dyes__image-wrapper-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .ai-landscape-dyes__content-section-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .ai-landscape-dyes__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    margin: 0;
+    color: {{ block.settings.text_color }};
+    line-height: 1.2;
+  }
+
+  .ai-landscape-dyes__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    line-height: 1.6;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-landscape-dyes__text-block-{{ ai_gen_id }} {
+    padding: 24px;
+    background-color: {{ block.settings.text_block_bg }};
+    border-radius: {{ block.settings.text_block_radius }}px;
+    border-left: 4px solid {{ block.settings.accent_color }};
+  }
+
+  .ai-landscape-dyes__text-block-title-{{ ai_gen_id }} {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-landscape-dyes__text-block-content-{{ ai_gen_id }} {
+    font-size: 15px;
+    line-height: 1.6;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-landscape-dyes__color-ranges-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ai-landscape-dyes__range-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ai-landscape-dyes__range-heading-{{ ai_gen_id }} {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid {{ block.settings.accent_color }};
+    color: {{ block.settings.heading_color }};
+  }
+
+  .ai-landscape-dyes__swatches-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax({{ block.settings.swatch_size }}px, 1fr));
+    gap: {{ block.settings.swatch_gap }}px;
+  }
+
+  .ai-landscape-dyes__swatch-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: {{ block.settings.swatch_border_radius }}px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+
+  .ai-landscape-dyes__swatch-inner-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-landscape-dyes__swatch-{{ ai_gen_id }}:hover {
+    transform: scale(1.1);
+    border-color: {{ block.settings.swatch_hover_border }};
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+  }
+
+  .ai-landscape-dyes__swatch-{{ ai_gen_id }}.selected {
+    border-color: {{ block.settings.swatch_selected_border }};
+    box-shadow: 0 0 0 3px {{ block.settings.swatch_selected_border }}40;
+    transform: scale(1.05);
+  }
+
+  .ai-landscape-dyes__swatch-label-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+    background-color: {{ block.settings.text_color }};
+    color: {{ block.settings.background_color }};
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 20;
+  }
+
+  .ai-landscape-dyes__swatch-{{ ai_gen_id }}:hover .ai-landscape-dyes__swatch-label-{{ ai_gen_id }} {
+    opacity: 1;
+  }
+
+  .ai-landscape-dyes__selected-color-{{ ai_gen_id }} {
+    padding: 16px 20px;
+    background-color: {{ block.settings.selected_color_bg }};
+    border-radius: {{ block.settings.text_block_radius }}px;
+    font-size: 16px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    text-align: center;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-landscape-dyes__form-section-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    background-color: {{ block.settings.form_bg }};
+    border-radius: {{ block.settings.text_block_radius }}px;
+    border: 1px solid {{ block.settings.accent_color }}40;
+  }
+
+  .ai-landscape-dyes__variant-selector-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .ai-landscape-dyes__variant-label-{{ ai_gen_id }} {
+    font-size: 14px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-landscape-dyes__variant-options-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .ai-landscape-dyes__variant-option-{{ ai_gen_id }} {
+    position: relative;
+  }
+
+  .ai-landscape-dyes__variant-option-{{ ai_gen_id }} input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .ai-landscape-dyes__variant-button-{{ ai_gen_id }} {
+    width: 100%;
+    padding: 12px 8px;
+    border: 2px solid {{ block.settings.accent_color }}40;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .ai-landscape-dyes__variant-option-{{ ai_gen_id }} input:checked + .ai-landscape-dyes__variant-button-{{ ai_gen_id }} {
+    background-color: {{ block.settings.accent_color }};
+    color: {{ block.settings.button_text_color }};
+    border-color: {{ block.settings.accent_color }};
+  }
+
+  .ai-landscape-dyes__variant-button-{{ ai_gen_id }}:hover {
+    border-color: {{ block.settings.accent_color }};
+  }
+
+  .ai-landscape-dyes__quantity-section-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ai-landscape-dyes__quantity-label-{{ ai_gen_id }} {
+    font-size: 14px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-landscape-dyes__quantity-input-{{ ai_gen_id }} {
+    width: 80px;
+    padding: 12px;
+    border: 2px solid {{ block.settings.accent_color }}40;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: 16px;
+    text-align: center;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-landscape-dyes__add-to-cart-{{ ai_gen_id }} {
+    width: 100%;
+    padding: 18px 32px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .ai-landscape-dyes__add-to-cart-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-landscape-dyes__add-to-cart-{{ ai_gen_id }}:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .ai-landscape-dyes__error-{{ ai_gen_id }} {
+    padding: 12px 16px;
+    background-color: #fee;
+    border: 1px solid #fcc;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    color: #c00;
+    font-size: 14px;
+    display: none;
+  }
+
+  .ai-landscape-dyes__error-{{ ai_gen_id }}.visible {
+    display: block;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-landscape-dyes__container-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .ai-landscape-dyes__image-section-{{ ai_gen_id }} {
+      position: relative;
+      top: 0;
+    }
+
+    .ai-landscape-dyes__variant-options-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ai-landscape-dyes__swatches-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(auto-fill, minmax({{ block.settings.swatch_size | times: 0.8 }}px, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-landscape-dyes-{{ ai_gen_id }} {
+      padding: 20px 16px;
+    }
+
+    .ai-landscape-dyes__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.7 }}px;
+    }
+
+    .ai-landscape-dyes__range-heading-{{ ai_gen_id }} {
+      font-size: 20px;
+    }
+
+    .ai-landscape-dyes__form-section-{{ ai_gen_id }} {
+      padding: 20px;
+    }
+  }
+{% endstyle %}
+
+<landscape-dyes-{{ ai_gen_id }} class="ai-landscape-dyes-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-landscape-dyes__container-{{ ai_gen_id }}">
+    <div class="ai-landscape-dyes__image-section-{{ ai_gen_id }}">
+      <div class="ai-landscape-dyes__image-wrapper-{{ ai_gen_id }}">
+        {% if product.featured_image %}
+          <img
+            src="{{ product.featured_image | image_url: width: 800 }}"
+            alt="{{ product.featured_image.alt | escape }}"
+            width="{{ product.featured_image.width }}"
+            height="{{ product.featured_image.height }}"
+            loading="lazy"
+          >
+        {% else %}
+          {{ 'product-1' | placeholder_svg_tag }}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="ai-landscape-dyes__content-section-{{ ai_gen_id }}">
+      <h1 class="ai-landscape-dyes__title-{{ ai_gen_id }}">
+        {{ product.title | default: 'Landscape Dyes for Wool and Silk' }}
+      </h1>
+
+      <div class="ai-landscape-dyes__description-{{ ai_gen_id }}">
+        {{ product.description | default: '<p>Premium landscape dyes specially formulated for wool and silk. Choose from 90 beautiful colours across three curated ranges.</p>' }}
+      </div>
+
+      {% if block.settings.benefits_text != blank %}
+        <div class="ai-landscape-dyes__text-block-{{ ai_gen_id }}">
+          <h3 class="ai-landscape-dyes__text-block-title-{{ ai_gen_id }}">{{ block.settings.benefits_title }}</h3>
+          <div class="ai-landscape-dyes__text-block-content-{{ ai_gen_id }}">
+            {{ block.settings.benefits_text }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if block.settings.perfect_for_text != blank %}
+        <div class="ai-landscape-dyes__text-block-{{ ai_gen_id }}">
+          <h3 class="ai-landscape-dyes__text-block-title-{{ ai_gen_id }}">{{ block.settings.perfect_for_title }}</h3>
+          <div class="ai-landscape-dyes__text-block-content-{{ ai_gen_id }}">
+            {{ block.settings.perfect_for_text }}
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="ai-landscape-dyes__color-ranges-{{ ai_gen_id }}">
+        <div class="ai-landscape-dyes__range-{{ ai_gen_id }}">
+          <h2 class="ai-landscape-dyes__range-heading-{{ ai_gen_id }}">ORIGINALS</h2>
+          <div class="ai-landscape-dyes__swatches-grid-{{ ai_gen_id }}" data-range="originals">
+            {% assign originals_colors = "Cream,Buttercup,Sunshine,Marigold,Pumpkin,Tangerine,Flame,Scarlet,Ruby,Crimson,Rose,Blush,Coral,Peach,Apricot,Salmon,Shell Pink,Ballet,Orchid,Lavender,Lilac,Violet,Purple,Plum,Grape,Mulberry,Wine,Burgundy,Maroon,Chocolate" | split: ',' %}
+            {% assign originals_hex = "#FFF8DC,#F0E68C,#FFD700,#FFA500,#FF7F00,#FF6347,#DC143C,#FF2400,#E0115F,#DC143C,#FF007F,#FFB6C1,#FF7F50,#FFDAB9,#FBCEB1,#FA8072,#FFF5EE,#F4C2C2,#DA70D6,#E6E6FA,#C8A2C8,#8F00FF,#800080,#DDA0DD,#6F2DA8,#C54B8C,#722F37,#800020,#800000,#D2691E" | split: ',' %}
+            {% for color in originals_colors %}
+              {% assign color_hex = originals_hex[forloop.index0] %}
+              <div class="ai-landscape-dyes__swatch-{{ ai_gen_id }}" data-color="{{ color }}" data-range="Originals" style="background-color: {{ color_hex }};">
+                <div class="ai-landscape-dyes__swatch-inner-{{ ai_gen_id }}"></div>
+                <span class="ai-landscape-dyes__swatch-label-{{ ai_gen_id }}">{{ color }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="ai-landscape-dyes__range-{{ ai_gen_id }}">
+          <h2 class="ai-landscape-dyes__range-heading-{{ ai_gen_id }}">ELEMENTS</h2>
+          <div class="ai-landscape-dyes__swatches-grid-{{ ai_gen_id }}" data-range="elements">
+            {% assign elements_colors = "Sky,Azure,Cerulean,Cobalt,Navy,Midnight,Teal,Turquoise,Aqua,Cyan,Ocean,Seafoam,Mint,Sage,Olive,Forest,Emerald,Jade,Lime,Chartreuse,Moss,Fern,Pine,Hunter,Khaki,Sand,Beige,Taupe,Stone,Slate" | split: ',' %}
+            {% assign elements_hex = "#87CEEB,#007FFF,#2A52BE,#0047AB,#000080,#191970,#008080,#40E0D0,#00FFFF,#00FFFF,#006994,#93E9BE,#98FF98,#87AE73,#808000,#228B22,#50C878,#00A86B,#BFFF00,#7FFF00,#8A9A5B,#4F7942,#01796F,#355E3B,#C3B091,#C2B280,#F5F5DC,#483C32,#928E85,#708090" | split: ',' %}
+            {% for color in elements_colors %}
+              {% assign color_hex = elements_hex[forloop.index0] %}
+              <div class="ai-landscape-dyes__swatch-{{ ai_gen_id }}" data-color="{{ color }}" data-range="Elements" style="background-color: {{ color_hex }};">
+                <div class="ai-landscape-dyes__swatch-inner-{{ ai_gen_id }}"></div>
+                <span class="ai-landscape-dyes__swatch-label-{{ ai_gen_id }}">{{ color }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="ai-landscape-dyes__range-{{ ai_gen_id }}">
+          <h2 class="ai-landscape-dyes__range-heading-{{ ai_gen_id }}">SEASONS</h2>
+          <div class="ai-landscape-dyes__swatches-grid-{{ ai_gen_id }}" data-range="seasons">
+            {% assign seasons_colors = "Snow,Frost,Ice,Pearl,Ivory,Linen,Ash,Silver,Pewter,Steel,Charcoal,Graphite,Onyx,Jet,Ebony,Coal,Smoke,Fog,Mist,Cloud,Dove,Platinum,Titanium,Iron,Lead,Zinc,Copper,Bronze,Brass,Gold" | split: ',' %}
+            {% assign seasons_hex = "#FFFAFA,#E1E4E8,#D6EFFF,#EAE0C8,#FFFFF0,#FAF0E6,#B2BEB5,#C0C0C0,#899499,#4682B4,#36454F,#383428,#353839,#0A0A0A,#555D50,#2C2C2C,#738276,#DFDFDF,#C4C4BC,#D3D3D3,#6E6E6E,#E5E4E2,#878681,#4C4F56,#7C7C7C,#B5B5B5,#B87333,#CD7F32,#B5A642,#FFD700" | split: ',' %}
+            {% for color in seasons_colors %}
+              {% assign color_hex = seasons_hex[forloop.index0] %}
+              <div class="ai-landscape-dyes__swatch-{{ ai_gen_id }}" data-color="{{ color }}" data-range="Seasons" style="background-color: {{ color_hex }};">
+                <div class="ai-landscape-dyes__swatch-inner-{{ ai_gen_id }}"></div>
+                <span class="ai-landscape-dyes__swatch-label-{{ ai_gen_id }}">{{ color }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-landscape-dyes__selected-color-{{ ai_gen_id }}" id="selected-color-display-{{ ai_gen_id }}">
+        Select a colour to continue
+      </div>
+
+      {%- form 'product', product, id: 'product-form-' | append: ai_gen_id -%}
+        <div class="ai-landscape-dyes__form-section-{{ ai_gen_id }}">
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" id="variant-id-{{ ai_gen_id }}">
+          <input type="hidden" name="properties[Colour]" value="" id="color-property-{{ ai_gen_id }}">
+          <input type="hidden" name="properties[Range]" value="" id="range-property-{{ ai_gen_id }}">
+
+          <div class="ai-landscape-dyes__variant-selector-{{ ai_gen_id }}">
+            <label class="ai-landscape-dyes__variant-label-{{ ai_gen_id }}">Size</label>
+            <div class="ai-landscape-dyes__variant-options-{{ ai_gen_id }}">
+              {% for variant in product.variants limit: 4 %}
+                <div class="ai-landscape-dyes__variant-option-{{ ai_gen_id }}">
+                  <input
+                    type="radio"
+                    name="variant"
+                    value="{{ variant.id }}"
+                    id="variant-{{ variant.id }}-{{ ai_gen_id }}"
+                    {% if forloop.first %}checked{% endif %}
+                    data-variant-id="{{ variant.id }}"
+                  >
+                  <label for="variant-{{ variant.id }}-{{ ai_gen_id }}" class="ai-landscape-dyes__variant-button-{{ ai_gen_id }}">
+                    {{ variant.title }}
+                  </label>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="ai-landscape-dyes__quantity-section-{{ ai_gen_id }}">
+            <label for="quantity-{{ ai_gen_id }}" class="ai-landscape-dyes__quantity-label-{{ ai_gen_id }}">Quantity</label>
+            <input
+              type="number"
+              name="quantity"
+              id="quantity-{{ ai_gen_id }}"
+              value="1"
+              min="1"
+              class="ai-landscape-dyes__quantity-input-{{ ai_gen_id }}"
+            >
+          </div>
+
+          <div class="ai-landscape-dyes__error-{{ ai_gen_id }}" id="error-message-{{ ai_gen_id }}">
+            Please select a colour before adding to cart
+          </div>
+
+          <button
+            type="submit"
+            class="ai-landscape-dyes__add-to-cart-{{ ai_gen_id }}"
+            id="add-to-cart-{{ ai_gen_id }}"
+            disabled
+          >
+            Add to Cart
+          </button>
+        </div>
+      {%- endform -%}
+    </div>
+  </div>
+</landscape-dyes-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class LandscapeDyes{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.selectedColor = null;
+        this.selectedRange = null;
+      }
+
+      connectedCallback() {
+        this.swatches = this.querySelectorAll('.ai-landscape-dyes__swatch-{{ ai_gen_id }}');
+        this.variantInputs = this.querySelectorAll('input[name="variant"]');
+        this.colorProperty = this.querySelector('#color-property-{{ ai_gen_id }}');
+        this.rangeProperty = this.querySelector('#range-property-{{ ai_gen_id }}');
+        this.variantIdInput = this.querySelector('#variant-id-{{ ai_gen_id }}');
+        this.addToCartButton = this.querySelector('#add-to-cart-{{ ai_gen_id }}');
+        this.selectedColorDisplay = this.querySelector('#selected-color-display-{{ ai_gen_id }}');
+        this.errorMessage = this.querySelector('#error-message-{{ ai_gen_id }}');
+        this.form = this.querySelector('form');
+
+        this.setupEventListeners();
+      }
+
+      setupEventListeners() {
+        this.swatches.forEach((swatch) => {
+          swatch.addEventListener('click', () => {
+            const color = swatch.getAttribute('data-color');
+            const range = swatch.getAttribute('data-range');
+            this.selectColor(color, range, swatch);
+          });
+        });
+
+        this.variantInputs.forEach((input) => {
+          input.addEventListener('change', (e) => {
+            this.variantIdInput.value = e.target.value;
+          });
+        });
+
+        this.form.addEventListener('submit', (e) => {
+          if (!this.selectedColor) {
+            e.preventDefault();
+            this.errorMessage.classList.add('visible');
+            setTimeout(() => {
+              this.errorMessage.classList.remove('visible');
+            }, 3000);
+          }
+        });
+      }
+
+      selectColor(color, range, swatchElement) {
+        this.swatches.forEach((s) => s.classList.remove('selected'));
+        swatchElement.classList.add('selected');
+
+        this.selectedColor = color;
+        this.selectedRange = range;
+
+        this.colorProperty.value = color;
+        this.rangeProperty.value = range;
+
+        this.selectedColorDisplay.textContent = range + ' - ' + color;
+
+        this.addToCartButton.disabled = false;
+        this.errorMessage.classList.remove('visible');
+      }
+    }
+
+    customElements.define('landscape-dyes-{{ ai_gen_id }}', LandscapeDyes{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Landscape dyes product",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#fdfdf6"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#28282c"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Headings",
+      "default": "#28282c"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent",
+      "default": "#e22128"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button",
+      "default": "#e22128"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover",
+      "default": "#ba4444"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_block_bg",
+      "label": "Text block background",
+      "default": "#f3f2e9"
+    },
+    {
+      "type": "color",
+      "id": "form_bg",
+      "label": "Form background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "selected_color_bg",
+      "label": "Selected color display",
+      "default": "#f3f2e9"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 24,
+      "max": 64,
+      "step": 2,
+      "unit": "px",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Benefits section"
+    },
+    {
+      "type": "text",
+      "id": "benefits_title",
+      "label": "Title",
+      "default": "Benefits"
+    },
+    {
+      "type": "richtext",
+      "id": "benefits_text",
+      "label": "Content",
+      "default": "<p>Professional-grade acid dyes for vibrant, long-lasting colour on protein fibres. Excellent lightfastness and washfastness.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Perfect for section"
+    },
+    {
+      "type": "text",
+      "id": "perfect_for_title",
+      "label": "Title",
+      "default": "Perfect For"
+    },
+    {
+      "type": "richtext",
+      "id": "perfect_for_text",
+      "label": "Content",
+      "default": "<p>Hand dyeing, immersion dyeing, painting, and all fibre art techniques. Ideal for wool, silk, alpaca, mohair, and other animal fibres.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Color swatches"
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "label": "Swatch size",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "swatch_gap",
+      "label": "Gap between swatches",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "swatch_border_radius",
+      "label": "Swatch border radius",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "swatch_hover_border",
+      "label": "Hover border",
+      "default": "#28282c"
+    },
+    {
+      "type": "color",
+      "id": "swatch_selected_border",
+      "label": "Selected border",
+      "default": "#e22128"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Image border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "text_block_radius",
+      "label": "Text block radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "Landscape dyes product"
+    }
+  ]
+}
 {% endschema %}
