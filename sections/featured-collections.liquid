@@ -1,14 +1,4 @@
-{%- render 'section-featured-collections',
-    section: section,
-    divider: section.settings.divider,
-    section_blocks_size: section.blocks.size,
-    section.settings.title: section.settings.title,
-    section.settings.heading_position: section.settings.heading_position,
-    section.settings.heading_size: section.settings.heading_size,
-    collection_grid_image: settings.collection_grid_image,
-    collection_grid_shape: settings.collection_grid_shape,
-    collection_grid_image_fill: settings.collection_grid_image_fill
--%}
+{%- render 'section-featured-collections', section: section, divider: section.settings.divider, section_blocks_size: section.blocks.size, title: section.settings.title, heading_position: section.settings.heading_position, heading_size: section.settings.heading_size, collection_grid_image: settings.collection_grid_image, collection_grid_shape: settings.collection_grid_shape, collection_grid_image_fill: settings.collection_grid_image_fill -%}
 
 {% schema %}
 {
@@ -139,3 +129,29 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%- render 'section-featured-collections',
+        section: section,
+        divider: section.settings.divider,
+        section_blocks_size: section.blocks.size,
+        section.settings.title: section.settings.title,
+        section.settings.heading_position: section.settings.heading_position,
+        section.settings.heading_size: section.settings.heading_size,
+        collection_grid_image: settings.collection_grid_image,
+        collection_grid_shape: settings.collection_grid_shape,
+        collection_grid_image_fill: settings.collection_grid_image_fill
+    -%}
+  to: "{%- render 'section-featured-collections', section: section, divider: section.settings.divider,
+    section_blocks_size: section.blocks.size, title: section.settings.title, heading_position:
+    section.settings.heading_position, heading_size: section.settings.heading_size,
+    collection_grid_image: settings.collection_grid_image, collection_grid_shape:
+    settings.collection_grid_shape, collection_grid_image_fill: settings.collection_grid_image_fill
+    -%}"
+  position: 0..444
+{% endcomment %}
